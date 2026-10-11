@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-11T05:05:00Z",
+  "run": {
+    "issue": "TECH-4",
+    "collected_at_utc": "2026-10-11T04:34:00Z/2026-10-11T04:50:00Z",
+    "window": {"from": "2026-10-09T04:34:00Z", "to": "2026-10-11T04:34:00Z"},
+    "note": "证据=每源实际使用的入口URL、HTTP状态与窗口内条目数；原始抓取件为临时文件未持久化。首次运行，无历史连续计数。"
+  },
+  "sources": {
+    "anthropic_news": {"tier": "T1", "status": "ok", "method": "html+sitemap", "entry_used": "https://www.anthropic.com/news + sitemap.xml", "rss_candidates": ["https://www.anthropic.com/rss.xml(404)", "https://www.anthropic.com/feed.xml(404)"], "items_in_window": 1, "items_published": 0, "notes": "官方RSS不存在；sitemap.xml含lastmod可作为替代发现入口。窗口内：claude-corps(10-09，公告类未入选)；research条目计入 anthropic_research 行"},
+    "anthropic_research": {"tier": "T1", "status": "ok", "method": "sitemap+html", "entry_used": "sitemap.xml", "items_in_window": 2, "items_published": 1, "notes": "investigating-unintended-model-actions入选；missing-map-of-the-sky未入选；vuln-finding服务发布于10-08T19:00Z窗口外未计入"},
+    "openai": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://openai.com/news/rss.xml", "items_in_window": 2, "items_published": 0, "notes": "两条均为客户案例，信息密度不足排除"},
+    "deepmind": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://deepmind.google/blog/rss.xml", "items_in_window": 0, "items_published": 0, "notes": "最新条目2026-10-06"},
+    "meta_ai": {"tier": "T1", "status": "blocked", "method": "none", "entry_used": null, "http": ["https://ai.meta.com/blog/rss/(400)", "https://ai.meta.com/blog/feed/(400)", "https://ai.meta.com/blog/(400)"], "items_in_window": 0, "items_published": 0, "notes": "RSS与HTML均被拒绝(400)，疑似反爬；连续失败计数=1/3"},
+    "msresearch": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://www.microsoft.com/en-us/research/feed/", "items_in_window": 0, "items_published": 0},
+    "mistral": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://mistral.ai/rss.xml", "items_in_window": 0, "items_published": 0, "notes": "最新条目2026-10-06"},
+    "xai": {"tier": "T1", "status": "blocked", "method": "html", "entry_used": null, "http": ["https://x.ai/blog(403)"], "items_in_window": 0, "items_published": 0, "notes": "反爬拦截；连续失败计数=1/3"},
+    "sierra": {"tier": "T1", "status": "ok", "method": "html", "entry_used": "https://sierra.ai/blog", "items_in_window": 0, "items_published": 0, "notes": "页面200但无法提取到窗口内带日期条目"},
+    "perplexity": {"tier": "T1", "status": "blocked", "method": "none", "entry_used": null, "http": ["hub/rss/blog(403)", "feed(403)", "hub/blog HTML(403)"], "items_in_window": 0, "items_published": 0, "notes": "反爬拦截；连续失败计数=1/3"},
+    "scale": {"tier": "T1", "status": "ok", "method": "html", "entry_used": "https://scale.com/blog", "items_in_window": 0, "items_published": 0, "notes": "页面200但无法提取到窗口内带日期条目"},
+    "github": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://github.blog/feed/", "items_in_window": 1, "items_published": 0, "notes": "唯一条目为低密度观点文"},
+    "shopify": {"tier": "T1", "status": "ok", "method": "html", "entry_used": "https://shopify.engineering", "rss_candidates": ["blog.rss(404)", "feed(404)", "rss(404)"], "items_in_window": 0, "items_published": 0, "notes": "RSS不存在，HTML可用；窗口内无新文章"},
+    "netflix": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://netflixtechblog.com/feed", "items_in_window": 0, "items_published": 0},
+    "airbnb": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://medium.com/feed/airbnb-engineering", "items_in_window": 0, "items_published": 0},
+    "uber": {"tier": "T1", "status": "blocked", "method": "none", "entry_used": null, "http": ["eng.uber.com/feed(404)", "uber.com/blog/engineering/rss/(406)", "HTML(406)"], "items_in_window": 0, "items_published": 0, "notes": "RSS与HTML均拒绝；连续失败计数=1/3"},
+    "doordash": {"tier": "T1", "status": "blocked", "method": "none", "entry_used": null, "http": ["en-us/blog/feed(403)", "blog/feed(403)"], "items_in_window": 0, "items_published": 0, "notes": "反爬拦截；连续失败计数=1/3"},
+    "stripe": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://stripe.com/blog/feed.rss", "items_in_window": 0, "items_published": 0},
+    "cloudflare": {"tier": "T1", "status": "ok", "method": "rss", "entry_used": "https://blog.cloudflare.com/rss/", "items_in_window": 3, "items_published": 3},
+    "vercel": {"tier": "T1", "status": "ok", "method": "atom", "entry_used": "https://vercel.com/atom", "items_in_window": 3, "items_published": 1, "notes": "另2条为运营/计费公告排除"},
+    "linear": {"tier": "T1", "status": "blocked", "method": "none", "entry_used": null, "http": ["blog/rss.xml(SSL握手失败)", "rss.xml(SSL握手失败)", "blog/rss(SSL握手失败)"], "items_in_window": 0, "items_published": 0, "notes": "TLS层被拒；连续失败计数=1/3"},
+    "cursor": {"tier": "T1", "status": "ok", "method": "html", "entry_used": "https://cursor.com/blog", "rss_candidates": ["blog/rss.xml(404)", "rss.xml(200但返回HTML)"], "items_in_window": 0, "items_published": 0, "notes": "无RSS，HTML无带日期条目"},
+    "hn": {"tier": "T2", "status": "ok", "method": "api", "entry_used": "https://hn.algolia.com/api/v1/search?tags=story&numericFilters=created_at_i>...,points>40", "items_in_window": 60, "items_published": 0, "notes": "用作热度与漏网发现：Deno(1345)、Oxide(692)、Telegram(435)、TypeSafe(433)、Python(310)、Decision-1(197)、Nvidia/Reflection(142)"},
+    "techcrunch_ai": {"tier": "T2", "status": "ok", "method": "rss", "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/", "items_in_window": 13, "items_published": 1, "notes": "TypeSafe条目作为一手公司博客的媒体佐证入账"},
+    "theinformation": {"tier": "T2", "status": "paywall", "method": "html", "entry_used": "https://www.theinformation.com", "items_in_window": null, "items_published": 0, "notes": "付费墙，仅作标题级热度参考，未引用其内容"},
+    "a16z": {"tier": "T2", "status": "ok", "method": "html", "entry_used": "https://a16z.com/ai/", "rss_candidates": ["a16z.com/feed/(404)"], "items_in_window": 0, "items_published": 0, "notes": "RSS 404，HTML可用但页面无可解析日期，窗口内未发现新内容"},
+    "sequoia": {"tier": "T2", "status": "blocked", "method": "none", "entry_used": null, "http": ["sequoiacap.com/rss/(404)", "articles/rss/(404)", "articles/(404)"], "items_in_window": 0, "items_published": 0, "notes": "RSS与文章列表均404，需人工确认新地址；连续失败计数=1/3"},
+    "arxiv_csai": {"tier": "T3", "status": "ok", "method": "rss", "entry_used": "https://rss.arxiv.org/rss/cs.AI", "items_in_window": 0, "items_published": 0, "notes": "feed可达但为空频道（周日期间无公告批次）"},
+    "arxiv_cscl": {"tier": "T3", "status": "ok", "method": "rss", "entry_used": "https://rss.arxiv.org/rss/cs.CL", "items_in_window": 0, "items_published": 0, "notes": "同上"},
+    "arxiv_cslg": {"tier": "T3", "status": "ok", "method": "rss", "entry_used": "https://rss.arxiv.org/rss/cs.LG", "items_in_window": 0, "items_published": 0, "notes": "同上"},
+    "hf_papers": {"tier": "T3", "status": "ok", "method": "api", "entry_used": "https://huggingface.co/api/daily_papers", "items_in_window": 50, "items_published": 0, "notes": "窗口内最高MiMo-V2.6(71赞)，未达高热度门槛，不凑数"}
+  }
+}
