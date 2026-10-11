@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "name": "TechNews",
+  "description": "每日科技新闻简报：按权威来源清单采集、48 小时窗口筛选 Top 10，纯新闻评论交付。",
+  "authority": {
+    "sources": "config/sources.json",
+    "rules": "rules/collection.md",
+    "data_contract": "docs/data-contract.md"
+  },
+  "collection": {
+    "window_hours": 48,
+    "top_n": 10,
+    "fill_if_insufficient": false,
+    "preference": "T1 一手内容优先于 T2 转述；T3 只取高热度或被广泛讨论的论文与模型发布，不足不凑数",
+    "timezone": "Asia/Shanghai",
+    "schedule": "每天 08:00 Asia/Shanghai，由自动化 3e81fdea-ad53-45ea-a9b1-c2bc62bb3c5f（create_issue）触发"
+  },
+  "output": {
+    "report_dir": "reports",
+    "report_pattern": "digest-YYYY-MM-DD.md"
+  },
+  "history": [
+    { "date": "2026-10-11", "issue": "TECH-4", "change": "首次结构化维护：状态台账初始化、使用规则修订" },
+    { "date": "2026-10-12", "issue": "TECH-11", "change": "来源清单由根部 Markdown 迁移至 config/sources.json，统一目录结构；原文件字节备份见 config/sources.json migrated_from" }
+  ]
+}

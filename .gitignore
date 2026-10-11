@@ -1,2 +1,8 @@
+.DS_Store
 /old/
 /backup/
+/data/*
+!/data/.gitkeep
+.multica/
+.pi/
+AGENTS.md
