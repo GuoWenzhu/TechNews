@@ -7,7 +7,7 @@
       "issue": "TECH-4",
       "issue_id": "01a1293c-146f-7d77-b781-bd686e8ae04a",
       "status": "published",
-      "briefing_file": "digest-2026-10-11.md",
+      "briefing_file": "reports/digest-2026-10-11.md",
       "items_published": 10,
       "git_branch": "issue/TECH-4",
       "dedup_basis": "state/processed-urls.json v1（本运行初始化）"

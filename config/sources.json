@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "kind": "technews.sources",
+  "authority": "TechNews 每日采集的唯一权威来源清单：加源/调整 = 编辑本文件（并按 rules/collection.md 的备份流程执行），自动化零改动。",
+  "scope": "本文件仅含来源配置（名称、入口、层级、启用/候选状态、适用范围与备注）。来源健康（可达性、失败计数、替代入口）见 state/source-health.json；执行规则见 rules/collection.md；采集参数见 config/project.json。",
+  "updated_at": "2026-10-11",
+  "migrated_from": {
+    "source_file": "科技情报来源清单.md",
+    "markdown_version_line": "版本：2026-10-11（TECH-4 首次维护：同步当前采集与维护授权，修正使用规则；来源表未改动）",
+    "original_sha256": "a0d73c383fd493969dccd952cbaba113a273fd8582bd1c7861848ab38ce25b36",
+    "backup_path": "backup/20261012-000118/科技情报来源清单-20261012.md",
+    "issue": "TECH-11",
+    "migrated_at": "2026-10-12T00:01+08:00",
+    "id_mapping_note": "31 个在册启用来源全部沿用 state/source-health.json 既有稳定 source_id；4 个候选来源为本次新增 id，纳入后保持不变。"
+  },
+  "display": {
+    "file": "科技情报来源清单.md",
+    "note": "根部 Markdown 为由本文件生成的只读展示版，禁止手工编辑或双份维护；内容变动后重新生成并校验一致性。",
+    "generate_command": "python3 scripts/validate.py --generate-md"
+  },
+  "tiers": {
+    "T1": { "name": "公司一手工程/研究博客", "purpose": "同频判断核心", "priority": 1 },
+    "T2": { "name": "聚合热点", "purpose": "判断热度、发现漏网", "priority": 2 },
+    "T3": { "name": "论文 / 模型发布", "purpose": "前沿信号", "priority": 3 }
+  },
+  "sources": [
+    { "id": "anthropic_news", "name": "Anthropic News", "tier": "T1", "group": "AI 实验室", "url": "https://www.anthropic.com/news", "status": "enabled" },
+    { "id": "anthropic_research", "name": "Anthropic Research", "tier": "T1", "group": "AI 实验室", "url": "https://www.anthropic.com/research", "status": "enabled" },
+    { "id": "openai", "name": "OpenAI Blog", "tier": "T1", "group": "AI 实验室", "url": "https://openai.com/news/blog/", "status": "enabled" },
+    { "id": "deepmind", "name": "Google DeepMind Blog", "tier": "T1", "group": "AI 实验室", "url": "https://deepmind.google/discover/blog", "status": "enabled" },
+    { "id": "meta_ai", "name": "Meta AI Blog", "tier": "T1", "group": "AI 实验室", "url": "https://ai.meta.com/blog/", "status": "enabled" },
+    { "id": "msresearch", "name": "Microsoft Research Blog", "tier": "T1", "group": "AI 实验室", "url": "https://www.microsoft.com/en-us/research/blog", "status": "enabled" },
+    { "id": "mistral", "name": "Mistral AI News", "tier": "T1", "group": "AI 实验室", "url": "https://mistral.ai/news", "status": "enabled" },
+    { "id": "xai", "name": "xAI Blog", "tier": "T1", "group": "AI 实验室", "url": "https://x.ai/blog", "status": "enabled" },
+
+    { "id": "sierra", "name": "Sierra Blog", "tier": "T1", "group": "Agent / 应用公司", "url": "https://sierra.ai/blog", "status": "enabled" },
+    { "id": "perplexity", "name": "Perplexity Blog", "tier": "T1", "group": "Agent / 应用公司", "url": "https://www.perplexity.ai/hub/blog", "status": "enabled" },
+    { "id": "scale", "name": "Scale AI Blog", "tier": "T1", "group": "Agent / 应用公司", "url": "https://scale.com/blog", "status": "enabled" },
+    { "id": "github", "name": "GitHub Blog", "tier": "T1", "group": "Agent / 应用公司", "url": "https://github.blog", "status": "enabled" },
+
+    { "id": "shopify", "name": "Shopify Engineering", "tier": "T1", "group": "工程实践", "url": "https://shopify.engineering", "status": "enabled" },
+    { "id": "netflix", "name": "Netflix Tech Blog", "tier": "T1", "group": "工程实践", "url": "https://netflixtechblog.com", "status": "enabled" },
+    { "id": "airbnb", "name": "Airbnb Engineering", "tier": "T1", "group": "工程实践", "url": "https://medium.com/airbnb-engineering", "status": "enabled" },
+    { "id": "uber", "name": "Uber Engineering", "tier": "T1", "group": "工程实践", "url": "https://www.uber.com/blog/engineering", "status": "enabled" },
+    { "id": "doordash", "name": "DoorDash Engineering", "tier": "T1", "group": "工程实践", "url": "https://doordash.engineering", "status": "enabled" },
+    { "id": "stripe", "name": "Stripe Blog", "tier": "T1", "group": "工程实践", "url": "https://stripe.com/blog", "status": "enabled" },
+    { "id": "cloudflare", "name": "Cloudflare Blog", "tier": "T1", "group": "工程实践", "url": "https://blog.cloudflare.com", "status": "enabled" },
+    { "id": "vercel", "name": "Vercel Blog", "tier": "T1", "group": "工程实践", "url": "https://vercel.com/blog", "status": "enabled" },
+    { "id": "linear", "name": "Linear Blog", "tier": "T1", "group": "工程实践", "url": "https://linear.app/blog", "status": "enabled" },
+    { "id": "cursor", "name": "Cursor (Anysphere) Blog", "tier": "T1", "group": "工程实践", "url": "https://cursor.com/blog", "status": "enabled" },
+
+    { "id": "hn", "name": "Hacker News 首页", "tier": "T2", "group": null, "url": "https://news.ycombinator.com", "status": "enabled", "notes": "检索可用 Algolia API: https://hn.algolia.com/api/v1/search_by_date" },
+    { "id": "techcrunch_ai", "name": "TechCrunch AI", "tier": "T2", "group": null, "url": "https://techcrunch.com/category/artificial-intelligence/", "status": "enabled" },
+    { "id": "theinformation", "name": "The Information", "tier": "T2", "group": null, "url": "https://www.theinformation.com", "status": "enabled" },
+    { "id": "a16z", "name": "a16z AI", "tier": "T2", "group": null, "url": "https://a16z.com/ai/", "status": "enabled" },
+    { "id": "sequoia", "name": "Sequoia 文章", "tier": "T2", "group": null, "url": "https://www.sequoiacap.com/articles/", "status": "enabled" },
+
+    { "id": "arxiv_csai", "name": "arXiv cs.AI 最新", "tier": "T3", "group": null, "url": "http://arxiv.org/list/cs.AI/recent", "status": "enabled" },
+    { "id": "arxiv_cscl", "name": "arXiv cs.CL 最新", "tier": "T3", "group": null, "url": "http://arxiv.org/list/cs.CL/recent", "status": "enabled" },
+    { "id": "arxiv_cslg", "name": "arXiv cs.LG 最新", "tier": "T3", "group": null, "url": "http://arxiv.org/list/cs.LG/recent", "status": "enabled" },
+    { "id": "hf_papers", "name": "Hugging Face Daily Papers", "tier": "T3", "group": null, "url": "https://huggingface.co/papers", "status": "enabled" },
+
+    { "id": "jiqizhixin", "name": "机器之心", "tier": null, "group": "候选待观察", "url": "https://www.jiqizhixin.com", "status": "candidate", "notes": "多为英文源二次翻译，跑稳后再决定（原与量子位同条目评估）" },
+    { "id": "qbitai", "name": "量子位", "tier": null, "group": "候选待观察", "url": "https://www.qbitai.com", "status": "candidate", "notes": "多为英文源二次翻译，跑稳后再决定（原与机器之心同条目评估）" },
+    { "id": "stratechery", "name": "Stratechery", "tier": null, "group": "候选待观察", "url": null, "status": "candidate", "notes": "付费墙，需要时人工指定单篇研究（原与 Benedict Evans 同条目；原清单未给出 URL）" },
+    { "id": "benevans", "name": "Benedict Evans", "tier": null, "group": "候选待观察", "url": null, "status": "candidate", "notes": "付费墙，需要时人工指定单篇研究（原与 Stratechery 同条目；原清单未给出 URL）" }
+  ]
+}
