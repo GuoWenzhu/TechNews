@@ -38,3 +38,16 @@
 - **简报目录**：本次及后续简报归档于 `reports/digest-YYYY-MM-DD.md`；`state/daily-runs.json` 的 briefing_file 已同步为相对路径（2026-10-11 记录键值与计数不变，同日去重逻辑不受影响）。`old/` 保持既有归档策略不动。
 - **数据契约**：新增 `docs/data-contract.md`；校验脚本 `scripts/validate.py`（配置、来源 id 唯一性、字段、启用状态、URL、state 契约、展示一致性）。
 - **来源表改动**：无（本条目仅为结构迁移记录，非来源维护）。
+
+## 2026-10-12（TECH-13 · 例行采集维护）
+
+- **变更类型**：仅健康台账更新；`config/sources.json` 本轮无改动，未重写、未生成备份（规则：无改动不重写）。
+- **采集执行**：2026-10-12T00:01–00:28 UTC，窗口 2026-10-10T00:01:53Z 起 48 小时；31 个在册启用来源全部尝试。
+- **可达性**：25 源 ok（含 linear 恢复），The Information 维持付费墙，6 源 blocked：meta_ai(400)、xai(403)、perplexity(403)、uber(406/404)、doordash(403)、sequoia(404)。
+- **连续失败计数滚动**：上述 6 源均为 2/3；替代入口本轮全部验证失败（meta blog/feed 400、xai /news 403、perplexity hub/rss/blog 403、uber eng.uber.com/feed 404、doordash blog/feed 403、sequoia /rss/ 与 /news/ 404）。按阈值，下轮若第 3 次探测仍失败且替代入口仍不可达，将降为待观察；sequoia 已连续两轮 404，建议成员人工确认新地址。
+- **恢复记录**：linear 上轮 TLS 层被拒（1/3），本轮 HTML 入口恢复 200（验证恢复第 1 次，RSS blog/rss.xml 为 404 不存在，入口以 HTML 为准）；按规则待连续 2 次验证可达后计数清零。
+- **降级/删除**：无（单次不可达或 0 产出不降级；无源达到降级阈值）。
+- **新来源评估**：无新增。TECH-4 记录的候选线索（Oxide、TypeSafe、Microsoft Command Line）本轮窗口内未出现，继续观察。
+- **入口变更**：无（deepmind 需 gzip 解压抓取为抓取方式备注，非入口变更）。
+- **T3 说明**：arXiv 三频道周末空批次、HF Daily Papers 窗口内无新批次（最新 10-08，最高赞 38），未达收录门槛，不凑数。
+- **产出**：发布 10 条（14 个 URL 入 published 台账），评估后明确排除 21 条（窗口外 3、重复/已发布事件 2、密度或相关性不足 12、付费墙不可核验 1、活动宣传 2、其他 1），见 state/processed-urls.json。
