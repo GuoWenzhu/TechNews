@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12T00:13:55Z",
+  "updated_at": "2026-10-13T00:55:00Z",
   "note": "URL已规范化（去跟踪参数、保留语义参数）。status: published=已发布简报；excluded=已评估并明确排除。仅这两种状态入账；临时抓取失败不入账。",
   "initialized": "2026-10-11 (TECH-4)，仅包含本契约生效后处理的内容",
   "entries": [
@@ -559,6 +559,336 @@
       "status": "excluded",
       "reason": "规范文档站点，非新闻事件",
       "evaluated_on": "2026-10-12"
+    },
+    {
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "meta-muse-wonder-release",
+      "source_pub_time": "2026-10-12T00:00Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "meta-muse-wonder-release",
+      "source_pub_time": "2026-10-12T17:56Z"
+    },
+    {
+      "url": "https://vercel.com/changelog/muse-wonder-now-available-on-ai-gateway",
+      "title": "Muse Wonder now available on AI Gateway",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "meta-muse-wonder-release",
+      "source_pub_time": "2026-10-12T00:00Z"
+    },
+    {
+      "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+      "title": "Zod 4.6.6 compromised by malware? (commit d821685)",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "zod-supply-chain-incident",
+      "source_pub_time": "2026-10-11T16:18Z"
+    },
+    {
+      "url": "https://github.com/colinhacks/zod/releases/tag/v4.6.7",
+      "title": "Zod v4.6.7 修复发布",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "zod-supply-chain-incident",
+      "source_pub_time": "2026-10-12T16:29Z"
+    },
+    {
+      "url": "https://github.com/openai/codex/issues/48195",
+      "title": "CLI: make daemon_auto_start opt-in — a persistent, self-updating background daemon shouldn't be the default",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "codex-cli-daemon-default",
+      "source_pub_time": "2026-10-12T18:29Z"
+    },
+    {
+      "url": "https://z.ai/blog/glm-legal",
+      "title": "GLM-Legal: Advancing Agentic Legal Intelligence",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "glm-legal-release",
+      "source_pub_time": "2026-10-12T16:10Z"
+    },
+    {
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "title": "Add QEP428: No ai contributions permitted",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "qgis-ai-contribution-ban",
+      "source_pub_time": "2026-10-12T11:22Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qgis/QGIS-Enhancement-Proposals/master/qep-408-ai-tool-policy.md",
+      "title": "QEP-408 AI tool use policy v2.0（已合并生效）",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "qgis-ai-contribution-ban",
+      "source_pub_time": "2026-10-12T11:22Z"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/crq5nzxv9q4yo",
+      "title": "Fridges in French supermarkets hit by cyber attack",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "danfoss-fridge-cyberattack-france",
+      "source_pub_time": "2026-10-12T14:30Z"
+    },
+    {
+      "url": "https://www.reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/",
+      "title": "French supermarket chain Intermarche hit by cyberattack, 150 stores targeted",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "danfoss-fridge-cyberattack-france",
+      "source_pub_time": "2026-10-12"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "danfoss-fridge-cyberattack-france",
+      "source_pub_time": "2026-10-12T12:16Z"
+    },
+    {
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "title": "Fingerprints are the new cookies",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "fingerprints-new-cookies",
+      "source_pub_time": "2026-10-11T22:33Z"
+    },
+    {
+      "url": "https://radar.cloudflare.com/bots/as13238",
+      "title": "Yandex bot traffic down 99% after data center attack (Cloudflare Radar AS13238)",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "yandex-bot-traffic-collapse",
+      "source_pub_time": "2026-10-12T04:54Z"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+      "title": "Yandex bot traffic nearly eliminated overnight after drone strikes",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "secondary",
+      "event": "yandex-bot-traffic-collapse",
+      "source_pub_time": "2026-10-11T16:59Z"
+    },
+    {
+      "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+      "title": "Filter, reshape, and redact logs before export with Transformers",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "cloudflare-logpush-transformers",
+      "source_pub_time": "2026-10-12T14:44Z"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "title": "Simulating student learning for better AI tutoring",
+      "issue": "TECH-17",
+      "published_on": "2026-10-13",
+      "status": "published",
+      "role": "primary",
+      "event": "msr-studentsim",
+      "source_pub_time": "2026-10-12T16:00Z"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "title": "AI coding agents generate more code, but not more software",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "文章原始发布2026-10-09，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "文章原始发布2026-10-07，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt",
+      "title": "Google told to halt work on datacentres in Finland over environmental concerns",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "文章原始发布2026-10-06，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+      "title": "The tilde in your PATH may not be your HOME",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "文章原始发布2026-10-02，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "文章原始发布2026-10-05，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.spinellis.gr/blog/20261008/",
+      "title": "Thinking will become a hobby",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "文章原始发布2026-10-08，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://huggingface.co/papers/2610.12572",
+      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "HF Daily Papers 2026-10-08 批次，超出48小时采集窗口",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "title": "Why aren't AI companies being charged for hacking?",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：观点评论，工程/落地信息密度不足（HN 308分）",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "title": "I paid people to try and follow my README",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：文档体验随笔，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "title": "A Modern Web App in C",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：工程随笔，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：复古平台重编译演示，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "title": "Turn a WiFi 7 Router into a 320Msps SDR Receiver",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：硬件改造项目，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "title": "Type-safe HTML templating in Zig",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：工程实践，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：单点漏洞writeup，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：位次不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "title": "TechCrunch Disrupt 2026 starts tomorrow",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：活动宣传，非新闻",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：入门教程，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://github.com/shaongitbd/doory",
+      "title": "Doory – Open-Source Canva",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：早期开源项目，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://betterwispr.com/",
+      "title": "BetterWispr – Free, open-source dictation for Mac",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：小型产品发布，密度不足",
+      "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://openfatigue.ai/",
+      "title": "OpenFatigue™ – Open is the new closed",
+      "issue": "TECH-17",
+      "status": "excluded",
+      "reason": "评估后未入选：行为艺术/讽刺站点，非新闻",
+      "evaluated_on": "2026-10-13"
     }
   ]
 }

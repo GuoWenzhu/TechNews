@@ -21,6 +21,16 @@
       "items_published": 10,
       "git_branch": "main",
       "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-13",
+      "issue": "TECH-17",
+      "issue_id": "01a1328f-7b75-7bea-930c-4384e4df5572",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-13.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
     }
   ]
 }

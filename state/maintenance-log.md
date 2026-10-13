@@ -51,3 +51,12 @@
 - **入口变更**：无（deepmind 需 gzip 解压抓取为抓取方式备注，非入口变更）。
 - **T3 说明**：arXiv 三频道周末空批次、HF Daily Papers 窗口内无新批次（最新 10-08，最高赞 38），未达收录门槛，不凑数。
 - **产出**：发布 10 条（14 个 URL 入 published 台账），评估后明确排除 21 条（窗口外 3、重复/已发布事件 2、密度或相关性不足 12、付费墙不可核验 1、活动宣传 2、其他 1），见 state/processed-urls.json。
+
+## 2026-10-13（TECH-17）例行维护：meta_ai 入口迁移；5 源降为待观察
+
+- 触发：TECH-17 采集轮（窗口 2026-10-11T00:00Z～2026-10-13T00:00Z）。
+- 阈值动作：xai、perplexity、uber、doordash、sequoia 连续第 3 次真实探测失败（TECH-4/13/17 三轮；403/406/404），替代入口复验全部失败，按 rules/collection.md 降为候选待观察（status=candidate，tier=null），未删除任何来源；恢复需连续 2 次验证可达。sequoia 新地址待人工确认。
+- 入口迁移：meta_ai 原入口 ai.meta.com/blog 及 /feed/ 连续 3 轮 400 反爬；官方研究博客 research.meta.ai/blog 验证 200 并在本窗口产出一手内容（Muse Wonder），入口迁移至该地址，原地址保留于 notes。
+- 备份：config/sources.json 旧版本（updated_at 2026-10-11，7593 字节，sha256 977a4e3a99b7d493…前16位，完整值见备份校验）→ backup/sources-20261013.json（字节/hash 一致校验通过）；同日无同名历史备份。替换经 config/sources.json.tmp 原子完成，替换前复核原文件 hash 未变化。
+- 展示版：python3 scripts/validate.py --generate-md 重新生成根部只读展示版；全量校验通过。
+- 其余来源：本轮无入口/状态改动（shopify 官方 atom feed 验证有效但原入口可达，未改配置；linear 连续第 2 次验证可达）。
