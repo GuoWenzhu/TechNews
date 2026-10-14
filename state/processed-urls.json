@@ -889,6 +889,394 @@
       "status": "excluded",
       "reason": "评估后未入选：行为艺术/讽刺站点，非新闻",
       "evaluated_on": "2026-10-13"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "gemini-4-argon-release",
+      "source_pub_time": "2026-10-13T16:00Z"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "title": "Gemini 4 Argon for Robotics",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "gemini-4-argon-release",
+      "source_pub_time": "2026-10-13T16:01Z"
+    },
+    {
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "gemini-4-argon-release",
+      "source_pub_time": "2026-10-13T19:43Z"
+    },
+    {
+      "url": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+      "title": "Gemini 4 Argon now available on AI Gateway",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "gemini-4-argon-release",
+      "source_pub_time": "2026-10-13"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50073879",
+      "title": "Gemini 4 Argon（HN 919分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "gemini-4-argon-release",
+      "source_pub_time": "2026-10-13T16:03Z"
+    },
+    {
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "anthropic-self-replicating-iot",
+      "source_pub_time": "2026-10-12T19:30Z"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50061603",
+      "title": "AI models may be capable of self-replicating without access to a datacenter（HN 106分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "anthropic-self-replicating-iot",
+      "source_pub_time": "2026-10-12T19:25Z"
+    },
+    {
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "title": "Strengthening our defenses against distillation attacks",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "anthropic-distillation-defenses",
+      "source_pub_time": "2026-10-12T09:30Z"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "title": "Redesigning source control at Anthropic",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "anthropic-source-control-redesign",
+      "source_pub_time": "2026-10-13"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50073633",
+      "title": "Redesigning source control at Anthropic（HN 482分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "anthropic-source-control-redesign",
+      "source_pub_time": "2026-10-13T15:49Z"
+    },
+    {
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "title": "An Update on Character.ai（自愿 Chapter 11）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "character-ai-chapter11",
+      "source_pub_time": "2026-10-13T03:52Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "character-ai-chapter11",
+      "source_pub_time": "2026-10-13T12:23Z"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50068036",
+      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy（HN 274分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "character-ai-chapter11",
+      "source_pub_time": "2026-10-13T07:28Z"
+    },
+    {
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "title": "Struct's lifetime requirements can be bypassed via covariant field assignment（Rust #164250）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "rust-borrow-checker-unsoundness",
+      "source_pub_time": "2026-10-13T08:45Z"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50069499",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker（HN 656分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "rust-borrow-checker-unsoundness",
+      "source_pub_time": "2026-10-13T10:27Z"
+    },
+    {
+      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "apple-minions-gpu-cloud",
+      "source_pub_time": "2026-10-12"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50070593",
+      "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices（HN 216分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "apple-minions-gpu-cloud",
+      "source_pub_time": "2026-10-13T12:26Z"
+    },
+    {
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "ledger-spy-chip-implant",
+      "source_pub_time": "2026-10-12T16:27Z"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50054092",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts（HN 378分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "ledger-spy-chip-implant",
+      "source_pub_time": "2026-10-12T10:09Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13928",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities（arXiv 2610.13928）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "arxiv-hidden-capabilities",
+      "source_pub_time": "2026-10-09"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50065692",
+      "title": "AI models can provably hide arbitrary capabilities（HN 271分）",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "secondary",
+      "event": "arxiv-hidden-capabilities",
+      "source_pub_time": "2026-10-13T02:07Z"
+    },
+    {
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-nois/",
+      "title": "GitHub's model for secret detection: Finding more secrets with less noise",
+      "issue": "TECH-20",
+      "status": "published",
+      "published_on": "2026-10-14",
+      "role": "primary",
+      "event": "github-secret-detection-model",
+      "source_pub_time": "2026-10-13T17:56Z"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "title": "Claude discovers a novel enzyme system",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "窗口外：页面原发2026-09-23，sitemap lastmod 2026-10-13 误导",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.apple.com/apple-homeview/",
+      "title": "Apple HomeView",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：消费级智能家居发布，技术密度低于入选项",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+      "title": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：消费硬件发布",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：合作伙伴案例文",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：社会事件，技术密度低（HN 347分）",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+      "title": "OpenAI finds recording device in one of their offices",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "密度不足：同窃听事件官方声明，无新增技术信息",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://blog.cloudflare.com/d1-control-plane/",
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：T1 工程文，密度低于入选项",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+      "title": "Rewinding the exponential: How we keep hardware usage down",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：T1 工程文",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://stripe.com/blog/economics-of-ai-monetization",
+      "title": "The \"alien\" economics of AI monetization",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "密度不足：观点分析文，非事件",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.firefox.com/en-US/enterprise/",
+      "title": "Firefox Enterprise",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "非新事件：产品页，无可核验新发布",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "title": "Thunderbird for iOS: a first look",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：开源应用首发预览",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "title": "Intel D270 GPU AI Accelerator",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "密度不足：产品规格页，非发布公告",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：宏观金融警示",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+      "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：基础设施安全事件（HN 149分）",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://eg2.haku.sh/",
+      "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "密度不足：个人项目演示（HN 380分）",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：企业公告转述",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "title": "Google Play now lets anyone build private, vibe-coded apps",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "title": "Facebook is giving users more control over their algorithm",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "位次不足：生物医疗进展",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.anthropic.com/economic-futures",
+      "title": "Anthropic Economic Futures（项目页）",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "非新闻：项目索引页",
+      "evaluated_on": "2026-10-14"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy",
+      "title": "Character.ai files for bankruptcy（The Verge）",
+      "issue": "TECH-20",
+      "status": "excluded",
+      "reason": "同事件转述：character-ai-chapter11 主/次来源已入账",
+      "evaluated_on": "2026-10-14"
     }
   ]
 }

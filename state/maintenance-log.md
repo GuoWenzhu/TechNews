@@ -60,3 +60,14 @@
 - 备份：config/sources.json 旧版本（updated_at 2026-10-11，7593 字节，sha256 977a4e3a99b7d493…前16位，完整值见备份校验）→ backup/sources-20261013.json（字节/hash 一致校验通过）；同日无同名历史备份。替换经 config/sources.json.tmp 原子完成，替换前复核原文件 hash 未变化。
 - 展示版：python3 scripts/validate.py --generate-md 重新生成根部只读展示版；全量校验通过。
 - 其余来源：本轮无入口/状态改动（shopify 官方 atom feed 验证有效但原入口可达，未改配置；linear 连续第 2 次验证可达）。
+
+## 2026-10-14（TECH-20）例行维护：无清单改动
+
+- 触发：TECH-20 采集轮（窗口 2026-10-12T00:01Z～2026-10-14T00:01Z，采集执行 2026-10-14T00:01–00:55 UTC）。
+- 可达性：26 个启用来源全部尝试，25 源 ok，1 源 blocked：airbnb（medium.com/feed 本机 TLS 握手被中断，curl×3 + python urllib 均失败，非 HTTP 状态码）；The Information 维持付费墙。
+- 连续失败计数：airbnb 1/3，单次不可达不降级，下轮复测。其余启用源无失败。
+- 恢复记录：linear 连续第 3 次验证可达（2026-10-13 起恢复计数已完成，保持 ok）。
+- 降级/删除/入口变更：无。config/sources.json 本轮无改动，未重写、未生成备份（规则：无改动不重写）。
+- 采集与筛选证据：发布 10 条事件（22 个 URL 入 published 台账），评估后明确排除 21 条（窗口外 1——Anthropic 酶系统文原发 2026-09-23、sitemap lastmod 2026-10-13 误导；位次不足 13；密度不足 5；非新事件/非新闻 2；另有 3 条与既有排除台账重复自动跳过），见 state/processed-urls.json。
+- T3 说明：arXiv 三频道 RSS 空批次（lastBuildDate 2026-10-13T04:00Z）、HF Daily Papers 窗口内无新批次（最新 10-08/09）；本期 T3 入选 1 条为 HN 高热论文（arXiv 2610.13928，提交 10-09，HN 271 分讨论 10-13），按"高热度/广泛讨论"门槛收录。
+- 候选来源线索：无新增（未发现 T2 中 ≥3 条独立热点引用同一新来源）。
