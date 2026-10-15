@@ -71,3 +71,14 @@
 - 采集与筛选证据：发布 10 条事件（22 个 URL 入 published 台账），评估后明确排除 21 条（窗口外 1——Anthropic 酶系统文原发 2026-09-23、sitemap lastmod 2026-10-13 误导；位次不足 13；密度不足 5；非新事件/非新闻 2；另有 3 条与既有排除台账重复自动跳过），见 state/processed-urls.json。
 - T3 说明：arXiv 三频道 RSS 空批次（lastBuildDate 2026-10-13T04:00Z）、HF Daily Papers 窗口内无新批次（最新 10-08/09）；本期 T3 入选 1 条为 HN 高热论文（arXiv 2610.13928，提交 10-09，HN 271 分讨论 10-13），按"高热度/广泛讨论"门槛收录。
 - 候选来源线索：无新增（未发现 T2 中 ≥3 条独立热点引用同一新来源）。
+
+## 2026-10-15（TECH-23）
+
+- 采集窗口：2026-10-13T00:03Z 至 2026-10-15T00:03Z（48h）。26 个启用源全部执行采集：22 源 ok，theinformation 403（付费墙持续，维持 paywall），netflix feed 200 但时间戳异常（见下）。
+- Netflix feed 时间戳异常：10 篇文章 pubDate 集中于 2026-10-14T19:48–20:02Z，逐篇外部核验均为旧文（Integrating FM 原发 2025-11-17、DataJunction 2026-02-24、Conductor 2026-08-17、LLM-as-a-Judge 2026-09-09 等），全部按窗口外排除。后续 Netflix 窗口判定须逐篇核验原发时间，不得依赖 Medium feed pubDate（已记入 source-health notes）。
+- airbnb：上轮本机 SSL 层不可达计失败 1 次；本轮 medium feed 200 + airbnb.tech 200 恢复可达（CASTLE 原发 2026-10-13 入选），失败连击中断，保持 enabled（状态 ok）。linear RSS 三入口均 200 但 0 条，HTML 入口正常，最新 changelog 2026-10-08 窗口外。
+- 技术备注：deepmind RSS 与页面为 gzip 编码，抓取需解压；fetch 工具受本机 fake-IP 代理限制，HTML 源改用脚本直抓。
+- 降级/删除/入口变更：无。config/sources.json 本轮无改动，未重写、未生成备份（规则：无改动不重写）。
+- 候选来源线索：无新增（未发现 T2 中 ≥3 条独立热点引用同一新来源）。
+- 台账与发布：10 事件 15 URL 入 published（含同事件前报 yandex-dc-drone/yandex-bot-traffic-collapse 的关联标注；d1-control-plane 为 TECH-20 评排后本轮复评首次发布，历史评排记录保留于条目 note），评估后明确排除 29 条（窗口外 11——Netflix 旧文重刷 10 与 linear changelog 1；位次不足 16；T3 位次不足 2；另有 6 条与既有排除台账重复自动跳过），见 state/processed-urls.json。
+- 发布：reports/digest-2026-10-15.md，10 条事件；提交分支 main。
