@@ -1654,6 +1654,910 @@
    "status": "excluded",
    "reason": "窗口外：发布于2026-10-08，早于48h窗口",
    "evaluated_on": "2026-10-15"
+  },
+  {
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "title": "Meta Muse Spark Open 开放权重发布（官方）",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "meta-muse-spark-open",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50107379",
+   "title": "HN discussion: Muse Spark Open (578分/326评)",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "meta-muse-spark-open",
+   "source_pub_time": "2026-10-15T17:47Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway",
+   "title": "Muse Spark Open 上线 Vercel AI Gateway",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "meta-muse-spark-open",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+   "title": "TechCrunch: Meta launches an open-weight AI model that runs on Macs",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "meta-muse-spark-open",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "title": "Anthropic 独立评估者更新：METR 获员工级访问",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "anthropic-independent-evaluators-metr",
+   "source_pub_time": "2026-10-15T17:20Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+   "title": "TechCrunch: Anthropic is letting METR researchers look under the hood",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "anthropic-independent-evaluators-metr",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+   "title": "Citizen Lab: Exposing AdFection（定向广告投放零点击间谍软件）",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "citizenlab-adfection-zero-click-spyware",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50101813",
+   "title": "HN discussion: AdFection (366分/531评)",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "citizenlab-adfection-zero-click-spyware",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads/",
+   "title": "WIRED: Nightmare Scenario — zero-click spyware via targeted ads",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "citizenlab-adfection-zero-click-spyware",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+   "title": "Guardian: Online ads weaponised to deliver zero-click spyware",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "citizenlab-adfection-zero-click-spyware",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
+   "title": "The Verge: An Israeli firm is sending zero-click spyware through online ads",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "citizenlab-adfection-zero-click-spyware",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+   "title": "Cloudflare + OpenAI: making AI discovery better for everyone",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "cloudflare-openai-ai-discovery",
+   "source_pub_time": "2026-10-15T13:00Z"
+  },
+  {
+   "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+   "title": "Vercel AI Gateway 生产指数 2026-10（开放权重 71.5% token）",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "vercel-ai-gateway-production-index-2026-10",
+   "source_pub_time": "2026-10-15T07:00Z"
+  },
+  {
+   "url": "https://mistral.ai/news/timestral/",
+   "title": "Mistral Timestral 时间序列基础模型",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "mistral-timestral",
+   "source_pub_time": "2026-10-15T12:00Z"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+   "title": "Microsoft Magnetar：零知识证明通用计算",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "msr-magnetar-zk-computing",
+   "source_pub_time": "2026-10-15T16:00Z"
+  },
+  {
+   "url": "https://already-clean.goodfire.com/",
+   "title": "Goodfire: Neural Networks Are Already Clean",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "goodfire-neural-networks-clean",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50105647",
+   "title": "HN discussion: Neural networks are clean (467分/179评)",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "goodfire-neural-networks-clean",
+   "source_pub_time": "2026-10-15T16:04Z"
+  },
+  {
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "title": "DeepMind: Accelerating antimicrobial peptide search with Google Antigravity",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "deepmind-antigravity-antimicrobial-peptides",
+   "source_pub_time": "2026-10-15T16:00Z"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.20571",
+   "title": "ATAS: World-State-Centric Agentic Video Generation (arXiv 2610.20571)",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "primary",
+   "event": "atas-agentic-video-generation",
+   "source_pub_time": "2026-10-14"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.20571",
+   "title": "ATAS 登 HF Daily Papers（323赞，当日最高）",
+   "issue": "TECH-26",
+   "status": "published",
+   "published_on": "2026-10-16",
+   "role": "secondary",
+   "event": "atas-agentic-video-generation",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+   "title": "Offering expanded Claude access across three branches of government",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：页面 datePublished 2025-08-12，sitemap lastmod 2026-10-15 误导",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://research.meta.ai/blog/developing-capable-models-responsibly",
+   "title": "Developing Capable Models Responsibly",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：datePublished 2026-10-02",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://research.meta.ai/blog/solving-open-research-problems-together",
+   "title": "Solving Open Research Problems Together",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：datePublished 2026-10-02",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://research.meta.ai/blog/bringing-your-muse-to-life",
+   "title": "Bringing Your Muse to Life",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：datePublished 2026-09-23",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+   "title": "Security and Safety for AI Agents",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：datePublished 2026-09-08",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+   "title": "A fully programmable secure web gateway",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：网关/DLP 产品发布，密度不及同批入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://blog.cloudflare.com/deploy-with-void/",
+   "title": "Deploy with Void（开源 Vite 部署平台）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品发布，信息密度不足",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+   "title": "The next developer interface is ambient intelligence",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：DevRel 愿景文，硬新闻密度不足",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
+   "title": "Staying Evergreen: automated secure access and repo hygiene",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：工程实践文",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：学术赞助访问计划",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "title": "Teaching students to think and learn through questions",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：教育场景内容",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://stripe.com/blog/real-time-stripe-data-postgres",
+   "title": "Stripe Data Pipeline：Stripe 数据实时同步 Postgres",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品发布",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+   "title": "Introducing Vercel Drives: persistent storage for agents",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：智能体持久存储 GA（产品）",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
+   "title": "Python on Vercel is now generally available",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：平台 GA 公告",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+   "title": "Backends on Vercel: Python, containers, and Daemons",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：平台能力综述",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/blog/vercel-for-enterprise",
+   "title": "Vercel for Enterprise",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：企业营销页",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/introducing-token-pass",
+   "title": "Introducing Token Pass",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta",
+   "title": "Vercel Daemons public beta",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway",
+   "title": "Liquid AI d1-ultra 上架 AI Gateway",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/typesafe-ais-jev-1-14-is-now-available-on-ai-gateway",
+   "title": "TypeSafe Jev 1.14 上架 AI Gateway",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway",
+   "title": "Cat Jam 上架 AI Gateway",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-connect-secure-compute",
+   "title": "Vercel Connect supports Secure Compute",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-drives-is-now-generally-available",
+   "title": "Vercel Drives GA",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available",
+   "title": "BYOC on AWS GA",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization",
+   "title": "Vercel Connect Enterprise-Managed Authorization",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta",
+   "title": "MCP Events in Vercel Connect public beta",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://vercel.com/changelog/python-on-vercel-is-now-generally-available",
+   "title": "Python on Vercel GA（changelog）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：产品/模型上架动态",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://cursor.com/blog/joining-spacex",
+   "title": "Cursor is now a part of SpaceX",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：datePublished 2026-08-14",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://cursor.com/blog/git-at-any-scale",
+   "title": "Git at any scale",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：datePublished 2026-08-18",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://linear.app/changelog/2026-09-24-new-controls-for-linear-coding-agent",
+   "title": "New controls for Linear coding agent",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：changelog 日期 2026-09-24",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://linear.app/changelog/2026-09-14-loops-for-product-management",
+   "title": "Loops for product management",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：changelog 日期 2026-09-14",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://linear.app/changelog/2026-09-03-priority-inbox",
+   "title": "Priority inbox",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "窗口外：changelog 日期 2026-09-03",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://scale.com/blog/scale-partners-with-nvidia",
+   "title": "Scale Partners With NVIDIA on Post Training",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：合作公告，信息密度不足",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://scale.com/blog/building-a-real-time-copilot-for-global-insurance-company",
+   "title": "Scale 与全球保险公司共建实时 Copilot",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "密度不足：客户案例",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+   "title": "AI agents are coming to Rivian's cars",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+   "title": "Figma 平台智能体功能",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+   "title": "Amazon Bee 两款个人 AI 设备",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+   "title": "Bluesky Attie 应用扩展",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+   "title": "Amazon Panos Panay 访谈",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+   "title": "Ricursive Intelligence AI 芯片设计",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+   "title": "Apate AI 卧线反诈",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+   "title": "Flock 麦克风争议",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+   "title": "Cal AI 网红营销",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+   "title": "Google Universal Cart",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+   "title": "Zenzap 融资 44M",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+   "title": "Floqer 销售 AI 智能体",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：行业动态，热度与密度不及入选项",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking/",
+   "title": "Founder Summit 促销",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "非新闻：活动/票务促销",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+   "title": "TechCrunch Disrupt 收官",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "非新闻：活动/票务促销",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-2-days-in-san-francisco/",
+   "title": "Disrupt 2026 票务促销",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "非新闻：活动/票务促销",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://github.com/fyzugx/DEsk",
+   "title": "HN 474分：Wayland 拟物化桌面 DEsk",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+   "title": "HN 334分：I know why the mathematicians weep",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+   "title": "HN 270分：Steam vs Epic 启动器",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://zachlandes.com/trolley-problem/",
+   "title": "HN 264分：Jev meets the Trolley Problem",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://libreboot.org/news/libreboot2610.html",
+   "title": "HN 250分：Libreboot 26.10 发布",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://unfenced.land/",
+   "title": "HN 248分：Show HN Unfenced",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://snoutcover.com/one-year",
+   "title": "HN 233分：狗鼻罩产品故事",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+   "title": "HN 224分：Simons Foundation 1500万美元资助数学+AI",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+   "title": "HN 218分：Why We're Banning AI",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+   "title": "HN 216分：Anthropic Scion 与 Mononoke 版权争议评论",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+   "title": "HN 204分：Fortran 70 周年",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+   "title": "HN 196分：What I Self-Host",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+   "title": "HN 188分：Sonarr 遭遇",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+   "title": "HN 162分：Terence Tao 博客随感",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+   "title": "HN 136分：Withings Apple Health 同步收费争议",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.cppstories.com/2026/cpp26_contracts/",
+   "title": "HN 124分：C++26 Contracts 契约",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+   "title": "HN 117分：AI was great until it was not",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+   "title": "HN 116分：E Ink Kaleido 4 发布",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/",
+   "title": "HN 114分：Reddit 讨论 Siri",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://github.com/andunieee/flipflop",
+   "title": "HN 105分：Show HN Flipflop",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.elevationlab.com/blogs/news/an-apology",
+   "title": "HN 98分：ElevationLab 致歉文",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+   "title": "HN 91分：用 AI 逆向工程硬件",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+   "title": "HN 88分：UTC 连续性技术决议",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://proa.so/",
+   "title": "HN 87分：Show HN Proa 框架",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+   "title": "HN 81分：HTTP 头提示注入（2.17亿响应分析）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://hamishcampbell.com/we-are-entering-a-period-of-overlapping-crises/",
+   "title": "HN 68分：评论文章",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+   "title": "HN 68分：AI 数据中心交易承压分析",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://lists.ubuntu.com/archives/ubuntu-announce/2026-October/000330.html",
+   "title": "HN 68分：Ubuntu 26.10 发布",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.theregister.com/security/2026/10/15/x-purges-13000-accounts-linked-to-suspected-meddling-ahead-of-us-midterms/5303234",
+   "title": "HN 63分：X 中期选举前清理 1.3 万账号",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T2 热度未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.techdirt.com/2026/10/14/ices-lies-about-a-man-officer-ran-over-undone-by-footage-from-cctv-camera/",
+   "title": "HN 61分：ICE 监控录像报道",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://github.com/konieczkow/gridsnap",
+   "title": "HN 48分：Show HN GridSnap",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "领域不符：非科技行业新闻/个人项目/评论",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://weli.dev/blog/the-cost-of-getting-a-job-today/",
+   "title": "HN 42分：求职成本评论",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.20584",
+   "title": "HF Daily Papers（255赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.13521",
+   "title": "HF Daily Papers（233赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.18615",
+   "title": "HF Daily Papers（142赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.18356",
+   "title": "HF Daily Papers（116赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.18868",
+   "title": "HF Daily Papers（100赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.20344",
+   "title": "HF Daily Papers（93赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.14224",
+   "title": "HF Daily Papers（90赞）",
+   "issue": "TECH-26",
+   "status": "excluded",
+   "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
+   "evaluated_on": "2026-10-16"
   }
  ]
 }

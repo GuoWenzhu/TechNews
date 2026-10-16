@@ -82,3 +82,15 @@
 - 候选来源线索：无新增（未发现 T2 中 ≥3 条独立热点引用同一新来源）。
 - 台账与发布：10 事件 15 URL 入 published（含同事件前报 yandex-dc-drone/yandex-bot-traffic-collapse 的关联标注；d1-control-plane 为 TECH-20 评排后本轮复评首次发布，历史评排记录保留于条目 note），评估后明确排除 29 条（窗口外 11——Netflix 旧文重刷 10 与 linear changelog 1；位次不足 16；T3 位次不足 2；另有 6 条与既有排除台账重复自动跳过），见 state/processed-urls.json。
 - 发布：reports/digest-2026-10-15.md，10 条事件；提交分支 main。
+
+## 2026-10-16（TECH-26）
+
+- 采集窗口：2026-10-14T00:02Z 至 2026-10-16T00:02Z（48h）。26 个启用源全部执行采集：25 源 ok，theinformation 403（付费墙持续，维持 paywall）。
+- Netflix feed 时间戳重刷再现：10 篇 pubDate 集中于 2026-10-14T19:47–20:02Z；抽样核验 Ads Event Pipeline Part II 原发 2026-08-17（Medium 页面），全部按旧文重刷排除。本机直抓 netflixtechblog 被 Cloudflare 拦截（"Attention Required"），未能逐篇独立复核原发时间；上轮确立的"逐篇核验"要求维持，待可核验环境复核。
+- Anthropic sitemap lastmod 误导再现：three-branches-of-government 页面 datePublished 2025-08-12，按窗口外排除（与上轮酶系统文同型）。
+- 各源窗口概况：airbnb/shopify/anthropic_research 窗口内 0 新文（feed 正常）；a16z HTML 未提取到窗口内链接（连续两轮）；cursor 最新仍为 2026-09-23；sierra 最新 2026-10-06；linear 最新 changelog 2026-10-08；meta_ai 窗口内新增仅 muse-spark-open（其余逐条核验为 10-02 及更早）；scale 窗口内 2 条均密度不足。
+- 降级/删除/入口变更：无。config/sources.json 本轮无改动，未重写、未生成备份（规则：无改动不重写）。
+- 候选来源线索：无新增（未发现 T2 中 ≥3 条独立热点引用同一新来源）。
+- 台账与发布：10 事件 20 URL 入 published；评估后明确排除 88 条（窗口外 15、位次不足约 40、密度/领域不符及评论约 20、活动促销 3、Netflix 旧文重刷 6），见 state/processed-urls.json。
+- T3 说明：HF Daily Papers 10-14/15 两批次各 50 条，最高 ATAS 2610.20571（323 赞）入选；Player-1（255）等 7 条位次不足排除，其余 <120 赞未逐一入账。arXiv 三频道仅作筛选输入。
+- 发布：reports/digest-2026-10-16.md，10 条事件；提交分支 main。
