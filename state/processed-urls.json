@@ -2558,6 +2558,662 @@
    "status": "excluded",
    "reason": "位次不足：T3 热度低于同批 ATAS（323赞），未达收录线",
    "evaluated_on": "2026-10-16"
+  },
+  {
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "title": "Anthropic: Claude reveals ECDSA curve origins（Claude 解开 NIST 椭圆曲线种子起源）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "anthropic-ecdsa-seeds",
+   "source_pub_time": "2026-10-16T17:02Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50122800",
+   "title": "HN discussion: Claude reveals ECDSA curve origins (600分/251评)",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "anthropic-ecdsa-seeds",
+   "source_pub_time": "2026-10-16T18:55Z"
+  },
+  {
+   "url": "https://words.filippo.io/seeds-solved/",
+   "title": "Filippo Valsorda: The NIST Elliptic Curves Seeds Bounty Has Been Claimed（悬赏兑现）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "anthropic-ecdsa-seeds",
+   "source_pub_time": "2026-10-16T19:03Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "title": "Anthropic: Designing more efficient quantum circuits with Claude（同日研究批次，并入条目1）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "anthropic-ecdsa-seeds",
+   "source_pub_time": "2026-10-16T17:29Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "title": "Replit is no longer working with Anthropic, CEO says",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "replit-anthropic-split",
+   "source_pub_time": "2026-10-16T21:22Z"
+  },
+  {
+   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "postgres19-ai-review-delay",
+   "source_pub_time": "2026-10-16T10:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50119991",
+   "title": "HN discussion: Postgres 19 delayed (173分/65评)",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "postgres19-ai-review-delay",
+   "source_pub_time": "2026-10-16T15:55Z"
+  },
+  {
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "title": "How the Claude Code team does code review",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "claude-code-review-practices",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50122951",
+   "title": "HN discussion: How the Claude Code team does code review (203分/189评)",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "claude-code-review-practices",
+   "source_pub_time": "2026-10-16T19:04Z"
+  },
+  {
+   "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+   "title": "Hello Toronto! Waymo is En Route（Waymo 进军多伦多，2028 载客）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "waymo-toronto",
+   "source_pub_time": "2026-10-16"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50118981",
+   "title": "HN discussion: Waymo in Toronto (244分/347评)",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "waymo-toronto",
+   "source_pub_time": "2026-10-16T14:44Z"
+  },
+  {
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "title": "Mercor Benchmark Map: 90% of US working hours lack benchmark coverage（美国90%工时缺AI基准覆盖）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "mercor-benchmark-map",
+   "source_pub_time": "2026-10-16（页面未标日期，当日HN传播）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50121179",
+   "title": "HN discussion: Mercor benchmark map (373分/322评)",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "mercor-benchmark-map",
+   "source_pub_time": "2026-10-16T17:08Z"
+  },
+  {
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "title": "Apple ML: Local and Distributed LLM Inference with MLX and RDMA on Mac Studio（4台Mac Studio跑近万亿参数Muse Spark Open）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "apple-mlx-rdma-cluster",
+   "source_pub_time": "2026-10-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50118320",
+   "title": "HN discussion: Apple ML Research Muse Spark Open with MLX (252分/114评)",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "apple-mlx-rdma-cluster",
+   "source_pub_time": "2026-10-16T13:43Z"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.18829",
+   "title": "OmniCompass: 全模态视频定位与理解基准（arXiv 2610.18829）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "omnicompass-video-benchmark",
+   "source_pub_time": "2026-10-13（arXiv提交）；2026-10-16 HF日榜566赞"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.18829",
+   "title": "OmniCompass 登 HF Daily Papers（566赞，当日最高）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "omnicompass-video-benchmark",
+   "source_pub_time": "2026-10-16"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.22200",
+   "title": "OpenGCUA: 通用计算机操作智能体全开源栈（arXiv 2610.22200，阿里 MAI-UI 团队）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "opengcua-open-stack",
+   "source_pub_time": "2026-10-15；HF 266赞"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.22200",
+   "title": "OpenGCUA 登 HF Daily Papers（266赞）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "secondary",
+   "event": "opengcua-open-stack",
+   "source_pub_time": "2026-10-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+   "title": "India becomes the latest country to report rogue AI agent activity（CERT-In 多供应商失控智能体披露）",
+   "issue": "TECH-38",
+   "status": "published",
+   "published_on": "2026-10-17",
+   "role": "primary",
+   "event": "india-cert-in-rogue-agents",
+   "source_pub_time": "2026-10-16T17:52Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/expectations-for-the-future",
+   "title": "Working at the frontier shapes expectations for the future",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "并入Anthropic研究日条目（同日报告之一，未单独成条）",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.anthropic.com/research/ai-expectations-gap",
+   "title": "The AI expectations gap",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "并入Anthropic研究日条目（同日报告之一）",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.anthropic.com/research/employment-at-anthropic",
+   "title": "AI 改变 Anthropic 内部就业（报告页）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "并入Anthropic研究日条目（同日报告之一）",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+   "title": "Continuous accountability for Verified bots",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：Verified bots 问责产品更新",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://openai.com/index/itau-generative-ai",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：客户案例",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：客户增长案例",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally",
+   "title": "New ways for fintechs to move money and expand globally",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：产品营销",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+   "title": "Vercel and Shopify make agents first-class shoppers",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：平台合作公告，密度不及入选项",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+   "title": "Vercel Ship 2026 recap",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：活动回顾",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
+   "title": "Perplexity's Decider V1.2 models now available on AI Gateway",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：模型上架动态",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
+   "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "窗口外：Medium列表显示原发2026-09-25（作者 Prasanna Vijayanathan 等），内容为2026-03 QCon London演讲；feed pubDate 10-16 为时间戳重刷",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+   "title": "Jev is Vercel's fastest-adopted AI model ever",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：采用率短讯",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+   "title": "Replit's CEO says the future of work is the 'self-driving company'",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：访谈观点，与Replit换模事件合并考虑后未单独收录",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+   "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrances",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：垂直产品动态",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-co-star/",
+   "title": "Mark Wahlberg on using AI in film",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：娱乐访谈",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+   "title": "Elorian's first AI model wants to reason with images",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：初创模型发布，热度与密度不及入选项",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment",
+   "title": "Nvidia insider-turned-VC on robotics（视频）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "非新闻：播客/视频",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+   "title": "Physical AI is more than robots（播客）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "非新闻：播客/视频",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+   "title": "HN 161分：Home Assistant 集成扫描密钥争议",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：社区议题/问题单",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://bfl.ai/blog/flux-3-image-klein",
+   "title": "FLUX 3 Image Klein: open weights, 5.6B parameters（BFL 开放权重图像模型）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：模型发布热度90分，低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://alexwang.ai/posts/associative-memory/",
+   "title": "HN 107分：You could have invented transformers from memory",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "评论/科普文：非事件性新闻",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+   "title": "HN 55分：C++26 debugging header",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "窗口外：原发2026-09-30",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.reuters.com/world/americas/meta-employees-said-lulas-accounts-were-hindered-during-brazil-election",
+   "title": "HN 44分：Meta employees said Lula's accounts were hindered",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：平台政治争议",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://github.com/cobanov/PS5LM",
+   "title": "HN 159分：Llama.cpp on a jailbroken PS5",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：个人破解项目",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.wired.com/story/chicago-area-cops-helped-hsi-spy-on-minnesota-anti-ice-activists/",
+   "title": "HN 42分：Chicago-area cops helped HSI spy on activists",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：监控执法报道",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "title": "HN 197分：Anthropic assigned highest junk credit rating（FT）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：财经信用评级报道（FT付费墙）",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-",
+   "title": "HN 145分：eBay restricts radio equipment listings",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：业余无线电设备政策",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://gifcities.org",
+   "title": "HN 49分：GifCities",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：怀旧检索工具",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://dev-null.sh",
+   "title": "HN 118分：/dev/null social network for developers",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：Show HN 项目",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://news.gallup.com/poll/708614/desire-migrate-drops-new-low.aspx",
+   "title": "HN 186分：Desire to move to U.S. at new low（Gallup）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：社会调查",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+   "title": "HN 184分：JPEG XL vs. AVIF for web use-cases",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：技术对比分析（非事件新闻）",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-game",
+   "title": "HN 182分：US Rep announces game ownership legislation",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：游戏保有权立法",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation",
+   "title": "HN 88分：Polymarket paid quote-retweet program",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：平台调查报道",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://calif.io/research/big-fish",
+   "title": "HN 158分：Big Fish — 37-year-old OpenBSD kernel bug",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：安全研究，密度不及入选项",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://rstation.ai/",
+   "title": "HN 50分：Show HN rStation",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：Show HN 项目",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.worksinprogress.news/p/porcelain",
+   "title": "HN 118分：What on Earth Is Dekton?",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：材料工业科普",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "title": "HN 181分：Gemini 4 Argon plays StarCraft（社区基准）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：社区基准演示，非机构发布",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+   "title": "HN 47分：How to make System 1 LLMs show System 2 competencies?",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：论文热度低",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
+   "title": "HN 63分：Tesla 'flying' Roadster video",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：汽车产品营销",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.foxbusiness.com/technology/teslas-new-roadster-makes-flying-debut-hitting-60-mph-under-second",
+   "title": "HN 70分：Tesla Roadster flying debut",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：汽车产品营销",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/",
+   "title": "HN 73分：How to Formalize All of Mathematics（Xena）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：数学形式化进展",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.pinecoder.dev/blog/2026-10-15/my-old-job-is-distant/",
+   "title": "HN 73分：My old job feels distant now",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://nltimes.nl/2026/10/14/amsterdam-server-seized-request-us-authorities-antifa-allegations",
+   "title": "HN 49分：Amsterdam server seized",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：司法/政治",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+   "title": "HN 279分：I Love Software Rendering",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "评论/个人文章：非事件性新闻",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://blog.bityard.net/articles/2026/October/bark-the-toll-free-bbs-for-90s-teens",
+   "title": "HN 46分：Bark: The Toll-Free BBS for 90s Teens",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：怀旧史话",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence",
+   "title": "HN 104分：Arundhati Roy on AI",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "评论/观点文：非事件性新闻",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://dfarq.homeip.net/what-was-a-token-ring-network/",
+   "title": "HN 85分：What was a Token Ring network?",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "领域不符：技术科普",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://anuragbhatia.com/post/2026/06/rfc8950-announce-ipv4-with-ipv6-next-hop/",
+   "title": "HN 97分：RFC8950 IPv4 with IPv6 next-hop",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "位次不足：网络技术解析",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.21601",
+   "title": "Waypoint-OPD（HF 451赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：同批已收录OmniCompass/OpenGCUA，单点训练技术论文",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.22350",
+   "title": "FDE-Gym: The Last Mile of AI Delivery（HF 229赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.17665",
+   "title": "RoTA-Bench（HF 198赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.18813",
+   "title": "Self-Evolving Agent Harness（HF 188赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.22276",
+   "title": "MJev-Spatial（HF 141赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.14993",
+   "title": "Dynamic Band Splitting（HF 131赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.20341",
+   "title": "InfiniSplat v2（HF 114赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.22341",
+   "title": "3DCodeVerse（HF 99赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.20939",
+   "title": "MAI-Gym（HF 94赞）",
+   "issue": "TECH-38",
+   "status": "excluded",
+   "reason": "T3位次不足：低于同批收录线",
+   "evaluated_on": "2026-10-17"
   }
  ]
 }

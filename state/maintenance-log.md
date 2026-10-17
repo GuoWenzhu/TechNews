@@ -94,3 +94,15 @@
 - 台账与发布：10 事件 20 URL 入 published；评估后明确排除 88 条（窗口外 15、位次不足约 40、密度/领域不符及评论约 20、活动促销 3、Netflix 旧文重刷 6），见 state/processed-urls.json。
 - T3 说明：HF Daily Papers 10-14/15 两批次各 50 条，最高 ATAS 2610.20571（323 赞）入选；Player-1（255）等 7 条位次不足排除，其余 <120 赞未逐一入账。arXiv 三频道仅作筛选输入。
 - 发布：reports/digest-2026-10-16.md，10 条事件；提交分支 main。
+
+## 2026-10-17（TECH-38）维护记录
+
+- 采集窗口：2026-10-15T00:02Z ~ 2026-10-17T00:02Z（48h）；26 个启用源全部按既定入口探测，无采集失败（theinformation 维持 paywall 状态，非本轮新增异常）。
+- **config/sources.json 无改动**：无来源降级/恢复/入口变更；按规则未重写清单、未生成备份、未重新生成展示版。
+- 健康要点（计入连续计数，见 state/source-health.json）：
+  - netflix：feed 时间戳重刷再现（第2轮发现）。ontology-driven-observability pubDate 10-16，外部核验（Medium 官方列表页）原发 2026-09-25、内容为 2026-03 QCon London 演讲，按旧文重刷排除；netflixtechblog.com 直抓 403，维持逐篇核验要求。
+  - a16z：连续第 3 轮页面 200 但 0 条窗口内链接（JS 渲染列表）；未达降级阈值（单次/连续少产出不降级，30 个成功采集日无产出才降级），继续观察。
+  - vercel：atom feed link 字段缺失（href 形态未解析），URL 经 slug 验证补全；且同日两次抓取返回不同内容集合（一次含2024旧条目），feed 不稳定，下轮可评估改用 blog 专用 RSS。
+  - theinformation：403 付费墙持续。
+  - xai/perplexity/uber/doordash/sequoia：候选待观察沿用，未探测（不纳入常规采集）。
+- 本轮入选 10 条（4 条 T1 一手、2 条 T2 一手报道主体、2 条 T2 转述+6 条 HN secondary、2 条 T3 高热论文），无凑数；排除 57 条并入台账（详见 state/processed-urls.json，issue=TECH-38）。
