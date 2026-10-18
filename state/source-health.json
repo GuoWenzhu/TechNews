@@ -1,14 +1,14 @@
 {
  "version": 1,
- "updated_at": "2026-10-17T00:55:00Z",
+ "updated_at": "2026-10-18T00:58:00Z",
  "run": {
-  "issue": "TECH-38",
-  "collected_at_utc": "2026-10-17T00:03Z/2026-10-17T00:50Z",
+  "issue": "TECH-43",
+  "collected_at_utc": "2026-10-18T00:06Z/2026-10-18T00:56Z",
   "window": {
-   "from": "2026-10-15T00:02:00Z",
-   "to": "2026-10-17T00:02:00Z"
+   "from": "2026-10-16T00:02:00Z",
+   "to": "2026-10-18T00:05:00Z"
   },
-  "note": "证据=每源实际使用的入口URL、窗口内条目数与排除原因（详见 state/processed-urls.json）；原始抓取件存于 data/2026-10-17/（本地临时，不入 Git）。本轮 config/sources.json 无改动。候选待观察来源（xai/perplexity/uber/doordash/sequoia）不纳入常规采集，记录沿用。"
+  "note": "证据=每源实际使用的入口URL、窗口内条目数与排除原因（详见 state/processed-urls.json）；原始抓取件存于 data/2026-10-18/（本地临时，不入 Git）。本轮 config/sources.json 无改动。候选待观察来源（xai/perplexity/uber/doordash/sequoia）不纳入常规采集，记录沿用。周末arXiv停更、HF 10-17批未发布。"
  },
  "sources": {
   "anthropic_news": {
@@ -16,9 +16,9 @@
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 2,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内两条均为已知条目：independent-evaluators 已发布（TECH-26，本轮 lastmod 更新为10-16T20:30Z，非新事件）；three-branches 已排除。无新增。"
+   "notes": "sitemap 200；窗口内仅 an-update-on-independent-evaluators lastmod 刷新为10-16T20:30Z（TECH-26已发布事件），非新事件。无新增。"
   },
   "anthropic_research": {
    "tier": "T1",
@@ -26,26 +26,26 @@
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 5,
-   "items_published": 1,
-   "notes": "sitemap 200；10-16 研究批量发布：ecdsa-curve-origins 入选（primary，HN 600分）；quantum-circuits 以 secondary 并入同事件；expectations-for-the-future / ai-expectations-gap / employment-at-anthropic 三份经济学报告并入同条目背景未单独成条。"
+   "items_published": 0,
+   "notes": "sitemap 200；窗口内 5 条均为 10-17T14:17~14:25Z 经济研究批量 lastmod（ecdsa-curve-origins/designing-efficient-quantum-circuits 已发布、三份经济报告已排除，均TECH-38处理完毕）。无新增。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 4,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "feed 200；itau 客户案例与 stack-overflow 插件增长案例位次不足排除；rosalind/teaching-students 为上轮已排除。"
+   "notes": "feed 200；窗口内 itau 客户案例为上轮已排除条目。无新增。"
   },
   "deepmind": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://deepmind.google/blog/rss.xml",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；antimicrobial-discovery 为已发布事件（TECH-26）跳过。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "meta_ai": {
    "tier": "T1",
@@ -54,34 +54,34 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；列表与上轮一致（muse-wonder/muse-spark-open 已发布，其余 datePublished 均为09-23及更早，上轮已逐一核验）。无新增。"
+   "notes": "页面200；列表与上轮一致（muse-wonder/muse-spark-open 已发布，其余为09-23及更早已核验条目）。无新增。"
   },
   "msresearch": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://www.microsoft.com/en-us/research/feed/",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；Magnetar 为已发布事件（TECH-26）跳过。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "mistral": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://mistral.ai/rss.xml",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；Timestral 为已发布事件（TECH-26）跳过。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "github": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://github.blog/feed/",
-   "items_in_window": 2,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；ambient-intelligence 与 evergreen 为上轮已排除条目。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "sierra": {
    "tier": "T1",
@@ -99,7 +99,7 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；列表与上轮一致（nvidia/insurance 已排除，其余10-06及更早）。无新增。"
+   "notes": "页面200；列表与上轮一致（nvidia/insurance 已排除）。无新增。"
   },
   "shopify": {
    "tier": "T1",
@@ -117,7 +117,7 @@
    "entry_used": "https://netflixtechblog.com/feed",
    "items_in_window": 1,
    "items_published": 0,
-   "notes": "feed 200 但时间戳重刷再现：ontology-driven-observability pubDate 10-16T16:01Z；外部核验（Medium 官方列表页）显示原发 2026-09-25、内容为 2026-03 QCon London 演讲，按旧文重刷排除（netflixtechblog.com 直抓403，无法逐篇独立复核原发时间，依据外部转载交叉核验）。"
+   "notes": "feed 200；ontology-driven-observability pubDate 仍为10-16T16:01Z，上轮已按旧文重刷排除（原发2026-09-25）。无新增。"
   },
   "airbnb": {
    "tier": "T1",
@@ -133,27 +133,27 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://stripe.com/blog/feed.rss",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；fintechs 产品营销位次不足排除。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "cloudflare": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
-   "items_in_window": 4,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "feed 200；verified-bots-accountability 位次不足排除；gateway-dlp/deploy-with-void/openai-discovery 为上轮已排除或已发布。"
+   "notes": "feed 200；verified-bots-accountability 为上轮已排除条目。无新增。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 11,
-   "items_published": 0,
-   "notes": "feed 200；本轮 atom 条目 link 字段缺失（href 形态未解析），4 条新条目经 slug 验证 200 补全 URL（vercel-shopify/ship-recap/perplexity-decider 位次不足排除）；reflection-ai-beam 上架条目 URL 多个 slug 变体 404，未入账；其余7条为上轮已排除 changelog。注意：vercel.com/atom 同日另一次抓取返回2024年代旧条目集合，feed 内容不稳定，下轮可考虑 blog 专用 RSS。"
+   "items_in_window": 3,
+   "items_published": 1,
+   "notes": "feed 200；deepseek-v4-1-flash-1017 上架条目以 secondary 并入 DeepSeek 发布事件；session-affinity changelog 位次不足排除；vercel-and-shopify 为上轮已排除。"
   },
   "linear": {
    "tier": "T1",
@@ -162,7 +162,7 @@
    "entry_used": "https://linear.app/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "HTML 200；4条 changelog 均为窗口外旧文（09-03~10-08），上轮已排除。"
+   "notes": "页面200；列表与上轮一致，均为窗口外旧文。"
   },
   "cursor": {
    "tier": "T1",
@@ -171,34 +171,25 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；最新条目仍为2026-09-23（improved-token-efficiency）窗口外。"
-  },
-  "a16z": {
-   "tier": "T2",
-   "status": "ok",
-   "method": "html",
-   "entry_used": "https://a16z.com/ai/",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "页面200；连续三轮未提取到窗口内文章链接（JS渲染列表）。"
+   "notes": "页面200；最新条目仍为2026-09-23窗口外。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date (points>40)",
-   "items_in_window": 40,
+   "items_in_window": 97,
    "items_published": 6,
-   "notes": "API 200，窗口内 points>40 共40条（少于前几轮的100条上限）；6条以 secondary 入账（ECDSA/Postgres/ClaudeCode评审/Waymo/Mercor/AppleMLX）；Flux 3 Klein(90分)、OpenBSD Big Fish(158分)、FT 信用评级(197分)、软件渲染评论(279分)等30余条评估排除（详见 processed-urls）。1条无外链讨论（Anthropic Console 多扣费 86分）无 URL 未入账。"
+   "notes": "API 200，窗口内 points>40 共97条；6条以 secondary 入账（DeepSeek/OpenRouter/OpenCode/Fortune/MapQuest/Amazon）；Tesla Roadster 1600分按领域不符排除（延续TECH-38口径）；Solar>核电453分为09-29旧文回热；RPKI 227分原文10-15窗口外；si.gov 100分事件10-13窗口外；Butlerian Jihad 356分/Game ownership 220分/ARRL 269分等按领域不符排除；Show HN（llmspeed 238/sill 264/pele 195）与个人随笔/评论按既有口径排除（详见 processed-urls）。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "items_in_window": 20,
-   "items_published": 2,
-   "notes": "feed 200；replit-anthropic 与 india-cert-in 入选（两事件 TC 均为一手报道主体）；jev 采用率/Elorian 模型/Veritas/self-driving company 访谈位次不足，Wahlberg 娱乐、Nvidia 播客×2 非新闻排除；其余为上轮已排除条目。"
+   "items_in_window": 11,
+   "items_published": 1,
+   "notes": "feed 200；meta-removes-scraping-language 入选（primary）；anthropic-workforce（转述已并入TECH-38背景的经济报告）与 replit 10-17 更新（同事件已发布）排除；nvidia 视频/播客、 Wahlberg 等非新闻排除；其余为上轮已处理条目。"
   },
   "theinformation": {
    "tier": "T2",
@@ -209,6 +200,15 @@
    "items_published": 0,
    "notes": "403；付费墙持续，无法核验内容。"
   },
+  "a16z": {
+   "tier": "T2",
+   "status": "ok",
+   "method": "html",
+   "entry_used": "https://a16z.com/ai/",
+   "items_in_window": 0,
+   "items_published": 0,
+   "notes": "页面200；连续四轮未提取到窗口内文章链接（JS渲染列表）。"
+  },
   "arxiv_csai": {
    "tier": "T3",
    "status": "ok",
@@ -216,34 +216,34 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.AI",
    "items_in_window": 453,
    "items_published": 0,
-   "notes": "rss 200 大批量；仅作T3高热筛选输入。"
+   "notes": "rss 200；内容与上轮周五批次一致（该批已按 HF Daily Papers 评估入账），无新增。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.CL",
-   "items_in_window": 267,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；仅作T3高热筛选输入。"
+   "notes": "rss 200；周末 skipDays 空批（lastBuildDate 10-17），非故障。"
   },
   "arxiv_cslg": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.LG",
-   "items_in_window": 467,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；仅作T3高热筛选输入。"
+   "notes": "rss 200；周末 skipDays 空批（lastBuildDate 10-17），非故障。"
   },
   "hf_papers": {
    "tier": "T3",
    "status": "ok",
    "method": "api",
-   "entry_used": "https://huggingface.co/api/daily_papers?date=2026-10-15/16",
-   "items_in_window": 140,
-   "items_published": 2,
-   "notes": "两批次各70条（10-15批为上轮已评估条目的赞数更新）；10-16批：OmniCompass 566赞入选（当日最高）、OpenGCUA 266赞入选；Waypoint-OPD 451/FDE-Gym 229/RoTA-Bench 198/Self-Evolving Harness 188 等9条位次不足排除（详见 processed-urls）；其余<94赞未逐一入账。10-16批首次拉取失败一次，手动重试成功。"
+   "entry_used": "https://huggingface.co/api/daily_papers?date=2026-10-16 与 2026-10-17",
+   "items_in_window": 50,
+   "items_published": 0,
+   "notes": "10-16 批次50条为上轮已评估条目的赞数复核（OmniCompass/OpenGCUA 等均已处理）；10-17 批次返回空数组（周末批次未发布）。另：昨日排除的 FLUX 3 Image Klein 热度上升（HN 206分/57评，昨91分），仍维持 T3 位次排除结论，事件已入账不重开。"
   },
   "doordash": {
    "tier": null,

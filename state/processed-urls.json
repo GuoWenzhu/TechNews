@@ -3214,6 +3214,968 @@
    "status": "excluded",
    "reason": "T3位次不足：低于同批收录线",
    "evaluated_on": "2026-10-17"
+  },
+  {
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "title": "DeepSeek V4.1 Flash 1017 开放权重发布（官方，MIT/多模态/FP8）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "primary",
+   "event": "deepseek-v4.1-flash-1017",
+   "source_pub_time": "2026-10-17T02:40Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50129045",
+   "title": "HN discussion: DeepSeek-v4.1-Flash-1017 (669分/562评)",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "deepseek-v4.1-flash-1017",
+   "source_pub_time": "2026-10-17T08:21Z"
+  },
+  {
+   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+   "title": "OpenRouter: DeepSeek v4.1 Flash 1017 上架（HN 511分）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "deepseek-v4.1-flash-1017",
+   "source_pub_time": "2026-10-17T08:37Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
+   "title": "DeepSeek V4.1 Flash 1017 上线 Vercel AI Gateway（官方 changelog）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "deepseek-v4.1-flash-1017",
+   "source_pub_time": "2026-10-17T00:00Z"
+  },
+  {
+   "url": "https://twitter.com/opencode/status/2111516673953935833",
+   "title": "OpenCode 官方声明：Console 泄露影响约1.4%用户（X 帖）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "primary",
+   "event": "opencode-console-breach",
+   "source_pub_time": "2026-10-17T18:08Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133401",
+   "title": "HN discussion: OpenCode Hacked (695分/120评)",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "opencode-console-breach",
+   "source_pub_time": "2026-10-17T18:01Z"
+  },
+  {
+   "url": "https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html",
+   "title": "NotebookCheck: OpenCode hacked, users urged to revoke API keys",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "opencode-console-breach",
+   "source_pub_time": "2026-10-17T19:42Z"
+  },
+  {
+   "url": "https://www.techmeme.com/261017/p18",
+   "title": "Techmeme 聚合：Anomaly Innovations 证实 1.4% Console 用户受影响",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "opencode-console-breach",
+   "source_pub_time": "2026-10-17T20:00Z"
+  },
+  {
+   "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+   "title": "Fortune: OpenAI discloses four more rogue AI incidents（两起critical，事件发生于6月）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "primary",
+   "event": "openai-rogue-incidents-batch2",
+   "source_pub_time": "2026-10-16T16:05Z"
+  },
+  {
+   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "title": "Ars Technica: OpenAI models hacked a crypto wallet and breached more websites",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "openai-rogue-incidents-batch2",
+   "source_pub_time": "2026-10-16T20:59Z"
+  },
+  {
+   "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raised-a-crypto-wallet-to-finish-tasks/",
+   "title": "SecurityWeek: OpenAI Models Hacked Data Portals, Raided a Crypto Wallet",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "openai-rogue-incidents-batch2",
+   "source_pub_time": "2026-10-16T10:32Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132502",
+   "title": "HN discussion: OpenAI discloses four more rogue incidents (115分/140评)",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "openai-rogue-incidents-batch2",
+   "source_pub_time": "2026-10-17T16:31Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+   "title": "Meta 移除引发抓取与AI训练担忧的条款表述（TechCrunch）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "primary",
+   "event": "meta-terms-scraping-language",
+   "source_pub_time": "2026-10-17T21:31Z"
+  },
+  {
+   "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+   "title": "MapQuest 上线 Flock 摄像头位置地图（Engadget）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "primary",
+   "event": "mapquest-flock-camera-map",
+   "source_pub_time": "2026-10-16T14:12Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50129947",
+   "title": "HN discussion: MapQuest Flock cameras (258分/47评)",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "mapquest-flock-camera-map",
+   "source_pub_time": "2026-10-17T10:59Z"
+  },
+  {
+   "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+   "title": "openDemocracy: Amazon 用 AI 评估英国仓库工会风险（内部文件）",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "primary",
+   "event": "amazon-uk-union-risk-ai",
+   "source_pub_time": "2026-10-16T16:36Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132278",
+   "title": "HN discussion: Amazon uses AI to monitor union risk (144分/57评)",
+   "issue": "TECH-43",
+   "status": "published",
+   "published_on": "2026-10-18",
+   "role": "secondary",
+   "event": "amazon-uk-union-risk-ai",
+   "source_pub_time": "2026-10-17T16:04Z"
+  },
+  {
+   "url": "https://www.tesla.com/roadster",
+   "title": "Tesla Roadster 发布页（HN 1600分/2948评）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：汽车产品营销（事件延续TECH-38评估口径，热度不改变领域判定）",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112657",
+   "title": "HN discussion: Tesla Roadster (1600分/2948评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：汽车产品营销",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+   "title": "TC: Anthropic 劳动力更资深、会议更多（转述经济报告）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "同事件：Anthropic 经济报告已并入TECH-38条目背景，不重复发布",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "title": "TC 更新版：Replit 转向 OpenAI 为默认",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "同事件已发布（TECH-38 replit-anthropic）",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+   "title": "AI Gateway logs session affinity（changelog）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：产品changelog",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+   "title": "RPKI now protects 70% of internet routes（HN 227分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "窗口外：原文2026-10-15发布",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112330",
+   "title": "HN discussion: RPKI 70% (227分/111评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "窗口外：原文2026-10-15发布",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.si.gov/",
+   "title": "SI.gov 白宫 Super Intelligence 官网（HN 100分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "窗口外：2026-10-13上线",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50130570",
+   "title": "HN discussion: Super Intelligence (100分/182评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "窗口外：事件2026-10-13",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+   "title": "Solar surpasses nuclear globally（HN 453分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：2026-09-29原发",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50131256",
+   "title": "HN discussion: Solar surpasses nuclear (453分/300评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：2026-09-29原发",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://lwn.net/Articles/1088776/",
+   "title": "LWN: Development statistics for the 7.2 kernel（HN 122分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：2026-08-17原发",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132950",
+   "title": "HN discussion: 7.2 kernel stats (122分/101评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：2026-08-17原发",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+   "title": "Chrome/Edge 移除 XSLT 影响分析（HN 68分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "窗口外：原文2026-10-12发布",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50134617",
+   "title": "HN discussion: Chrome/Edge removing XSLT (68分/70评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "窗口外：原文2026-10-12发布",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://github.com/valimised/ivxv",
+   "title": "爱沙尼亚网络投票系统源码（HN 145分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧仓库回热：2017年创建、2025-10最后推送",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50127586",
+   "title": "HN discussion: Estonian i-voting source (145分/128评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧仓库回热",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.universityofcalifornia.edu/news/new-study-shows-popular-glp-1-weight-loss-drug-may-slow-biological-aging",
+   "title": "UC: GLP-1 或延缓生物学衰老（HN 162分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：生物医学研究",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132328",
+   "title": "HN discussion: GLP-1 aging (162分/152评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：生物医学研究",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+   "title": "Dorito 粉使鸡肉透明（HN 242分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：趣味科学",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50131213",
+   "title": "HN discussion: chicken transparent (242分/64评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：趣味科学",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+   "title": "大坝拆除鱼类回归（HN 158分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：生态新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50126312",
+   "title": "HN discussion: dam removals (158分/45评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：生态新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.nature.com/articles/d41586-026-03266-x",
+   "title": "Nature: 白化珊瑚健康邻居旁数天恢复（HN 270分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：自然科学",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50126253",
+   "title": "HN discussion: bleached corals (270分/57评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：自然科学",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/",
+   "title": "大西洋月刊：九英寸蜗牛（HN 112分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：自然科学",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50125545",
+   "title": "HN discussion: Nine-inch snails (112分/61评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：自然科学",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://mashable.com/tech/meta-confirms-smart-glasses-recording-without-being-activated",
+   "title": "Meta 证实智能眼镜未激活时在录制（HN 60分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：产品隐私争议",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50126241",
+   "title": "HN discussion: Meta glasses recording (60分/10评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：产品隐私争议",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+   "title": "黄金成美国第一大出口（HN 196分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：宏观经济",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132870",
+   "title": "HN discussion: gold top export (196分/110评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：宏观经济",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
+   "title": "美国联邦赤字跃升12%（HN 169分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：宏观经济",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50131440",
+   "title": "HN discussion: federal deficit (169分/170评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：宏观经济",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
+   "title": "FT: 约旦河西岸定居者袭击外交官（HN 56分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50134190",
+   "title": "HN discussion: settlers attack diplomats (56分/8评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
+   "title": "Le Monde: 西岸定居者袭击欧洲外交车辆（HN 119分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133274",
+   "title": "HN discussion: West Bank diplomats (119分/15评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine",
+   "title": "Guardian: 西岸橄榄农与记者遇袭（HN 139分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50128297",
+   "title": "HN discussion: olive farmers attack (139分/50评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.derekwessman.com/blog-1/natural",
+   "title": "I Became a Citizen of Japan（HN 129分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：个人随笔",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133150",
+   "title": "HN discussion: citizen of Japan (129分/49评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：个人随笔",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health",
+   "title": "911 致命缺陷（HN 60分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：社会新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50123356",
+   "title": "HN discussion: fatal flaw of 911 (60分/80评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：社会新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://coached.com/essays/the-insider-trading-youre-allowed-to-do/",
+   "title": "允许的内幕交易（HN 69分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：金融评论",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50115144",
+   "title": "HN discussion: insider trading allowed (69分/60评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：金融评论",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+   "title": "eBay 限制无线电设备挂载（HN 269分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：无线电设备监管",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50122034",
+   "title": "HN discussion: eBay radio equipment (269分/244评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：无线电设备监管",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+   "title": "美国众议员提游戏所有权立法（HN 220分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：游戏消费权益",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50120101",
+   "title": "HN discussion: game ownership act (220分/125评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：游戏消费权益",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://danieltemkin.com/esolangs/folders",
+   "title": "Folders 深奥编程语言（HN 215分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "趣味项目非新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50114342",
+   "title": "HN discussion: Folders language (215分/38评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "趣味项目非新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+   "title": "Butlerian Jihad 百科条目（HN 356分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "百科词条非新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50127274",
+   "title": "HN discussion: Butlerian Jihad (356分/248评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "百科词条非新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
+   "title": "Microsoft 与 CMU 合作培训工程师（HN 54分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：教育合作",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133830",
+   "title": "HN discussion: Microsoft CMU (54分/64评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：教育合作",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.techpowerup.com/353776/qualcomm-legally-proves-arm-breached-its-license-wins-usd-2",
+   "title": "Qualcomm 证明 Arm 违约获赔（HN 41分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：芯片行业诉讼",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50117451",
+   "title": "HN discussion: Qualcomm vs Arm (41分/9评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：芯片行业诉讼",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+   "title": "Hinton 访谈：创造异类（HN 41分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：访谈",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50116031",
+   "title": "HN discussion: Hinton interview (41分/20评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：访谈",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.reuters.com/world/americas/meta-employees-said-lulas-accounts-were-hindered-during-brazil-election-folha-2026-10-16/",
+   "title": "Meta 员工称卢拉账号在巴西大选受阻（HN 66分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：平台政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50122713",
+   "title": "HN discussion: Meta Lula accounts (66分/9评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：平台政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://github.com/openai/codex/issues/25921",
+   "title": "Codex Desktop 持续生成 Crashpad 转储（HN 50分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：软件问题单",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133231",
+   "title": "HN discussion: Codex crashpad (50分/25评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：软件问题单",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://llmspeed.dev/",
+   "title": "Show HN: Llmspeed 本地 LLM 速度体验（HN 238分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50127979",
+   "title": "HN discussion: Llmspeed (238分/76评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://github.com/Saffsanity/sill",
+   "title": "Show HN: sill Mac窗口投送 iPhone（HN 264分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112739",
+   "title": "HN discussion: sill (264分/76评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://pele.run/",
+   "title": "Show HN: Pele Mermaid 主题化 SVG（HN 195分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132193",
+   "title": "HN discussion: Pele (195分/22评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://github.com/mikroverk/esp32sim",
+   "title": "Show HN: Esp32sim 浏览器跑固件（HN 110分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50131189",
+   "title": "HN discussion: esp32sim (110分/11评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://celphase.github.io/duck-pond/",
+   "title": "Show HN: 高质量鸭子音频合成器（HN 71分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50131006",
+   "title": "HN discussion: duck pond (71分/22评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "Show HN 项目不入选",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://lwn.net/Articles/1101057/",
+   "title": "Gnome OS Preview（HN 44分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：发行版动态",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50124215",
+   "title": "HN discussion: Gnome OS (44分/20评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：发行版动态",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://lwn.net/Articles/1097760/",
+   "title": "Gentoo Chromium 最后通告（HN 83分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：发行版动态",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50114359",
+   "title": "HN discussion: Gentoo Chromium (83分/81评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：发行版动态",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://lwn.net/Articles/1094721/",
+   "title": "Google 与 Igalia 的 Chromium 开发对比（HN 90分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：社区动态",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112887",
+   "title": "HN discussion: Chromium Google vs Igalia (90分/28评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：社区动态",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+   "title": "Thank You, Deno（HN 128分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "评论文章非事件新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112331",
+   "title": "HN discussion: Thank You Deno (128分/33评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "评论文章非事件新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://frozenfractal.com/blog/2026/10/12/around-the-world-34-a-pretty-sky/",
+   "title": "游戏天空渲染随笔（HN 120分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：开发随笔",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50119315",
+   "title": "HN discussion: pretty sky (120分/8评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：开发随笔",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://adepts.of0x.cc/eufy-homestation2-firmware/",
+   "title": "eufy 固件破解故事（HN 78分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：硬件破解故事",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50119751",
+   "title": "HN discussion: eufy firmware (78分/5评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：硬件破解故事",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://neuralwatt.com/news/why-harnesses-matter-for-energy-efficiency",
+   "title": "Harness 与能耗效率分析（HN 56分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：行业分析",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50124642",
+   "title": "HN discussion: harnesses energy (56分/27评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：行业分析",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://unsung.aresluna.org/in-every-study-that-considered-the-question/",
+   "title": "In every study that considered the question（HN 42分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：评论",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50127839",
+   "title": "HN discussion: in every study (42分/27评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：评论",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://softpanorama.org/OFM/Paradigm/Ch03/norton_commander.shtml",
+   "title": "Norton Commander 开发史（HN 69分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：2011年文章",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50115354",
+   "title": "HN discussion: Norton Commander (69分/23评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：2011年文章",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://dl.acm.org/doi/10.1145/358453.358459",
+   "title": "The future of programming (1982)（HN 49分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：1982年文章",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50130079",
+   "title": "HN discussion: future of programming 1982 (49分/13评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "旧文回热：1982年文章",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://nos.nl/video/2635315-wildcamera-s-tonen-hoe-zwijnen-en-herten-zich-aanpassen-aan-de-wolf",
+   "title": "荷兰野猪鹿适应狼（HN 52分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：自然纪录",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50129274",
+   "title": "HN discussion: boar deer wolf (52分/92评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：自然纪录",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://www.reuters.com/investigates/special-report/iran-crisis-infrastructure-attacks/",
+   "title": "Reuters 调查：伊朗打击海湾基础设施（HN 67分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112227",
+   "title": "HN discussion: Iran Gulf infrastructure (67分/21评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://6abc.com/post/woman-arrested-blocking-delivery-robot-center-city-philadelphia-confrontation/19941323/",
+   "title": "费城女子阻拦配送机器人被捕（HN 60分）",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：社会新闻",
+   "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50112963",
+   "title": "HN discussion: delivery robot arrest (60分/66评)",
+   "issue": "TECH-43",
+   "status": "excluded",
+   "reason": "位次不足：社会新闻",
+   "evaluated_on": "2026-10-18"
   }
  ]
 }

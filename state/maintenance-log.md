@@ -106,3 +106,17 @@
   - theinformation：403 付费墙持续。
   - xai/perplexity/uber/doordash/sequoia：候选待观察沿用，未探测（不纳入常规采集）。
 - 本轮入选 10 条（4 条 T1 一手、2 条 T2 一手报道主体、2 条 T2 转述+6 条 HN secondary、2 条 T3 高热论文），无凑数；排除 57 条并入台账（详见 state/processed-urls.json，issue=TECH-38）。
+
+## 2026-10-18（TECH-43）维护记录
+
+- 采集窗口：2026-10-16T00:02Z ~ 2026-10-18T00:05Z（48h）；26 个启用源全部按既定入口探测，无采集失败（theinformation 维持 paywall 状态，非本轮新增异常）。
+- **config/sources.json 无改动**：无来源降级/恢复/入口变更；按规则未重写清单、未生成备份、未重新生成展示版。
+- 健康要点（计入连续计数，见 state/source-health.json）：
+  - arxiv_cscl/cs.LG：RSS 返回周末空批（skipDays Sat/Sun，lastBuildDate 10-17），属正常排程而非故障；cs.AI 内容与上轮周五批次一致，无新增。
+  - hf_papers：10-17 批次 API 返回空数组（周末批次未发布）；10-16 批次 50 条为上轮已评估条目复核。另记录：昨日按 T3 位次排除的 FLUX 3 Image Klein 热度升至 HN 206分（昨 91分），事件已明确排除入账，不重开。
+  - vercel：atom feed 本轮 link 字段解析正常（上轮缺失问题未复现）；feed 不稳定观察项延续。
+  - a16z：连续第 4 轮页面 200 但 0 条窗口内链接（JS 渲染列表），未达降级阈值，继续观察。
+  - theinformation：403 付费墙持续。xai/perplexity/uber/doordash/sequoia：候选待观察沿用，未探测。
+- 周末因素：新闻产出偏少。本轮入选 6 条（DeepSeek 模型发布、OpenCode 凭据泄露、OpenAI 智能体事件披露、Meta 条款调整、MapQuest/Flock、Amazon 工会监控 AI），无凑数；Tesla Roadster（HN 1600分）延续 TECH-38"领域不符：汽车产品营销"口径排除。
+- 台账与发布：6 事件 17 URL 入 published，评估后明确排除 99 条（窗口外 8、旧文/旧仓库回热 8、领域不符 41、位次不足 30、Show HN/非新闻 12，详见 state/processed-urls.json，issue=TECH-43）。
+- 发布：reports/digest-2026-10-18.md，6 条事件；提交分支 main。
