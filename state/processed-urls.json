@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-15T00:18:04Z",
+ "updated_at": "2026-10-19T00:15:05Z",
  "note": "URL已规范化（去跟踪参数、保留语义参数）。status: published=已发布简报；excluded=已评估并明确排除。仅这两种状态入账；临时抓取失败不入账。",
  "initialized": "2026-10-11 (TECH-4)，仅包含本契约生效后处理的内容",
  "entries": [
@@ -4176,6 +4176,952 @@
    "status": "excluded",
    "reason": "位次不足：社会新闻",
    "evaluated_on": "2026-10-18"
+  },
+  {
+   "url": "https://api-docs.deepseek.com/guides/search/",
+   "title": "DeepSeek Search & Fetch API 官方文档（$0.75/千次成功请求，11-01起计费）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "deepseek-search-fetch",
+   "source_pub_time": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50138531",
+   "title": "HN discussion: DeepSeek search and fetch (531分/254评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "deepseek-search-fetch",
+   "source_pub_time": "2026-10-18T06:50Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "title": "Disney agrees to hire the majority of Character.AI's workforce（至少60人/年薪约$60M，引Bloomberg法庭文件）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "disney-characterai",
+   "source_pub_time": "2026-10-18T16:30Z"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "title": "Websites are closing their doors to AI agents（The Verge：Yelp/Delta/JPMorgan/Schwab 设限）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "web-blocks-agents",
+   "source_pub_time": "2026-10-17T13:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141657",
+   "title": "HN discussion: Websites are closing their doors to AI agents (133分/125评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "web-blocks-agents",
+   "source_pub_time": "2026-10-18T14:58Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "title": "Investing in the public benefit（Anthropic 公共利益基金：5%股份+增值递增2%）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "anthropic-pbf",
+   "source_pub_time": "2026-10-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+   "title": "Anthropic says it's committing 5% of its shares to a 'public benefit fund'（TechCrunch）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "anthropic-pbf",
+   "source_pub_time": "2026-10-18T20:37Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50143755",
+   "title": "HN discussion: Investing in the public benefit (48分/46评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "anthropic-pbf",
+   "source_pub_time": "2026-10-18T18:15Z"
+  },
+  {
+   "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+   "title": "Anthropic quietly pitches its own AI safety bill to lawmakers（Politico 首发）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "anthropic-safety-bill",
+   "source_pub_time": "2026-10-16T21:45Z"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages（Tom's Hardware 解读）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "anthropic-safety-bill",
+   "source_pub_time": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141429",
+   "title": "HN discussion: Anthropic's proposed AI safety bill (153分/161评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "anthropic-safety-bill",
+   "source_pub_time": "2026-10-18T14:30Z"
+  },
+  {
+   "url": "https://developer.apple.com/forums/thread/850550",
+   "title": "macOS 15.8.2 RC 破坏 OpenGL 窗口渲染（Apple 开发者论坛，官方确认 FB25133383）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "macos-opengl",
+   "source_pub_time": "2026-10-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141909",
+   "title": "HN discussion: macOS 15.8.2 Breaks OpenGL (232分/241评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "macos-opengl",
+   "source_pub_time": "2026-10-18T15:26Z"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.18861",
+   "title": "Hybrid Reasoning Agents（arXiv 2610.18861，混合潜空间/文本推理 Agent）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "hybridagents-paper",
+   "source_pub_time": "2026-10-13"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50145337",
+   "title": "HN discussion: Hybrid Reasoning Agents (157分/92评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "hybridagents-paper",
+   "source_pub_time": "2026-10-18T20:48Z"
+  },
+  {
+   "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+   "title": "Legal experts warn Meta's new terms still grant broad scraping permissions（Nieman Lab 跟进）",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "primary",
+   "event": "meta-terms-followup",
+   "source_pub_time": "2026-10-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50139692",
+   "title": "HN discussion: Meta's new terms still grant broad scraping permissions (216分/60评)",
+   "issue": "TECH-46",
+   "status": "published",
+   "published_on": "2026-10-19",
+   "role": "secondary",
+   "event": "meta-terms-followup",
+   "source_pub_time": "2026-10-18T10:21Z"
+  },
+  {
+   "url": "https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day",
+   "title": "Meta 下架 No Kings Instagram（HN 565分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：平台内容审查/政治争议",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50136881",
+   "title": "HN discussion: Zuckerberg's Meta Takes Down No Kings Instagram During Protest Day (565分/384评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：平台内容审查/政治争议",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+   "title": "纽约州游戏所有权法案（HN 425分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏消费政策（延续TECH-43同类口径）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50136536",
+   "title": "HN discussion: NY announces game ownership bill requiring ownership rather than licensing (425分/196评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏消费政策（延续TECH-43同类口径）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+   "title": "Namecheap 批量停用用户域名（Reddit 单方陈述，HN 387分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "个人经历、未经独立证实",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50142866",
+   "title": "HN discussion: Namecheap just seized and disabled all my domains (387分/187评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "个人经历、未经独立证实",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+   "title": "Elizabeth Holmes 纪录片争议（HN 355分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：影视/人物",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50137620",
+   "title": "HN discussion: The Elizabeth Holmes documentary “You Can See Everything” is deceiving (355分/500评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：影视/人物",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+   "title": "RepRapMicron 开源显微加工项目（HN 321分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141076",
+   "title": "HN discussion: RepRapMicron (321分/51评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+   "title": "Linear CEO 随笔：Someone behind the software（HN 279分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50142573",
+   "title": "HN discussion: Someone behind the software (279分/117评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://sphinx-six-theta.vercel.app/",
+   "title": "Show HN: Sphinx——上线前测验 AI 代码（HN 239分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "Show HN 项目展示（延续既有口径）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50137950",
+   "title": "HN discussion: Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping (239分/81评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "Show HN 项目展示（延续既有口径）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://t3.at/blog/2026-10-17-parser-combinators/",
+   "title": "Parser Combinators 解析组合子文章（HN 219分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术教学文章，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50139067",
+   "title": "HN discussion: Parser Combinators (219分/77评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术教学文章，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://github.com/0x23/MicroManipulatorStepper",
+   "title": "Open MicroManipulator 微操作平台（HN 170分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50140001",
+   "title": "HN discussion: Open MicroManipulator – A sub-micrometer 3D motion control plattform (170分/13评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://legendofhyrule.com/",
+   "title": "塞尔达时间线梳理站点（HN 156分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏内容",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50140769",
+   "title": "HN discussion: Show HN: The Zelda timeline to catch up before the Ocarina of Time remake (156分/93评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏内容",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
+   "title": "佛州 HOA 与住房危机（HN 154分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：住房/社会",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50144005",
+   "title": "HN discussion: Florida's HOAs and condo associations are making the housing crisis worse (154分/263评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：住房/社会",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
+   "title": "K8s 初接触（2024 旧文回热，HN 139分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "旧文回热",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50127572",
+   "title": "HN discussion: A skeptic's first contact with Kubernetes (2024) (139分/82评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "旧文回热",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://neilmadden.blog/2026/10/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+   "title": "Java sealed classes 与穷尽匹配（HN 129分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术教学文章，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141579",
+   "title": "HN discussion: Java sealed classes and exhaustive pattern matching (129分/99评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术教学文章，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth",
+   "title": "Cloudflare 免费版答疑（2016 旧文回热，HN 128分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "旧文回热",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50138087",
+   "title": "HN discussion: Matthew Prince on why Cloudflare offers a free version and always will (2016) (128分/104评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "旧文回热",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.propublica.org/article/ap3-oath-keepers-militia-mole",
+   "title": "民兵组织卧底调查（2025 旧文回热，HN 128分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "旧文回热：非科技领域",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50138044",
+   "title": "HN discussion: A Mole Infiltrated the Highest Ranks of American Militias (2025) (128分/28评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "旧文回热：非科技领域",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+   "title": "Terence Tao：数学与科学的黄金/黑暗时代（HN 122分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141681",
+   "title": "HN discussion: Will it be a golden age or a dark age for mathematics (and science)? (122分/159评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://openjdk.org/projects/jdk/28/",
+   "title": "JDK 28 项目页面上线（HN 119分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "常规版本周期页面，信息密度低",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50135379",
+   "title": "HN discussion: JDK 28 (119分/81评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "常规版本周期页面，信息密度低",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+   "title": "3blue1brown：学数学正当时（视频，HN 117分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：科普视频",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50136150",
+   "title": "HN discussion: There's never been a better time to go into math (by: 3blue1brown) [video] (117分/58评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：科普视频",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
+   "title": "Tesla Roadster 交付无保证（HN 109分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件已按领域不符排除（延续TECH-43口径：汽车行业）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141295",
+   "title": "HN discussion: Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car (109分/134评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件已按领域不符排除（延续TECH-43口径：汽车行业）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+   "title": "犬类 bouba/kiki 联觉研究（HN 103分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：动物认知",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50136979",
+   "title": "HN discussion: Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky (103分/71评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：动物认知",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.getlazarus.org/dynamic/",
+   "title": "Free Pascal 支持动态包（HN 101分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：小众工具更新",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50144066",
+   "title": "HN discussion: Free Pascal compiler now supports dynamic packages (101分/14评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：小众工具更新",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.theatlantic.com/ideas/2026/10/theranos-trump-nathan-fielder/689001/",
+   "title": "Theranos 式欺诈成常态（Atlantic 评论，HN 95分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141206",
+   "title": "HN discussion: Theranos-Style Fraud Has Become the Norm (95分/35评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://blog.raed.dev/posts/microsoft-teams-red-flag/",
+   "title": "Microsoft Teams is a red flag（个人博客，HN 95分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50130228",
+   "title": "HN discussion: Microsoft Teams is a red flag (95分/70评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/",
+   "title": "英航：佩戴 Meta 眼镜拍摄或被取消机票（HN 89分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：航司个案政策",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50143218",
+   "title": "HN discussion: British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled (89分/144评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：航司个案政策",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+   "title": "Intel 8087 浮点加减微码（HN 85分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术考古",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50142449",
+   "title": "HN discussion: The Intel 8087 chip: floating-point addition and subtraction (85分/27评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术考古",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://raymyers.org/post/math-dumped-openai/",
+   "title": "Why Math Dumped OpenAI（博客观点，HN 82分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50128468",
+   "title": "HN discussion: Why Math Dumped OpenAI (82分/14评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://github.com/ardiri/palmos-lemmings",
+   "title": "PalmOS Lemmings 移植（HN 80分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50143536",
+   "title": "HN discussion: PalmOS Lemmings (80分/22评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.vals.ai/blogs/impossible-refund",
+   "title": "AI 代理退款压力测试（vals.ai 博客，HN 77分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：评测博客",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50140462",
+   "title": "HN discussion: How Far Will AI Assistants Go for a Refund They Can't Get? (77分/95评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：评测博客",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.phillyvoice.com/philly-woman-arrested-uber-eats-robot-protest/?l",
+   "title": "退休教授阻拦 Uber Eats 机器人被捕（HN 74分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件已排除（TECH-43 已评估同类报道）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50136198",
+   "title": "HN discussion: Retired Penn professor arrested for blocking Uber Eats robot (74分/137评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件已排除（TECH-43 已评估同类报道）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://lpviz.net/",
+   "title": "浏览器交互式线性规划（HN 72分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50130379",
+   "title": "HN discussion: Interactive Linear Programming in the Browser (72分/12评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
+   "title": "The Brain Sandwich（随笔，HN 71分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50139998",
+   "title": "HN discussion: The Brain Sandwich (71分/43评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.vice.com/en/article/gen-z-is-the-first-generation-dumber-than-their-parents-neuroscientist-claims/",
+   "title": "Gen Z 认知能力报道（HN 70分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：社会评论",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50141053",
+   "title": "HN discussion: Gen Z Is the First Generation Dumber Than Their Parents (70分/103评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：社会评论",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://tkgally.github.io/500-clocks/",
+   "title": "Show HN: 500 clocks（HN 64分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "Show HN 项目展示（延续既有口径）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50137820",
+   "title": "HN discussion: Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5 (64分/27评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "Show HN 项目展示（延续既有口径）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.wsj.com/lifestyle/careers/labor-market-freeze-phd-graduate-f8e17d7c",
+   "title": "普林斯顿博士投递2300份简历（HN 61分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：就业市场",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50138462",
+   "title": "HN discussion: A Princeton PhD applied to 2,300 jobs and still can't get one (61分/77评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：就业市场",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://store.steampowered.com/app/5426130/Tiny_Brutalism/",
+   "title": "Tiny Brutalism 上架 Steam（HN 60分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏上架",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50144144",
+   "title": "HN discussion: Tiny Brutalism – Thanks to HN it's on Steam (60分/7评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏上架",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://mitos.computer/",
+   "title": "Mitos 编辑器（Helix 分支，HN 58分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：编辑器发布",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50143132",
+   "title": "HN discussion: Mitos editor is a fork of Helix (58分/51评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：编辑器发布",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://blog.picheta.me/post/killswitch-lang/",
+   "title": "LLM 无法使用的编程语言（HN 58分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50135762",
+   "title": "HN discussion: I built a programming language that LLMs can't use (58分/53评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech",
+   "title": "广告技术作为雇佣间谍软件投递系统（Doctorow 评论，HN 56分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件背景评论（TECH-26 已发布事件），位次不足",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50131881",
+   "title": "HN discussion: Ad-tech company was a delivery system for \"mercenary spyware\" (56分/11评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件背景评论（TECH-26 已发布事件），位次不足",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa",
+   "title": "美国就 Starlink 限制施压欧洲（HN 55分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50144405",
+   "title": "HN discussion: US threatens Europe over Starlink restrictions (55分/79评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：地缘政治",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=QH_LPimUJMs",
+   "title": "Pajitnov 的其他游戏（视频，HN 53分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏史",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50136017",
+   "title": "HN discussion: Beyond Tetris: The other games of Alexey Pajitnov [video] (53分/4评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：游戏史",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+   "title": "OpenAI 留下的数学（博客观点，HN 52分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50134211",
+   "title": "HN discussion: The math that OpenAI keeps for itself (52分/19评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://blog.scottstevenson.net/p/pattern-matching-beats-narrative",
+   "title": "Pattern matching beats narrative（博客观点，HN 52分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133736",
+   "title": "HN discussion: Pattern matching beats narrative reasoning (52分/35评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "观点随笔/博客，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://github.com/vercel-labs/tsc-ts",
+   "title": "tsc-ts：TypeScript 写的 TypeScript（HN 49分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132911",
+   "title": "HN discussion: Tsc-ts: TypeScript written in TypeScript (49分/51评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "项目展示",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.eff.org/deeplinks/2026/10/when-no-id-means-no-internet-age-verification-and-right-access-informati",
+   "title": "EFF：无 ID 即无互联网（HN 48分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：政策评论",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50133747",
+   "title": "HN discussion: When No ID Means No Internet (48分/18评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：政策评论",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+   "title": "TikTok 封禁马斯克纪录片账号（HN 46分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：平台内容争议",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50134608",
+   "title": "HN discussion: TikTok bans Musk documentary account (46分/2评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "位次不足：平台内容争议",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://twitter.com/opencode/status/2111519637049319818",
+   "title": "OpenCode 泄露补充声明（HN 43分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件已发布（TECH-43）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50139083",
+   "title": "HN discussion: OpenCode has a security breach last that impacted 1.4% of console users (43分/23评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "同事件已发布（TECH-43）",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.economist.com/business/2026/10/13/elon-musks-foundation-is-opaque-miserly-and-self-serving",
+   "title": "经济学人：马斯克基金会（HN 42分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：非科技",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50132972",
+   "title": "HN discussion: Elon Musk's foundation is opaque, miserly and self-serving (42分/5评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "领域不符：非科技",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/",
+   "title": "复数单位根笔记（HN 41分）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术教学文章，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50138002",
+   "title": "HN discussion: Notes on the Complex Roots of Unity (41分/10评)",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "技术教学文章，非新闻",
+   "evaluated_on": "2026-10-19"
+  },
+  {
+   "url": "https://www.anthropic.com/company",
+   "title": "anthropic /company 页 lastmod 刷新（2026-10-18T21:23Z）",
+   "issue": "TECH-46",
+   "status": "excluded",
+   "reason": "非新闻页：站点维护性 lastmod 刷新",
+   "evaluated_on": "2026-10-19"
   }
  ]
 }

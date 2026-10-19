@@ -120,3 +120,12 @@
 - 周末因素：新闻产出偏少。本轮入选 6 条（DeepSeek 模型发布、OpenCode 凭据泄露、OpenAI 智能体事件披露、Meta 条款调整、MapQuest/Flock、Amazon 工会监控 AI），无凑数；Tesla Roadster（HN 1600分）延续 TECH-38"领域不符：汽车产品营销"口径排除。
 - 台账与发布：6 事件 17 URL 入 published，评估后明确排除 99 条（窗口外 8、旧文/旧仓库回热 8、领域不符 41、位次不足 30、Show HN/非新闻 12，详见 state/processed-urls.json，issue=TECH-43）。
 - 发布：reports/digest-2026-10-18.md，6 条事件；提交分支 main。
+
+## 2026-10-19（TECH-46）维护记录
+
+- config/sources.json：无改动（未备份、未重写展示版——规则：无改动不重写）。
+- 采集健康：22 个常规源中 19 个本轮实际探测（RSS/Atom/API/sitemap 为主），全部可达；theinformation 403（付费墙持续）；meta_ai/sierra/scale/linear/cursor/a16z 本轮未复检，沿用上轮结论（无窗口内新文迹象）。
+- arXiv 周末空批（lastBuildDate 2026-10-18T04:00Z）、HF Daily Papers 10-17/10-18 空批次：均属发布节奏而非故障，不降级。
+- deepmind feed 首轮 gzip 解码失败，属抓取端编码处理问题，补 Accept-Encoding 后 200，不计为源失败。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，记录沿用。
+- 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。

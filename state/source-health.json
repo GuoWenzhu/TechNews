@@ -1,14 +1,14 @@
 {
  "version": 1,
- "updated_at": "2026-10-18T00:58:00Z",
+ "updated_at": "2026-10-19T00:15:05Z",
  "run": {
-  "issue": "TECH-43",
-  "collected_at_utc": "2026-10-18T00:06Z/2026-10-18T00:56Z",
+  "issue": "TECH-46",
+  "collected_at_utc": "2026-10-19T00:02Z/2026-10-19T00:32Z",
   "window": {
-   "from": "2026-10-16T00:02:00Z",
-   "to": "2026-10-18T00:05:00Z"
+   "from": "2026-10-17T00:05:00Z",
+   "to": "2026-10-19T00:05:00Z"
   },
-  "note": "证据=每源实际使用的入口URL、窗口内条目数与排除原因（详见 state/processed-urls.json）；原始抓取件存于 data/2026-10-18/（本地临时，不入 Git）。本轮 config/sources.json 无改动。候选待观察来源（xai/perplexity/uber/doordash/sequoia）不纳入常规采集，记录沿用。周末arXiv停更、HF 10-17批未发布。"
+  "note": "证据=每源实际使用的入口URL、窗口内条目数与排除原因（详见 state/processed-urls.json）；原始抓取件存于 data/2026-10-19/（本地临时，不入 Git）。本轮 config/sources.json 无改动。候选待观察来源（xai/perplexity/uber/doordash/sequoia）不纳入常规采集，记录沿用。周末 arXiv 空批（lastBuildDate 10-18T04:00Z，周一 04:00Z 批次未到）、HF 10-17/10-18 批次返回空数组。deepmind 首轮 gzip 解码失败，补 Accept-Encoding 后 200 重取（采集方法无影响）。fetch_content 工具受本机 TUN fake-IP 限制不可用，HTML 候选页改用 curl 直取。"
  },
  "sources": {
   "anthropic_news": {
@@ -16,27 +16,27 @@
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 1,
-   "items_published": 0,
-   "notes": "sitemap 200；窗口内仅 an-update-on-independent-evaluators lastmod 刷新为10-16T20:30Z（TECH-26已发布事件），非新事件。无新增。"
+   "items_in_window": 7,
+   "items_published": 1,
+   "notes": "sitemap 200；窗口内 /company lastmod 刷新（非新闻页排除）与 /news/public-benefit-fund 新页（入选，primary）；5 条 10-17 经济研究 lastmod 均为 TECH-38 已处理条目。"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 5,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内 5 条均为 10-17T14:17~14:25Z 经济研究批量 lastmod（ecdsa-curve-origins/designing-efficient-quantum-circuits 已发布、三份经济报告已排除，均TECH-38处理完毕）。无新增。"
+   "notes": "sitemap 200；窗口内 5 条为 10-17T14:17~14:25Z 经济研究批量 lastmod，均 TECH-38 处理完毕。无新增。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；窗口内 itau 客户案例为上轮已排除条目。无新增。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "deepmind": {
    "tier": "T1",
@@ -45,7 +45,7 @@
    "entry_used": "https://deepmind.google/blog/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200，窗口内无新文。"
+   "notes": "feed 200（首轮 gzip 解码失败，补 Accept-Encoding 后重取成功），窗口内无新文。"
   },
   "meta_ai": {
    "tier": "T1",
@@ -54,7 +54,7 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；列表与上轮一致（muse-wonder/muse-spark-open 已发布，其余为09-23及更早已核验条目）。无新增。"
+   "notes": "页面未在本轮复检（上轮列表无窗口内新文，RSS 类源本轮已足量覆盖）；沿用上轮结论。"
   },
   "msresearch": {
    "tier": "T1",
@@ -90,7 +90,7 @@
    "entry_used": "https://sierra.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；最新条目仍为2026-10-06（summit-recap）窗口外。"
+   "notes": "页面未在本轮复检；上轮最新条目 2026-10-06 窗口外。"
   },
   "scale": {
    "tier": "T1",
@@ -99,7 +99,7 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；列表与上轮一致（nvidia/insurance 已排除）。无新增。"
+   "notes": "页面未在本轮复检；上轮列表与排除结论沿用。"
   },
   "shopify": {
    "tier": "T1",
@@ -115,9 +115,9 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://netflixtechblog.com/feed",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；ontology-driven-observability pubDate 仍为10-16T16:01Z，上轮已按旧文重刷排除（原发2026-09-25）。无新增。"
+   "notes": "feed 200；窗口内无新文（ontology-driven-observability 重刷条目已按旧文排除）。"
   },
   "airbnb": {
    "tier": "T1",
@@ -142,18 +142,18 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；verified-bots-accountability 为上轮已排除条目。无新增。"
+   "notes": "feed 200，窗口内无新文。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 3,
-   "items_published": 1,
-   "notes": "feed 200；deepseek-v4-1-flash-1017 上架条目以 secondary 并入 DeepSeek 发布事件；session-affinity changelog 位次不足排除；vercel-and-shopify 为上轮已排除。"
+   "items_in_window": 1,
+   "items_published": 0,
+   "notes": "feed 200；窗口内 session-affinity 为 TECH-43 已排除条目，无新增。"
   },
   "linear": {
    "tier": "T1",
@@ -162,7 +162,7 @@
    "entry_used": "https://linear.app/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；列表与上轮一致，均为窗口外旧文。"
+   "notes": "页面未在本轮复检；上轮均为窗口外旧文。"
   },
   "cursor": {
    "tier": "T1",
@@ -171,25 +171,25 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；最新条目仍为2026-09-23窗口外。"
+   "notes": "页面未在本轮复检；上轮最新条目 2026-09-23 窗口外。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date (points>40)",
-   "items_in_window": 97,
-   "items_published": 6,
-   "notes": "API 200，窗口内 points>40 共97条；6条以 secondary 入账（DeepSeek/OpenRouter/OpenCode/Fortune/MapQuest/Amazon）；Tesla Roadster 1600分按领域不符排除（延续TECH-38口径）；Solar>核电453分为09-29旧文回热；RPKI 227分原文10-15窗口外；si.gov 100分事件10-13窗口外；Butlerian Jihad 356分/Game ownership 220分/ARRL 269分等按领域不符排除；Show HN（llmspeed 238/sill 264/pele 195）与个人随笔/评论按既有口径排除（详见 processed-urls）。"
+   "items_in_window": 85,
+   "items_published": 8,
+   "notes": "API 200，窗口内 points>40 共85条；8事件以 primary/secondary 入账（DeepSeek搜索API/Disney-Character.AI/网站封锁代理/Anthropic PBF/AI安全法案/macOS OpenGL/HybridAgents/Meta条款跟进）；No Kings 565分按领域不符排除（平台政治）；游戏所有权法案425分延续领域不符口径；Namecheap 387分单方陈述排除；macOS OpenGL 232分入选（论坛+官方确认）；其余按领域不符/观点随笔/项目展示/Show HN 排除（详见 processed-urls）。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "items_in_window": 11,
-   "items_published": 1,
-   "notes": "feed 200；meta-removes-scraping-language 入选（primary）；anthropic-workforce（转述已并入TECH-38背景的经济报告）与 replit 10-17 更新（同事件已发布）排除；nvidia 视频/播客、 Wahlberg 等非新闻排除；其余为上轮已处理条目。"
+   "items_in_window": 5,
+   "items_published": 2,
+   "notes": "feed 200；窗口内5条：Disney/Character.AI 入选（primary）、Anthropic PBF 入选（secondary）、Meta 删条款为 TECH-43 已发布事件、Anthropic 劳动力与 Replit 更新为 TECH-43 已排除条目。"
   },
   "theinformation": {
    "tier": "T2",
@@ -207,16 +207,16 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面200；连续四轮未提取到窗口内文章链接（JS渲染列表）。"
+   "notes": "页面未在本轮复检；连续五轮 JS 渲染列表无法提取，结论沿用。"
   },
   "arxiv_csai": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.AI",
-   "items_in_window": 453,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；内容与上轮周五批次一致（该批已按 HF Daily Papers 评估入账），无新增。"
+   "notes": "rss 200；周末空批（lastBuildDate 10-18T04:00Z，周一 04:00Z 批次未到），非故障。窗口内无新条目。"
   },
   "arxiv_cscl": {
    "tier": "T3",
@@ -225,7 +225,7 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.CL",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；周末 skipDays 空批（lastBuildDate 10-17），非故障。"
+   "notes": "rss 200；周末空批，非故障。"
   },
   "arxiv_cslg": {
    "tier": "T3",
@@ -234,16 +234,16 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.LG",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；周末 skipDays 空批（lastBuildDate 10-17），非故障。"
+   "notes": "rss 200；周末空批，非故障。"
   },
   "hf_papers": {
    "tier": "T3",
    "status": "ok",
    "method": "api",
-   "entry_used": "https://huggingface.co/api/daily_papers?date=2026-10-16 与 2026-10-17",
-   "items_in_window": 50,
+   "entry_used": "https://huggingface.co/api/daily_papers?date=2026-10-17 与 2026-10-18",
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "10-16 批次50条为上轮已评估条目的赞数复核（OmniCompass/OpenGCUA 等均已处理）；10-17 批次返回空数组（周末批次未发布）。另：昨日排除的 FLUX 3 Image Klein 热度上升（HN 206分/57评，昨91分），仍维持 T3 位次排除结论，事件已入账不重开。"
+   "notes": "两批次均返回空数组（周末批次未发布），非故障。HybridAgents 论文（10-13 提交）经 HN 157分广泛讨论按 T3 高热度口径入选。"
   },
   "doordash": {
    "tier": null,
@@ -286,15 +286,11 @@
    "notes": "候选待观察（2026-10-13 降级）；不纳入常规采集"
   },
   "xai": {
-   "tier": "T1",
+   "tier": null,
    "status": "blocked",
    "method": "none",
    "entry_used": null,
-   "http": [
-    "https://x.ai/blog(403)",
-    "https://x.ai/news(403)",
-    "https://x.ai/rss.xml(403)"
-   ],
+   "http": [],
    "items_in_window": 0,
    "items_published": 0,
    "notes": "候选待观察（2026-10-13 降级）；不纳入常规采集；恢复需连续2次验证可达"
