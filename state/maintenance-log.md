@@ -129,3 +129,18 @@
 - deepmind feed 首轮 gzip 解码失败，属抓取端编码处理问题，补 Accept-Encoding 后 200，不计为源失败。
 - 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，记录沿用。
 - 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
+
+## 2026-10-20（TECH-49）维护记录
+
+- config/sources.json：无改动（未备份、未重写展示版——规则：无改动不重写）。
+- 采集健康：26 个启用源全部按既定入口探测。25 源 ok（RSS/Atom/API/sitemap/HTML），theinformation 首页本轮 200 但内容付费墙（仅标题可见），维持 paywall；未采集成功为 0 源。
+- mistral 入口 301 → 跟随重定向 200（ mistral.ai/rss.xml），不计为源失败。
+- arXiv：周一 10-19T04:00Z 批次正常到达；cs.AI RSS 批次 0 条目（批次为空，非抓取失败），cs.CL/cs.LG 共 617 条作为筛选输入。
+- HF Daily Papers：10-18 批次空数组（延续周末节奏）；10-19 批次 50 条，HexaShell（284 赞当日最高）按 T3 高热度口径入选。
+- 旧文回热提示：Timestral（TECH-26 已发布）、CERN×Mistral（原发 10-15）、NVIDIA Nemotron 3.5（官方 10-15）、employment-at-anthropic / ai-expectations-gap（TECH-38 已并入研究日条目）、HybridAgents（同 HN id 50145337 回热至 502 分）均按"已发布/窗口外原发不重开"口径排除。
+- a16z：连续第 6 轮页面 200 但 0 条窗口内链接（JS 渲染），未达降级阈值（30 个成功采集日无产出），继续观察。
+- vercel：atom feed link 解析正常（上轮问题未复现）。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，记录沿用。
+- 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
+- 台账与发布：10 事件 24 URL 入 published（含 secondary 链接核验），评估后明确排除 57 条（窗口外原发 3、已发布事件跟进 5、位次不足 24、领域不符 14、项目展示/Show HN 6、观点随笔/教程 4、旧文回热 5 等，详见 state/processed-urls.json，issue=TECH-49）。
+- 发布：reports/digest-2026-10-20.md，10 条事件；提交分支 main。
