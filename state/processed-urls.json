@@ -5818,6 +5818,470 @@
    "status": "excluded",
    "reason": "T3 位次不足",
    "evaluated_on": "2026-10-20"
+  },
+  {
+   "url": "https://health.aws.amazon.com/health/status",
+   "title": "AWS 官方健康面板（us-east-1 大规模故障滚动更新）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "aws-outage-us-east-1",
+   "source_pub_time": "2026-10-20（当日滚动更新）"
+  },
+  {
+   "url": "https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/",
+   "title": "The Register 专栏：Amazon brain drain finally sent AWS down the spout",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "aws-outage-us-east-1",
+   "source_pub_time": "2026-10-20T20:55Z"
+  },
+  {
+   "url": "https://www.theverge.com/news/802486/aws-outage-alexa-fortnite-snapchat-offline",
+   "title": "The Verge：AWS 故障致 Fortnite/Alexa/Snapchat 等不可用",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "aws-outage-us-east-1",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=45640838",
+   "title": "Hacker News：AWS multiple services outage in us-east-1（2246 分/2057 评）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "aws-outage-us-east-1",
+   "source_pub_time": "2026-10-20T07:22Z"
+  },
+  {
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "title": "Mistral Voxtral 3：50+ 语言实时语音 Agent SDK",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "mistral-voxtral-3",
+   "source_pub_time": "2026-10-20T12:00Z"
+  },
+  {
+   "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+   "title": "DeepSeek-OCR：Contexts Optical Compression 开源仓库",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "deepseek-ocr-optical-compression",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+   "title": "DeepSeek-OCR 模型权重（Hugging Face）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "deepseek-ocr-optical-compression",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://arxiv.org/abs/2510.18234",
+   "title": "DeepSeek-OCR 论文（arXiv 2510.18234）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "deepseek-ocr-optical-compression",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=45640594",
+   "title": "Hacker News：DeepSeek OCR（1003 分/244 评）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "deepseek-ocr-optical-compression",
+   "source_pub_time": "2026-10-20T06:26Z"
+  },
+  {
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "title": "OpenAI 收购 Orchestra Bio（生命科学研发 AI 运营）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "openai-orchestra-bio",
+   "source_pub_time": "2026-10-20T00:00Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio-to-beef-up-its-biotech-business/",
+   "title": "TechCrunch：OpenAI acquires Orchestra Bio",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "openai-orchestra-bio",
+   "source_pub_time": "2026-10-20T20:35Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/typescript-rust-port/",
+   "title": "Cloudflare 参与 tsrs：TypeScript 的 Rust 移植（8x 速度/70% 内存）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "cloudflare-tsrs",
+   "source_pub_time": "2026-10-20T13:00Z"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/alibaba-says-new-pooling-system-cut-nvidia-gpu-use-by-82-percent",
+   "title": "Tom's Hardware：阿里云 GPU 池化系统称减少 82% 用卡量",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "alibaba-gpu-pooling",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=45643163",
+   "title": "Hacker News：Alibaba Cloud says it cut Nvidia AI GPU use by 82%（523 分/83 评）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "alibaba-gpu-pooling",
+   "source_pub_time": "2026-10-20T12:31Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+   "title": "Cloudflare：8 张 eMudhra 中间证书弱密钥失陷与缓解",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "emudhra-weak-ca-certs",
+   "source_pub_time": "2026-10-20T22:20Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+   "title": "TechCrunch：Meta Muse 40 天美国下载破千万（Sensor Tower）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "meta-muse-10m-downloads",
+   "source_pub_time": "2026-10-20T17:12Z"
+  },
+  {
+   "url": "https://github.com/servo/servo",
+   "title": "Servo 浏览器引擎首个版本标签 v0.0.1",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "servo-v0.0.1",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://github.com/servo/servo/releases/tag/v0.0.1",
+   "title": "Servo v0.0.1 release 页",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "servo-v0.0.1",
+   "source_pub_time": "2026-10-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=45643357",
+   "title": "Hacker News：Servo v0.0.1（570 分）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "secondary",
+   "event": "servo-v0.0.1",
+   "source_pub_time": "2026-10-20T12:55Z"
+  },
+  {
+   "url": "https://vercel.com/blog/making-every-harness-durable",
+   "title": "Vercel 开源 durable-harness（Pi/OpenCode/Claude Code/Codex 会话持久化）",
+   "issue": "TECH-52",
+   "status": "published",
+   "published_on": "2026-10-21",
+   "role": "primary",
+   "event": "vercel-durable-harness",
+   "source_pub_time": "2026-10-19T13:00Z"
+  },
+  {
+   "url": "https://openai.com/index/introducing-chatgpt-atlas",
+   "title": "Introducing ChatGPT Atlas（RSS 窗口内条目）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "RSS pubDate 为周年刷新产物：产品原发远早于窗口且官方注明已弃用，非窗口内新事件",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://www.anthropic.com/news/claude-code-on-the-web",
+   "title": "Claude Code on the web（HN 重提，578 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "旧页面被 HN 重提：页面原发 2025-10-20，最近更新为 2026-09-23 GA 公告，非窗口内新事件",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+   "title": "TechCrunch：Anthropic 安全法案草案（50+ 死亡/10 亿美元阈值）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "与 2026-10-19 已发布'Anthropic 安全法案'为同一事件（Politico 2026-10-16 首报），本条为跟进转述，按规则合并",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace",
+   "title": "GlassWorm：OpenVSX 自传播蠕虫（HN 88 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "页面自述原始事件为 2025-12，且原文页已改版为厂商营销页，无法确认为窗口内新事件",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://satcom.sysnet.ucsd.edu/",
+   "title": "Eavesdropping on Internal Networks via Unencrypted Satellites（UCSD，HN 218 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "学术安全研究，评估未入选当期 Top10",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://nathan.rs/posts/roberta-diffusion/",
+   "title": "BERT is just a single text diffusion step（HN 455 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "技术博客解读，非新闻事件",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://blog.abdellatif.io/production-rag-processing-5m-documents",
+   "title": "Production RAG: processing 5M+ documents（HN 551 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "工程实践博客，非新闻事件",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://www.wheresyoured.at/costs/",
+   "title": "How much Anthropic and Cursor spend on AWS（HN 164 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "个人博客分析，非一手且与已收录 AWS 故障事件弱相关",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://www.wired.com/story/ftc-removes-blog-posts-about-ai-authored-by-by-lina-khan/",
+   "title": "FTC 下架 Lina Khan 时期 AI 博客文章（HN 119 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "监管/政治向，评估未入选当期 Top10",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/websocket-support-is-now-generally-available",
+   "title": "Vercel WebSocket 支持 GA",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "常规平台更新，信息密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass",
+   "title": "DeepSeek V4.1 Flash 上架 Vercel Token Pass",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "渠道上架类更新；模型发布本身在 48 小时窗口外",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://shopify.engineering/catalog-clustering-part-ii",
+   "title": "Shopify：跨数百万店铺的商品聚类（系列二）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T1 工程内容，评估未入选当期 Top10（与 durable-harness 同日竞争落选）",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+   "title": "GitHub Blog：3 位 Java Champion 的 Copilot 使用分享",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "客户故事/营销向，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+   "title": "TechCrunch：Google 加入对 Nvidia 生态的攻击",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "芯片生态竞争跟进报道，评估未入选当期 Top10",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+   "title": "TechCrunch：Anthropic 云合作格局生变",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "分析/传闻类，与已排除的 Nscale 传闻同域，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+   "title": "TechCrunch：Eka 估值 $1.45B（物理 AI 模型）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "融资/估值类消息，低于当期入选线",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+   "title": "TechCrunch：Otter.ai 融资 $320M",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "融资类消息，低于当期入选线",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+   "title": "TechCrunch：SpaceX AI 业务超预期",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "商业进展简讯，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+   "title": "TechCrunch：Schmidt 持股 Anthropic 报道",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "股权/财务报道，与工程主线无关",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+   "title": "TechCrunch：HF CEO 质疑 Netflix OpenAI 纪录片准确性",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "言论/争议简讯，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+   "title": "TechCrunch：ChatGPT 支持锁定聊天",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "功能更新简讯，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+   "title": "TechCrunch：Yelp 代打电话查位",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "产品功能更新，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+   "title": "TechCrunch：Dylan Field 称 MCP 并非完美协议",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "人物观点访谈，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+   "title": "TechCrunch：植物电信号 AI 解码创业公司",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "趣味科学应用，与主线相关性低",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/20/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+   "title": "TechCrunch：Mamdani 谈联邦 AI 政策缺位",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "地方政治言论，与科技工程主线无关",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://www.xda-developers.com/nvidia-produced-first-blackwell-wafer-us-soil/",
+   "title": "Nvidia 美国本土首片 Blackwell 晶圆（HN 164 分）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "制造进展简讯，密度不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.20951",
+   "title": "LEV: Looped Decision Models（HF 10-19 批次 429 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足：批次内热度高但未达'广泛讨论的论文/模型发布'线",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.21046",
+   "title": "PremiseCheck: Fact-Checking of Peer Reviews（HF 10-19 批次 304 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.26802",
+   "title": "Scaling PEFT for Brain Encoding（HF 10-20 批次 233 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.24087",
+   "title": "OR-License: LLM Agents as OR Practitioners（HF 167 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.26625",
+   "title": "EgoXperience: Egocentric Representations（HF 121 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.26825",
+   "title": "MemT-1.0: Memory-Native Evolution（HF 109 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足",
+   "evaluated_on": "2026-10-21"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.26549",
+   "title": "Holi-World: Holistic World Intelligence（HF 109 赞）",
+   "issue": "TECH-52",
+   "status": "excluded",
+   "reason": "T3 位次不足",
+   "evaluated_on": "2026-10-21"
   }
  ]
 }

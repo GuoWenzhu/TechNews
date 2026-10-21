@@ -144,3 +144,11 @@
 - 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
 - 台账与发布：10 事件 24 URL 入 published（含 secondary 链接核验），评估后明确排除 57 条（窗口外原发 3、已发布事件跟进 5、位次不足 24、领域不符 14、项目展示/Show HN 6、观点随笔/教程 4、旧文回热 5 等，详见 state/processed-urls.json，issue=TECH-49）。
 - 发布：reports/digest-2026-10-20.md，10 条事件；提交分支 main。
+
+## 2026-10-21（TECH-52）例行维护
+
+- 采集窗口：2026-10-19T00:00Z – 2026-10-21T00:05Z（48h）。26 个启用来源全量采集，全部成功返回（其中 theinformation 为首页 200/正文付费墙，维持 paywall；linear 为 SPA 渲染无可解析条目，与上轮一致）。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-21.md）；健康与逐条排除证据见 state/source-health.json 与 state/processed-urls.json。
+- 特别核验：anthropic sitemap lastmod 出现站点级批量刷新（含 2024 年旧研究页），不作为发布时间依据；/news/claude-code-on-the-web 经页面核验为旧页 HN 重提，排除。openai feed 中 introducing-chatgpt-atlas pubDate 为周年刷新产物（产品已弃用），排除。hn 中 GlassWorm（koi.ai）自述原事件为 2025-12，排除。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia）沿用，不纳入常规采集。
