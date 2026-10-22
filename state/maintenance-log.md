@@ -152,3 +152,15 @@
 - 特别核验：anthropic sitemap lastmod 出现站点级批量刷新（含 2024 年旧研究页），不作为发布时间依据；/news/claude-code-on-the-web 经页面核验为旧页 HN 重提，排除。openai feed 中 introducing-chatgpt-atlas pubDate 为周年刷新产物（产品已弃用），排除。hn 中 GlassWorm（koi.ai）自述原事件为 2025-12，排除。
 - config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
 - 候选待观察（xai/perplexity/uber/doordash/sequoia）沿用，不纳入常规采集。
+
+## 2026-10-22（TECH-55）例行维护
+
+- 采集窗口：2026-10-20T00:00Z – 2026-10-22T00:55Z（48h）。26 个启用来源全部按既定入口探测，全部成功返回（theinformation 首页 200/正文付费墙，维持 paywall；linear 重定向 /now SPA 与 sierra/scale/shopify 无可解析带日期条目，与上轮一致）。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-22.md）；10 事件 30 URL 入 published，评估后明确排除 59 条并入台账（详见 state/processed-urls.json，issue=TECH-55）。
+- 特别核验：Mistral Large 4 官方原发 2026-10-06，HN 315 分为旧文回热，按窗口外原发排除；eMudhra（含 Scott Helme 822 分）与 Meta Muse 下载破千万均为 TECH-52 已发布事件回热/跟进，不重开；anthropic sitemap lastmod 延续站点级批量刷新现象，新增页以页面 datePublished 核验（attack-surface-reduction 与 scorpion-toxin-binder 均 10-20 发布）。OpenAI「Patch the Planet」与 PHP 双 RCE（Wiz/php.net/PHP Foundation）合并为同一事件条目。
+- T3 口径：10-22 批次未发布（API 400，正常节奏）；10-20 批次最高 Matrix-Game 4.0（178 赞）与 PAR（147）按位次不足排除；Focused Omni-Modal GUI Agents（224 赞）为 10-19 批次窗口外原发；本轮 T1/T2 供给充足，T3 不凑数。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 健康要点：a16z 连续第 7 轮页面 200 但 0 条窗口内链接（JS 渲染），未达降级阈值，继续观察；vercel atom 本轮解析正常；mistral 301→/news/rss 沿用（不计失败）；arXiv 周一批次正常到达（cs.AI 473/cs.CL 239/cs.LG 408 条，作筛选输入）；deepmind/netflix/airbnb/stripe feed 200 无窗口内条目。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，记录沿用。
+- 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
+- 发布：reports/digest-2026-10-22.md，10 条事件；提交分支 main。

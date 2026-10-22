@@ -1,116 +1,126 @@
 {
- "version": 1,
- "note": "每自然日至多一次成功发布；当天重复运行时对照本文件跳过同日重复发布。",
- "runs": [
-  {
-   "date": "2026-10-11",
-   "issue": "TECH-4",
-   "issue_id": "01a1293c-146f-7d77-b781-bd686e8ae04a",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-11.md",
-   "items_published": 10,
-   "git_branch": "issue/TECH-4",
-   "dedup_basis": "state/processed-urls.json v1（本运行初始化）"
-  },
-  {
-   "date": "2026-10-12",
-   "issue": "TECH-13",
-   "issue_id": "01a12d69-2103-7208-aaba-75a49db120ca",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-12.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-13",
-   "issue": "TECH-17",
-   "issue_id": "01a1328f-7b75-7bea-930c-4384e4df5572",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-13.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-14",
-   "issue": "TECH-20",
-   "issue_id": "01a137b5-fcc0-7c17-8cd6-3452118f5dee",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-14.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-15",
-   "issue": "TECH-23",
-   "issue_id": "01a13cdc-64e9-7093-ab53-a3c0aefeb18e",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-15.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-16",
-   "issue": "TECH-26",
-   "issue_id": "01a14202-be27-7061-a340-56fb233f7f73",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-16.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-17",
-   "issue": "TECH-38",
-   "issue_id": "01a14728-f956-7d2a-9108-fe6e7abd942d",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-17.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-18",
-   "issue": "TECH-43",
-   "issue_id": "01a14c4f-43f7-7c0a-bf9d-94e9c6429e46",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-18.md",
-   "items_published": 6,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-19",
-   "issue": "TECH-46",
-   "issue_id": "01a15175-b750-729c-81fb-acb6279ad6f1",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-19.md",
-   "items_published": 8,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-20",
-   "issue": "TECH-49",
-   "issue_id": "01a1569c-1448-7a5d-a21b-cd385718c69c",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-20.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  },
-  {
-   "date": "2026-10-21",
-   "issue": "TECH-52",
-   "issue_id": "01a15bc2-8986-7769-9d7a-75a6153997ff",
-   "status": "published",
-   "briefing_file": "reports/digest-2026-10-21.md",
-   "items_published": 10,
-   "git_branch": "main",
-   "dedup_basis": "state/processed-urls.json v1"
-  }
- ]
+  "version": 1,
+  "note": "每自然日至多一次成功发布；当天重复运行时对照本文件跳过同日重复发布。",
+  "runs": [
+    {
+      "date": "2026-10-11",
+      "issue": "TECH-4",
+      "issue_id": "01a1293c-146f-7d77-b781-bd686e8ae04a",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-11.md",
+      "items_published": 10,
+      "git_branch": "issue/TECH-4",
+      "dedup_basis": "state/processed-urls.json v1（本运行初始化）"
+    },
+    {
+      "date": "2026-10-12",
+      "issue": "TECH-13",
+      "issue_id": "01a12d69-2103-7208-aaba-75a49db120ca",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-12.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-13",
+      "issue": "TECH-17",
+      "issue_id": "01a1328f-7b75-7bea-930c-4384e4df5572",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-13.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-14",
+      "issue": "TECH-20",
+      "issue_id": "01a137b5-fcc0-7c17-8cd6-3452118f5dee",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-14.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-15",
+      "issue": "TECH-23",
+      "issue_id": "01a13cdc-64e9-7093-ab53-a3c0aefeb18e",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-15.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-16",
+      "issue": "TECH-26",
+      "issue_id": "01a14202-be27-7061-a340-56fb233f7f73",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-16.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-17",
+      "issue": "TECH-38",
+      "issue_id": "01a14728-f956-7d2a-9108-fe6e7abd942d",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-17.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-18",
+      "issue": "TECH-43",
+      "issue_id": "01a14c4f-43f7-7c0a-bf9d-94e9c6429e46",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-18.md",
+      "items_published": 6,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-19",
+      "issue": "TECH-46",
+      "issue_id": "01a15175-b750-729c-81fb-acb6279ad6f1",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-19.md",
+      "items_published": 8,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-20",
+      "issue": "TECH-49",
+      "issue_id": "01a1569c-1448-7a5d-a21b-cd385718c69c",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-20.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-21",
+      "issue": "TECH-52",
+      "issue_id": "01a15bc2-8986-7769-9d7a-75a6153997ff",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-21.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    },
+    {
+      "date": "2026-10-22",
+      "issue": "TECH-55",
+      "issue_id": "01a160e8-eed3-76b8-a473-4e5c7a638536",
+      "status": "published",
+      "briefing_file": "reports/digest-2026-10-22.md",
+      "items_published": 10,
+      "git_branch": "main",
+      "dedup_basis": "state/processed-urls.json v1"
+    }
+  ]
 }
