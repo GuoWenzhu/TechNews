@@ -1,43 +1,43 @@
 {
   "version": 1,
   "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
-  "updated_at": "2026-10-22T00:55:00Z",
+  "updated_at": "2026-10-23T01:50:00Z",
   "sources": {
     "anthropic_news": {
       "tier": "T1",
       "status": "ok",
       "method": "sitemap",
       "entry_used": "https://www.anthropic.com/sitemap.xml",
-      "items_in_window": 0,
-      "items_published": 0,
-      "notes": "sitemap 200；窗口内 lastmod 为站点级批量刷新（含旧研究页），无新增新闻页；本轮 Anthropic 新闻由 claude.com（Claude Duet）承担。"
+      "items_in_window": 5,
+      "items_published": 2,
+      "notes": "sitemap 200（575 urls）；窗口内 5 条新闻页：donating-agent-skills（入选 primary）、enterprise-frontier-safeguards（入选 primary）；open-call/stubbs/public-benefit-fund 评估排除。"
     },
     "anthropic_research": {
       "tier": "T1",
       "status": "ok",
-      "method": "sitemap+页面核验",
+      "method": "sitemap",
       "entry_used": "https://www.anthropic.com/sitemap.xml",
-      "items_in_window": 2,
-      "items_published": 1,
-      "notes": "sitemap 200；窗口内核验 2 条：attack-surface-reduction（10-20 发布，入选 primary）、claude-scorpion-toxin-binder-design（10-20 发布，位次不足排除），均经页面 datePublished 核验。"
+      "items_in_window": 8,
+      "items_published": 0,
+      "notes": "sitemap 200；窗口内 8 条研究页（model-welfare、formal-verification、glm-5-3、vuln-finding 等）均评估排除；self-replicating-ai 为 TECH-20 已发布事件，未重复收录。"
     },
     "openai": {
       "tier": "T1",
       "status": "ok",
       "method": "rss",
       "entry_used": "https://openai.com/news/rss.xml",
-      "items_in_window": 11,
-      "items_published": 5,
-      "notes": "feed 200；窗口内 11 条：google-cloud（入选 primary）、chatgpt-ads-expands+ad-stack（入选）、coordinated-disclosure+empowering-cyber-defenders（并入 PHP 事件 secondary）；其余 6 条评估排除（标准口径/客户案例/生物数据研究位次不足）。"
+      "items_in_window": 9,
+      "items_published": 2,
+      "notes": "feed 200；窗口内 9 条：decisions-api（入选 primary）、uber-chatgpt-work-rollout（入选 primary）；其余 7 条上轮（TECH-55）已评估入账，未重复。"
     },
     "deepmind": {
       "tier": "T1",
       "status": "ok",
       "method": "rss",
       "entry_used": "https://deepmind.google/blog/rss.xml",
-      "items_in_window": 0,
+      "items_in_window": 1,
       "items_published": 0,
-      "notes": "feed 200；窗口内 0 条。"
+      "notes": "feed 200；窗口内 1 条（forest mapping），领域不符排除。"
     },
     "meta_ai": {
       "tier": "T1",
@@ -46,7 +46,7 @@
       "entry_used": "https://research.meta.ai/blog",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "页面 200；最新条目 10-15 Muse Spark Open（已处理）；本轮无窗口内新文。"
+      "notes": "RSS 探测 /feed 404（单次失败，未达降级阈值）；页面 200，最新条目仍为 10-15 Muse Spark Open（已处理），窗口内无新文。"
     },
     "msresearch": {
       "tier": "T1",
@@ -55,16 +55,16 @@
       "entry_used": "https://www.microsoft.com/en-us/research/feed/",
       "items_in_window": 2,
       "items_published": 0,
-      "notes": "feed 200；窗口内 2 条：KLS 猜想（数学专项位次不足排除）、播客（非新闻）。"
+      "notes": "feed 200；窗口内 2 条：flint-interactive 评估排除；KLS conjecture 上轮已排除，未重复。"
     },
     "mistral": {
       "tier": "T1",
       "status": "ok",
       "method": "rss",
       "entry_used": "https://mistral.ai/rss.xml",
-      "items_in_window": 2,
+      "items_in_window": 1,
       "items_published": 0,
-      "notes": "入口 301→mistral.ai/news/rss 跟随 200（沿用上轮口径，不计失败）；窗口内 2 条：voxtral-3（10-20，TECH-52 已发布）、mistral-nvidia（10-21，位次不足排除）。注意：Mistral Large 4 官方原发 10-06，HN 315 分为回热，按窗口外原发排除。"
+      "notes": "feed 200；窗口内 1 条（Mistral×NVIDIA 工业工程），信息密度不足排除。"
     },
     "sierra": {
       "tier": "T1",
@@ -73,7 +73,7 @@
       "entry_used": "https://sierra.ai/blog",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "页面 200（SPA，无可解析条目），与上轮一致；无窗口内新文迹象。"
+      "notes": "页面 200（SPA）；页面含 10-20～10-22 日期痕迹但无可解析文章条目，与前几轮一致，窗口内无新文入账。"
     },
     "scale": {
       "tier": "T1",
@@ -82,7 +82,7 @@
       "entry_used": "https://scale.com/blog",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "页面 200；无窗口内新文迹象（最新可见条目无 10-20 后日期）。"
+      "notes": "页面 200；最新可见条目 10-19，窗口内无新文。"
     },
     "github": {
       "tier": "T1",
@@ -90,26 +90,26 @@
       "method": "rss",
       "entry_used": "https://github.blog/feed/",
       "items_in_window": 2,
-      "items_published": 1,
-      "notes": "feed 200；窗口内 2 条：agent-scale Git 基础设施（入选 primary）、Java Champions Copilot 案例（排除）。"
+      "items_published": 0,
+      "notes": "feed 200；窗口内 2 条：bug bounty 社区故事排除；bridge-to-agent-scale 上轮已发布，未重复。"
     },
     "shopify": {
       "tier": "T1",
       "status": "ok",
-      "method": "html",
-      "entry_used": "https://shopify.engineering",
-      "items_in_window": 0,
+      "method": "atom",
+      "entry_used": "https://shopify.engineering/blog.atom",
+      "items_in_window": 2,
       "items_published": 0,
-      "notes": "页面 200（工程博客列表 JS 渲染）；无窗口内新文迹象。"
+      "notes": "本轮验证官方 Atom feed blog.atom 200（436 条，feed self 声明）；窗口内 2 条（remote-dev、open-model-task-experts）评估排除；原 HTML 入口 JS 渲染不可解析（/rss、/feed 404），入口已迁移至 feed（见 maintenance-log）。"
     },
     "netflix": {
       "tier": "T1",
       "status": "ok",
       "method": "rss",
       "entry_used": "https://netflixtechblog.com/feed",
-      "items_in_window": 0,
+      "items_in_window": 1,
       "items_published": 0,
-      "notes": "feed 200；窗口内 0 条。"
+      "notes": "feed 200；窗口内 1 条（single-tenant Titus），工程实践文位次不足排除。"
     },
     "airbnb": {
       "tier": "T1",
@@ -118,34 +118,34 @@
       "entry_used": "https://medium.com/feed/airbnb-engineering",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "feed 200；窗口内 0 条。"
+      "notes": "feed 200；窗口内无新文。"
     },
     "stripe": {
       "tier": "T1",
       "status": "ok",
       "method": "rss",
       "entry_used": "https://stripe.com/blog/feed.rss",
-      "items_in_window": 0,
+      "items_in_window": 1,
       "items_published": 0,
-      "notes": "feed 200；窗口内 0 条。"
+      "notes": "feed 200；窗口内 1 条（Money20/20 趋势评论），位次不足排除。"
     },
     "cloudflare": {
       "tier": "T1",
       "status": "ok",
       "method": "rss",
       "entry_used": "https://blog.cloudflare.com/rss/",
-      "items_in_window": 5,
-      "items_published": 1,
-      "notes": "feed 200；窗口内 5 条：php-vulnerabilities-waf-protection（并入 PHP 事件 secondary）；emudhra（TECH-52 已发布）、typescript-rust-port（TECH-52 已发布）、webmcp-commerce 与 full-transaction-waf（位次不足/产品公告）。"
+      "items_in_window": 4,
+      "items_published": 0,
+      "notes": "feed 200；窗口内 4 条：k-isms、full-transaction-waf、webmcp-commerce 评估排除；php-vulnerabilities-waf 上轮已发布，未重复。"
     },
     "vercel": {
       "tier": "T1",
       "status": "ok",
       "method": "atom",
       "entry_used": "https://vercel.com/atom",
-      "items_in_window": 0,
+      "items_in_window": 3,
       "items_published": 0,
-      "notes": "atom 200；窗口内 0 条；本轮 link 字段解析正常。"
+      "notes": "feed 200；窗口内 3 条均评估排除（2 条 changelog 信息密度不足，1 条工程实践文位次不足）。"
     },
     "linear": {
       "tier": "T1",
@@ -154,7 +154,7 @@
       "entry_used": "https://linear.app/blog",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "入口重定向 /now（SPA），无可解析带日期条目，与上两轮一致。"
+      "notes": "rss.xml 200 但 0 条目；页面 200（SPA），含 10-22 日期痕迹但无可解析带日期文章列表，与上两轮一致。"
     },
     "cursor": {
       "tier": "T1",
@@ -171,8 +171,8 @@
       "method": "algolia-api",
       "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
       "items_in_window": 103,
-      "items_published": 8,
-      "notes": "API 200；窗口内 >60 分 103 条、>100 分 78 条；8 条作为入选事件 secondary 链接收录（Duet/PHP×3/GCP/LiteLLM/Muse/TorchTPU/DuckDB/ASR）。"
+      "items_published": 1,
+      "notes": "API 200；窗口内 >60 分 103 条；OpenShell 讨论（277 分/142 评）作为入选事件 secondary 链接收录；其余为站外热点，多与已评估事件重叠或领域不符。"
     },
     "techcrunch_ai": {
       "tier": "T2",
@@ -180,8 +180,8 @@
       "method": "rss",
       "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "items_in_window": 20,
-      "items_published": 1,
-      "notes": "feed 200；窗口内 20 条：PHP Armageddon（入选 secondary）；Muse 10M 为已发布事件跟进；其余位次不足/领域不符排除。"
+      "items_published": 7,
+      "notes": "feed 200；窗口内 20 条：7 条入选（decisions、1password、MAI-DxO、ConnectWise、Uber、30B、DeepSeek）；canva/spotify/nirva/meta 股票类别/blacksmith 排除；claude-duet-app 与 muse-10m 为已发布事件跟进。"
     },
     "theinformation": {
       "tier": "T2",
@@ -190,7 +190,7 @@
       "entry_used": "https://www.theinformation.com",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "首页 200 但正文付费墙（仅标题可见），维持 paywall；ChatGPT Ads 简报条目经二手核验引用。"
+      "notes": "付费墙维持；本轮未单独抓取（正文付费墙仅标题可见，采集依赖二手交叉核验），无窗口内条目入账。"
     },
     "a16z": {
       "tier": "T2",
@@ -199,43 +199,43 @@
       "entry_used": "https://a16z.com/ai/",
       "items_in_window": 0,
       "items_published": 0,
-      "notes": "页面 200 但列表 JS 渲染，窗口内 0 条可解析链接；连续第 7 轮，未达降级阈值（30 个成功采集日无产出），继续观察。"
+      "notes": "页面 200 但列表 JS 渲染，窗口内 0 条可解析链接；连续第 8 轮无产出，未达降级阈值（30 个成功采集日），继续观察。"
     },
     "arxiv_csai": {
       "tier": "T3",
       "status": "ok",
       "method": "rss",
       "entry_used": "http://arxiv.org/rss/cs.AI",
-      "items_in_window": 473,
+      "items_in_window": 370,
       "items_published": 0,
-      "notes": "rss 200；周一批次正常（10-20/21 announce 合并），作为筛选输入，无高热入选项。"
+      "notes": "rss 200；周二批次正常，作为筛选输入，无高热入选项。"
     },
     "arxiv_cscl": {
       "tier": "T3",
       "status": "ok",
       "method": "rss",
       "entry_used": "http://arxiv.org/rss/cs.CL",
-      "items_in_window": 239,
+      "items_in_window": 221,
       "items_published": 0,
-      "notes": "rss 200；同上，筛选输入。"
+      "notes": "rss 200；作为筛选输入，无高热入选项。"
     },
     "arxiv_cslg": {
       "tier": "T3",
       "status": "ok",
       "method": "rss",
       "entry_used": "http://arxiv.org/rss/cs.LG",
-      "items_in_window": 408,
+      "items_in_window": 379,
       "items_published": 0,
-      "notes": "rss 200；同上，筛选输入。"
+      "notes": "rss 200；作为筛选输入，无高热入选项。"
     },
     "hf_papers": {
       "tier": "T3",
       "status": "ok",
       "method": "api",
       "entry_used": "https://huggingface.co/api/daily_papers",
-      "items_in_window": 50,
+      "items_in_window": 100,
       "items_published": 0,
-      "notes": "API 200：10-20 批次 50 条、10-21 批次 50 条（多为 10-16/10-19 原发复核，已评估）；10-22 批次 API 400（当日批次未发布，属正常节奏非故障）。10-20 批次最高 Matrix-Game 4.0（178 赞）按 T3 位次不足排除，PAR（147）同；Focused Omni-Modal GUI Agents（224 赞）为 10-19 批次原发（窗口外）。"
+      "notes": "API 200：10-20/10-21 批次各 50 条已评估；10-22 批次抓取失败（HTTPError，单次），当日批次未入账。无 T3 高热入选项（最高点赞批次内未见广泛讨论论文）。"
     }
   }
 }

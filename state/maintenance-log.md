@@ -164,3 +164,10 @@
 - 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，记录沿用。
 - 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
 - 发布：reports/digest-2026-10-22.md，10 条事件；提交分支 main。
+
+## 2026-10-23（TECH-58）来源维护
+
+- **shopify 入口迁移**：`https://shopify.engineering` → `https://shopify.engineering/blog.atom`。原因：原 HTML 入口为 JS 渲染页不可解析（TECH-4 起多轮如此），`/rss`、`/feed` 本轮实测 404；本轮验证官方 Atom feed（HTTP 200，436 条目，feed 内 self 声明 `blog.atom`）可用并产出 2 条窗口内条目。原地址按规则保留于 notes。
+- **备份**：`backup/sources-20261023.json`（sha256 `6380c5f6c3a93ece84e58307490bfd2e9eab4b24b6aead85921ae3339f597a7d`，与修改前原文件字节一致，已核验）；清单 `updated_at` → 2026-10-23；展示版已由 `validate.py --generate-md` 重新生成。
+- **其余 25 个启用来源**：无清单改动（入口与状态均不变）；meta_ai RSS 探测 /feed 404 为单次失败（页面 200 正常），linear rss 0 条目、hf_papers 10-22 批次 API 抓取失败均为单次异常，均记录于 state/source-health.json，未达任何降级阈值，不降级不删除。
+- 候选待观察来源（xai/perplexity/uber/doordash/sequoia 等）本轮未探测，状态不变。

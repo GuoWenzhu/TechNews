@@ -7054,6 +7054,384 @@
       "role": "secondary",
       "event": "ChatGPT Ads 扩张",
       "source_pub_time": "2026-10-21"
+    },
+    {
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "title": "Donating Agent Skills to the Agentic AI Foundation（Anthropic 官方）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "Anthropic 向 AAIF 捐赠 Agent Skills 开放标准",
+      "source_pub_time": "2026-10-22T17:48Z"
+    },
+    {
+      "url": "https://openai.com/index/decisions-api",
+      "title": "Build more responsive apps with the Decisions API（OpenAI 官方）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "OpenAI Decisions API 全面开放",
+      "source_pub_time": "2026-10-22T19:00Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "title": "TechCrunch：OpenAI makes its Jev competitor widely available",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "OpenAI Decisions API 全面开放",
+      "source_pub_time": "2026-10-22T19:00Z"
+    },
+    {
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "title": "NVIDIA OpenShell（官方仓库）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "NVIDIA 开源 OpenShell Agent 安全运行时",
+      "source_pub_time": "2026-10-22T17:44Z"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50198675",
+      "title": "HN：OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "NVIDIA 开源 OpenShell Agent 安全运行时",
+      "source_pub_time": "2026-10-22T17:44Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "title": "TechCrunch：1Password launches a way for AI agents to log in on your behalf",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "1Password for Agents 发布",
+      "source_pub_time": "2026-10-22T19:07Z"
+    },
+    {
+      "url": "https://1password.com/press/2026/october/1password-for-agents-trust-layer-personal-ai-agents",
+      "title": "1Password 官方新闻稿：1Password for Agents",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "1Password for Agents 发布",
+      "source_pub_time": "2026-10-22"
+    },
+    {
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "title": "Anthropic Enterprise Frontier Safeguards（官方）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "Anthropic 发布 Enterprise Frontier Safeguards",
+      "source_pub_time": "2026-10-21T19:53Z"
+    },
+    {
+      "url": "https://microsoft.ai/news/building-medical-superintelligence/",
+      "title": "Building Medical Superintelligence（Microsoft AI 官方）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "微软 MAI-DxO 登 Science，诊断正确率超医生",
+      "source_pub_time": "2026-10-22T18:01Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "title": "TechCrunch：Microsoft's Mustafa Suleyman says its AI outperforms doctors",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "微软 MAI-DxO 登 Science，诊断正确率超医生",
+      "source_pub_time": "2026-10-22T18:43Z"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "title": "Microsoft 安全博客：STORM-0940 uses Artex agentic AI（官方）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "ConnectWise 供应链事件（STORM-0940 agentic AI）",
+      "source_pub_time": "2026-10-21"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "title": "TechCrunch：Chinese hackers spied on thousands of companies",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "ConnectWise 供应链事件（STORM-0940 agentic AI）",
+      "source_pub_time": "2026-10-22T16:47Z"
+    },
+    {
+      "url": "https://www.connectwise.com/company/trust/advisories",
+      "title": "ConnectWise 安全公告",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "ConnectWise 供应链事件（STORM-0940 agentic AI）",
+      "source_pub_time": "2026-10-21"
+    },
+    {
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "title": "Uber brings ChatGPT Work to all employees（OpenAI 官方）",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "Uber 全员部署 ChatGPT Work",
+      "source_pub_time": "2026-10-22T00:00Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "title": "TechCrunch：Uber puts all 30,000 employees on ChatGPT Work",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "secondary",
+      "event": "Uber 全员部署 ChatGPT Work",
+      "source_pub_time": "2026-10-22T16:00Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "title": "TechCrunch：OpenAI working on new $30B raise at $1.25T valuation",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "OpenAI 洽谈 300 亿美元新融资",
+      "source_pub_time": "2026-10-22T22:08Z"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "title": "TechCrunch：DeepSeek reportedly raises $15B days after US restrictions",
+      "issue": "TECH-58",
+      "status": "published",
+      "published_on": "2026-10-23",
+      "role": "primary",
+      "event": "DeepSeek 被曝完成约 150 亿美元融资",
+      "source_pub_time": "2026-10-22T13:11Z"
+    },
+    {
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "title": "DeepMind：Beyond tree cover（官方）",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "领域不符（生态制图应用），位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "title": "Microsoft Research：Flint-interactive 可视化语言",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "研究工具发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "title": "GitHub Blog：How bug bounty sharpens one researcher's security skills",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "社区故事，非工程产出",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
+      "title": "Netflix Tech Blog：Single-tenant Titus",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "工程实践文，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services",
+      "title": "Stripe：Trends from Money20/20 2026",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "行业趋势评论，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://blog.cloudflare.com/k-isms/",
+      "title": "Cloudflare：Localizing compliance at scale（韩国 ISMS）",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "合规认证案例，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://blog.cloudflare.com/full-transaction-waf/",
+      "title": "Cloudflare：Full transaction detection for WAF",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "产品功能发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://blog.cloudflare.com/webmcp-commerce/",
+      "title": "Cloudflare：Commerce.com 与 Cloudflare 为 AI agent 备货店面",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "商家案例，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+      "title": "Vercel changelog：Eight more TLDs free domain",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "产品更新，信息密度不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
+      "title": "Vercel：Death to long-lived static credentials",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "工程实践文，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://vercel.com/changelog/routing-middleware-now-supports-python",
+      "title": "Vercel changelog：Routing Middleware supports Python",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "产品更新，信息密度不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "title": "TechCrunch：Canva releases its first image generation model",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "产品发布，位次不足（非前沿模型信号）",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "title": "TechCrunch：Spotify's current AI bet",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "领域不符/位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "title": "TechCrunch：Nirva raises $33M for a pendant",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "硬件创业融资，领域不符",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+      "title": "TechCrunch：Meta 新股票类别为 AI 建设融资",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "资本动态，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "title": "TechCrunch：Blacksmith hits unicorn valuation",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "融资动态，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "title": "TechCrunch：Claude Duet app is Anthropic's bet on agents",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "已发布事件（TECH-55 Claude Duet）跟进",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "title": "Anthropic：Open call guest investigators（官方）",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "项目/招募公告，非新闻",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "title": "Anthropic：Christopher Stubbs joins Long-Term Benefit Trust",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "人事公告，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/research/exploring-model-welfare",
+      "title": "Anthropic Research：Exploring model welfare",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "研究发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "title": "Anthropic Research：Formal verification",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "研究页发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "title": "Anthropic Research：GLM 5.3 and the spread of advanced cyber capabilities",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "研究发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "title": "Anthropic Research：Intelligence targeting conventional weapons capabilities",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "研究发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "title": "Anthropic Research：Yes, Claude can do nine loops",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "研究发布，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://shopify.engineering/remote-dev",
+      "title": "Shopify Engineering：We gave AI agents a mobile dev environment",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "工程实践文，位次不足",
+      "evaluated_on": "2026-10-23"
+    },
+    {
+      "url": "https://shopify.engineering/open-model-task-experts",
+      "title": "Shopify Engineering：How Shopify turns open models into task experts",
+      "issue": "TECH-58",
+      "status": "excluded",
+      "reason": "工程实践文，位次不足",
+      "evaluated_on": "2026-10-23"
     }
   ]
 }
