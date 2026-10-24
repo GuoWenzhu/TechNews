@@ -171,3 +171,16 @@
 - **备份**：`backup/sources-20261023.json`（sha256 `6380c5f6c3a93ece84e58307490bfd2e9eab4b24b6aead85921ae3339f597a7d`，与修改前原文件字节一致，已核验）；清单 `updated_at` → 2026-10-23；展示版已由 `validate.py --generate-md` 重新生成。
 - **其余 25 个启用来源**：无清单改动（入口与状态均不变）；meta_ai RSS 探测 /feed 404 为单次失败（页面 200 正常），linear rss 0 条目、hf_papers 10-22 批次 API 抓取失败均为单次异常，均记录于 state/source-health.json，未达任何降级阈值，不降级不删除。
 - 候选待观察来源（xai/perplexity/uber/doordash/sequoia 等）本轮未探测，状态不变。
+
+## 2026-10-24（TECH-61）例行维护
+
+- 采集窗口：2026-10-22T01:16Z – 2026-10-24T01:16Z（48h）。26 个启用来源全部按既定入口探测并成功返回（theinformation 首页 403 反爬/正文付费墙维持，linear feed 解析 0 条目为 SPA 既有状况，均不计为新故障）。
+- 抓取端异常（非源故障）：deepmind feed 返回 gzip 压缩体（Accept-Encoding: identity 被忽略），本地解压后解析正常；arxiv_csai 首轮 SSL EOF 瞬时失败，重试 200；meta_ai /rss 与 /blog/rss.xml 404（与上轮一致的单次失败，页面 200 正常）。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-24.md）；15 URL 入 published（含 Part I 背景链接 secondary），71 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-61）。
+- 特别核验：MIT「Agent 玩耍」研究（TechCrunch 10-22 报道、HN 热议）经 arXiv API 核验原发 2026-10-05，按"窗口外原发不重开"口径排除（同 Mistral Large 4 先例）；Calif iPhone（HN 740 分）原发 2026-10-16、Crystal 1.22 原发 10-12，均按窗口外原发排除；CVE-2026-111943/eMudhra 系列与 PHP embargo/AWS PHP2Shell 情报均为 TECH-52 已发布事件跟进，不重开；anthropic sitemap lastmod 延续站点级批量刷新（81k-economics 页面核验原发 2026-04-22）；openai decisions-api 上轮已发布。
+- T3 口径：HF 10-23/10-22 批次共 100 条（10-24 周六批次未发布，正常节奏），最高 StreamEval 431 赞，本轮 T1/T2 供给充足，T3 不凑数。
+- 健康要点：a16z 连续第 8 轮页面 200 但 0 条窗口内链接（JS 渲染），未达降级阈值，继续观察；vercel atom 解析正常（10 条窗口内）；mistral 301→/rss.xml 沿用不计失败。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，状态不变。
+- 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
+- 发布：reports/digest-2026-10-24.md，10 条事件；提交分支 main。
