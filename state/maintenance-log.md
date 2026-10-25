@@ -184,3 +184,17 @@
 - 候选待观察（xai/perplexity/uber/doordash/sequoia）：未探测，状态不变。
 - 新来源评估：无满足"已启用 T2 中 ≥3 条独立热点引用"条件的新来源。
 - 发布：reports/digest-2026-10-24.md，10 条事件；提交分支 main。
+
+## 2026-10-25（TECH-65）例行维护
+
+- 采集窗口：2026-10-23T00:05Z – 2026-10-25T00:05Z（48h）。26 个启用来源全部按既定入口探测（theinformation 首页 403 反爬/付费墙维持 paywall，不计新故障）。
+- 周末节奏（非故障）：arxiv_csai / arxiv_cslg 返回空频道（rss 200，skipDays Sat/Sun，892 字节仅频道头）；hf_papers 10-24（周六）批次 0 条（10-23 批次 49 条已于 TECH-61 评估入账，不重开）。
+- 入口异常：linear feed.xml 本轮返回 SPA HTML（200，不可解析）；此前 TECH-55/61 为可解析但 0 条目。站点主服务正常，单源入口问题记录观察，未达降级阈值。
+- 健康要点：a16z 连续第 9 轮页面 200 但 0 条窗口内链接（JS 渲染），未达降级阈值，继续观察；anthropic sitemap lastmod 站点级批量刷新现象延续（大量 2026-10-23T20:56Z 同戳），新增/变更页一律以页面 datePublished 核验；meta_ai 列表页所列 Muse Spark 系列经页面核验均为旧文（1.1=07-09、1.2=08-05）；cursor self-driving-codebases 核验为 2026-02-05 旧页；github feed 最新条目 10-22（窗口前）。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-25.md）；18 URL 入 published（10 主源 + 8 secondary）、31 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-65）。
+- 特别核验：anthropic alignment-assessment-ukaisi 页面 datePublished 2026-10-23（与 AISI 独立报告同步发布），为窗口内真实新研究页并入选；Dream-1（页面标注 10-18）、丹麦政府 MS Office（原文 10-20T06:33Z）、Samsung TV root（推文 10-21T21:06Z）、Roku→GitLab（gitlab.com/rokudev 仓库批量创建 10-15）均为窗口外原发、HN 10-24 回热，按「窗口外原发不重开」排除；Apple Security Research Device 页面无发布日期无法核验，排除。Brotli CVE-2026-111497 以 10-23「HTTP2Shell 扩散 + 补丁铺开」为窗口内事件入选（Node 首披 10-21 作时间线背景，此前未入账）。PHP 基金会资金报道（Reuters 10-23）为 TECH-52 已发布漏洞事件之后的独立后续报道，按新事件收录。
+- T3 口径：HF 10-24 批次 0 条；T3 入选 1 条（arXiv 2610.29162，提交 10-21、cs.CL 10-24 批次、HN 146 分/143 评，热度达标，提交时间透明标注）。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia/jiqizhixin/qbitai 等）：未探测，状态不变。
+- 新来源评估：无满足「已启用 T2 中 ≥3 条独立热点引用」条件的新来源。
+- 发布：reports/digest-2026-10-25.md，10 条事件；提交分支 main。
