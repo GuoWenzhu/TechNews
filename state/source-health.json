@@ -1,8 +1,8 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-10-25",
- "issue": "TECH-65",
+ "last_run": "2026-10-26",
+ "issue": "TECH-68",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
@@ -11,25 +11,25 @@
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "sitemap 200（582 url）；lastmod 站点级批量刷新现象延续（大量 2026-10-23T20:56Z 同戳），/news/ 窗口内无真实新页（81 条 lastmod≥10-23 候选全部为 /research/），不作为新内容依据。"
+   "notes": "sitemap 200（562 url）；全部 url lastmod<2026-10-24，/news/ 窗口内无新页。"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 1,
-   "items_published": 1,
-   "notes": "sitemap 200；页面核验 alignment-assessment-ukaisi datePublished 2026-10-23（lastmod 14:51Z 独立于 20:56Z 批量刷新戳），入选 #1；复核 ai-expectations-gap=10-16、interviewer=2025-12-04、public-record=2026-06-12、AI-fluency-index 308 跳转，均窗口外或无效。"
+   "items_in_window": 0,
+   "items_published": 0,
+   "notes": "sitemap 200；全部 url lastmod<2026-10-24，/research/ 窗口内无新页。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 2,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；窗口内 2 条（securing-frontier-training、storage Part II）均为 TECH-61 已发布，不重开。"
+   "notes": "feed 200；窗口内无新条目。"
   },
   "deepmind": {
    "tier": "T1",
@@ -47,7 +47,7 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "列表页 200；所列 Muse Spark 系列经页面核验均为旧文（Spark 1.1=2026-07-09、1.2=2026-08-05）；msl 与 Muse Image 直取 400（bot 拦截），无窗口内新内容。"
+   "notes": "列表页 200（/blog 302 至根路径，内容同源）；页面所列最新条目 2026-10-15，窗口内无新内容。"
   },
   "msresearch": {
    "tier": "T1",
@@ -65,7 +65,7 @@
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200（直连可用），无窗口内条目。"
+   "notes": "feed 200，无窗口内条目。"
   },
   "sierra": {
    "tier": "T1",
@@ -74,7 +74,7 @@
    "entry_used": "https://sierra.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200，无带日期窗口内条目。"
+   "notes": "页面 200；最新带日期条目 2026-10-22，窗口内无新内容。"
   },
   "scale": {
    "tier": "T1",
@@ -83,7 +83,7 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200，无带日期窗口内条目。"
+   "notes": "页面 200；最新带日期条目 2026-10-15，窗口内无新内容。"
   },
   "github": {
    "tier": "T1",
@@ -108,9 +108,9 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://netflixtechblog.com/feed",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；窗口内 1 条为 TECH-61 已发布 Quasar（feed 链接变体未匹配规范化 URL，已按事件去重不重开）。"
+   "notes": "feed 200，无窗口内条目。"
   },
   "airbnb": {
    "tier": "T1",
@@ -135,9 +135,9 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
-   "items_in_window": 2,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；窗口内 2 条（origin-range-requests、post-quantum-geokey）均为 TECH-61 已发布/已排除，不重开。"
+   "notes": "feed 200，无窗口内条目。"
   },
   "vercel": {
    "tier": "T1",
@@ -150,12 +150,12 @@
   },
   "linear": {
    "tier": "T1",
-   "status": "ok",
+   "status": "blocked",
    "method": "rss",
    "entry_used": "https://linear.app/feed.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed.xml 本轮返回 SPA HTML（200，不可解析）；TECH-55/61 为 0 条目、本轮为 HTML，连续异常但站点主服务正常，单源入口问题记录观察，未达降级阈值。"
+   "notes": "本轮采集失败（连续第 2 轮）：feed.xml 返回 200 但内容为 Web 应用 HTML 页（两次复验一致，非瞬时故障）；TECH-65 已记录首例。单次/连续 2 次失败按规则均不降级、不改清单。替代入口 linear.app/changelog 返回 200 但为 JS 渲染页，未验证可解析；下轮复验，连续 3 次失败且替代入口验证失败再按规则降级。"
   },
   "cursor": {
    "tier": "T1",
@@ -164,25 +164,25 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；新见链接 self-driving-codebases 经页面核验 datePublished 2026-02-05（旧页），无窗口内新文章。"
+   "notes": "页面 200；内嵌数据最新 publishedAt 约 2026-10-16，窗口内无新内容。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "algolia-api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
-   "items_in_window": 68,
-   "items_published": 7,
-   "notes": "Algolia API 200，全窗口分页拉取 1000 story；≥25 分 68 条作评估输入；入选 secondary/主源 7 条（grapheneos、apollo、rqlite、brotli、arxiv 论文、OBS33、gpu-unlock）。"
+   "items_in_window": 93,
+   "items_published": 5,
+   "notes": "search_by_date(points>100)=56 条 + front_page 快照 + 40-100 分档复核；6 条入选中 5 条经 HN 发现（gheist/cnn-skin-cancer/cheap-llms/dreamhost/context-eng），grok-odyssey 来自 TechCrunch。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed",
-   "items_in_window": 9,
+   "items_in_window": 7,
    "items_published": 1,
-   "notes": "feed 200；窗口内 9 条：grok-political-bias 入选；4 条为往轮已入账；graveyard/清单文/Dessa 跟进等排除（见 processed-urls）。"
+   "notes": "feed 200；窗口内 7 条：Grok Odyssey 入选 #4，AI-zero-payoff 为 TECH-65 已发布 Apollo 事件转述不重开，其余为清单文/已发布转述。"
   },
   "theinformation": {
    "tier": "T2",
@@ -191,7 +191,7 @@
    "entry_used": "https://www.theinformation.com",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "首页 403 反爬（与上轮一致），正文付费墙，维持 paywall。"
+   "notes": "入口 403（付费墙/反爬），维持 paywall 记录。"
   },
   "a16z": {
    "tier": "T2",
@@ -200,7 +200,7 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200 但 0 条窗口内链接（JS 渲染），连续第 9 轮，未达降级阈值，继续观察。"
+   "notes": "页面 200；最新带日期条目 2026-09-30，窗口内无新内容。"
   },
   "arxiv_csai": {
    "tier": "T3",
@@ -209,16 +209,16 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.AI",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；返回空频道（892 字节，skipDays Sat/Sun），周末节奏无新批次，非故障。"
+   "notes": "feed 200 但为空批（lastBuildDate 2026-10-25T04:00Z，skipDays 周末，上一批 Fri 已出窗）；周日晚公告批尚未进入 feed，非采集故障。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.CL",
-   "items_in_window": 183,
-   "items_published": 1,
-   "notes": "rss 200；10-24（周六）批次 183 条作 T3 筛选输入；2610.29162 经 HN 热度（146 分/143 评）确认入选，其余按 T3 不凑数不逐条入账。"
+   "items_in_window": 0,
+   "items_published": 0,
+   "notes": "feed 200 但为空批（同 cs.AI，周末空窗）。"
   },
   "arxiv_cslg": {
    "tier": "T3",
@@ -227,7 +227,7 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.LG",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；空频道（同 cs.AI，周末节奏），非故障。"
+   "notes": "feed 200 但为空批（同 cs.AI，周末空窗）。"
   },
   "hf_papers": {
    "tier": "T3",
@@ -236,7 +236,7 @@
    "entry_used": "https://huggingface.co/api/daily_papers",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "API 200；10-24（周六）批次 0 条（周末未发布，正常节奏）；10-23 批次 49 条已于 TECH-61 评估入账，不重开。"
+   "notes": "api 200 共 50 条；publishedAt 均 <2026-10-24 且 upvotes 最高 99（无高热度 T3 候选），本轮不取。"
   }
  }
 }

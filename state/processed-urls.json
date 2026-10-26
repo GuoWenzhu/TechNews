@@ -8578,6 +8578,260 @@
    "status": "excluded",
    "reason": "旧文重提（2018）",
    "evaluated_on": "2026-10-25"
+  },
+  {
+   "url": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+   "title": "Wiz 披露 Gheist：窃取 GitHub 令牌批量植入倾密工作流",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "primary",
+   "event": "Gheist GitHub 令牌滥用行动（850+ 账号、13,500+ 植入分支）",
+   "source_pub_time": "2026-10-25T17:55Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50235010",
+   "title": "HN 讨论：Gheist campaign",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "secondary",
+   "event": "Gheist GitHub 令牌滥用行动",
+   "source_pub_time": "2026-10-25T19:10Z"
+  },
+  {
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "primary",
+   "event": "10 年前 CNN 皮肤癌诊断 62% vs 前沿 LLM 42%",
+   "source_pub_time": "2026-10-25"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50233779",
+   "title": "HN 讨论：10-year-old CNN skin cancer",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "secondary",
+   "event": "10 年前 CNN 皮肤癌诊断 62% vs 前沿 LLM 42%",
+   "source_pub_time": "2026-10-25T17:15Z"
+  },
+  {
+   "url": "https://minimaxir.com/2026/10/cheap-llms/",
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80%. Why?",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "primary",
+   "event": "三大旗舰模型三个月降价至多 80% 时间线复盘",
+   "source_pub_time": "2026-10-25T21:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50236102",
+   "title": "HN 讨论：cheap LLMs",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "secondary",
+   "event": "三大旗舰模型三个月降价至多 80% 时间线复盘",
+   "source_pub_time": "2026-10-25T21:11Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+   "title": "Grok releases the first seven minutes of its AI-generated 'Odyssey'",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "primary",
+   "event": "Grok 发布 AI 生成《奥德赛》第一集（7 分钟）",
+   "source_pub_time": "2026-10-25T21:31Z"
+  },
+  {
+   "url": "https://www.dreamhoststatus.com/",
+   "title": "DreamHost 状态页：File Manager 与 Webmail 服务中断+强制密码重置",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "primary",
+   "event": "DreamHost 强制大规模密码重置事件",
+   "source_pub_time": "2026-10-24T01:09Z（首条 IDENTIFIED 更新）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50231166",
+   "title": "HN 讨论：Dreamhost forcing password reset",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "secondary",
+   "event": "DreamHost 强制大规模密码重置事件",
+   "source_pub_time": "2026-10-25T13:09Z"
+  },
+  {
+   "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+   "title": "The State of Context Engineering",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "primary",
+   "event": "AGNTCon 演讲全文：上下文工程现状综述",
+   "source_pub_time": "2026-10-24T17:08Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50235780",
+   "title": "HN 讨论：The State of Context Engineering",
+   "issue": "TECH-68",
+   "status": "published",
+   "published_on": "2026-10-26",
+   "role": "secondary",
+   "event": "AGNTCon 演讲全文：上下文工程现状综述",
+   "source_pub_time": "2026-10-25T20:32Z"
+  },
+  {
+   "url": "https://github.com/JetBrains/thinkrail",
+   "title": "JetBrains Thinkrail",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：项目 2026-08-19 公开发布（blog Introducing ThinkRail），2026-10-07/08-25/09-17 已有 HN 提交，10-24/25 为回热不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50233294",
+   "title": "HN 讨论：JetBrains Thinkrail",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "同上：回热讨论，不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models",
+   "title": "How Cerebras deploys trillion-parameter models",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：官方博客 2026-10-22 发布，10-25 HN 回热，后续媒体仅为同文转述无新进展，不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "title": "UC Berkeley math professor sees 'no point' in grading homework",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：datePublished 2026-10-23T13:15Z（距窗口起点差约 11 小时），10-25 HN 回热不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+   "title": "Meta ignores Brazilian court order",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：文章 2026-10-19，10-25 HN 回热不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+   "title": "France asked ISPs to prepare temporary DNS blocks",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：围绕 10-24 抗议的披露文（约 10-22），10-25 HN 回热不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-striped-title-after-scientists.html",
+   "title": "Nikon contest winner loses title over AI",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：2026-10-12，10-25 HN 回热不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.makeuseof.com/google-nest-thermostats-unsupported/",
+   "title": "Nest thermostats back to dumb thermostats",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：2026-10-18，10-24 HN 回热不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+   "title": "Xbox turns down Netflix $500M offer",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "领域不符（游戏/影视 IP 授权商业新闻，工程/Agent/AI 落地相关性不足）",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics",
+   "title": "All you need is Wide Events",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "旧文重提（2024-02-15 原发）",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://techbronerd.substack.com/p/openai-and-anthropic-wanted-to-replace",
+   "title": "What Adobe v ArtCraft teaches us",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "评论文章，无独立一手新闻事件",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://armincat.com/articles/eunice-is-almost-here",
+   "title": "Eunice is almost here",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "观点文（Gibson 小说与当代 Agent 类比），无独立新闻事件",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://talkweb.eu/openweb/4558/",
+   "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "FOSDEM devroom 征文启事，非新闻事件",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine/",
+   "title": "Moderna/Merck mRNA cancer vaccine 42%",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "领域不符（生物医学临床试验）",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://twitter.com/freddier/status/2114042326758867453",
+   "title": "Samsung TVs look for microphones via Bluetooth",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "Samsung TV 隐私事件簇已在 TECH-65 排除（原发 10-21 窗口外），本轮推文为同簇回热，不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50228167",
+   "title": "Five Qwen3.8-27B models match Fable 5 (GVS5H)",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "窗口外原发：仓库 2026-08-26 创建，10-25 HN 回热；基准主张缺独立复现，不重开",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+   "title": "A mathematician reads the AI future",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "观点文，无独立新闻事件",
+   "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+   "title": "AI future where being banned means economic uselessness",
+   "issue": "TECH-68",
+   "status": "excluded",
+   "reason": "推文观点，无一手事件与可追溯原文",
+   "evaluated_on": "2026-10-26"
   }
  ]
 }

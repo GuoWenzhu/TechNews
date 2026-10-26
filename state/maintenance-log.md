@@ -198,3 +198,16 @@
 - 候选待观察（xai/perplexity/uber/doordash/sequoia/jiqizhixin/qbitai 等）：未探测，状态不变。
 - 新来源评估：无满足「已启用 T2 中 ≥3 条独立热点引用」条件的新来源。
 - 发布：reports/digest-2026-10-25.md，10 条事件；提交分支 main。
+
+## 2026-10-26（TECH-68）例行维护
+
+- 采集窗口：2026-10-24T00:00Z – 2026-10-26T00:00Z（48h）。26 个启用来源全部按既定入口探测（theinformation 首页 403 反爬/付费墙维持 paywall，不计新故障）。
+- 周末节奏（非故障）：arxiv 三源返回空频道（rss 200，lastBuildDate 2026-10-25T04:00Z，skipDays Sat/Sun，周日晚公告批尚未进 feed）；hf_papers API 200 共 50 条，publishedAt 均 <10-24 且最高 99 赞，无高热度 T3 候选，本轮不取。
+- 入口异常：linear feed.xml 连续第 2 轮返回 SPA HTML（200 不可解析，两次复验一致）；未达连续 3 次降级阈值，不改清单，下轮复验（替代入口 changelog 为 JS 渲染页，暂不可作机读源）。
+- 健康要点：a16z 连续第 10 轮 0 条窗口内产出（本轮页面已可见日期，最新 2026-09-30），距 30 日降级线尚远；T1 十八源本轮窗口内均 0 新内容，为节假日/周末发布节奏，非故障；anthropic sitemap lastmod 无 ≥10-24 条目（批量刷新现象本轮未出现）。
+- 产出：6 条事件发布（见 reports/digest-2026-10-26.md，窗口内高热度新事件不足，按「不足不凑数」不凑 10 条）；16 URL 入 published（6 主源 + 10 secondary）、18 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-68）。
+- 特别核验：Gheist（Wiz 10-25T17:55Z）、CNN 皮肤癌实测（Lynch Lab 10-25）、LLM 降价复盘（minimaxir 10-25T21:00Z）、DreamHost 强制重置（状态页 10-24 起）均为窗口内原发；Grok Odyssey 原始发布 10-23（窗口外约 12 小时）但 TechCrunch 首篇完整报道 10-25 在窗口内且此前未入账，沿用 TECH-65「Brotli 以窗口内新报道为事件入选」口径收录并透明标注时间线。窗口外原发排除：ThinkRail（原发 08-19）、Cerebras 万亿参数部署（10-22）、UC Berkeley 评分（10-23T13:15Z，差 11 小时）、Meta/巴西法院（10-19）、France DNS（约 10-22）、Nikon（10-12）、Nest（10-18）、GVS5H（08-26）、Wide Events（2024 旧文）；观点文/征文/领域不符排除：Adobe v ArtCraft 评论、Eunice、FOSDEM 征文、Moderna mRNA（生物医学）、Xbox/Netflix（游戏影视商务）、The Atlantic 数学家等。
+- T3 口径：arXiv 周末空批 + HF 无窗口内高热度论文，本轮 T3 0 条，不凑数。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；linear 连续 2 次未达阈值；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia/jiqizhixin/qbitai 等）：未探测，状态不变。
+- 发布：reports/digest-2026-10-26.md，6 条事件；提交分支 main。
