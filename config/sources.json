@@ -3,7 +3,7 @@
   "kind": "technews.sources",
   "authority": "TechNews 每日采集的唯一权威来源清单：加源/调整 = 编辑本文件（并按 rules/collection.md 的备份流程执行），自动化零改动。",
   "scope": "本文件仅含来源配置（名称、入口、层级、启用/候选状态、适用范围与备注）。来源健康（可达性、失败计数、替代入口）见 state/source-health.json；执行规则见 rules/collection.md；采集参数见 config/project.json。",
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-27",
   "migrated_from": {
     "source_file": "科技情报来源清单.md",
     "markdown_version_line": "版本：2026-10-11（TECH-4 首次维护：同步当前采集与维护授权，修正使用规则；来源表未改动）",
@@ -46,7 +46,7 @@
     { "id": "stripe", "name": "Stripe Blog", "tier": "T1", "group": "工程实践", "url": "https://stripe.com/blog", "status": "enabled" },
     { "id": "cloudflare", "name": "Cloudflare Blog", "tier": "T1", "group": "工程实践", "url": "https://blog.cloudflare.com", "status": "enabled" },
     { "id": "vercel", "name": "Vercel Blog", "tier": "T1", "group": "工程实践", "url": "https://vercel.com/blog", "status": "enabled" },
-    { "id": "linear", "name": "Linear Blog", "tier": "T1", "group": "工程实践", "url": "https://linear.app/blog", "status": "enabled" },
+    { "id": "linear", "name": "Linear Blog", "tier": null, "group": "候选待观察", "url": "https://linear.app/feed.xml", "status": "candidate", "notes": "连续3次真实探测失败（TECH-65/68 返回 SPA HTML，TECH-71 轮 feed.xml 200 但仍为 Web 应用 HTML，两次复验一致）且替代入口验证失败：TECH-71 轮实测 changelog 页为 SSR/JS 渲染页无机读结构、/changelog/rss.xml 与 /changelog/feed 404、/rss.xml 与 /feed 同为 SPA HTML，2026-10-27 按规则降为待观察；恢复需连续2次验证可达（证据见 state/source-health.json 与 state/maintenance-log.md）" },
     { "id": "cursor", "name": "Cursor (Anysphere) Blog", "tier": "T1", "group": "工程实践", "url": "https://cursor.com/blog", "status": "enabled" },
 
     { "id": "hn", "name": "Hacker News 首页", "tier": "T2", "group": null, "url": "https://news.ycombinator.com", "status": "enabled", "notes": "检索可用 Algolia API: https://hn.algolia.com/api/v1/search_by_date" },

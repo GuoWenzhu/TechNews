@@ -8832,6 +8832,698 @@
    "status": "excluded",
    "reason": "推文观点，无一手事件与可追溯原文",
    "evaluated_on": "2026-10-26"
+  },
+  {
+   "url": "https://www.anthropic.com/news/s1-sec",
+   "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "Anthropic 正式提交 S-1 启动 IPO",
+   "source_pub_time": "2026-10-26T00:00Z"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "title": "Anthropic PBC S-1 (SEC EDGAR)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Anthropic 正式提交 S-1 启动 IPO",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "title": "Anthropic officially files for its public debut",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Anthropic 正式提交 S-1 启动 IPO",
+   "source_pub_time": "2026-10-26T14:35Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50242939",
+   "title": "HN: Anthropic S-1 (1439 分/1404 评)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Anthropic 正式提交 S-1 启动 IPO",
+   "source_pub_time": "2026-10-26T13:04Z"
+  },
+  {
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "title": "Introducing GPT-6.1 Terra",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "OpenAI 发布 GPT-6.1 Terra（API 半价/计算机操作特化）",
+   "source_pub_time": "2026-10-26T00:00Z"
+  },
+  {
+   "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot/",
+   "title": "GPT-6.1 Terra in GitHub Copilot",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "OpenAI 发布 GPT-6.1 Terra（API 半价/计算机操作特化）",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "OpenAI 发布 GPT-6.1 Terra（API 半价/计算机操作特化）",
+   "source_pub_time": "2026-10-26T13:45Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50248124",
+   "title": "HN: GPT-6.1 Terra (472 分/299 评)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "OpenAI 发布 GPT-6.1 Terra（API 半价/计算机操作特化）",
+   "source_pub_time": "2026-10-26T18:01Z"
+  },
+  {
+   "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+   "title": "Introducing a Voluntary Exit Offer",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "微软向约 6 万员工（约 1/4）发出自愿离职邀约",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://apnews.com/article/microsoft-buyout-ai-layoff-xbox-c5a639f53615be198db1799adf6837e1",
+   "title": "Microsoft offers 60,000 of its employees voluntary buyouts",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "微软向约 6 万员工（约 1/4）发出自愿离职邀约",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "title": "Microsoft offers voluntary buyouts as AI leads to efficiency push",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "微软向约 6 万员工（约 1/4）发出自愿离职邀约",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50245524",
+   "title": "HN: Microsoft offers mass buyouts for roughly a quarter of its workforce (704 分)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "微软向约 6 万员工（约 1/4）发出自愿离职邀约",
+   "source_pub_time": "2026-10-26T15:35Z"
+  },
+  {
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+   "title": "Meta Announces Launch of Offerings in Connection with Forward Sale Agreements",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "Meta 宣布至多 950 亿美元股权融资计划",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+   "title": "Meta launches plan for $95 billion stock offering to fund AI expansion",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Meta 宣布至多 950 亿美元股权融资计划",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
+   "title": "Meta plans $95bn stock offering to help cover AI expansion",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Meta 宣布至多 950 亿美元股权融资计划",
+   "source_pub_time": "2026-10-26T13:37Z"
+  },
+  {
+   "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
+   "title": "SpaceX secures $40 billion in the largest GPU financing ever",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "SpaceX 与 Apollo 达成约 400 亿美元 GPU 融资租赁",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+   "title": "SpaceX 8-K: master finance lease commitment (event date 2026-10-24)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "SpaceX 与 Apollo 达成约 400 亿美元 GPU 融资租赁",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+   "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "SpaceX 与 Apollo 达成约 400 亿美元 GPU 融资租赁",
+   "source_pub_time": "2026-10-26T16:46Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "Cloudflare 披露 GLM-5.3 KV 缓存跨请求隔离缺陷（SGLang v0.5.21 修复）",
+   "source_pub_time": "2026-10-26T22:01Z"
+  },
+  {
+   "url": "https://www.lmsys.org/blog/2026-10-26-cf-security/",
+   "title": "SGLang security update: improving request isolation",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Cloudflare 披露 GLM-5.3 KV 缓存跨请求隔离缺陷（SGLang v0.5.21 修复）",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "title": "Concerning behavior from a popular open-weight AI model",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "Cohere 披露 Qwen3.8-Flash-Next 沙箱内异常行为",
+   "source_pub_time": "2026-10-26T10:14Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50246658",
+   "title": "HN: Concerning behavior from a popular open-weight AI model (247 分)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "Cohere 披露 Qwen3.8-Flash-Next 沙箱内异常行为",
+   "source_pub_time": "2026-10-26T16:35Z"
+  },
+  {
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "title": "Working with academic communities to build scientific understanding",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "OpenAI 公布数学研究进展（ETH/Kakeya/QCD）",
+   "source_pub_time": "2026-10-26T14:30Z"
+  },
+  {
+   "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "title": "The Exponential Time Hypothesis is False (OpenAI Math Release preprint)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "OpenAI 公布数学研究进展（ETH/Kakeya/QCD）",
+   "source_pub_time": "2026-10-25"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50251344",
+   "title": "HN: Working with academic communities (245 分)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "OpenAI 公布数学研究进展（ETH/Kakeya/QCD）",
+   "source_pub_time": "2026-10-26T21:35Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50251661",
+   "title": "HN: The Exponential Time Hypothesis Is False (147 分)",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "OpenAI 公布数学研究进展（ETH/Kakeya/QCD）",
+   "source_pub_time": "2026-10-26T21:59Z"
+  },
+  {
+   "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015",
+   "title": "Making Failure Diagnosis Reliable with Pensive AI",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "primary",
+   "event": "Netflix 发布 Pensive AI 故障诊断",
+   "source_pub_time": "2026-10-26T17:04Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/doordash-nears-deal-buy-instacart-17-billion-deal",
+   "title": "DoorDash Nears Deal to Buy Instacart in $17 Billion Deal",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "DoorDash 与 Instacart 深入谈判约 170 亿美元收购",
+   "source_pub_time": "2026-10-26"
+  },
+  {
+   "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d",
+   "title": "DoorDash Circles Deal to Buy Instacart",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "DoorDash 与 Instacart 深入谈判约 170 亿美元收购",
+   "source_pub_time": "2026-10-26T21:28Z"
+  },
+  {
+   "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/doordash-is-said-to-near-17-billion-takeover-of-instacart",
+   "title": "DoorDash Is Said to Near $17 Billion Takeover of Instacart",
+   "issue": "TECH-71",
+   "status": "published",
+   "published_on": "2026-10-27",
+   "role": "secondary",
+   "event": "DoorDash 与 Instacart 深入谈判约 170 亿美元收购",
+   "source_pub_time": "2026-10-26T20:32Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/distillation-defenses",
+   "title": "Strengthening our defenses against distillation attacks",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "窗口外原发：页面 datePublished 2026-10-12，HN 10-26 回热",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-apollo-economist-says/",
+   "title": "AI delivers 'zero financial payoff' to most companies",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件：Apollo 零回报论点 TECH-65 已发布一手（apollo.com Daily Spark），转述不重开",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "课程/专栏推广，新闻密度不足（HN 523 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+   "title": "CSS-Tricks has a new owner",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：行业动态（HN 365 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
+   "title": "Pharo 14",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：细分语言社区版本发布（HN 233 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+   "title": "Type Server Protocol",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：协议文档页（HN 178 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：趣闻类（HN 210 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://blocks.manifold3d.ch/",
+   "title": "Switzerland. Block by block. At 1:1 scale",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：展示项目，与工程/Agent/AI 主线不符（HN 455 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://imaginationlibrary.com/",
+   "title": "Dolly Parton's Imagination Library",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符（HN 672 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
+   "title": "Lula wins election after final votes tallied",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：政治选举（HN 499 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+   "title": "Serbia's Vucic concedes election defeat",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：政治选举（HN 322 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
+   "title": "Oregon Police Are Charging a Local News Outlet $2.5M for Records",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "窗口外原发（2026-10-01）且领域不符（HN 510 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.panamericandispatch.org/p/meta-employees-denounce-interference",
+   "title": "Meta Employees Denounce Interference in Brazilian Elections",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件跟进（Meta 巴西系列，TECH-68 已评估排除）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election",
+   "title": "Meta employees say Lula's accounts restricted in Brazil election",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件（原发 2026-10-16，窗口外）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-/",
+   "title": "IBM CEO says open weight models are now good and cheap on-prem",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "窗口外原发（2026-10-22，HN 10-26 回热 412 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens/",
+   "title": "OpenClaw creator says he spent $10M in tokens last month",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "窗口外原发（2026-10-21，HN 10-26 回热）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://arxiv.org/abs/2512.19428",
+   "title": "Attention Is Not What You Need (2025)",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "2025 旧论文 HN 回热，窗口外原发",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-/",
+   "title": "Moderna and Merck: mRNA cancer vaccine cut death, recurrence by 42%",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：生物医药（TECH-68 同口径）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+   "title": "Apple gives iPad mini its biggest update ever",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：消费硬件发布（HN 122 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+   "title": "In Leaked Audio, Flock CEO Tells Cops Backlash Isn't Real",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：社会/监管报道（HN 272 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://proton.me/flock-camera-map",
+   "title": "Proton Flock Camera Map",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：Flock 事件延伸工具页（HN 120 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://scale.com/blog/scale-in-uae",
+   "title": "Scale is Open for Business in the UAE",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：商业拓展公告，技术密度低",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+   "title": "Run Scale AI's AgentEnv evals on Vercel Sandbox",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：平台例行动更",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
+   "title": "Vercel Agent can now validate alerts before paging",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：平台例行动更",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability",
+   "title": "Create custom monitors in Vercel Observability",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：平台例行动更",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+   "title": "GPT-6.1 Terra now available on AI Gateway",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件：GPT-6.1 Terra 发布的渠道分发，未单独入选",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
+   "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件：GPT-6.1 Terra 发布的渠道分发，未单独入选",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018854/gpt-6-1-terra-is-very-good-at-computer-use-openai-says",
+   "title": "GPT-6.1 Terra is very good at computer use, OpenAI says",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：Terra 发布已收录一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+   "title": "GPT-6.1 Terra halves OpenAI's API prices",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：Terra 发布已收录一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：Terra 发布已收录一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/",
+   "title": "Microsoft makes new 'voluntary exit' offer to about a quarter of its workforce",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：微软 VEO 已收录官方一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-it",
+   "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：微软 VEO 已收录官方一手（HN 704 分首发源）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://news.bloomberglaw.com/tech-and-telecom-law/meta-seeks-up-to-95-billion-in-equity-to-fund-ai-spending",
+   "title": "Meta Seeks Up to $95 Billion in Equity to Fund AI Spending",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：Meta 融资已收录 IR 一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
+   "title": "Facebook Parent Meta Plans to Raise Up to $95 Billion for AI Push",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：Meta 融资已收录 IR 一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+   "title": "SpaceX closes $40 billion debt deal for AI chips",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：SpaceX-Apollo 已收录 IR/8-K 一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.marketwatch.com/story/spacex-reaches-40-billion-financing-agreement-with-apollo-managed-entity-128ebe08",
+   "title": "SpaceX Reaches $40 Billion Financing Agreement With Apollo-Managed Entity",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：SpaceX-Apollo 已收录 IR/8-K 一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.marketwatch.com/story/a-possible-doordash-instacart-deal-is-all-about-keeping-up-with-walmart-and-amazon-analysts-say-17049bb1",
+   "title": "A possible DoorDash-Instacart deal is all about keeping up with Walmart and Amazon",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件转述：DoorDash-Instacart 已收录 WSJ/Bloomberg",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
+   "title": "Anthropic Is The Most Ridiculous IPO of 2026",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件评论性研报：S-1 事件已收录一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://codingcat.dev/post/anthropic-s1-ipo-circular-ai-economy-etf-risk",
+   "title": "Anthropic's S-1, $518B in cloud commitments, and circular AI capex",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同事件评论：S-1 事件已收录一手",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+   "title": "Fixing Tool-Call Accuracy in vLLM",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：第三方推理栈修复复盘（HN 144 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.testingcatalog.com/gemini-4-carbon-early-test-results/",
+   "title": "Gemini 4 Carbon early test results are in ahead of release",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "非官方渠道传闻（泄露/爆料），无可核验一手来源",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c",
+   "title": "US designates helium as a critical material",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：材料政策（HN 169 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+   "title": "Solar power is becoming bigger than nuclear",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：能源（原发 2026-10-23 亦在窗口外）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-cleanup/",
+   "title": "The EPA Is Quietly Killing Its Web Archive",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：政府档案政策（HN 208 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://freedom.press/the-classifieds/doj-says-presidents-should-be-able-to-sell-secrets-on-ebay/",
+   "title": "DOJ says presidents should be able to sell secrets on eBay",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "领域不符：法律/政策（HN 180 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+   "title": "Why I Am a Programmer",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "观点文，无事件性（HN 313 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://brennenputh.me/blog/printable-websites/",
+   "title": "Websites Should Be Printable",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "观点文（HN 256 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "title": "Brown student maps the hidden global labor powering AI",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "位次不足：研究/社会报道（HN 172 分）",
+   "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://www.openai.com/index/greptile-code-review-codex-astra",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "issue": "TECH-71",
+   "status": "excluded",
+   "reason": "同周期应用案例文：已在 Terra 条目提及 CodeRabbit 案例，本篇不重开（新闻密度不足）",
+   "evaluated_on": "2026-10-27"
   }
  ]
 }

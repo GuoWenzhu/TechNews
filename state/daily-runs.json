@@ -161,6 +161,16 @@
    "items_published": 6,
    "git_branch": "main",
    "dedup_basis": "state/processed-urls.json v1"
+  },
+  {
+   "date": "2026-10-27",
+   "issue": "TECH-71",
+   "issue_id": "01a17aa8-b2e7-746b-8f01-36604e43a474",
+   "status": "published",
+   "briefing_file": "reports/digest-2026-10-27.md",
+   "items_published": 10,
+   "git_branch": "main",
+   "dedup_basis": "state/processed-urls.json v1"
   }
  ]
 }

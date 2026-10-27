@@ -211,3 +211,11 @@
 - config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；linear 连续 2 次未达阈值；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
 - 候选待观察（xai/perplexity/uber/doordash/sequoia/jiqizhixin/qbitai 等）：未探测，状态不变。
 - 发布：reports/digest-2026-10-26.md，6 条事件；提交分支 main。
+
+## 2026-10-27（TECH-71）来源维护：linear 降级
+
+- **linear 降为候选待观察**：`https://linear.app/feed.xml` 连续第 3 轮真实探测失败（TECH-65 首例、TECH-68 第 2 轮、本轮第 3 轮均返回 200 但内容为 Web 应用 SPA HTML，不可解析）。本轮替代入口复验全部失败：linear.app/changelog 返回 200 但为 SSR/JS 渲染页（1.5MB，无 `__NEXT_DATA__`、无 RSS 声明，仅 7 处零散日期串）；`/changelog/rss.xml`、`/changelog/feed` 404；`/rss.xml`、`/feed` 同为 SPA HTML。满足 rules/collection.md「连续 3 次真实探测失败且替代入口验证失败」条件，按规则降为候选待观察（`status=candidate`、`tier=null`、原地址保留于条目），恢复需连续 2 次验证可达。
+- **备份**：`backup/sources-20261027.json`（sha256 `c275c69bb29dbe030d649312acfa4ed48e5552126bfc053899735e1c69ada2bc`，与修改前原文件字节一致，已核验）；替换前复核原文件 hash 未变化，经同目录临时文件原子替换；清单 `updated_at` → 2026-10-27；展示版已由 `validate.py --generate-md` 重新生成，全量校验通过。
+- **其余 25 个启用来源**：无清单改动。采集全部成功返回（theinformation 首页本轮 200/正文付费墙维持 paywall；meta_ai 直连 307→跟随重定向 200 正常）。a16z 连续第 11 轮 0 条窗口内产出（JS 渲染），未达 30 日降级线，继续观察。
+- **新来源评估**：无满足「已启用 T2 中 ≥3 条独立热点条目引用」条件的新来源（Cohere/微软官方博客/LMSYS/SpaceX IR/Meta IR 均为单条事件一手来源，经 HN/T2 发现后按事件收录，不动清单）。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia/jiqizhixin/qbitai/stratechery/benevans + 本轮 linear）：未探测，状态不变。
