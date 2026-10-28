@@ -1,8 +1,8 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-10-27",
- "issue": "TECH-71",
+ "last_run": "2026-10-28",
+ "issue": "TECH-74",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
@@ -11,34 +11,34 @@
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 1,
    "items_published": 1,
-   "notes": "sitemap 200（563 url）；lastmod≥10-25 仅 /news/s1-sec（10-26T15:04Z），页面 datePublished 2026-10-26 为 S-1 提交公告，入选 #1。"
+   "notes": "sitemap 200（587 url）；lastmod≥10-26 仅 /news/expanding-partnership-gsa（10-27T22:21Z）为真实新页，页面 datePublished 2026-10-27，入选 #4。/news/s1-sec lastmod 刷新至 10-27T21:40Z 属已发布页更新，不重开。"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "sitemap 200；/research/ 窗口内无新页。另外 /news/distillation-defenses 经页面核验 datePublished 2026-10-12，属窗口外原发 HN 回热，已排除。"
+   "items_in_window": 3,
+   "items_published": 2,
+   "notes": "sitemap 200；窗口内 3 个新研究页（均页面 datePublished 2026-10-27 核验）：discovering-vulnerabilities-with-claude（入选 #2 一手）、early-progress-drug-development（入选 #7 一手）、agents-judgment-calls（同源第 4 条位次不足排除）。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 7,
-   "items_published": 3,
-   "notes": "feed 200；窗口内 7 条（10-26 全部）：introducing-gpt-6-1-terra（入选 #2 一手）、gpt-6-1-sol-coderabbit（入选 #2 secondary）、building-scientific-understanding（入选 #8 一手）；greptile-astra/expanding-world-of-work/fanatics/ultrafast 为案例文与报告文，位次不足排除。"
+   "items_in_window": 4,
+   "items_published": 0,
+   "notes": "feed 200；本轮新增窗口内 4 条（10-27）：oracle-apps-in-chatgpt（合作公告低热度排除）、check-point-daybreak（已发布 Daybreak 事件后续）、retell-ai（案例文）、greptile-code-review-codex-astra（10-26T22:00Z，上轮已排除）。"
   },
   "deepmind": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://deepmind.google/blog/rss.xml",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "feed 200，无窗口内条目。"
+   "items_in_window": 1,
+   "items_published": 1,
+   "notes": "feed 200（本轮返回 gzip 编码需解压，内容正常）；Genie 4（10-27T16:01Z，页面 datePublished 16:13Z 核验）入选 #1 一手。"
   },
   "meta_ai": {
    "tier": "T1",
@@ -47,7 +47,7 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "直连 307→跟随重定向 200（落 research.meta.ai 根路径，内容同源）；页面所列最新条目 2026-10-15，窗口内无新内容。"
+   "notes": "页面 200；最新条目仍为 Muse Spark 系列（旧文），窗口内无新内容。"
   },
   "msresearch": {
    "tier": "T1",
@@ -56,7 +56,7 @@
    "entry_used": "https://www.microsoft.com/en-us/research/feed/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200，最新 2026-10-22，无窗口内条目。"
+   "notes": "feed 200，窗口内无条目。"
   },
   "mistral": {
    "tier": "T1",
@@ -65,25 +65,25 @@
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200，最新 2026-10-21，无窗口内条目。"
+   "notes": "feed 200，窗口内无条目。"
   },
   "sierra": {
    "tier": "T1",
    "status": "ok",
    "method": "html",
    "entry_used": "https://sierra.ai/blog",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；新条目 'Sierra is on Google Cloud Marketplace'（October 26, 2026），为商业上架公告，位次不足未入选（页面为 JS 渲染无独立可核验 URL，仅记录健康）。"
+   "notes": "页面 200；最新仍为 10-26 Google Cloud Marketplace 上架公告（上轮已记录），无新内容。"
   },
   "scale": {
    "tier": "T1",
    "status": "ok",
    "method": "html",
    "entry_used": "https://scale.com/blog",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；内嵌数据新条目 'Scale is Open for Business in the UAE'（2026-10-26T11:45Z），商业拓展公告位次不足排除。"
+   "notes": "页面 200；最新仍为 UAE 公告（2026-10-26T11:45Z，上轮已记录），无新内容。"
   },
   "github": {
    "tier": "T1",
@@ -92,7 +92,7 @@
    "entry_used": "https://github.blog/feed/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；最新条目 2026-10-22T17:21Z（窗口前）。GPT-6.1 Terra Copilot changelog 经检索发现（github.blog/changelog），作为 #2 secondary 入账。"
+   "notes": "feed 200，窗口内无条目。"
   },
   "shopify": {
    "tier": "T1",
@@ -101,7 +101,7 @@
    "entry_used": "https://shopify.engineering/blog.atom",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "atom 200；最新 2026-10-22T12:56Z，无窗口内条目。"
+   "notes": "atom 200（436 条），窗口内无条目。"
   },
   "netflix": {
    "tier": "T1",
@@ -109,8 +109,8 @@
    "method": "rss",
    "entry_used": "https://netflixtechblog.com/feed",
    "items_in_window": 2,
-   "items_published": 1,
-   "notes": "feed 200；Pensive AI（10-26T17:04Z，入选 #9）与 Multi-Ratio Video Resizing（10-26T16:01Z，位次不足排除）。"
+   "items_published": 0,
+   "notes": "feed 200；窗口内 2 条（Pensive AI、Multi-Ratio Video Resizing）均为 10-26 已入账项，无新增。"
   },
   "airbnb": {
    "tier": "T1",
@@ -119,43 +119,34 @@
    "entry_used": "https://medium.com/feed/airbnb-engineering",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200，最新 2026-10-13，无窗口内条目。"
+   "notes": "feed 200，窗口内无条目。"
   },
   "stripe": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://stripe.com/blog/feed.rss",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "feed 200，最新 2026-10-22，无窗口内条目。"
+   "notes": "feed 200；how-the-fastest-growing-enterprises-on-stripe-scale-globally（10-27T00:00Z）为企业营销文排除。"
   },
   "cloudflare": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
-   "items_in_window": 1,
-   "items_published": 1,
-   "notes": "feed 200；kv-cache-exposure-remediation（10-26T22:01Z）入选 #6 一手。"
+   "items_in_window": 3,
+   "items_published": 0,
+   "notes": "feed 200；kv-cache-exposure-remediation（10-26T22:01Z）上轮已发布；本轮新增 php-ctf（例行活动）与 q3-2026-internet-disruption-summary（季度汇总）均位次不足排除。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 8,
+   "items_in_window": 14,
    "items_published": 0,
-   "notes": "atom 200；窗口内 8 条均为 10-26 changelog 动更，其中 gpt-6-1-terra-ai-gateway 记为 #2 同事件 excluded，其余 7 条例行动更位次不足排除（其中 3 条代表性条目入账）。"
-  },
-  "linear": {
-   "tier": "T1",
-   "status": "blocked",
-   "method": "rss",
-   "entry_used": "https://linear.app/feed.xml",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "连续第 3 轮真实探测失败：feed.xml 200 但为 SPA HTML（不可解析）；替代入口本轮复验失败（changelog 为 SSR/JS 渲染页无机读结构、/changelog/rss.xml 与 /changelog/feed 404、/rss.xml 与 /feed 同为 SPA HTML）。满足「连续3次失败且替代入口验证失败」，2026-10-27 按规则降为候选待观察（config/sources.json 已更新并备份）。"
+   "notes": "atom 200；窗口内 14 条均为 10-26/10-27 changelog 例行动更（AI traffic insights、Dockerfile 部署、ElevenLabs on AI Gateway 等），位次不足排除。"
   },
   "cursor": {
    "tier": "T1",
@@ -164,7 +155,7 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；最新日期 2026-10-20，窗口内无新内容。"
+   "notes": "页面 200；最新日期仍 2026-10-20，窗口内无新内容。"
   },
   "hn": {
    "tier": "T2",
@@ -172,17 +163,17 @@
    "method": "algolia-api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
    "items_in_window": 70,
-   "items_published": 8,
-   "notes": "search_by_date(numericFilters points>100)=70 条 + front_page 快照 + 全量低分档复核；10 事件中 S-1/微软 VEO/GPT-6.1 Terra/Cohere/OpenAI 数学研究（含 ETH 预印本）等 6 事件 8 URL 经 HN 发现。"
+   "items_published": 9,
+   "notes": "search_by_date(points>100) 窗口内 70 条 + 全量复核；Genie 4（674 分）、Ghostty 1.4（675 分）、Python JIT（432 分）、Roblox/145GB（455 分）、Apple M6×2、Tailscale SSH（167 分）、LFM3（110 分）、Anthropic 漏洞研究（9 分）共 9 URL 经 HN 发现或佐证。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed",
-   "items_in_window": 6,
-   "items_published": 2,
-   "notes": "feed 200；窗口内 6 条：Anthropic files（#1 secondary）与 SpaceX-Apollo（#5 secondary）入选；AI-zero-payoff 为 TECH-65 已发布事件转述、Grok Odyssey 为 TECH-68 已发布事件（同 URL 在账），不重开；AI wearables 清单文位次不足。"
+   "items_in_window": 17,
+   "items_published": 1,
+   "notes": "feed 200；窗口内 17 条：Genie 4 报道入选 #1 secondary；ETH/Anthropic-Books/Anthropic-IPO/Cohere-Qwen/OpenAI-dots/PHP2Shell-Wiz 等为已发布事件转述或衍生，Opera/GMO/Rohit-Patel/融资类等位次不足排除。"
   },
   "theinformation": {
    "tier": "T2",
@@ -191,7 +182,7 @@
    "entry_used": "https://www.theinformation.com",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "本轮首页 200（此前 TECH-61/65/68 轮为 403），正文仍付费墙；首页标题仅作线索（SpaceX-Apollo、Terra 定价战、DoorDash-Instacart、Meta $95B 均经其他可核验来源独立确认后收录），维持 paywall 记录。"
+   "notes": "首页 200，正文付费墙；首页标题线索（OpenAI 拟购 Google AI 芯片等）无法核验时间与正文，不收录，维持 paywall 记录。"
   },
   "a16z": {
    "tier": "T2",
@@ -200,7 +191,7 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；最新带日期条目 2026-09-30，连续第 11 轮 0 条窗口内产出（JS 渲染），未达降级阈值，继续观察。"
+   "notes": "页面 200；连续第 12 轮 0 条窗口内产出（JS 渲染），未达降级阈值，继续观察。"
   },
   "arxiv_csai": {
    "tier": "T3",
@@ -209,16 +200,16 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.AI",
    "items_in_window": 321,
    "items_published": 0,
-   "notes": "周一公告批正常到达（dc:date 2026-10-26T04:00Z，321 条）；与 HN 热点交叉比对无高热度 T3 候选，本轮 T1/T2 供给充足不凑数。"
+   "notes": "周二公告批正常到达（pubDate 2026-10-27T04:00Z，321 条）；与 HN 交叉比对无高热度 T3 候选，本轮不取。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.CL",
-   "items_in_window": 169,
+   "items_in_window": 374,
    "items_published": 0,
-   "notes": "周一公告批正常到达（169 条）；无高热度 T3 候选。"
+   "notes": "周二公告批正常到达（374 条）；无高热度 T3 候选。"
   },
   "arxiv_cslg": {
    "tier": "T3",
@@ -227,7 +218,7 @@
    "entry_used": "https://rss.arxiv.org/rss/cs.LG",
    "items_in_window": 321,
    "items_published": 0,
-   "notes": "周一公告批正常到达（321 条）；无高热度 T3 候选。"
+   "notes": "周二公告批正常到达（321 条）；无高热度 T3 候选。"
   },
   "hf_papers": {
    "tier": "T3",
@@ -236,7 +227,7 @@
    "entry_used": "https://huggingface.co/api/daily_papers",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "api 200 共 50 条；publishedAt 最新批次 2026-10-23，窗口内（≥10-25）0 条，本轮不取。"
+   "notes": "api 200 共 50 条；publishedAt 最新批次 2026-10-25T20:00Z，窗口内（≥10-26）0 条，本轮不取。"
   }
  }
 }

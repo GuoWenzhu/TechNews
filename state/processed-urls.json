@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-20T00:40:00Z",
+ "updated_at": "2026-10-28",
  "note": "URL已规范化（去跟踪参数、保留语义参数）。status: published=已发布简报；excluded=已评估并明确排除。仅这两种状态入账；临时抓取失败不入账。",
  "initialized": "2026-10-11 (TECH-4)，仅包含本契约生效后处理的内容",
  "entries": [
@@ -9524,6 +9524,464 @@
    "status": "excluded",
    "reason": "同周期应用案例文：已在 Terra 条目提及 CodeRabbit 案例，本篇不重开（新闻密度不足）",
    "evaluated_on": "2026-10-27"
+  },
+  {
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "title": "Genie 4: A new generation of world simulation",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Google DeepMind 发布 Genie 4 世界模型",
+   "source_pub_time": "2026-10-27T16:01Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+   "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Google DeepMind 发布 Genie 4 世界模型",
+   "source_pub_time": "2026-10-27T16:30Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50261319",
+   "title": "Genie 4 (674 分/410 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Google DeepMind 发布 Genie 4 世界模型",
+   "source_pub_time": "2026-10-27T16:06Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+   "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Anthropic 红队披露 Claude 发现 5 条真实软件攻击链",
+   "source_pub_time": "2026-10-27T00:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50265205",
+   "title": "Discovering and exploiting vulnerabilities in real-world software with Claude (9 分)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Anthropic 红队披露 Claude 发现 5 条真实软件攻击链",
+   "source_pub_time": "2026-10-27T20:18Z"
+  },
+  {
+   "url": "https://lwn.net/Articles/1102102/",
+   "title": "Python's experimental JIT to be removed",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "CPython 实验性 JIT 将被移除（PEP 836 撤回）",
+   "source_pub_time": "2026-10-26T00:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50257419",
+   "title": "Python's experimental JIT to be removed (432 分/227 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "CPython 实验性 JIT 将被移除（PEP 836 撤回）",
+   "source_pub_time": "2026-10-27T11:17Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Anthropic 与 GSA 新协议：政府全层级 Claude 40% 折扣",
+   "source_pub_time": "2026-10-27T00:00Z"
+  },
+  {
+   "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Apple 发布 M6 款 14 英寸 MacBook Pro 与 iMac",
+   "source_pub_time": "2026-10-27T13:01Z"
+  },
+  {
+   "url": "https://www.apple.com/imac/",
+   "title": "iMac",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Apple 发布 M6 款 14 英寸 MacBook Pro 与 iMac",
+   "source_pub_time": "2026-10-27T13:02Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50258521",
+   "title": "New 14-inch MacBook Pro with M6 (158 分/191 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Apple 发布 M6 款 14 英寸 MacBook Pro 与 iMac",
+   "source_pub_time": "2026-10-27T13:01Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50258538",
+   "title": "New iMac with M6 (299 分/358 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Apple 发布 M6 款 14 英寸 MacBook Pro 与 iMac",
+   "source_pub_time": "2026-10-27T13:02Z"
+  },
+  {
+   "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+   "title": "Ghostty 1.4.0",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Ghostty 1.4 正式发布",
+   "source_pub_time": "2026-10-27T00:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50261998",
+   "title": "Ghostty 1.4 (675 分/209 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Ghostty 1.4 正式发布",
+   "source_pub_time": "2026-10-27T16:51Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "title": "Early progress on accelerating drug development with Claude",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Anthropic 公布药物研发进展与六大药企合作",
+   "source_pub_time": "2026-10-27T00:00Z"
+  },
+  {
+   "url": "https://tailscale.com/ssh-investigation-update",
+   "title": "Tailscale SSH: Investigation and remediation update",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Tailscale 披露 SSH 提权漏洞调查与修复",
+   "source_pub_time": "2026-10-26T00:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50264857",
+   "title": "Tailscale SSH: Investigation and remediation update (167 分/95 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Tailscale 披露 SSH 提权漏洞调查与修复",
+   "source_pub_time": "2026-10-27T19:55Z"
+  },
+  {
+   "url": "https://www.liquid.ai/blog/lfm3",
+   "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Liquid AI 开源 LFM3 全模态 2B 级模型家族",
+   "source_pub_time": "2026-10-27T00:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50262229",
+   "title": "Introducing LFM3 (110 分/40 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Liquid AI 开源 LFM3 全模态 2B 级模型家族",
+   "source_pub_time": "2026-10-27T17:04Z"
+  },
+  {
+   "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+   "title": "Roblox downloaded 145 GB of models from our sites (including adult content) without asking",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "primary",
+   "event": "Open3DLab 指控 Roblox 抓取 145GB 模型",
+   "source_pub_time": "2026-10-26T00:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50256985",
+   "title": "Roblox downloaded 145GB models from us (455 分/267 评)",
+   "issue": "TECH-74",
+   "status": "published",
+   "published_on": "2026-10-28",
+   "role": "secondary",
+   "event": "Open3DLab 指控 Roblox 抓取 145GB 模型",
+   "source_pub_time": "2026-10-27T10:27Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/agents-judgment-calls",
+   "title": "How AI agents shape experts’ judgment calls",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "T1 一手研究（50 名分析师 agent 决策让渡研究）；当日 Anthropic 已 3 条入选，同源第 4 条位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "合作公告，信息密度低（HN 1 分），位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://openai.com/index/check-point-daybreak",
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-71 Daybreak Defense Network）后续案例文",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://openai.com/index/retell-ai",
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "应用案例文，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "title": "Inside Wikipedia’s Cleanup of AI-Generated Content",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "窗口外原发（2026-10-21T13:00Z），HN 10-27 回热，按窗口外原发不重开",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "窗口外原发（2026-07-29，转述 Bloomberg 7 月报道），HN 10-27 回热",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "title": "Anthropic illegally trained Claude with Stanford professors’ books",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-71 Anthropic S-1/Bartz 判决）衍生报道与旧判决回顾",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-71 OpenAI 数学研究/ETH）转述",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-71 Cohere/Qwen）转述",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-71 GPT-6.1/Codex 生态）衍生特写",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+   "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-71 Anthropic S-1）转述",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+   "title": "Who’s really in charge at Anthropic after the IPO?",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（Anthropic S-1）衍生分析",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+   "title": "PHP2Shell: Exploitation attempts and remediation trends",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "已发布事件（PHP2Shell 漏洞，TECH-52 轮）后续趋势报告，未达新事件门槛",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://blog.cloudflare.com/php-ctf/",
+   "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "例行 CTF 活动公告，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+   "title": "What took the Internet offline in Q3 2026",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "例行季度断网汇总报告，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://stripe.com/blog/how-the-fastest-growing-enterprises-on-stripe-scale-globally",
+   "title": "How the fastest-growing enterprises on Stripe scale globally",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "企业营销内容，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+   "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "政府监听诉讼报道，超出本简报工程/AI 落地范围（HN 741 分，记录备查）",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://cfsg.axiommath.ai/",
+   "title": "Classification of Finite Simple Groups Formalized in Lean",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "数学形式化项目，热度中等（155 分/41 评）位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "title": "AI promised less work. I’ve never worked more",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "个人观点随笔，不属新闻（HN 613 分，记录热度）",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "title": "The Mythical Man-Month in the Age of AI",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "个人观点随笔，不属新闻（HN 426 分，记录热度）",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible",
+   "title": "Software may be getting worse, but it used to be horrible",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "观点文，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "厂商标准提案，热度与信息密度不足以入 Top10",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+   "title": "Japan internet giant GMO says hackers posted stolen customer data",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "数据泄露快讯，信息密度不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+   "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "人事变动，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "投资快讯，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "title": "General Compute raises $100 million Series A",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "融资快讯，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+   "title": "Disruptive raises $10B fund",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "融资快讯，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "产品安全诉讼，发生时间临近窗口截点，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+   "title": "Bank of America asks customers not to share banking password with AI assistants",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "风险提示类快讯，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+   "title": "The data center boom has an upside: innovation for the US grid",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "行业综述文，位次不足",
+   "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://www.theinformation.com/news/openai-plans-to-buy-googles-ai-chips",
+   "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips",
+   "issue": "TECH-74",
+   "status": "excluded",
+   "reason": "付费墙仅首页标题线索，无法核验发布时间与正文，不收录",
+   "evaluated_on": "2026-10-28"
   }
  ]
 }

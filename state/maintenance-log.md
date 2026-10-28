@@ -219,3 +219,14 @@
 - **其余 25 个启用来源**：无清单改动。采集全部成功返回（theinformation 首页本轮 200/正文付费墙维持 paywall；meta_ai 直连 307→跟随重定向 200 正常）。a16z 连续第 11 轮 0 条窗口内产出（JS 渲染），未达 30 日降级线，继续观察。
 - **新来源评估**：无满足「已启用 T2 中 ≥3 条独立热点条目引用」条件的新来源（Cohere/微软官方博客/LMSYS/SpaceX IR/Meta IR 均为单条事件一手来源，经 HN/T2 发现后按事件收录，不动清单）。
 - 候选待观察（xai/perplexity/uber/doordash/sequoia/jiqizhixin/qbitai/stratechery/benevans + 本轮 linear）：未探测，状态不变。
+
+## 2026-10-28（TECH-74）例行维护
+
+- 采集窗口：2026-10-26T00:00Z – 2026-10-28T00:05Z（48h）。25 个启用来源全部按既定入口探测成功（theinformation 首页 200/正文付费墙维持 paywall；deepmind RSS 本轮返回 gzip 编码，解压后内容正常，非故障）。
+- 窗口内供给：T1 5 源有新内容（deepmind Genie 4；anthropic_news GSA；anthropic_research 漏洞红队/药物研发/agent 决策研究 3 篇；openai 4 条均排除）；T2 HN points>100 窗口内 70 条；T3 arXiv 周二批正常（cs.AI 321 / cs.CL 374 / cs.LG 321）但与 HN 交叉无高热度论文，HF papers 窗口内 0 条，本轮 T3 0 条不凑数。
+- 健康要点：a16z 连续第 12 轮 0 条窗口内产出（JS 渲染），未达 30 日降级线，继续观察；anthropic sitemap 未见站点级批量刷新异常（仅 s1-sec 已发布页 lastmod 更新，不重开）；ghostty/liquid-ai/tailscale/open3dlab/apple-newsroom 等均为 T2 发现后核验的一手页面，按事件收录，不动清单。
+- 特别核验：Spectrum Wikipedia 文章原发 2026-10-21（HN 10-27 回热）、Futurism Amazon AI 部门文章原发 2026-07-29（HN 回热）均按「窗口外原发不重开」排除；Stanford Daily/TechCrunch ETH/IPO 控制权等按「已发布事件（TECH-71）衍生或转述」排除；LWN JIT 原文 2026-10-26（Joe Brockmeier，订阅链接已免费开放），Tailscale 官方页 Published October 26th 2026，Ghostty 1.4 发布说明标注 October 27, 2026，LFM3 页面 OCT 27, 2026，Apple MBP newsroom datePublished 2026-10-27，均在窗口内。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia/linear/jiqizhixin/qbitai/stratechery/benevans）：未探测，状态不变。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-28.md）；21 URL 入 published（10 主源 + 11 secondary）、31 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-74）。
+- 发布：reports/digest-2026-10-28.md，10 条事件；提交分支 main。
