@@ -9982,6 +9982,560 @@
    "status": "excluded",
    "reason": "付费墙仅首页标题线索，无法核验发布时间与正文，不收录",
    "evaluated_on": "2026-10-28"
+  },
+  {
+   "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+   "title": "Discord 公开服务器内容将进网页搜索",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "独立事件（HN 325 分），与 #9/#10 竞争落选，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://vercel.com/blog/introducing-vercel-ci",
+   "title": "Introducing Vercel CI",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "开发者基建更新（beta），信息密度与热度不足，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta",
+   "title": "Vercel CI is now in beta",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "产品更新条目，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+   "title": "Introducing Virtual Models on AI Gateway",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "产品更新，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+   "title": "Chrome AI Autofill digs through Gmail",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "功能更新，密度与热度不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+   "title": "Google expands AI Search ads globally",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "广告商业化动态，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+   "title": "South Korea financial industry cyberattacks",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "安全事件公开细节不足，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+   "title": "AI execs may be too out of touch",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "会议观点文",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "title": "OpenAI and ServiceNow expand partnership",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "合作通稿",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://openai.com/index/the-future-of-the-firm",
+   "title": "The future of the firm",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "研究随笔",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://openai.com/index/legora",
+   "title": "Legora is building the agentic operating system for legal work",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "客户案例",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "title": "Is my data used for model training?（帮助文档）",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "产品帮助文档，非新闻",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+   "title": "Claude discovers a novel enzyme system",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "sitemap lastmod 批量刷新，页面 datePublished 2026-09-23 旧页，不重开",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+   "title": "Coding agents in the social sciences",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "sitemap lastmod 批量刷新，页面 datePublished 2026-05-27 旧页，不重开",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "title": "Nvidia Nemotron 3.5 Transcribe open ASR",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "开源模型发布（HN 106 分），热度不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+   "title": "Emacs Turns 50",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "原发 2026-10-20 窗口外，HN 回热",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://lexifina.com/blog/git-for-the-us-code",
+   "title": "Git for the US Code",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "开源治理案例（425 分），与 AI/Agent 相关性弱，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+   "title": "Humanist granted religious exemption from using AI",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "社会新闻，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+   "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "设备树线索传闻，未获官方证实",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.brangus.io/survival-llm",
+   "title": "Survival LLM",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "个人项目发布页，信息密度不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+   "title": "Reviewers rarely talk about reliability",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "小型研究笔记，密度不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+   "title": "Here be monsters: agents do the work",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "观点文",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+   "title": "Software may be getting worse, but it used to be horrible",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "观点文",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+   "title": "Four Months of Zig",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "观点文",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
+   "title": "Hunger beats tenure",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "职业建议观点文",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+   "title": "I still teach OpenGL ES 3.0",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "观点文（2026-01 旧文回热）",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://gforth.org/manual/1.0/NEWS.html",
+   "title": "Gforth 1.0",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "小众发布，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+   "title": "I will no longer upload to NEW（Debian）",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "社区事务",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://github.com/otya128/winevdm",
+   "title": "16-bit Windows on 64-bit Windows",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "项目发布，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://wiki.alpinebsd.org",
+   "title": "AlpineBSD",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "项目页，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+   "title": "Police are using AI to pull over drivers",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "社会应用报道，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+   "title": "US President says he will ban the term 'artificial intelligence'",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "政治动态，领域不符",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
+   "title": "US agency approves Amazon Leo's $11.5B acquisition of Globalstar",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "商业动态位次不足（Reuters 401 反爬未核验细节）",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.reuters.com/business/media-telecom/alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say-2026-10-27/",
+   "title": "Alleged Israeli spy company targeted Starlink users",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "安全情报报道，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+   "title": "Leak Exposes 41,000 Homeland Security Workers",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "政府数据泄露事件，偏政治，领域不符",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+   "title": "ICE anti-left surveillance operations",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "偏政治报道，领域不符",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
+   "title": "A 28-Year-Old DOGE Operative Gutted USAID",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "偏政治报道，领域不符",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://paulfwalsh.substack.com/p/meta-censored-the-no-kings-instagram",
+   "title": "Meta censored the No Kings Instagram account",
+   "issue": "TECH-77",
+   "status": "excluded",
+   "reason": "平台争议单方叙事，位次不足",
+   "evaluated_on": "2026-10-29"
+  },
+  {
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "title": "Gemini 4 Carbon: our next frontier model",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "Gemini 4 Carbon 发布",
+   "source_pub_time": "2026-10-28T17:00Z"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "title": "Introducing Gemini 4 Carbon",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Gemini 4 Carbon 发布",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50276792",
+   "title": "Gemini 4 Carbon (765 分/625 评)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Gemini 4 Carbon 发布",
+   "source_pub_time": "2026-10-28T17:01Z"
+  },
+  {
+   "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+   "title": "Apple introduces MacBook Pro with PROLED XDR Display",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "Apple PROLED XDR MacBook Pro（Mac 首次触控）",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+   "title": "MacBook Pro PROLED XDR Display 产品页",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Apple PROLED XDR MacBook Pro（Mac 首次触控）",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50276940",
+   "title": "MacBook Pro with PROLED XDR Display and Touch (475 分/821 评)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Apple PROLED XDR MacBook Pro（Mac 首次触控）",
+   "source_pub_time": "2026-10-28T17:10Z"
+  },
+  {
+   "url": "https://emudhra.we-have-a-problem.com/apple.html",
+   "title": "Apple's git still trusts the compromised eMudhra certificates",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "Apple 命令行工具仍信任失陷 eMudhra 证书",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://support.apple.com/en-us/149555",
+   "title": "About the compromised eMudhra intermediate CAs（Apple 官方）",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Apple 命令行工具仍信任失陷 eMudhra 证书",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50271640",
+   "title": "Apple's git still trusts the compromised eMudhra certificates (1021 分/375 评)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Apple 命令行工具仍信任失陷 eMudhra 证书",
+   "source_pub_time": "2026-10-28T11:03Z"
+  },
+  {
+   "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+   "title": "GitHub Universe 2026: Evolving every layer of the stack",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "GitHub Universe 2026 与 Octoverse 年报",
+   "source_pub_time": "2026-10-28T16:09Z"
+  },
+  {
+   "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+   "title": "Octoverse 2026: commits, pushes reach new highs",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "GitHub Universe 2026 与 Octoverse 年报",
+   "source_pub_time": "2026-10-28T16:07Z"
+  },
+  {
+   "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "title": "Code-execution flaw in UEFI firmware affects most servers (CVE-2026-97631)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "EDK II 固件 CVE-2026-97631 提前披露",
+   "source_pub_time": "2026-10-27T20:25Z"
+  },
+  {
+   "url": "https://github.com/tianocore/edk2/security/advisories/GHSA-99cj-7hg9-mp4m",
+   "title": "TianoCore EDK2 官方安全公告 GHSA-99cj-7hg9-mp4m",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "EDK II 固件 CVE-2026-97631 提前披露",
+   "source_pub_time": "2026-10-27"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50265393",
+   "title": "Code-execution flaw in UEFI firmware threatens most servers (302 分/219 评)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "EDK II 固件 CVE-2026-97631 提前披露",
+   "source_pub_time": "2026-10-27T20:35Z"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+   "title": "Microsoft FY2027 Q1 earnings release（Azure 美元收入首披露）",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "微软首次披露 Azure 季度美元收入 332 亿美元",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+   "title": "Microsoft just shared Azure's actual revenue in dollars: $33.2 billion",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "微软首次披露 Azure 季度美元收入 332 亿美元",
+   "source_pub_time": "2026-10-28T21:58Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+   "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "微软首次披露 Azure 季度美元收入 332 亿美元",
+   "source_pub_time": "2026-10-28T21:34Z"
+  },
+  {
+   "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+   "title": "Smart reports, surveys, and pooled group budgets for Claude Enterprise",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "Anthropic 企业智能报告与预算池",
+   "source_pub_time": "2026-10-27"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+   "title": "Anthropic launched tools to show companies what their AI spending is buying",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Anthropic 企业智能报告与预算池",
+   "source_pub_time": "2026-10-28T19:19Z"
+  },
+  {
+   "url": "https://nullpt.rs/fingerprinting-bioweapons",
+   "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "指纹脚本反 LLM 混淆与隐形提示注入",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50276998",
+   "title": "Why is this fingerprinting script creating bioweapons? (732 分/169 评)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "指纹脚本反 LLM 混淆与隐形提示注入",
+   "source_pub_time": "2026-10-28T17:13Z"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+   "title": "Connected apps, one place（Connected Apps Platform 预览）",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "Google 开放 Connected Apps Platform",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+   "title": "Google opens Gemini and Search to more apps",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Google 开放 Connected Apps Platform",
+   "source_pub_time": "2026-10-28T17:00Z"
+  },
+  {
+   "url": "https://surgehq.ai/blog/dayjob-tax",
+   "title": "DAYJOB: Tax — evaluating AI agents on 50 professional tax assignments",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "primary",
+   "event": "Surge AI DAYJOB: Tax 智能体基准",
+   "source_pub_time": "2026-10-27"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50275626",
+   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments (191 分/113 评)",
+   "issue": "TECH-77",
+   "status": "published",
+   "published_on": "2026-10-29",
+   "role": "secondary",
+   "event": "Surge AI DAYJOB: Tax 智能体基准",
+   "source_pub_time": "2026-10-28T15:46Z"
   }
  ]
 }

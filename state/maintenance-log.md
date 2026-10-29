@@ -230,3 +230,16 @@
 - 候选待观察（xai/perplexity/uber/doordash/sequoia/linear/jiqizhixin/qbitai/stratechery/benevans）：未探测，状态不变。
 - 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-28.md）；21 URL 入 published（10 主源 + 11 secondary）、31 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-74）。
 - 发布：reports/digest-2026-10-28.md，10 条事件；提交分支 main。
+
+## 2026-10-29（TECH-77）例行维护
+
+- 采集窗口：2026-10-27T00:00Z – 2026-10-29T00:05Z（48h）。25 个启用来源全部按既定入口探测（theinformation 首页 200/正文付费墙维持 paywall，不计新故障）。
+- 抓取端异常（非源故障）：mistral RSS 入口 /news/rss.xml 本轮 404，替代入口 /rss.xml 200 验证有效（92 条可解析），health 记录 entry_used 迁移、清单暂不改动，下轮复验；sierra.ai 单次 SSL 握手瞬时失败，重试后页面 200 正常。
+- 窗口内供给：T1 3 源有新内容（deepmind Gemini 4 Carbon；github Universe 2026 + Octoverse；anthropic sitemap 两 research 页 lastmod 刷新经页面核验为 09-23/05-27 旧页，批量刷新现象延续）；T2 HN points>100 窗口内 57 条；T3 arXiv 周三批正常（cs.AI 407/cs.CL 176/cs.LG 437）但与 HN 交叉无高热度论文，HF 10-28 批 49 条窗口内最高 171 赞，T3 0 条不凑数。
+- 特别核验：UEFI CVE-2026-97631（Ars 10-27T20:25Z、TianoCore 公告 GHSA-99cj-7hg9-mp4m，发现者 Alex Matrosov(Anthropic)/Dan Holmes(Google)，原定 1 月协调披露因 AMI 公开 PR 提前）为窗口内新披露事件；Apple git/curl 信任失陷 eMudhra 证书（披露页 10-28、Apple Support 149555 官方确认、HN 1021 分）为 TECH-52 eMudhra 事件在 Apple 开发者工具链上的重大新进展（Apple 10-17 获通报、10-19 框架层屏蔽、macOS 27.2 未修复并回退手动补丁），沿用 TECH-65「窗口内新进展可作新事件」口径收录并透明标注时间线；anthropic enzyme/social-sciences、Spectrum Wikipedia（TECH-74 已排除）、Amazon AI 部门（07-29 原发）、Emacs 50（10-20 原发）、Stanford books（TECH-74 已排除衍生）均按「窗口外原发/已发布事件衍生不重开」排除；netflix Multi-Ratio（10-26T16:01Z）早于本轮窗口起点不计。
+- 健康要点：a16z 连续第 13 轮 0 条窗口内产出（JS 渲染），未达 30 日降级线，继续观察；vercel 窗口内 18 条均位次不足排除（Vercel CI 等，正常产品更新节奏）；anthropic sitemap lastmod 批量刷新现象延续，新增页一律以页面 datePublished 核验。
+- config/sources.json：无改动（无来源触发连续 3 次探测失败或连续 30 日无产出条件；mistral 替代入口验证有效但为单次 404，按规则不动清单；无新增入口；未发现满足纳入标准的新来源），故不创建备份、不重新生成展示版。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia/linear/jiqizhixin/qbitai/stratechery/benevans）：未探测，状态不变。
+- 新来源评估：无满足「已启用 T2 中 ≥3 条独立热点条目引用」条件的新来源（emudhra.we-have-a-problem.com/nullpt.rs/surgehq.ai 均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-29.md）；25 URL 入 published（10 主源 + 15 secondary）、38 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-77）。
+- 发布：reports/digest-2026-10-29.md，10 条事件；提交分支 main。
