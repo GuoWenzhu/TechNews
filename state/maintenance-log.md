@@ -243,3 +243,16 @@
 - 新来源评估：无满足「已启用 T2 中 ≥3 条独立热点条目引用」条件的新来源（emudhra.we-have-a-problem.com/nullpt.rs/surgehq.ai 均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）。
 - 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-29.md）；25 URL 入 published（10 主源 + 15 secondary）、38 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-77）。
 - 发布：reports/digest-2026-10-29.md，10 条事件；提交分支 main。
+
+## 2026-10-30（TECH-80）来源维护：mistral 入口迁移
+
+- **mistral 入口迁移**：原入口 `https://mistral.ai/news`（页内 RSS 路径 `/news/rss.xml`）连续第 2 轮真实探测 404（TECH-77/80 轮）；官方替代 RSS `https://mistral.ai/rss.xml` 连续第 2 轮 200 可解析（TECH-77 轮 92 条、本轮 93 条，窗口内条目正常）。满足 rules/collection.md「有验证有效的官方 RSS 可更新入口」，按规则将清单入口迁移至 `https://mistral.ai/rss.xml`，原地址保留于条目 notes，恢复观察解除。
+- **备份**：`backup/sources-20261030.json`（sha256 `c2cdc0ac12f6dfecfd5f2de3d059defb055577cdecb6ff2a024a198ab51065ca`，与修改前原文件字节一致，已核验）；替换前复核原文件 hash 未变化，经同目录临时文件原子替换；清单 `updated_at` → 2026-10-30；展示版已由 `validate.py --generate-md` 重新生成，全量校验通过。
+- **采集窗口**：2026-10-28T00:00Z – 2026-10-30T00:05Z（48h）。25 个启用来源全部按既定入口探测（theinformation 首页本轮 403 反爬，单次失败不计降级，维持 paywall；openai RSS 200 但页面直抓 403，内容经检索多源核验）。
+- 窗口内供给：T1 6 源有新内容（mistral Le Chonk/Mistral Large 4 开源入选 #1；openai Model Spec 修订与失准检测体系入选 #3/#4；anthropic ai-for-science 通稿位次不足排除，managed-agents/best-practices 为 sitemap 旧页刷新不重开；sierra Compliance Console、scale DualChem、meta_ai 高校合作均位次不足排除；cloudflare DDoS Q3 例行季报排除）；T2 HN points>100 窗口内 58 条（Binance 疑似 55 亿美元级盗取、DoorDash 收购 Instacart、SMS of Death、Alpine GitLab CVE-2026-97229 攻击未遂、Orange Edge 全链、Claude Code agent_summary 开销、StackOverflow 月提问跌破 1000 共 7 事件经 HN 发现或佐证入选）；T3 arXiv cs.AI 周四批 407 条但与 HN 无高热交叉，cs.CL/cs.LG 本轮空频道（build 10-29T04:00Z，单次异常记录观察，不计故障），HF 批次 publishedAt 均 ≤10-26 窗口外，T3 0 条不凑数。
+- 抓取端异常（非源故障）：无；26 个发布 URL + 57 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-80）。
+- 健康要点：a16z 连续第 14 轮 0 条窗口内产出（JS 渲染），未达 30 日降级线，继续观察；anthropic sitemap lastmod 批量刷新现象延续（managed-agents=04-08、best-practices=2025-04-18 均旧页），新增页一律以页面 datePublished 核验；sierra/scale 本轮页面含机读日期，核验效率改善。
+- 特别核验：Binance 事件为发展中事件，链上金额（Decrypt 55.7 亿/Arkham 钱包 57 亿+/官方累计冻结 25.4 亿）经 CoinDesk/TechCrunch/BleepingComputer/AP 多源交叉，行文按「疑似/调查中」表述；Claude Code agent_summary 原始 gist 发布后曾被作者改写标题，机制与量级以 anthropics/claude-code 官方仓库 issue #86879 及多方独立 OTEL 测量交叉印证并在简报中透明标注；SMS of Death 披露页含 VRP 时间线（05-05 报告、10 月更新修复、10-29 公开）；cursor agent-sdk 页面标注 Oct 20, 2026，按窗口外原发排除。
+- 候选待观察（xai/perplexity/uber/doordash/sequoia/linear/jiqizhixin/qbitai/stratechery/benevans）：未探测，状态不变。
+- 新来源评估：无满足「已启用 T2 中 ≥3 条独立热点条目引用」条件的新来源（coindesk/decrypt/arkm/orange.tw/smsofdeath/alpinelinux 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）。
+- 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-30.md）；26 URL 入 published（10 主源 + 16 secondary）；提交分支 main。

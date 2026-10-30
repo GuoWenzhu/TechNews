@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-28",
+ "updated_at": "2026-10-30",
  "note": "URL已规范化（去跟踪参数、保留语义参数）。status: published=已发布简报；excluded=已评估并明确排除。仅这两种状态入账；临时抓取失败不入账。",
  "initialized": "2026-10-11 (TECH-4)，仅包含本契约生效后处理的内容",
  "entries": [
@@ -10536,6 +10536,722 @@
    "role": "secondary",
    "event": "Surge AI DAYJOB: Tax 智能体基准",
    "source_pub_time": "2026-10-28T15:46Z"
+  },
+  {
+   "url": "https://mistral.ai/news/mistral-large-4-oss",
+   "title": "Le Chonk: Built for Coders, Trusted by Defenders. (Mistral Large 4)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "Mistral Large 4 开源权重发布",
+   "source_pub_time": "2026-10-29T12:00Z"
+  },
+  {
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+   "title": "Mistral-Large-4-1T-A52B weights",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Mistral Large 4 开源权重发布",
+   "source_pub_time": "2026-10-29T12:00Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/mistral-large-4-updated-weights-and-lower-pricing-on-ai-gateway",
+   "title": "Mistral Large 4 updated weights and lower pricing on AI Gateway",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Mistral Large 4 开源权重发布",
+   "source_pub_time": "2026-10-29T00:00Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+   "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Mistral Large 4 开源权重发布",
+   "source_pub_time": "2026-10-29T17:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50289418",
+   "title": "We're releasing the weights of Mistral Large 4 (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Mistral Large 4 开源权重发布",
+   "source_pub_time": "2026-10-29T11:41Z"
+  },
+  {
+   "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+   "title": "Binance loses $5.7 billion in largest crypto hack to date",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "Binance 疑似大规模被盗事件",
+   "source_pub_time": "2026-10-29T21:12Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto",
+   "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Binance 疑似大规模被盗事件",
+   "source_pub_time": "2026-10-29T22:27Z"
+  },
+  {
+   "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+   "title": "Binance Drained of $5.5 Billion in Suspected Hack",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Binance 疑似大规模被盗事件",
+   "source_pub_time": "2026-10-29"
+  },
+  {
+   "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "title": "Binance-hacker-1029 on-chain tracker (Arkham)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Binance 疑似大规模被盗事件",
+   "source_pub_time": "2026-10-29"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50296470",
+   "title": "Binance-hacker-1029 (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Binance 疑似大规模被盗事件",
+   "source_pub_time": "2026-10-29T21:40Z"
+  },
+  {
+   "url": "https://openai.com/index/updated-model-spec",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "OpenAI Model Spec 五价值观修订",
+   "source_pub_time": "2026-10-29T17:00Z"
+  },
+  {
+   "url": "https://model-spec.openai.com/2026-10-29.html",
+   "title": "Model Spec (2026/10/29)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI Model Spec 五价值观修订",
+   "source_pub_time": "2026-10-29"
+  },
+  {
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "title": "How we detect frontier model misalignment",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "OpenAI 前沿失准检测体系",
+   "source_pub_time": "2026-10-29T09:00Z"
+  },
+  {
+   "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+   "title": "DoorDash to Acquire Instacart to Help Local Stores Win",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "DoorDash 收购 Instacart",
+   "source_pub_time": "2026-10-29T11:56Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50287919",
+   "title": "DoorDash to acquire Instacart (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "DoorDash 收购 Instacart",
+   "source_pub_time": "2026-10-29T12:33Z"
+  },
+  {
+   "url": "https://smsofdeath.com",
+   "title": "SMS of Death: zero-click Android telephony DoS",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "SMS of Death Android 零点击 DoS 披露",
+   "source_pub_time": "2026-10-29"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50285452",
+   "title": "Zero click, silent, remote Android DoS (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "SMS of Death Android 零点击 DoS 披露",
+   "source_pub_time": "2026-10-29T07:08Z"
+  },
+  {
+   "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+   "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "Alpine GitLab CVE-2026-97229 攻击事件",
+   "source_pub_time": "2026-10-28"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50282544",
+   "title": "GitLab Security Incident (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Alpine GitLab CVE-2026-97229 攻击事件",
+   "source_pub_time": "2026-10-28T23:45Z"
+  },
+  {
+   "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain",
+   "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "Orange Tsai Edge 全链技术细节公开",
+   "source_pub_time": "2026-10-28T04:58Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50285319",
+   "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Orange Tsai Edge 全链技术细节公开",
+   "source_pub_time": "2026-10-29T06:47Z"
+  },
+  {
+   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "title": "Claude Code background agent transcript / agent_summary token overhead (gist)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "Claude Code agent_summary 后台转录开销",
+   "source_pub_time": "2026-10-29T03:33Z"
+  },
+  {
+   "url": "https://github.com/anthropics/claude-code/issues/86879",
+   "title": "Feature request: a supported way to disable the agent_summary spinner",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code agent_summary 后台转录开销",
+   "source_pub_time": "2026-10-29"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50284255",
+   "title": "Claude Code regularly sends each background agent's transcript to its model (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code agent_summary 后台转录开销",
+   "source_pub_time": "2026-10-29T03:33Z"
+  },
+  {
+   "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
+   "title": "StackOverflow questions per month (Data Explorer)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "primary",
+   "event": "StackOverflow 月提问量跌破 1000",
+   "source_pub_time": "2026-10-28T23:35Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50282454",
+   "title": "StackOverflow now gets fewer than 1000 questions a month (HN)",
+   "issue": "TECH-80",
+   "published_on": "2026-10-30",
+   "status": "published",
+   "role": "secondary",
+   "event": "StackOverflow 月提问量跌破 1000",
+   "source_pub_time": "2026-10-28T23:35Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "title": "AI for Science expands to foundations and institutions",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "T1 新页（datePublished 2026-10-28）但为项目扩展通稿，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.anthropic.com/research/managed-agents",
+   "title": "Scaling Managed Agents with stable interfaces",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "sitemap lastmod 刷新至 10-29T17:33Z，页面 datePublished 2026-04-08 旧页，不重开",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-code-best-practices",
+   "title": "Claude Code Best Practices",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "sitemap lastmod 刷新至 10-29T17:35Z，页面 datePublished 2025-04-18 旧页，不重开",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "客户案例",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
+   "title": "Microsoft Research Focus – Edition #97",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "播客，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://research.meta.ai/blog/supporting-medical-scientific-research",
+   "title": "How American Universities Are Using AI Models From Meta...",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "高校合作宣传（10-28），位次不足；同列表 Muse Spark Open 原发 10-15 窗口外",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://sierra.ai/blog/introducing-compliance-console",
+   "title": "Introducing Compliance Console",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "Agent 护栏产品发布（10-28T19:44Z），位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://sierra.ai/blog/dr-mitesh-patel-joins-sierra-as-head-of-clinical",
+   "title": "Dr. Mitesh Patel joins Sierra as Head of Clinical",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "人事动态，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+   "title": "Introducing DualChem",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "AI 双用途化学政策（10-28T16:00Z），位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://scale.com/blog/scales-long-term-investment-in-qatar",
+   "title": "Scale's Long-term Investment in Qatar",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "商务合作（10-28T10:30Z），位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3",
+   "title": "Cloudflare DDoS Threat Report 2026 Q3",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "例行季报（10-29T12:55Z），位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://vercel.com/changelog/node-js-26-lts-is-now-generally-available-on-vercel",
+   "title": "Node.js 26 LTS is now Generally Available on Vercel",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "产品更新，位次不足（本轮 vercel 窗口内 22 条，其余均为同类 changelog/产品条目，代表记录）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+   "title": "AWS will be a $1T business, Jassy says",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "财报解读（TECH-77 已发布云财报事件的后续单家数据），位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
+   "title": "Reddit announces it's shifting to a logged-in experience",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "平台产品调整，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+   "title": "Deepgram acquires Pipecat-maker Daily",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "并购，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt",
+   "title": "Thrive Holdings acquires ADT",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "并购，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch",
+   "title": "Meta quietly launches an AI fashion app called Style Sketch",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "消费应用，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+   "title": "Wabi valued at $1.25B",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "融资，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/us-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+   "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "人物/地缘，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto",
+   "title": "The 'Vulnpocalypse' is coming..., says Wiz's CTO",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "PHP2Shell 已发布事件（TECH-77）衍生播客/观点",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse",
+   "title": "Wiz's CTO on PHP2Shell and the coming 'vulnpocalypse'",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "同上衍生视频",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+   "title": "Patrick Stewart has died",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "娱乐人物，领域不符（HN 2174pt）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang",
+   "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "人物/地缘，领域不符（与 TC 同事件）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.vut.cz/en/but/news-f19528/two-but-graduates-received-state-honors-from-the-president-of-the-czech-republic",
+   "title": "Tomáš Mikolov awarded the Medal of Merit",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "人物荣誉，低密度",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://sidbala.com/h-264-is-magic",
+   "title": "H.264 Is Magic",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "2016 旧文回热，窗口外原发",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.kadoa.com/companies/insights/google-search-below-half",
+   "title": "Google Search is now less than half of Alphabet's revenue",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "TECH-77 已发布云财报事件衍生分析（385pt）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "title": "Zombie stats: Where the numbers AI quotes come from",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "研究评论，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits",
+   "title": "I went to Mexico to test-drive the cars Americans can't buy",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "汽车产业，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://yle.fi/a/74-20254086",
+   "title": "Finland investigate Google over destruction of 250k trees",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
+   "title": "Inside Proton's AI Reckoning",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "企业文化报道，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://text.npr.org/nx-s1-6021497",
+   "title": "Hackers expose the identities of more than 40k DHS employees",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "DHS 泄露事件 TECH-77 已排除，同事件衍生、领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.reuters.com/legal/government/leak-website-releases-data-tens-thousands-dhs-employees-2026-10-28",
+   "title": "Leak website releases data on DHS employees",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "同上，DHS 事件衍生、领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://iptrust.co/blog/if-ipv4-were-land",
+   "title": "If IPv4 were land",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "科普趣味，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+   "title": "NetBSD adds a new text editor called atto",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "趣味，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://publicpolicy.googleblog.com/2008/04/how-google-determines-names-for-bodies.html",
+   "title": "How Google determines the names for bodies of water (2008)",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "2008 旧文回热",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://sonidoselva.com/perspectiva-kogui",
+   "title": "Perspectiva Kogui",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "观点文，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months",
+   "title": "The US added a record 20.2 GWh of battery storage",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "原发 08-31 窗口外，HN 回热",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+   "title": "Chained PHP2Shell exploit roots 25 servers",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "PHP2Shell 已发布事件（TECH-77）衍生跟进（272pt）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+   "title": "What we know so far about Spain train crash",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "事故新闻，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://borretti.me/article/we-wont-just-hang-out",
+   "title": "We won't 'just hang out'",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "观点文",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://divagr.com/blog/qwenputer",
+   "title": "Qwenputer: a deterministic RISC-V CPU inside Qwen3.5",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "原发 2026-10-22 窗口外，HN 回热（679pt）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition",
+   "title": "Formlabs Studio 1 $699 Resin Printer",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "硬件产品，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://furbo.org/2026/10/28/a-health-update",
+   "title": "A Health Update",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "个人动态，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+   "title": "The case of the 9 bit AES key",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "安全考古趣味，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
+   "title": "Google AI gets cagey when asked who won the 2020 elections",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "模型行为现象，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward",
+   "title": "Archive.today links going forward",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "平台事务，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "title": "LLM Voice (Martin Fowler)",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "观点文，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+   "title": "Grace Blackwell needs a new scheduler",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "ML 基建优化，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://labs.ycombinator.com/projects/games/index.html",
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "趣味项目，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+   "title": "Two high-speed trains collide near Toledo",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "事故，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-28",
+   "title": "US agency approves Amazon Leo's $11.5B acquisition of Globalstar",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "商业航天并购，位次不足",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://dreamagainusa.org",
+   "title": "Wealth Inequality in America drawn to scale",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "社会议题，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://carmelitegothic.com/cnc-stone-carving",
+   "title": "CNC Stone Carving",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "趣味制作，领域不符",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://cursor.com/blog/agent-sdk",
+   "title": "The Agent SDK (Cursor)",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "页面标注 Oct 20, 2026，窗口外原发，HN 回热（141pt）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "title": "Gemini 4 Carbon is the new #1 on AA Intelligence Index v5",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "TECH-77 已发布事件（Gemini 4 Carbon）衍生",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.36077",
+   "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "HF 批次 publishedAt 2026-10-25 窗口外原发（386 赞）",
+   "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.35013",
+   "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+   "issue": "TECH-80",
+   "status": "excluded",
+   "reason": "HF 批次 publishedAt 2026-10-25 窗口外原发（380 赞，TECH-77 已评估同类）",
+   "evaluated_on": "2026-10-30"
   }
  ]
 }
