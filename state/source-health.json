@@ -1,8 +1,8 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-10-30T00:05Z",
- "issue": "TECH-80",
+ "last_run": "2026-10-31T00:35Z",
+ "issue": "TECH-83",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
@@ -11,52 +11,52 @@
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 2,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内 news 页 2 条：expanding-partnership-gsa 为 TECH-74 已发布页 lastmod 刷新；ai-for-science-expands（datePublished 2026-10-28）为窗口内新页，通稿位次不足排除。"
+   "notes": "sitemap 200；窗口内 2 条均为已入账页 lastmod 刷新（expanding-partnership-gsa 刷新、ai-for-science 10-28 页已排除），不重开。"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 4,
+   "items_in_window": 3,
    "items_published": 0,
-   "notes": "sitemap 200；managed-agents（04-08 旧页）与 claude-code-best-practices（2025-04-18 旧页）lastmod 刷新至 10-29，站点级批量刷新现象延续，页面 datePublished 核验后不重开；enzyme/social-sciences 为 TECH-77 已排除页。"
+   "notes": "sitemap 200；新页 discovering-vulnerabilities-with-claude lastmod 10-30T15:24Z，页面 datePublished 2026-10-27 窗口外原发排除（入台账）；managed-agents、claude-code-best-practices 站点级 lastmod 批量刷新，已入账不重开。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 6,
-   "items_published": 2,
-   "notes": "rss 200；窗口内 6 条：updated-model-spec 与 how-we-detect-frontier-model-misalignment 两篇安全文件入选 #3/#4（页面直抓 403，内容经检索多源核验）；ropes-gray 客户案例排除；servicenow/future-of-the-firm/legora 为 TECH-77 已排除页。"
+   "items_in_window": 7,
+   "items_published": 1,
+   "notes": "rss 200；窗口内 7 条：helping-websites-express-ai-training-preferences（10-30T09:30Z）入选 #6（页面直抓 403，内容经检索多源核验）；fair-use-benefits-everyone（NYT 诉讼立场文）、community-safety-report-teens（例行安全报告）、credit-saison（客户案例）排除入台账；model-spec/misalignment/ropes-gray 为 TECH-80 已入账页。"
   },
   "deepmind": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://deepmind.google/blog/rss.xml",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；Gemini 4 Carbon（10-28T17:00Z）为 TECH-77 已发布页，不重开。"
+   "notes": "rss 200；窗口内 0 条。"
   },
   "meta_ai": {
    "tier": "T1",
    "status": "ok",
    "method": "html",
    "entry_used": "https://research.meta.ai/blog",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "列表页 200；窗口内 1 条（高校学术合作 10-28）位次不足排除；列表 Muse Spark Open 经页面时间核验为 10-15 窗口外原发。"
+   "notes": "列表页 200；最新为 supporting-medical-scientific-research（10-28，已排除入账），窗口内无新页。"
   },
   "msresearch": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://www.microsoft.com/en-us/research/feed/",
-   "items_in_window": 1,
+   "items_in_window": 2,
    "items_published": 0,
-   "notes": "feed 200；窗口内 1 条为播客 Edition #97，排除。"
+   "notes": "feed 200；窗口内 2 条：Copilot 评估方法文（10-30T13:05Z）位次不足排除；Edition #97 播客已入账。"
   },
   "mistral": {
    "tier": "T1",
@@ -64,8 +64,8 @@
    "method": "rss",
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "原入口 /news/rss.xml 连续第 2 轮 404；替代入口 /rss.xml 连续第 2 轮 200 可解析（93 条），验证成立，本轮按规则将清单入口迁移至 /rss.xml（备份 backup/sources-20261030.json，原地址保留于清单 notes）。窗口内 Le Chonk/Mistral Large 4 开源发布入选 #1。"
+   "items_published": 0,
+   "notes": "rss 200（迁移后第 2 轮正常，93 条）；窗口内 1 条为 Le Chonk/Mistral Large 4（TECH-80 已发布页），不重开。"
   },
   "sierra": {
    "tier": "T1",
@@ -74,7 +74,7 @@
    "entry_used": "https://sierra.ai/blog",
    "items_in_window": 2,
    "items_published": 0,
-   "notes": "页面 200（本轮页面含机读 dateTime，较上轮改善）；窗口内 2 条（Compliance Console 10-28、人事 10-29）均位次不足/领域不符排除。"
+   "notes": "页面 200（含机读 dateTime）；窗口内 2 条：summit-recap-2026（10-30T12:50Z）营销回顾、ghostwriter-ai-tool-to-teammate（10-29T17:09Z）产品叙事，均位次不足排除。"
   },
   "scale": {
    "tier": "T1",
@@ -83,16 +83,16 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 2,
    "items_published": 0,
-   "notes": "页面 200（内嵌 JSON 含机读 date）；窗口内 2 条（DualChem 10-28、Qatar 10-28）均位次不足排除；UAE（10-26）窗口外。"
+   "notes": "页面 200；新增 ai-literacy-microcredential-launch（列表首位，教育项目）位次不足排除；DualChem（10-28）已入账。"
   },
   "github": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://github.blog/feed/",
-   "items_in_window": 2,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；Universe 2026 与 Octoverse 两条均为 TECH-77 已发布页，不重开。"
+   "notes": "feed 200；窗口内 0 条。"
   },
   "shopify": {
    "tier": "T1",
@@ -101,7 +101,7 @@
    "entry_used": "https://shopify.engineering/blog.atom",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "atom 200（436 条）；最新 2026-10-22，窗口内 0 条。"
+   "notes": "atom 200；最新仍为 2026-10-22，窗口内 0 条。"
   },
   "netflix": {
    "tier": "T1",
@@ -110,7 +110,7 @@
    "entry_used": "https://netflixtechblog.com/feed",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "feed 200；最新条目早于窗口起点，窗口内 0 条。"
+   "notes": "feed 200；窗口内 0 条。"
   },
   "airbnb": {
    "tier": "T1",
@@ -126,45 +126,45 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://stripe.com/blog/feed.rss",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "feed 200；窗口内 0 条。"
+   "notes": "feed 200；窗口内 1 条（Global Payouts $1B 工程案例 10-30）位次不足排除。"
   },
   "cloudflare": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
-   "items_in_window": 1,
-   "items_published": 0,
-   "notes": "rss 200；DDoS Threat Report 2026 Q3（10-29T12:55Z）为例行季报，位次不足排除。"
+   "items_in_window": 3,
+   "items_published": 1,
+   "notes": "rss 200；emudhra-patching（10-30T17:38Z，弱密钥利用/修复遥测，昨日 eMudhra 事件实质进展+一手新数据）入选 #10；private-origins GA 为产品发布排除；DDoS 季报已入账。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 22,
-   "items_published": 1,
-   "notes": "atom 200；窗口内 22 条，Mistral Large 4 定价 changelog 作 #1 secondary 入账，其余产品条目均位次不足排除（代表记录）。"
+   "items_in_window": 15,
+   "items_published": 0,
+   "notes": "atom 200；窗口内 15 条全部为 changelog/产品条目（Geist Serif、Ling 3.1 上架、Daemons 功能等），代表记录排除，位次不足。"
   },
   "cursor": {
    "tier": "T1",
    "status": "ok",
    "method": "html",
    "entry_used": "https://cursor.com/blog",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "页面 200；agent-sdk 页面标注 Oct 20, 2026（HN 10-28 回热 141pt），窗口外原发排除；列表仍无机读日期。"
+   "items_in_window": 1,
+   "items_published": 1,
+   "notes": "页面 200；claude-code-extension-security-notice（Oct 29, 2026）入选 #1（本日最大事件，一手公告）；joining-spacex 为 2026-08-14 旧页，列表仍无机读日期、经内嵌 JSON 核验。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "algolia-api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
-   "items_in_window": 58,
-   "items_published": 8,
-   "notes": "search_by_date(points>100) 窗口内 58 条 + 全量复核；Mistral Large 4（1140pt）、StackOverflow（760pt）、Claude Code 转录开销（558pt）、Binance（538pt）、Qwenputer（679pt，窗口外原发排除）、DoorDash×Instacart（401pt）、SMS of Death（314pt）、Alpine GitLab（247pt）、Orange Edge（228pt）经 HN 发现或佐证入选 8 事件。"
+   "items_in_window": 100,
+   "items_published": 7,
+   "notes": "search_by_date(points>100) 窗口内 100 条（hitsPerPage 上限）+ 全量复核；Claude Code 后门（736/652/398pt 三贴）、Binance 归因（190pt）、美股下跌（232pt）、Northflank（344pt）、Anthropic 评级（270pt）、Tangled（217pt）、Proton（254pt）经 HN 发现或佐证入选 7 事件；AI 泡沫决议（618pt）作 #3 secondary。"
   },
   "techcrunch_ai": {
    "tier": "T2",
@@ -172,8 +172,8 @@
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "items_in_window": 20,
-   "items_published": 2,
-   "notes": "rss 200；窗口内 20 条；Mistral 开源与 Binance 事件 2 条作 secondary 入账；AWS 财报/Reddit/Deepgram 等排除入台账。"
+   "items_published": 3,
+   "notes": "rss 200；窗口内 20 条；AI 支出裂缝/Intel（#3 secondary ×2）、Anthropic 评级（#5 secondary）、DoorDash Agent 订单（#8 primary）入账 4 URL/3 事件；Granola、Rivian、Theranos 演讲、数据中心预制、Google 卫星、Zest、Ollie 等排除入台账。"
   },
   "theinformation": {
    "tier": "T2",
@@ -182,7 +182,7 @@
    "entry_used": "https://www.theinformation.com",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "首页本轮 403 反爬（单次失败，不计降级）；维持 paywall 记录，下轮复验。"
+   "notes": "首页本轮 200 但为登录/付费墙页（上轮 403 反爬未复现）；维持 paywall 记录。"
   },
   "a16z": {
    "tier": "T2",
@@ -191,43 +191,43 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200 但 JS 渲染，0 条窗口内链接；连续第 14 轮 0 产出，距 30 个成功采集日降级线尚远，继续观察。"
+   "notes": "页面 200 但 JS 渲染，0 条窗口内链接；连续第 15 轮 0 产出，距 30 个成功采集日降级线尚远，继续观察。"
   },
   "arxiv_csai": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.AI",
-   "items_in_window": 407,
+   "items_in_window": 605,
    "items_published": 0,
-   "notes": "周四批次正常（407 条，pubDate 2026-10-29T04:00Z）；与 HN 交叉无高热度论文，T3 不凑数。"
+   "notes": "rss 200；周五批次 605 条（pubDate 2026-10-30T04:00Z 在窗口内）；与 HN 交叉无高热度论文，T3 不凑数。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.CL",
-   "items_in_window": 0,
+   "items_in_window": 279,
    "items_published": 0,
-   "notes": "rss 200 但空频道（build 2026-10-29T04:00Z，0 条目，同 build cs.AI 有 407 条）；单次异常记录观察，不计故障；HN 无 cs.CL 高热交叉。"
+   "notes": "rss 200；周五批次 279 条正常（上轮空频道异常未复现）；无高热交叉。"
   },
   "arxiv_cslg": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://rss.arxiv.org/rss/cs.LG",
-   "items_in_window": 0,
+   "items_in_window": 608,
    "items_published": 0,
-   "notes": "同 cs.CL，rss 200 空频道（build 2026-10-29T04:00Z）；单次异常记录观察；无高热交叉。"
+   "notes": "rss 200；周五批次 608 条；无高热交叉，T3 0 条。"
   },
   "hf_papers": {
    "tier": "T3",
    "status": "ok",
    "method": "api",
    "entry_used": "https://huggingface.co/api/daily_papers",
-   "items_in_window": 50,
+   "items_in_window": 16,
    "items_published": 0,
-   "notes": "API 200 共 50 条；批次 publishedAt 10-19～10-26 均为窗口外原发（最高 The Trinity 386 赞、MPO 380 赞，均 10-25 批次）；窗口内无高热度论文，T3 0 条不凑数。"
+   "notes": "API 200 共 50 条，其中 16 条批次 publishedAt 10-29（窗口内）；最高赞 Intrinsic Distribution Matching 237 赞无外部讨论交叉，未达 T3 高热度线，0 条不凑数（入台账）。"
   }
  }
 }

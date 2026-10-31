@@ -256,3 +256,14 @@
 - 候选待观察（xai/perplexity/uber/doordash/sequoia/linear/jiqizhixin/qbitai/stratechery/benevans）：未探测，状态不变。
 - 新来源评估：无满足「已启用 T2 中 ≥3 条独立热点条目引用」条件的新来源（coindesk/decrypt/arkm/orange.tw/smsofdeath/alpinelinux 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）。
 - 产出：Top10 全部 10 条发布（见 reports/digest-2026-10-30.md）；26 URL 入 published（10 主源 + 16 secondary）；提交分支 main。
+
+## 2026-10-31（TECH-83）采集健康记录：全部启用来源可达，无需清单改动
+
+- 采集窗口：2026-10-29T00:00Z ～ 2026-10-31T00:35Z（48h）。25 个启用来源全部按各自方法可达（HTTP 200）：sitemap×2、rss×15、atom×2、html×5、algolia-api×1。
+- theinformation 上轮 403 未复现，本轮 200 但为登录/付费墙页，维持 paywall 记录，下轮复验。单次不可达不降级，本轮不涉及。
+- a16z 连续第 15 轮 JS 渲染 0 产出（15 < 30，继续观察）。
+- arXiv cs.CL / cs.LG 上轮空频道异常未复现：本轮周五批次分别 279 / 608 条正常。
+- mistral 新入口 /rss.xml 迁移后第 2 轮 200 可解析（93 条），迁移验证继续成立。
+- T3：arXiv 三个周五批次（605/279/608 条）与 HN 无高热交叉；HF Daily Papers 窗口内 16 条（批次 10-29），最高 Intrinsic Distribution Matching 237 赞但无外部讨论交叉，未达 T3 高热度线，0 条收录不凑数。
+- 新发现（均经核验后按规则处置，不影响清单）：Anthropic 新研究页 discovering-vulnerabilities-with-claude 为 2026-10-27 窗口外原发（sitemap lastmod 刷新发现）；Cursor 官方博客发布 Claude Code 扩展安全公告（10-29），成为本日最大事件的一手来源。
+- 维护决定：本轮所有启用来源状态 ok/paywall（无 blocked），无来源触发降级/迁移阈值，config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变，避免生成相同内容备份）。

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-30",
+ "updated_at": "2026-10-31",
  "note": "URL已规范化（去跟踪参数、保留语义参数）。status: published=已发布简报；excluded=已评估并明确排除。仅这两种状态入账；临时抓取失败不入账。",
  "initialized": "2026-10-11 (TECH-4)，仅包含本契约生效后处理的内容",
  "entries": [
@@ -11252,6 +11252,550 @@
    "status": "excluded",
    "reason": "HF 批次 publishedAt 2026-10-25 窗口外原发（380 赞，TECH-77 已评估同类）",
    "evaluated_on": "2026-10-30"
+  },
+  {
+   "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+   "title": "Security notice — malicious version of Anthropic.claude-code identified in Cursor marketplace (Cursor)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "Claude Code 官方扩展遭篡改植入 SSH 后门（Cursor 市场）",
+   "source_pub_time": "2026-10-29T12:00Z"
+  },
+  {
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+   "title": "Official Claude Code Extension Compromise: Security Advisory (Phorion)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code 官方扩展遭篡改植入 SSH 后门（Cursor 市场）",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developers-6e69b0c85b47",
+   "title": "Anthropic hacked to deliver remote access trojan to Claude developers (DoublePulsar)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code 官方扩展遭篡改植入 SSH 后门（Cursor 市场）",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50300683",
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace (HN 736pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code 官方扩展遭篡改植入 SSH 后门（Cursor 市场）",
+   "source_pub_time": "2026-10-30T07:09Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50302334",
+   "title": "Backdoors in official Claude Code extensions (GossiTheDog, HN 652pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code 官方扩展遭篡改植入 SSH 后门（Cursor 市场）",
+   "source_pub_time": "2026-10-30T11:05Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50304129",
+   "title": "Anthropic Felix Rieseberg statement thread on Cursor marketplace incident (HN)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Claude Code 官方扩展遭篡改植入 SSH 后门（Cursor 市场）",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+   "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance (NPR/AP)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "Binance 被盗案进展：确证 63 亿美元、归因朝鲜 TraderTraitor",
+   "source_pub_time": "2026-10-30T13:01Z"
+  },
+  {
+   "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+   "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes (Wired)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Binance 被盗案进展：确证 63 亿美元、归因朝鲜 TraderTraitor",
+   "source_pub_time": "2026-10-30T11:36Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50305480",
+   "title": "North Korea linked to $6.3B Binance hack (HN 190pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Binance 被盗案进展：确证 63 亿美元、归因朝鲜 TraderTraitor",
+   "source_pub_time": "2026-10-30T19:39Z"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+   "title": "US tech stocks see sharp falls as AI spending nears $1tn (BBC)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "美股科技股两日连跌：Intel -28%、纳指 3 月以来最差单月",
+   "source_pub_time": "2026-10-30T14:50Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+   "title": "Cracks are emerging in the AI spending boom (TechCrunch)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "美股科技股两日连跌：Intel -28%、纳指 3 月以来最差单月",
+   "source_pub_time": "2026-10-30T21:17Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+   "title": "Intel's stock crashes, knocking $12B from government's stake (TechCrunch)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "美股科技股两日连跌：Intel -28%、纳指 3 月以来最差单月",
+   "source_pub_time": "2026-10-30T21:54Z"
+  },
+  {
+   "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-ai-bubble-bailout-for-big-tech",
+   "title": "Reps. Casar, Waters lead Democratic resolution opposing AI bubble bailout (House Progressive Caucus)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "美股科技股两日连跌：Intel -28%、纳指 3 月以来最差单月",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50306008",
+   "title": "US tech stocks see sharp falls over AI cost fears (HN 232pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "美股科技股两日连跌：Intel -28%、纳指 3 月以来最差单月",
+   "source_pub_time": "2026-10-30T16:13Z"
+  },
+  {
+   "url": "https://status.northflank.com",
+   "title": "Northflank Breached — security incident status page (Northflank)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "Northflank 遭入侵：用户托管 AI API 密钥被盗用",
+   "source_pub_time": "2026-10-30T23:38Z"
+  },
+  {
+   "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+   "title": "Bunny CDN security update: reissuance of managed TLS certificates (Bunny.net)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Northflank 遭入侵：用户托管 AI API 密钥被盗用",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
+   "title": "Linode customer security advisory: CVE-2026-98432 (Akamai)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Northflank 遭入侵：用户托管 AI API 密钥被盗用",
+   "source_pub_time": "2026-10-30T18:10Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50305025",
+   "title": "Northflank Breached (HN 344pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Northflank 遭入侵：用户托管 AI API 密钥被盗用",
+   "source_pub_time": "2026-10-30T15:10Z"
+  },
+  {
+   "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says (FT)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "FT：Blackstone 称 Anthropic IPO 后恐获高垃圾级评级",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "title": "Anthropic expected to receive high 'junk' rating following IPO, FT report says (TechCrunch)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "FT：Blackstone 称 Anthropic IPO 后恐获高垃圾级评级",
+   "source_pub_time": "2026-10-30T21:52Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50307219",
+   "title": "Anthropic may not secure investment-grade rating after IPO (HN 270pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "FT：Blackstone 称 Anthropic IPO 后恐获高垃圾级评级",
+   "source_pub_time": "2026-10-30T17:27Z"
+  },
+  {
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "title": "Making it easier for websites to express AI training preferences (OpenAI)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "OpenAI 支持 robots.txt 通用 AI 训练偏好信号",
+   "source_pub_time": "2026-10-30T09:30Z"
+  },
+  {
+   "url": "https://tangled.org/blog/forge/",
+   "title": "The federated code forge (Tangled)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "Tangled：基于 AT Protocol 的联邦化代码托管平台",
+   "source_pub_time": "2026-10-30"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50305573",
+   "title": "The federated code forge (HN 217pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Tangled：基于 AT Protocol 的联邦化代码托管平台",
+   "source_pub_time": "2026-10-30T15:44Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+   "title": "DoorDash said it's only received 'several hundred' orders from AI agents (TechCrunch)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "DoorDash：AI Agent 下单仅几百单（Q3 财报电话会）",
+   "source_pub_time": "2026-10-30T13:54Z"
+  },
+  {
+   "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+   "title": "Proton's CEO Cancels AI 'Re-Interviews' (404 Media)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "Proton CEO 取消全公司 AI 重新面试",
+   "source_pub_time": "2026-10-30T16:40Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50307183",
+   "title": "Proton's CEO Cancels AI 'Re-Interviews' (HN 254pt)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "secondary",
+   "event": "Proton CEO 取消全公司 AI 重新面试",
+   "source_pub_time": "2026-10-30T17:25Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/emudhra-patching/",
+   "title": "4 real? Tracking exploitation and patching of eMudhra's weak keys (Cloudflare)",
+   "issue": "TECH-83",
+   "published_on": "2026-10-31",
+   "status": "published",
+   "role": "primary",
+   "event": "Cloudflare 公布 eMudhra 弱密钥利用与修复追踪",
+   "source_pub_time": "2026-10-30T17:38Z"
+  },
+  {
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "title": "Fair use benefits everyone (OpenAI/NYT lawsuit page)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "诉讼立场文，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "title": "Community safety report and new protections for teens (OpenAI)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "例行安全报告，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://openai.com/index/credit-saison",
+   "title": "Credit Saison achieves 954% ROI in ChatGENT Enterprise pilot (OpenAI)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "客户案例",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+   "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence (MSR)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "研究方法文，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+   "title": "Stripe on Stripe: moving $1B in vendor payments to Global Payouts",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "工程案例，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+   "title": "Cloudflare services for private origins is now generally available",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "产品 GA，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://vercel.com/blog/introducing-geist-serif",
+   "title": "Introducing Geist Serif (Vercel)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "产品更新，位次不足（本轮 vercel 窗口内 15 条同类 changelog 代表记录）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+   "title": "Ling 3.1 Flash 1019 now available on AI Gateway for free (Vercel)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "产品上架，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://sierra.ai/blog/summit-recap-2026",
+   "title": "Sierra summit recap 2026",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "营销回顾，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://sierra.ai/blog/ghostwriter-ai-tool-to-teammate",
+   "title": "From Ghostwriter to teammate (Sierra)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "产品叙事，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://scale.com/blog/ai-literacy-microcredential-launch",
+   "title": "Scale AI literacy microcredential launch",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "教育项目，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://elect.horse/",
+   "title": "elect.horse — the daily gerrymandering puzzle",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "趣味游戏项目，位次不足（529pt）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+   "title": "Azure's Weakest Link — Five Full Cross-Tenant Compromises (Binary Security)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "原发 2026-10-02 窗口外，HN 回热（257pt）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "title": "AI Isn't Replacing SREs. It's Deskilling Them. (SigNoz)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "原发 2026-02-28 窗口外，HN 回热（479pt）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://github.com/SheepSeb/tinyworldformer",
+   "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "仓库创建 2026-10-22 窗口外原发，HN 回热（268pt）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.39633",
+   "title": "Intrinsic Distribution Matching (HF papers)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "T3 批次 10-29 最高 237 赞但无外部讨论交叉，未达高热度线，不凑数",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.39301",
+   "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities (HF papers)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "T3 55 赞，热度不足（代表记录）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+   "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man (Boston Globe)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "娱乐人物，领域不符（与已排除 NYT 讣告同事件）",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.nbcnews.com/business/consumer/polymarket-trading-halt-hack-wallets-rcna606405",
+   "title": "Polymarket 1h halt after vendor compromise (NBC)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "供应商入侵小型交易暂停事件，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://github.com/picocss/pico/discussions/754",
+   "title": "Pico CSS is no longer maintained",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "小型 OSS 维护动态，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://github.com/dbreunig/nesformer",
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights (NESformer)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "趣味 AI 项目，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://github.com/mottopanikeiku/doomformer",
+   "title": "Show HN: I Turned DOOM into a Transformer",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "趣味 AI 项目，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.lesnumeriques.com/societe-numerique/netflix-steam-cloud-vos-abonnements-et-telechargements-taxees-n224032.html",
+   "title": "French national assembly votes 0.055€/GB internet tax",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "政治/税制动议，领域不符",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.medpagetoday.com/opinion/second-opinions/123553",
+   "title": "Medicare Will Pay $50k for Your Heart Attack. It Should Pay $100 to Prevent It",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "医疗政策，领域不符",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+   "title": "GitHub Incident with Actions, Pages, and Webhooks",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "例行故障，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+   "title": "My favourite PowerMac is a Nintendo Wii",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "趣味怀旧，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+   "title": "Granola adds dictation feature (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "产品功能更新，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+   "title": "Rivian expands joint venture with VW to include AI assistant (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "车企合作，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+   "title": "Theranos whistleblower warns AI boom is opportunity to deceive (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "会议观点，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+   "title": "Can AI data centers be mass-produced like cars? (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "创业公司特写，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+   "title": "Google's first data center satellite is online and writing poetry (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "实验项目报道，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+   "title": "Zest's new AI agent books reservations over text (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "小型产品发布，位次不足",
+   "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+   "title": "Ollie, a privacy-focused AI assistant, is shutting down (TechCrunch)",
+   "issue": "TECH-83",
+   "status": "excluded",
+   "reason": "小型产品关停，位次不足",
+   "evaluated_on": "2026-10-31"
   }
  ]
 }
