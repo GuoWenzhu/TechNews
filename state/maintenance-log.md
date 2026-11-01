@@ -267,3 +267,15 @@
 - T3：arXiv 三个周五批次（605/279/608 条）与 HN 无高热交叉；HF Daily Papers 窗口内 16 条（批次 10-29），最高 Intrinsic Distribution Matching 237 赞但无外部讨论交叉，未达 T3 高热度线，0 条收录不凑数。
 - 新发现（均经核验后按规则处置，不影响清单）：Anthropic 新研究页 discovering-vulnerabilities-with-claude 为 2026-10-27 窗口外原发（sitemap lastmod 刷新发现）；Cursor 官方博客发布 Claude Code 扩展安全公告（10-29），成为本日最大事件的一手来源。
 - 维护决定：本轮所有启用来源状态 ok/paywall（无 blocked），无来源触发降级/迁移阈值，config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变，避免生成相同内容备份）。
+
+## 2026-11-01（TECH-87）采集健康记录：全部启用来源可达，无需清单改动
+
+- 采集窗口：2026-10-30T00:05Z ～ 2026-11-01T00:40Z（48h）。25 个启用来源全部按各自方法可达（HTTP 200）：sitemap×2、rss×15、atom×2、html×5、algolia-api×1。
+- theinformation 首页 200 但仍为登录/付费墙页，维持 paywall；Nvidia/Nscale 事件（The Information/Bloomberg 一手报道无法直抓）经 TechCrunch 转述核验收录并在简报标注。
+- a16z 连续第 16 轮 JS 渲染 0 产出（16 < 30，继续观察）。
+- arXiv：cs.AI 周六批 606 条正常；cs.CL / cs.LG 本轮空频道（892B，周六批次；TECH-80 曾现单次空频道后恢复，单次不计故障，观察）。
+- T3：arXiv 周六批与 HN 无高热交叉；HF Daily Papers publishedAt ≥10-30 为 0（最新批次 10-28），0 条收录不凑数。
+- 特别核验：anthropic sitemap 窗口内两处 lastmod——claude-haiku-5-5 页面核验原发 2026-10-07（页面 Further updates 标注）、enabling-independent-research datePublished 2026-08-26，均按「窗口外原发不重开」排除入台账；OpenAI 融资事件 WSJ 原发时间以 HN 提交（2026-10-31T03:22Z）近似记录；Molly 社区帖时间按帖内「submitted 16 hours ago」反推 2026-10-31T08:40Z 近似；Wired Ternus 专访 datePublished 2026-10-30T15:00Z 窗口内；Jepsen ParticleDB / Karpathy HackerTube 页面标注 2026-10-31，均在窗口内。
+- HN 窗口内 57 条（points>100）：10-31 批次除入选 7 事件外，Serbia 议会（794pt）非工程/AI、Vitalik 数字极简（302pt）观点文、ChatGPT 账户接管研究（297pt，原发 10-28 窗口外）、CVE-2026-98432 独立分析（274pt，原发 10-29 窗口外）、Fortune Cisco（301pt 入选）等均逐条评估入台账。
+- 维护决定：本轮所有启用来源状态 ok/paywall（无 blocked），无来源触发连续失败降级或 30 日无产出条件，无新增验证入口，无满足纳入标准的新来源（talos/piefed/wired/fortune/jepsen/karpathy 均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）；config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变）。
+- 产出：Top10 全部 10 条发布（reports/digest-2026-11-01.md）；19 URL 入 published（10 主源 + 9 secondary）、28 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-87）；提交分支 main。

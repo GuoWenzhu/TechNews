@@ -11796,6 +11796,420 @@
    "status": "excluded",
    "reason": "小型产品关停，位次不足",
    "evaluated_on": "2026-10-31"
+  },
+  {
+   "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "title": "OpenAI raises less than half of $30B target in latest round (WSJ)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "OpenAI 下调新一轮融资目标至 200 亿美元，已获约 110 亿美元承诺",
+   "source_pub_time": "2026-10-31T03:22Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+   "title": "OpenAI reportedly lowers funding target for new round (TechCrunch)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI 下调新一轮融资目标至 200 亿美元，已获约 110 亿美元承诺",
+   "source_pub_time": "2026-10-31T16:12Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50312922",
+   "title": "OpenAI raises less than half of $30B target (HN 181pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI 下调新一轮融资目标至 200 亿美元，已获约 110 亿美元承诺",
+   "source_pub_time": "2026-10-31T03:22Z"
+  },
+  {
+   "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
+   "title": "I Spent 30 Minutes With Apple's CEO (Wired)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Apple 新 CEO Ternus 首次系统回应 AI 落后质疑：\"不为 AI 而 AI\"",
+   "source_pub_time": "2026-10-30T15:00Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+   "title": "Apple CEO says the company doesn't want to ship AI for AI's sake (TechCrunch)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "Apple 新 CEO Ternus 首次系统回应 AI 落后质疑：\"不为 AI 而 AI\"",
+   "source_pub_time": "2026-10-31T21:41Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+   "title": "Nvidia weighs playing the cosigner for Nscale's AI data center (TechCrunch)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Nvidia 拟为 Nscale 西弗吉尼亚数据中心债务提供残余价值担保",
+   "source_pub_time": "2026-10-31T01:20Z"
+  },
+  {
+   "url": "https://jepsen.io/analyses/particledb-1.1.4",
+   "title": "Jepsen: ParticleDB 1.1.4",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Jepsen 发布 ParticleDB 分析：96 个问题、默认事务模式丢失已提交写入",
+   "source_pub_time": "2026-10-31"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50316100",
+   "title": "Jepsen: ParticleDB 1.1.4 (HN 175pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "Jepsen 发布 ParticleDB 分析：96 个问题、默认事务模式丢失已提交写入",
+   "source_pub_time": "2026-10-31T13:39Z"
+  },
+  {
+   "url": "https://support.scribd.com/hc/en-us/articles/53787421531284",
+   "title": "Information about the recent security incident (Scribd 官方公告)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Scribd 确认未授权第三方入侵并发出大规模泄露通知",
+   "source_pub_time": "2026-10-01T19:29Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50312756",
+   "title": "Tell HN: Scribd Breached (HN 334pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "Scribd 确认未授权第三方入侵并发出大规模泄露通知",
+   "source_pub_time": "2026-10-31T02:46Z"
+  },
+  {
+   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer (Talos)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Cisco Talos 披露 VOLTA 窃密木马用 LLM 为受害者资产估价排序",
+   "source_pub_time": "2026-10-31T12:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50316531",
+   "title": "Malware uses LLMs to rank victims by worth (HN 228pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "Cisco Talos 披露 VOLTA 窃密木马用 LLM 为受害者资产估价排序",
+   "source_pub_time": "2026-10-31T14:29Z"
+  },
+  {
+   "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+   "title": "Cisco found a 27-year-old ex-founder, gave unlimited AI tokens (Fortune)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Cisco 披露以无限 AI token 重写约 98% 遗留代码",
+   "source_pub_time": "2026-10-30T07:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50304122",
+   "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code (HN 301pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "Cisco 披露以无限 AI token 重写约 98% 遗留代码",
+   "source_pub_time": "2026-10-30T14:08Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+   "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward (TechCrunch)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "联邦法官驳回 xAI 撤诉动议，NAACP 清洁空气法案诉讼继续推进",
+   "source_pub_time": "2026-10-31T21:17Z"
+  },
+  {
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "title": "HackerTube (Karpathy)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "Karpathy 发布 HackerTube：HN 推荐视频聚合站",
+   "source_pub_time": "2026-10-31"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50319510",
+   "title": "HackerTube: YouTube built from videos recommended by HN (HN 534pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "Karpathy 发布 HackerTube：HN 推荐视频聚合站",
+   "source_pub_time": "2026-10-31T19:56Z"
+  },
+  {
+   "url": "https://piefed.world/post/1503394",
+   "title": "YSK: Molly (Signal fork) not updated in 3 months, vulnerable (PieFed)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "primary",
+   "event": "社区警告 Signal 分叉 Molly 3 个月未更新、缺上游安全修复",
+   "source_pub_time": "2026-10-31T08:40Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50314666",
+   "title": "Molly (Signal fork) not updated, vulnerable (HN 292pt)",
+   "issue": "TECH-87",
+   "published_on": "2026-11-01",
+   "status": "published",
+   "role": "secondary",
+   "event": "社区警告 Signal 分叉 Molly 3 个月未更新、缺上游安全修复",
+   "source_pub_time": "2026-10-31T10:23Z"
+  },
+  {
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "title": "Introducing Claude Haiku 5.5 (Anthropic)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "原发 2026-10-07 窗口外（页面 Further updates 标注 October 7, 2026）；sitemap lastmod 2026-10-30 刷新，非新发布",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.anthropic.com/research/enabling-independent-research",
+   "title": "Enabling independent research on how people use Claude (Anthropic)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "原发 2026-08-26 窗口外（页面 datePublished）；sitemap lastmod 2026-10-31 刷新",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "title": "Do the Math: How We Took Over ChatGPT Accounts (Parameter)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "原发 2026-10-28 窗口外（HN 10-31 回热 297pt）；按窗口外原发不重开",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+   "title": "Linux October 2026 TCP Use-After-Free: CVE-2026-98432 (Atlas)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "原发 2026-10-29T16:00Z 窗口外；事件已由 TECH-83 #4（Linode 官方通告）收录",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+   "title": "Digital minimalism (Vitalik Buterin)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "观点文章非新闻",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+   "title": "Serbia just elected the world's brainiest parliament (Science)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非工程/AI 主题（HN 794pt）",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://xoranth.net/gcc-switch/",
+   "title": "Switch Lowering in GCC",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "深度编译器内部分析文，位次不足",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://nullprogram.com/blog/2026/10/31/",
+   "title": "Prospero: a new coding harness (nullprogram)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "个人项目发布（本地 LLM 编码 harness），位次不足",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+   "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "个人基准测试，非新闻",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+   "title": "It's the Memory Latency, Stupid",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "硬件分析文（HN 104pt），位次不足",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://github.com/herdrdev/herdr-app",
+   "title": "Herdr has released native app",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "独立应用发布，位次不足",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/",
+   "title": "ICE wants its mask back (FlokiNET)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非工程/AI 主题",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+   "title": "Infinite Mac: BeOS",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "复古计算演示，非新闻",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.firezone.dev/blog/introducing-sanstun",
+   "title": "Sanstun: sans-IO WireGuard implementation in Rust (Firezone)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "OSS 组件发布，位次不足",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "title": "Anthropic blocks users for training-related queries (推文)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "仅推文不可追溯，无一手确认",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+   "title": "Anthropic Cracking Down on Video Game Rewrites (推文)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "仅推文不可追溯，无一手确认",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.resetera.com/threads/france-is-getting-download-tax-for-content-providers-%E2%82%AC0-055-gb-for-data-delivered-to-french-users.1675109/",
+   "title": "France download tax €0.055/GB (ResetEra)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "同事件转述（主条目 lesnumeriques 已于 TECH-83 排除）",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://twitter.com/videolan/status/2116229135919919278",
+   "title": "French digital tax may kill VideoLAN non-profit (推文)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "同事件转述（法国数字下载税），仅推文且位次不足",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.otwstatus.org",
+   "title": "AO3 Down for Maintenance",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "例行维护公告",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
+   "title": "Casio Watches of the 1980s",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非技术主题",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
+   "title": "UK Green party drops opposition to nuclear power (Guardian)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非技术主题（原发 2026-10-05 亦窗口外）",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://blue-continuum.com/verne-paris",
+   "title": "Jules Verne's Lost Novel",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非技术主题",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+   "title": "The oldest ice disappears (Science Norway)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非技术主题",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://tng.episodle.com/",
+   "title": "TNG Episode Guessing Game",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非技术主题（娱乐页面）",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://cormacmccarthy.lib.utk.edu/",
+   "title": "Cormac McCarthy's Library",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "非技术主题",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+   "title": "How do you take a picture of a black hole? (Quanta)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "科普非工程/AI 主题（原发 2026-10-29 亦窗口外）",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+   "title": "Religious exemption from using AI at work (TechCrunch)",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "同事件转述（religionnews 2026-10-26 已于 TECH-77 评估排除）",
+   "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50301479",
+   "title": "Ask HN: Are you tired too in this AI era?",
+   "issue": "TECH-87",
+   "status": "excluded",
+   "reason": "讨论帖非新闻",
+   "evaluated_on": "2026-11-01"
   }
  ]
 }
