@@ -12210,6 +12210,548 @@
    "status": "excluded",
    "reason": "讨论帖非新闻",
    "evaluated_on": "2026-11-01"
+  },
+  {
+   "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+   "title": "Understanding ChatGPT and Codex usage limits (OpenAI Help)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "OpenAI 确认 12 月起 ChatGPT 与 Codex 用量合并为单一 token 池",
+   "source_pub_time": "2026-10-31T21:49Z"
+  },
+  {
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "title": "OpenAI doubling Pro usage limits, bringing Work features to Chat (BleepingComputer)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI 确认 12 月起 ChatGPT 与 Codex 用量合并为单一 token 池",
+   "source_pub_time": "2026-11-01"
+  },
+  {
+   "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+   "title": "Chat-and-work merger signals end of all-you-can-prompt pricing (The Decoder)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI 确认 12 月起 ChatGPT 与 Codex 用量合并为单一 token 池",
+   "source_pub_time": "2026-11-01"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50320588",
+   "title": "ChatGPT and Codex usage limits merging (HN 215pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI 确认 12 月起 ChatGPT 与 Codex 用量合并为单一 token 池",
+   "source_pub_time": "2026-10-31T21:49Z"
+  },
+  {
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "title": "Memdoor team-solve workflow (GitHub)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "Memdoor：5 个 Qwen3.8-27B 智能体组队击败 Fable 5（LiveCodeBench Hard，公开全部运行记录）",
+   "source_pub_time": "2026-10-31T22:46Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50320995",
+   "title": "Memdoor: 5 Qwen3.8-27B models beat Fable 5 (HN 419pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "Memdoor：5 个 Qwen3.8-27B 智能体组队击败 Fable 5（LiveCodeBench Hard，公开全部运行记录）",
+   "source_pub_time": "2026-10-31T22:46Z"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+   "title": "Altman meets Samsung leadership on RAM for data centers (Tom's Hardware)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "Altman 会见约 50 名三星高管谈 AI 内存供应",
+   "source_pub_time": "2026-11-01T14:21Z"
+  },
+  {
+   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+   "title": "Mathematics has changed. Let's act like it (Tao blog, guest Calegari)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "Calegari 客串 Tao 博客系统回应 OpenAI 700 篇论文冲击",
+   "source_pub_time": "2026-11-01"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50328251",
+   "title": "Mathematics has changed. Let's act like it (HN 205pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "Calegari 客串 Tao 博客系统回应 OpenAI 700 篇论文冲击",
+   "source_pub_time": "2026-11-01T18:28Z"
+  },
+  {
+   "url": "https://torrentfreak.com/ex-meta-researcher-torrented-pirated-books-dataset-deleted-it-due-to-all-this-litigation/",
+   "title": "Ex-Meta Researcher Torrented Books3, Deleted It (TorrentFreak)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "前 Meta 研究员作证承认 BitTorrent 获取 Books3",
+   "source_pub_time": "2026-10-31T11:55Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50316760",
+   "title": "Ex-Meta Researcher Torrented Pirated Books (HN 99pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "前 Meta 研究员作证承认 BitTorrent 获取 Books3",
+   "source_pub_time": "2026-10-31T14:57Z"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+   "title": "Scoop: OpenAI post-midterm policy blitz (Axios)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "OpenAI 拟中期选举后把数据中心改称 \"AI compute campuses\"",
+   "source_pub_time": "2026-11-01"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+   "title": "OpenAI might rebrand data centers as AI compute campuses (TechCrunch)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "OpenAI 拟中期选举后把数据中心改称 \"AI compute campuses\"",
+   "source_pub_time": "2026-11-01T21:55Z"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
+   "title": "Lenovo fingerprint USB is an unencrypted SD card (Tom's Hardware)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "联想\"加密\"U 盘实为明文 SD 卡；AI 辅助审计分钟级攻破同类产品",
+   "source_pub_time": "2026-11-01T13:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50326099",
+   "title": "Lenovo encrypted fingerprint USB (HN 370pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "联想\"加密\"U 盘实为明文 SD 卡；AI 辅助审计分钟级攻破同类产品",
+   "source_pub_time": "2026-11-01T14:34Z"
+  },
+  {
+   "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+   "title": "UK PSTN switch-off 2027-01-31, no extensions (The Register)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "英国 PSTN 定档 2027-01-31 关停不再延期",
+   "source_pub_time": "2026-11-01T09:04Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50326609",
+   "title": "Landline phones switch off in 100 days (HN 122pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "英国 PSTN 定档 2027-01-31 关停不再延期",
+   "source_pub_time": "2026-11-01T15:33Z"
+  },
+  {
+   "url": "https://hackerbooks.org",
+   "title": "HackerBooks (Show HN)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "primary",
+   "event": "HackerBooks：HN 社区书籍聚合器，HackerTube 后第二爆款",
+   "source_pub_time": "2026-11-01T15:58Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50326821",
+   "title": "Show HN: HackerBooks (HN 831pt)",
+   "issue": "TECH-90",
+   "published_on": "2026-11-02",
+   "status": "published",
+   "role": "secondary",
+   "event": "HackerBooks：HN 社区书籍聚合器，HackerTube 后第二爆款",
+   "source_pub_time": "2026-11-01T15:58Z"
+  },
+  {
+   "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+   "title": "Anthropic blocks video game cloning (Mashable)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-10-30（Claude Code v2.1.314 规则上线、HN 首发 125pt），窗口外；10-31~11-01 媒体跟进为同一事件延续不重开",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50320255",
+   "title": "Anthropic blocks Claude reverse-engineering games (HN 180pt)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-10-30 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50304358",
+   "title": "Anthropic Cracking Down on Video Game Rewrites (HN 125pt)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-10-30T14:22Z 窗口外（窗口起点 10-31T00:00Z）",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+   "title": "Anthropic blocks game cloning/RE (Tom's Hardware 10-31)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-10-30 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/",
+   "title": "Anthropic updates Claude on game cloning (PC Gamer)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-10-30 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
+   "title": "Anthropic stops Claude recreating games (Engadget)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-10-30 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50319358",
+   "title": "Anthropic blocks users touching training larger models (HN 453pt)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "仅个人推文，无独立一手佐证；关联规则事件原发 10-30 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+   "title": "Brazilian court sanctions lawyers for prompt injection (Jetstream)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "事件原发 2026-05（G1/CNN Brasil），本窗口仅英文分析二次翻热，窗口外不重开",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+   "title": "AI agent swarms in Minecraft (Tom's Hardware)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "报道对象（YC labs 项目页）原发 2026-10-29 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+   "title": "It wasn't AI that flipped Proton's charge",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "已发布 Proton 事件（TECH-87）的后续评论，同事件去重",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50328488",
+   "title": "It wasn't AI that flipped Proton's charge (HN 136pt)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "同上，同事件去重",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million",
+   "title": "noyb win: Fnac Darty fined €7M",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "原发 2026-10-29 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
+   "title": "Police chief unplugs Flock cameras (The Drive)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "datePublished 2026-10-23 窗口外，HN 11-01 重热不重开",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+   "title": "AI startup hacks Anthropic in 12 hours (India Today)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "Cathedral 事件原发 2026-10-26 窗口外（HN 10-31 重热）",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://decrypt.co/381860/ai-agents-hack-anthropic-business-systems-12-hours",
+   "title": "AI Agents hack Anthropic business systems (Decrypt)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "Cathedral 事件原发 2026-10-26 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+   "title": "Altman: terrible for PC to have RAM (Tom's Hardware)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "原发 2026-10-30 窗口外；11-01 三星会谈后续单独入选",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "title": "AI zero financial payoff (TechCrunch)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "原发 2026-10-25 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "title": "The AI cost of JavaScript frameworks",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "原发 2026-10-28 窗口外（HN 11-01 重热 283pt）",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.39302",
+   "title": "Proving the Platonic Representation Hypothesis with JEPAs (arXiv)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "T3 论文原发 2026-10-29 窗口外，且热度未达线（HN 101pt/HF 64 赞）",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://huggingface.co/papers/2610.39302",
+   "title": "Platonic Representation Hypothesis (HF papers)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "同上",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://arxiv.org/abs/2409.02292",
+   "title": "Leaking Secrets from Air-Gap Computers via RAM radio (arXiv 2024)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "2024 年旧论文重热，窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+   "title": "Frontier Airlines Likely Breached (Reddit PSA)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "Reddit 用户传闻，无官方或媒体一手确认，证据不足不收录",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50327266",
+   "title": "Frontier Airlines Likely Breached (HN 165pt)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "同上",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+   "title": "Game Off 2026: The theme is SHIFT (GitHub blog)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "官方游戏 jam 活动预告，工程/AI 相关性不足",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+   "title": "AI can make tech CEOs lives easier (TechCrunch)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "观点/评论文章非新闻",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale-2/",
+   "title": "TechCrunch Founder Summit promo",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "活动推广",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded/",
+   "title": "US workers smallest share of capital (Fortune)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "宏观经济主题，工程/AI 相关性不足",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://nurse.org/news/uber-for-nursing-gig-apps-report/",
+   "title": "Uber for Nursing apps (Nurse.org)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "非科技",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+   "title": "Patrick Stewart essay (Vox)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "非科技",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+   "title": "Restrooms along Norwegian Scenic Routes",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "非科技",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+   "title": "Italian farmer found seeds (Smithsonian)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "非科技",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+   "title": "Surviving The Graduate (New Yorker)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "非科技",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+   "title": "Seoul Viosys rare-earth-free white emitter",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "原发 2026-10-29 窗口外",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2026-2027/premiere-seance-du-vendredi-30-octobre-2026",
+   "title": "French assembly session (€0.055/GB traffic tax)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "表决发生于 2026-10-30 议事（窗口外），且税率细节未经独立一手核验",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.nature.com/articles/s41560-026-02144-0",
+   "title": "One-minute frequency disturbances from synchronization (Nature Energy)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "能源网格研究，主题相关性不足且原发日期未及核验",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+   "title": "The Duty of a Scholar (Bellovin)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "学术观点文，非工程/AI 落地",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/",
+   "title": "Electrification could cut energy use (podcast)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "播客观点，信息密度不足",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+   "title": "Novellas with Groff",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "个人写作实验，信息密度不足",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://github.com/ivankovic/omnidiff",
+   "title": "OmniDiff: content-aware git difftool in Rust",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "开发者工具 Show HN，信息密度不足",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://uvdn7.github.io/altoids-project/",
+   "title": "Altoids Project",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "父子 DIY 机器人项目，非新闻",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income/",
+   "title": "Pacific country UBI (Economist)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "原发 2026-10-29 窗口外且非科技",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+   "title": "Voyager 1 closing in on a light-day (NASA)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "科普通讯非新闻",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://www.cnn.com/2026/10/31/us/philadelphia-woman-delivery-robots-cec/",
+   "title": "Retired professor blocks delivery robot (CNN)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "社会新闻，主题相关性不足",
+   "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://asymco.com/2026/11/01/the-last-consumer-company/",
+   "title": "Apple captures 50% of consumer revenue (Asymco)",
+   "issue": "TECH-90",
+   "status": "excluded",
+   "reason": "财务分析，工程/AI 相关性不足",
+   "evaluated_on": "2026-11-02"
   }
  ]
 }

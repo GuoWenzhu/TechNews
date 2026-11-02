@@ -279,3 +279,14 @@
 - HN 窗口内 57 条（points>100）：10-31 批次除入选 7 事件外，Serbia 议会（794pt）非工程/AI、Vitalik 数字极简（302pt）观点文、ChatGPT 账户接管研究（297pt，原发 10-28 窗口外）、CVE-2026-98432 独立分析（274pt，原发 10-29 窗口外）、Fortune Cisco（301pt 入选）等均逐条评估入台账。
 - 维护决定：本轮所有启用来源状态 ok/paywall（无 blocked），无来源触发连续失败降级或 30 日无产出条件，无新增验证入口，无满足纳入标准的新来源（talos/piefed/wired/fortune/jepsen/karpathy 均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）；config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变）。
 - 产出：Top10 全部 10 条发布（reports/digest-2026-11-01.md）；19 URL 入 published（10 主源 + 9 secondary）、28 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-87）；提交分支 main。
+
+## 2026-11-02（TECH-90）采集健康记录：全部启用来源可达，无需清单改动
+
+- 采集窗口：2026-10-31T00:00Z ～ 2026-11-02T00:40Z（48h）。25 个启用来源全部按各自方法可达（HTTP 200）：sitemap×2、rss×15、atom×2、html×5、algolia-api×1。
+- theinformation 首页 200 但仍为登录/付费墙页，维持 paywall 记录。
+- a16z 连续第 17 轮 JS 渲染 0 产出（17 < 30，继续观察）。
+- arXiv 三频道本轮均为周日空频道（skipDays Sat/Sun，892B），属周末正常行为非故障。
+- T3：arXiv 周末无批次；HF Daily Papers publishedAt 均 ≤10-29，窗口内 0 条，T3 不凑数。
+- 窗口判定特别记录：Anthropic Claude Code 游戏复刻规则（v2.1.314）于 2026-10-30 上线并当日 HN 首发（125pt），距窗口起点早约 9.6 小时，按「窗口外原发不重开」排除（10-31~11-01 媒体跟进与 453pt 推文均视为同一事件延续）；巴西法院 prompt injection 罚款事件原发 2026-05（G1），本窗口仅英文分析二次翻热，同样排除；Flock 摄像头事件（The Drive）datePublished 2026-10-23，HN 11-01 重热排除。
+- 维护决定：本轮所有启用来源状态 ok/paywall（无 blocked），无来源触发连续失败降级或 30 日无产出条件，无新增验证入口，无满足纳入标准的新来源（bleepingcomputer/the-decoder/axios/tomshardware/theregister/torrentfreak/terrytao/hackerbooks 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）；config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变）。
+- 产出：Top10 仅 9 条达标发布（reports/digest-2026-11-02.md），不足不凑数；19 URL 入 published（9 主源 + 10 secondary）、46 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-90）；提交分支 main。
