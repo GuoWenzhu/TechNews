@@ -290,3 +290,14 @@
 - 窗口判定特别记录：Anthropic Claude Code 游戏复刻规则（v2.1.314）于 2026-10-30 上线并当日 HN 首发（125pt），距窗口起点早约 9.6 小时，按「窗口外原发不重开」排除（10-31~11-01 媒体跟进与 453pt 推文均视为同一事件延续）；巴西法院 prompt injection 罚款事件原发 2026-05（G1），本窗口仅英文分析二次翻热，同样排除；Flock 摄像头事件（The Drive）datePublished 2026-10-23，HN 11-01 重热排除。
 - 维护决定：本轮所有启用来源状态 ok/paywall（无 blocked），无来源触发连续失败降级或 30 日无产出条件，无新增验证入口，无满足纳入标准的新来源（bleepingcomputer/the-decoder/axios/tomshardware/theregister/torrentfreak/terrytao/hackerbooks 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）；config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变）。
 - 产出：Top10 仅 9 条达标发布（reports/digest-2026-11-02.md），不足不凑数；19 URL 入 published（9 主源 + 10 secondary）、46 条评估后明确排除入台账（详见 state/processed-urls.json，issue=TECH-90）；提交分支 main。
+
+## 2026-11-03（TECH-93）采集健康与维护
+
+- 采集窗口：2026-11-01T00:00Z – 2026-11-03T00:35Z（48h），26 条清单项中 25 个启用来源全部按各自方法探测：T1 17、T2 4、T3 4。
+- 结果：24/25 正常（status ok）。发布 10 个事件 / 台账 23 条 published URL；Top10 全部为一手或可溯源条目。
+- theinformation（T2）：本轮首页 HTTP 403（此前多轮为 200 付费墙页）。属访问受限，连续 403 计 1 轮；单次失败不降级，若连续 3 轮真实探测 403 且替代入口验证失败再按规则降为待观察。本轮不改动配置。
+- arxiv_csai（T3）：rss 200 但频道本轮构建为空（lastBuildDate 11-02T05:00Z；同日 cs.CL/cs.LG 正常）。首次异常，连续 0 条计 2 轮，下轮复验；单次异常不降级。
+- a16z（T2）：JS 渲染无机读日期，连续第 18 轮 0 产出（18<30，继续观察）。
+- anthropic_news/research、openai、cloudflare、github、vercel、techcrunch_ai、hn 本轮均有窗口内产出；其余 T1/T3 窗口外静默属正常节奏。
+- 维护决定：config/sources.json 本轮无需改动（无来源触发降级/恢复/迁移阈值），故不修改、不生成备份、不重写只读展示版。
+- 证据：state/source-health.json（本轮全覆盖），data/collected-2026-11-03.json（原始抓取，本地不入 Git）。

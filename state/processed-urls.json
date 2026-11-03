@@ -12752,6 +12752,452 @@
    "status": "excluded",
    "reason": "财务分析，工程/AI 相关性不足",
    "evaluated_on": "2026-11-02"
+  },
+  {
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "title": "Astra weight-space programming（一手研究博客）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Astra 读写神经网络权重，Qwen3.5-0.8B MATH-500 7.9%→48.1%",
+   "source_pub_time": "2026-11-02T18:21Z(HN)"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50341174",
+   "title": "HN 1713分：Astra can read and write weights to improve Qwen",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Astra 权重空间编程",
+   "source_pub_time": "2026-11-02T18:21Z"
+  },
+  {
+   "url": "https://openai.com/index/scaling-git-at-openai",
+   "title": "Scaling Git at OpenAI（Pando 后端）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "OpenAI Pando Git 后端",
+   "source_pub_time": "2026-11-02T15:30Z"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+   "title": "Anthropic 修改版 S-1/A（SEC EDGAR，一手）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Anthropic S-1A：Q3 营收 170 亿、承诺支出 8954 亿、RSI 风险披露",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+   "title": "CNBC：Anthropic Q3 财报与 895.4B 承诺",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Anthropic S-1A",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+   "title": "TechCrunch：Anthropic 自认接近 RSI 门槛（S-1 风险因素）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Anthropic S-1A",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+   "title": "BI：Anthropic 内部 Claude 用量零售价超员工薪酬",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Anthropic S-1A（并入条目3）",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50339494",
+   "title": "HN 281分：Anthropic internal AI use exceeds employee pay",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Anthropic S-1A",
+   "source_pub_time": "2026-11-02T16:40Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+   "title": "Anthropic：Claude 加速蛋白质设计与分析化学（一手）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Claude for Science 研究批次",
+   "source_pub_time": "2026-11-02T10:11Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-shaped-science",
+   "title": "Anthropic：Claude-shaped science（BootLoops，同批并入条目4）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Claude for Science 研究批次",
+   "source_pub_time": "2026-11-02T10:11Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/vibe-physics",
+   "title": "Anthropic：Vibe physics（同批并入条目4）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Claude for Science 研究批次",
+   "source_pub_time": "2026-11-02T10:12Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+   "title": "TechCrunch：NYT 起诉 Brave（300 亿网页索引，分销给五家 AI 公司）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "NYT 诉 Brave",
+   "source_pub_time": "2026-11-02T19:19Z"
+  },
+  {
+   "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+   "title": "WTF Ubuntu?（CVE-2026-98432 超2周未修，一手）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Ubuntu 未修 CVE-2026-98432 信任危机",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+   "title": "freenode 快讯：Ubuntu LTS 内核仍无 CVE-2026-98432 补丁",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Ubuntu 未修 CVE-2026-98432",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50337608",
+   "title": "HN 1263分：WTF Ubuntu?",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Ubuntu 未修 CVE-2026-98432",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50341462",
+   "title": "HN 273分：Ubuntu still has not released patch for CVE-2026-98432",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Ubuntu 未修 CVE-2026-98432",
+   "source_pub_time": "2026-11-02T18:39Z"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+   "title": "Guardian：欧洲七国超市冷链遭第二波网络攻击",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "欧洲超市冷链第二波攻击",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+   "title": "BBC：比利时/瑞典超市冷柜受袭（并入条目7）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "欧洲超市冷链第二波攻击",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50335615",
+   "title": "HN 357分：Supermarket freezers second cyber-attack",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "欧洲超市冷链第二波攻击",
+   "source_pub_time": "2026-11-02T11:50Z"
+  },
+  {
+   "url": "https://openai.com/index/grid-protectors-program",
+   "title": "OpenAI Grid Protectors Program（一手）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Grid Protectors：Georgia 1000MW 需求响应",
+   "source_pub_time": "2026-11-02T15:00Z"
+  },
+  {
+   "url": "https://openai.com/index/lifeval",
+   "title": "OpenAI LifeVal 日常生活任务评估（一手）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "LifeVal 评估基准",
+   "source_pub_time": "2026-11-02T09:00Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+   "title": "Cloudflare：DNS 精准构建（全量构建-40%、峰值内存-85%）",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "primary",
+   "event": "Cloudflare DNS targeted builds",
+   "source_pub_time": "2026-11-02T14:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50337558",
+   "title": "HN 130分：Cloudflare halved DNS build delay",
+   "issue": "TECH-93",
+   "status": "published",
+   "published_on": "2026-11-03",
+   "role": "secondary",
+   "event": "Cloudflare DNS targeted builds",
+   "source_pub_time": "2026-11-02T14:47Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+   "title": "TC：ChatGPT Chat/Work 合并（11-02 已发布事件的转述跟进）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "同事件已于 2026-11-02 简报条目1发布（去重）",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+   "title": "CSA：中国 MOFCOM 48号公告前沿 AI 出口管制研究笔记",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "原始事件 2026-10-16 发布（公告 10-16、笔记 10-23），超出 48h 窗口；HN 11-02 讨论为滞后热度",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50334038",
+   "title": "HN 148分：China frontier AI export controls（滞后讨论）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "原发 2026-10-16 超窗口",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+   "title": "AI agent 为小鼠做脑部手术（单条推文，HN 118分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "仅单一社媒来源，无可核验一手报告/论文，信息不足",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "title": "Oracle 拟售 200 亿美元股债融资 AI 建设（HN 139分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "融资事件，一手性/密度不及 T1 名额，未入选",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+   "title": "Musk 因成本过高限制 Grok Bot 用量",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "转述且细节有限，未入选（Top10 满额）",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://trigger.dev/blog/security-incident-nov-2026",
+   "title": "Trigger.dev 安全事件：部分组织环境变量泄露（11-01）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "披露极简、影响面未量化，未入选（Top10 满额）",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://occupysaas.com/",
+   "title": "OccupySaaS（HN 489分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "宣言/营销型站点，新闻密度不足",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "title": "Show HN: Subvocal 次声位输入（494分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "项目演示帖，未入选",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://wikihack.netlify.app",
+   "title": "Wikihack（HackerTube 衍生，HN 331分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "同质衍生项目家族（HackerTube/HackerBooks 已发布），信息密度低",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://news.ycombinator.com/",
+   "title": "HackerHack（HN 180分，标题即 HN 首页梗）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "同质衍生梗，无内容",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://openai.com/index/qodo-codex-plugin",
+   "title": "Qodo 基于 Codex 的 AI 代码审查客户案例",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "客户案例/营销内容，非独立新闻",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+   "title": "Squarespace 裁员 19%",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "人事/经营消息，与 AI 工程/Agent 相关性不足",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-pr/",
+   "title": "42AI 出 stealth：6250 万融资+人类行为世界模型",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "初创融资宣传，技术细节不足，未入选",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nont/",
+   "title": "Trajectory 融资 4500 万",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "融资消息，未入选",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisitio/",
+   "title": "Omen AI 收购 Aquatic Labs",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "并购消息，密度不足",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-/",
+   "title": "TC Founder Summit 活动预告",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "自有活动推广",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+   "title": "Anthropic 增长趋平分析（HN 111分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "对 S-1A 的二手解读评论，并入条目3语境（已在条目3提及）",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+   "title": "呼吁 SEC 阻止 Anthropic IPO（HN 105分）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "观点评论，已在条目3提及，未单独入选",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+   "title": "Vercel MCP 支持 Client ID Metadata Documents",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "产品 changelog 例行条目",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+   "title": "Vercel MCP 部署卡片",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "产品 changelog 例行条目",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+   "title": "Flags Explorer 改版",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "产品 changelog 例行条目",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+   "title": "Vercel Sandbox Drives 启动提速 2.4x",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "产品 changelog 例行条目",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+   "title": "跨项目 Flags 评估",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "产品 changelog 例行条目",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/longcat-2-5-now-available-on-ai-gateway",
+   "title": "LongCat 2.5 上线 Vercel AI Gateway",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "模型上架 changelog，密度不足",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+   "title": "Vercel 拦截恶意 npm 包",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "产品 changelog 例行条目",
+   "evaluated_on": "2026-11-03"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/01/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+   "title": "数据中心成中期选举议题（布鲁克林）",
+   "issue": "TECH-93",
+   "status": "excluded",
+   "reason": "地方政治向，与已发布 compute campuses 条目部分重叠，未入选",
+   "evaluated_on": "2026-11-03"
   }
  ]
 }
