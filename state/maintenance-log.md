@@ -301,3 +301,15 @@
 - anthropic_news/research、openai、cloudflare、github、vercel、techcrunch_ai、hn 本轮均有窗口内产出；其余 T1/T3 窗口外静默属正常节奏。
 - 维护决定：config/sources.json 本轮无需改动（无来源触发降级/恢复/迁移阈值），故不修改、不生成备份、不重写只读展示版。
 - 证据：state/source-health.json（本轮全覆盖），data/collected-2026-11-03.json（原始抓取，本地不入 Git）。
+
+## 2026-11-04（TECH-96）采集健康记录：全部启用来源可达，无需清单改动
+
+- 采集窗口：2026-11-02T00:00Z – 2026-11-04T00:40Z（48h）。25 个启用来源全部按各自方法探测：T1 17、T2 4、T3 4。
+- 结果：24/25 正常（status ok）。发布 10 个事件 / 台账 23 条 published URL（10 主源 + 13 secondary）、87 条评估后明确排除入账（详见 state/processed-urls.json，issue=TECH-96）。
+- theinformation（T2）：本轮首页再次 HTTP 403，连续 403 计 2 轮；此前多轮为 200 付费墙页。单次/两轮失败不降级，连续 3 轮且替代入口验证失败才降为待观察，下轮复验。
+- arxiv_csai（T3）：上轮空频道异常恢复——本轮 rss 200 共 297 条（11-02T05:00Z 周一批次），窗口内 15 条，连续空计数清零；cs.CL / cs.LG 本轮构建为空（连空计 1 轮，与 TECH-80/83/90 所见空频道现象一致，单次不降级，下轮复验）。
+- a16z（T2）：JS 渲染无机读日期，连续第 19 轮 0 产出（19<30，继续观察）。
+- anthropic_research 窗口内 1 条新页（provable-inference，datePublished 11-02，sitemap lastmod 11-03T10:44Z），以页面 datePublished 核验原发时间在窗口内；openai、deepmind、cloudflare、github、vercel、msresearch、techcrunch_ai、hn 本轮均有窗口内产出；其余 T1/T3 窗口外静默属正常节奏。
+- 特别核验：honnibal.dev 拆解文（11-03）与 simonwillison.net 复现文（11-03）为「Astra 权重读写」事件（TECH-93 已发）的窗口内新一手分析/复现，按新事实单独收录并明确标注为该事件的后续争论；NVIDIA auto-ontology（HN 259 分，11-03 提交）经查 OPEN_SOURCE_NOTICE 添加于 2026-09-30、repo 创建于 2026-04-27，开源原发窗口外，按「窗口外原发不重开」排除；Postman 事件（HN 965 分，11-03 提交）原始 issue 创建于 2026-10-25T19:03Z（10-24 触发），无窗口内官方回应等新一手进展，同样排除；GPT-Rosalind-6 System Card 页面标注 Published October 30, 2026，窗口外排除；LongCat-2.5 以 longcat.ai 官方博客（2026-11-01）与美团技术博客（11-02）为一手核验发布。
+- 维护决定：本轮所有启用来源状态 ok/paywall（无新增 blocked；theinformation 连续 403 计 2 轮仍在阈值内），无来源触发连续失败降级、30 日无产出降级或恢复条件，无新增验证入口，无满足「已启用 T2 中 ≥3 条独立热点条目引用」纳入标准的新来源（washingtonpost/blog.nns.ee/honnibal.dev/longcat.ai/caixin 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）；config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变，避免生成相同内容备份）。
+- 证据：state/source-health.json（本轮 25 源全覆盖），data/collected-2026-11-04.json（原始抓取，本地不入 Git）。
