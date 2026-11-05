@@ -14128,6 +14128,650 @@
    "status": "excluded",
    "reason": "人物轶事（11-03T00:35Z，恰在窗口边界），位次不足",
    "evaluated_on": "2026-11-04"
+  },
+  {
+   "url": "https://openai.com/index/openai-to-acquire-pierre/",
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "OpenAI 收购 Pierre Computer Company（Codex 底层开发者工具）",
+   "source_pub_time": "2026-11-04T14:30Z"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
+   "title": "Exclusive: OpenAI targets Microsoft's GitHub with deal for startup",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "OpenAI 收购 Pierre Computer Company（Codex 底层开发者工具）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1026315/openai-is-acquiring-software-startup-pierre-computer-company",
+   "title": "OpenAI is acquiring software startup Pierre Computer Company",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "OpenAI 收购 Pierre Computer Company（Codex 底层开发者工具）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+   "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "OpenAI 收购 Pierre Computer Company（Codex 底层开发者工具）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50366863",
+   "title": "HN 160分：OpenAI to acquire Pierre Computer Company",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "OpenAI 收购 Pierre Computer Company（Codex 底层开发者工具）",
+   "source_pub_time": "2026-11-04T15:21Z"
+  },
+  {
+   "url": "https://www.conductor.build/announcement",
+   "title": "Conductor is joining Meta",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "Meta 收购 AI 编码初创 Conductor（多编码智能体管理）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+   "title": "Exclusive: Meta acquires AI coding startup Conductor",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "Meta 收购 AI 编码初创 Conductor（多编码智能体管理）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+   "title": "Meta acquires AI coding startup Conductor",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "Meta 收购 AI 编码初创 Conductor（多编码智能体管理）",
+   "source_pub_time": "2026-11-04T21:10Z"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1026915/meta-conductor-acquisition",
+   "title": "Meta bought an AI coding startup",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "Meta 收购 AI 编码初创 Conductor（多编码智能体管理）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://hy.tencent.ai/research/hy4",
+   "title": "Introducing Hy4",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "腾讯发布 Hy4（最强开源行列，视觉+computer use）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+   "title": "Tencent Launches Hy4",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "腾讯发布 Hy4（最强开源行列，视觉+computer use）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://www.scmp.com/tech/big-tech/article/3373227/tencent-unveils-hy4-open-weight-ai-race-deepseek-zai-alibaba-heats",
+   "title": "Tencent unveils Hy4 as open-weight AI race heats up",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "腾讯发布 Hy4（最强开源行列，视觉+computer use）",
+   "source_pub_time": "2026-11-04T07:01Z"
+  },
+  {
+   "url": "https://siliconangle.com/2026/11/04/tencent-releases-hy4-powerful-frontier-llm-introducing-visual-understanding-and-computer-use/",
+   "title": "Tencent releases Hy4",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "腾讯发布 Hy4（最强开源行列，视觉+computer use）",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "title": "moonshotai/Kimi-K3.1-Pro",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "Moonshot 放出 Kimi K3.1 Pro 全量开放权重",
+   "source_pub_time": "2026-11-04T15:31Z"
+  },
+  {
+   "url": "https://artificialwatch.com/wire/kimi-k3-1-pro-open-weights-out",
+   "title": "Kimi K3.1 Pro's open weights are out",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "Moonshot 放出 Kimi K3.1 Pro 全量开放权重",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://alfw.ai/article/kimi-k31-pro-weights-156tb/",
+   "title": "Kimi K3.1 Pro Weights: 1.56 TB, License Limits",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "Moonshot 放出 Kimi K3.1 Pro 全量开放权重",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
+   "title": "Kimi K3.1 Pro on Vercel AI Gateway",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "Moonshot 放出 Kimi K3.1 Pro 全量开放权重",
+   "source_pub_time": "2026-11-03T17:00Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+   "title": "See the agents, set the terms: new visibility and control for personal agents",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "Cloudflare 个人智能体可见性与控制",
+   "source_pub_time": "2026-11-04T14:00Z"
+  },
+  {
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "title": "A thousand fewer paths to root",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "OpenAI 自动化漏洞管线：Linux 内核 948 个提权利用",
+   "source_pub_time": "2026-11-04T08:00Z"
+  },
+  {
+   "url": "https://tldr.tech/story/c7e34f60-142d-4e4a-b32f-0d9c682b55e0",
+   "title": "TLDR: A thousand fewer paths to root",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "OpenAI 自动化漏洞管线：Linux 内核 948 个提权利用",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "IEEE Spectrum：PHP2Shell 与 40 年技术债被 AI 偿还",
+   "source_pub_time": "2026-11-02T12:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50364336",
+   "title": "HN 1015分：AI is forcing us to pay off 40 years of technical debt",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "IEEE Spectrum：PHP2Shell 与 40 年技术债被 AI 偿还",
+   "source_pub_time": "2026-11-04T11:52Z"
+  },
+  {
+   "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "朝鲜 TraderTraitor 假招聘供应链攻击致币安 63 亿美元失窃",
+   "source_pub_time": "2026-11-03"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50365755",
+   "title": "HN 562分：North Korean fake job interview led to $6.3B Binance heist",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "朝鲜 TraderTraitor 假招聘供应链攻击致币安 63 亿美元失窃",
+   "source_pub_time": "2026-11-04T14:09Z"
+  },
+  {
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+   "title": "US tech giants' hidden AI debt swells 90% to $3.2tn in 6 months",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "日经：美五大科技巨头表外 AI 债务半年增 90% 至 3.2 万亿美元",
+   "source_pub_time": "2026-11-03T20:02Z"
+  },
+  {
+   "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280426",
+   "title": "U.S. Big Tech's AI Off-Balance-Sheet Commitments Surge 90%",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "日经：美五大科技巨头表外 AI 债务半年增 90% 至 3.2 万亿美元",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50358422",
+   "title": "HN 408分：US tech giants' hidden AI debt swells 90% to $3.2T",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "日经：美五大科技巨头表外 AI 债务半年增 90% 至 3.2 万亿美元",
+   "source_pub_time": "2026-11-03T21:26Z"
+  },
+  {
+   "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+   "title": "AMD expects to outsell Intel in Q4 for the first time in history",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "primary",
+   "event": "AMD Q4 指引首超英特尔",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://www.techpowerup.com/354470/amd-guidance-points-to-its-first-quarter-ever-with-more-revenue-than-intel",
+   "title": "AMD Guidance Points to Its First Quarter Ever With More Revenue Than Intel",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "AMD Q4 指引首超英特尔",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50367125",
+   "title": "HN 441分：AMD expects to outsell Intel in Q4",
+   "issue": "TECH-99",
+   "status": "published",
+   "published_on": "2026-11-05",
+   "role": "secondary",
+   "event": "AMD Q4 指引首超英特尔",
+   "source_pub_time": "2026-11-04T15:38Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50352757",
+   "title": "HN 518分：OpenAI silently re-enabling model training on Codex chats",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "开发者主张训练开关被悄然重开；OpenAI 未公开确认，一手证据缺失",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "title": "HN 619分：Tell HN Gemini trains on chat history",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "Tell HN 经验帖，缺一手政策文件佐证",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+   "title": "Linux on the Nvidia RTX Spark Laptop",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "原文 11-01 在 48h 窗口外；单篇厂商博客，密度不足",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+   "title": "Residential proxies detected on White House network",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "单一分析博客来源，无法独立核验",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+   "title": "C++26 Disapproved",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "标准社区流程事件，与 AI/工程落地相关性弱",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+   "title": "US voters roundly reject data centers in ballot measures",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "已并入日经 AI 债务条目背景；政策类不足独立成条",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.theinformation.com/feed",
+   "title": "The Information feed headlines（Microsoft Lowered Data Center Spending 等）",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "付费墙仅标题可得，标题级事实不足独立成条；本轮起作为替代采集入口",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-su",
+   "title": "AI inference startup Fal doubles valuation to $16B",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "融资新闻，密度低于已选并购条目",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signa",
+   "title": "Palantir quarter analysis",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "财报分析",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+   "title": "OpenAI is already trying to shape the 2028 election",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "美国政治议题，技术信息密度低",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-far",
+   "title": "AI PACs spent millions",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "美国政治议题，技术信息密度低",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-n",
+   "title": "Nothing AI-first device next month",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "产品预告无实质规格",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+   "title": "Almost no one uses AI agents to book their Uber",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "单一数据点，密度低",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai",
+   "title": "DuckDuckGo pitches itself to schools",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "Google 学校 AI 事件（11-04 已发布）跟进",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-scho",
+   "title": "Google faces backlash over schools AI plan",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "已发布事件（11-04 google-k12-ai-search-opt-in）转述跟进",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://blog.kagi.com/education-should-not-be-held-for-ransom",
+   "title": "Kagi: Education shouldn't be held for ransom",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "同事件评论跟进",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "title": "Daybreak Red in AWS GovCloud",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "部署区域扩展，AWS 10-30 已预告，信息密度低",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://openai.com/index/devrev-enterprise-self-service",
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "客户案例营销内容",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
+   "title": "Workflow SDK adds idempotent starts",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "常规产品 changelog",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.ricursive.com/ripple",
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "小团队模型 preview，第三方验证不足",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://arxiv.org/abs/2605.29713",
+   "title": "The Little Book of Generative AI Foundations",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "教程性文本，非研究进展",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://go.dev/blog/jsonv2",
+   "title": "A new Go API for JSON (encoding/json/v2, Go 1.27)",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "语言标准库更新，窗口内密度低于已选条目",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "title": "NVIDIA auto-ontology",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "开源仓库发布，属项目通告而非事件新闻",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50354336",
+   "title": "Gitbook Breached",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "事件细节待官方披露，规模未知",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+   "title": "Debian apt security update (MITM)",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "常规安全更新",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://sw.kovidgoyal.net/kitty/changelog/",
+   "title": "Kitty 0.50",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "常规版本发布",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+   "title": "GitHub incident with Pull Requests/Git/Issues",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "常规服务事故通告",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+   "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "人物评论访谈",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-declines",
+   "title": "Windows 11 right-click menu improvements",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "产品小幅改进报道",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+   "title": "macOS 27 does not support CoreStorage volumes",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "兼容性变化分析",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver",
+   "title": "Synaptics appears to use legal threats to block open-source driver",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "驱动法律纠纷，相关性中等",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
+   "title": "Verification Is Not Knowledge",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "评论文章",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now",
+   "title": "Everything is an AI scam now",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+   "title": "There is no posttraining data commons",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "分析博客，热度中等",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://helgesver.re/articles/macos-vulgar-word-flags",
+   "title": "I dumped Apple's word list",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "趣味逆向研究",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://napcakes.nekoweb.org/posts/malloc/",
+   "title": "The lost malloc()",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "技术随笔",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+   "title": "Intel stock collapse worsens",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "市场行情类，AMD 条目已覆盖行业格局",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-",
+   "title": "Data centers turning to old jet engines",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "电力供给侧新闻，密度不足以入 Top10",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-d",
+   "title": "Ballistic Ventures seeks $490M",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "融资新闻",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+   "title": "HF video: Open source AI is booming",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "视频内容",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-ri",
+   "title": "HF podcast",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "播客内容",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+   "title": "TechCrunch Founder Summit",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "活动预告",
+   "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little",
+   "title": "Apple Siri Recaps hands-on",
+   "issue": "TECH-99",
+   "status": "excluded",
+   "reason": "上手评测",
+   "evaluated_on": "2026-11-05"
   }
  ]
 }

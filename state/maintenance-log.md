@@ -313,3 +313,12 @@
 - 特别核验：honnibal.dev 拆解文（11-03）与 simonwillison.net 复现文（11-03）为「Astra 权重读写」事件（TECH-93 已发）的窗口内新一手分析/复现，按新事实单独收录并明确标注为该事件的后续争论；NVIDIA auto-ontology（HN 259 分，11-03 提交）经查 OPEN_SOURCE_NOTICE 添加于 2026-09-30、repo 创建于 2026-04-27，开源原发窗口外，按「窗口外原发不重开」排除；Postman 事件（HN 965 分，11-03 提交）原始 issue 创建于 2026-10-25T19:03Z（10-24 触发），无窗口内官方回应等新一手进展，同样排除；GPT-Rosalind-6 System Card 页面标注 Published October 30, 2026，窗口外排除；LongCat-2.5 以 longcat.ai 官方博客（2026-11-01）与美团技术博客（11-02）为一手核验发布。
 - 维护决定：本轮所有启用来源状态 ok/paywall（无新增 blocked；theinformation 连续 403 计 2 轮仍在阈值内），无来源触发连续失败降级、30 日无产出降级或恢复条件，无新增验证入口，无满足「已启用 T2 中 ≥3 条独立热点条目引用」纳入标准的新来源（washingtonpost/blog.nns.ee/honnibal.dev/longcat.ai/caixin 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）；config/sources.json 无需改动，不做备份、不重写清单、不重新生成展示版（内容未变，避免生成相同内容备份）。
 - 证据：state/source-health.json（本轮 25 源全覆盖），data/collected-2026-11-04.json（原始抓取，本地不入 Git）。
+
+## 2026-11-05（TECH-99）维护记录
+
+- **采集窗口**：2026-11-03T00:08Z – 2026-11-05T00:08Z（48h）。25 个启用来源全部探测（14 个 RSS/Atom/API 成功；msresearch 主 feed 超时×2+504 后经博客 RSS /blog/feed/ 200 恢复；theinformation 首页 403 经官方 Atom feed 200 恢复；其余 HTML 入口 200）。arXiv cs.AI feed 当日空窗（cs.CL 正常 381 条），判定非故障。窗口内产出：Top 10 发布（reports/digest-2026-11-05.md），当日无同日重复发布。
+- **theinformation（T2）入口更新**：首页自 2026-11-03 起连续 3 轮 HTTP 403（此前多轮 200 付费墙页），达"连续 3 次真实探测失败"阈值。替代入口验证：官方 Atom feed https://www.theinformation.com/feed HTTP 200、窗口内 15 条（标题可读、正文付费墙）——替代入口验证成功，按规则**不降级**，更新配置入口为该 feed 并保留原地址与原因（写入 sources[].notes）。证据：curl/urllib 403（11-03、11-04、11-05 三轮 health 记录）与 feed 200 解析（本轮）。
+- **msresearch（T1）**：主 feed /en-us/research/feed/ 本轮超时×2（30s/60s）后 504，博客 RSS /blog/feed/ 200 恢复。配置入口（博客页 https://www.microsoft.com/en-us/research/blog ）未失效，不改动清单，仅记录；下轮复验主 feed。
+- **备份**：修改 config/sources.json 前，旧文件（sha256 9a7a8b19fa8bbe797d884882509dd7de5e8cfe00bda4aff9de6984ffc8cf4097，updated_at=2026-10-30）字节备份至 backup/sources-20261105.json（无同名备份，未覆盖任何历史版本），备份与旧文件字节/hash 一致后经同目录临时文件原子替换。
+- **验证**：修改后运行 `python3 scripts/validate.py --generate-md` 重新生成只读展示版（科技情报来源清单.md），`python3 scripts/validate.py` 全量校验通过（配置、来源标识唯一、字段、启用状态、URL 与持久数据契约一致）。
+- **维护决定汇总**：config/sources.json 仅 theinformation url/notes/updated_at 变更，其余 24 个启用来源与 10 个候选来源无改动；无来源触发连续失败降级（theinformation 替代入口验证成功）或 30 日无产出降级（a16z 连续 0 产出未达线）；无新增满足「已启用 T2 中 ≥3 条独立热点条目引用」标准的新来源（openai.com 收购页、hy.tencent.ai、huggingface.co 仓库、spectrum.ieee.org、theregister.com、asia.nikkei.com、tomshardware.com 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）。

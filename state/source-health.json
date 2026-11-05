@@ -1,8 +1,8 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-11-04T00:40Z",
- "issue": "TECH-96",
+ "last_run": "2026-11-05T00:50Z",
+ "issue": "TECH-99",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
@@ -11,7 +11,7 @@
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内 /news 无新页（top lastmod 均为旧页刷新），0 条。"
+   "notes": "sitemap 200；窗口内仅 /research/provable-inference（11-03T19:10Z，TECH-96 已发布事件），/news 无新页。"
   },
   "anthropic_research": {
    "tier": "T1",
@@ -19,17 +19,17 @@
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "sitemap 200；窗口内 1 条新页 provable-inference（lastmod 11-03T10:44Z，datePublished 11-02，FlashProve/zkSNARK），发布（简报条目2）。"
+   "items_published": 0,
+   "notes": "sitemap 200；窗口内 1 条（provable-inference）为 TECH-96 已发布事件，本轮不重复收录。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 9,
+   "items_in_window": 7,
    "items_published": 2,
-   "notes": "rss 200；窗口内 9 条（11-02T00:00Z 后）：security-sprint/bounty 两篇发布（合并简报条目8）；scaling-git/grid-protectors/lifeval 已于 TECH-93 发布去重；physical-world/cisco-cyber/heimstaden 客户案例与 hazelbaker 人事任命评估后排除。"
+   "notes": "rss 200；收录 Pierre 收购与 A thousand fewer paths to root；4 条客户案例与 Daybreak Red GovCloud（AWS 10-30 已预告）排除。页面直抓 403，事实经检索多源核验。"
   },
   "deepmind": {
    "tier": "T1",
@@ -37,8 +37,8 @@
    "method": "rss",
    "entry_used": "https://deepmind.google/blog/rss.xml",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "rss 200；窗口内 1 条 agentic-cheminformatics-with-google-antigravity（11-03T17:01Z），发布（简报条目7）。"
+   "items_published": 0,
+   "notes": "rss 200；窗口内 1 条（agentic cheminformatics）为 TECH-96 已发布事件。"
   },
   "meta_ai": {
    "tier": "T1",
@@ -47,16 +47,16 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；抽查最新页（supporting-medical 10-28、muse-wonder 10-15）均窗口外，0 条。"
+   "notes": "html 200；仅 Muse Spark 系列历史导航链接，无窗口内发布日期证据，0 条。"
   },
   "msresearch": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
-   "entry_used": "https://www.microsoft.com/en-us/research/feed/",
-   "items_in_window": 1,
+   "entry_used": "https://www.microsoft.com/en-us/research/blog/feed/",
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内 1 条播客（hacker mindset，11-03T17:14Z），评估后排除（主题软性）。"
+   "notes": "主 feed /en-us/research/feed/ 超时×2 后 HTTP 504；改用博客 RSS /blog/feed/ 200 恢复（feed=10，窗口内 0 条）。配置入口为博客页仍可达，不改动清单。"
   },
   "mistral": {
    "tier": "T1",
@@ -65,7 +65,7 @@
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200 可解析；窗口内 0 条（正常节奏）。迁移后入口验证继续成立。"
+   "notes": "rss 200，窗口内 0 条。"
   },
   "sierra": {
    "tier": "T1",
@@ -74,7 +74,7 @@
    "entry_used": "https://sierra.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；抽查最新页（summit-recap 10-06、ghostwriter 09-28）均窗口外，0 条。"
+   "notes": "html 200，仅导航链接，窗口内无新博文。"
   },
   "scale": {
    "tier": "T1",
@@ -83,7 +83,7 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；抽查最新页（ai-literacy 10-30T17:23Z，距窗口起点 6.6 小时）窗口外，0 条。"
+   "notes": "html 200，仅导航链接，窗口内无新博文。"
   },
   "github": {
    "tier": "T1",
@@ -92,16 +92,16 @@
    "entry_used": "https://github.blog/feed/",
    "items_in_window": 1,
    "items_published": 0,
-   "notes": "rss 200；窗口内 1 条 arnis（11-03T16:00Z），评估后排除（项目趣闻位次不足）。"
+   "notes": "rss 200；窗口内 1 条（Arnis Minecraft）评估后排除（趣味项目）。"
   },
   "shopify": {
    "tier": "T1",
    "status": "ok",
-   "method": "atom",
+   "method": "rss",
    "entry_used": "https://shopify.engineering/blog.atom",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "atom 200；窗口内 0 条。"
+   "notes": "rss 200，窗口内 0 条。"
   },
   "netflix": {
    "tier": "T1",
@@ -110,7 +110,7 @@
    "entry_used": "https://netflixtechblog.com/feed",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内 0 条（正常节奏）。"
+   "notes": "rss 200，窗口内 0 条；Netflix AI Discover 为 TechCrunch 转述，已排除。"
   },
   "airbnb": {
    "tier": "T1",
@@ -119,7 +119,7 @@
    "entry_used": "https://medium.com/feed/airbnb-engineering",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内 0 条（正常节奏）。"
+   "notes": "rss 200，窗口内 0 条。"
   },
   "stripe": {
    "tier": "T1",
@@ -128,7 +128,7 @@
    "entry_used": "https://stripe.com/blog/feed.rss",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内 0 条（正常节奏）。"
+   "notes": "rss 200，窗口内 0 条。"
   },
   "cloudflare": {
    "tier": "T1",
@@ -136,17 +136,17 @@
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
    "items_in_window": 2,
-   "items_published": 0,
-   "notes": "rss 200；窗口内 2 条：zero-wire（11-03T14:00Z）评估后位次不足；dns-targeted-zone-builds 已于 TECH-93 发布去重。"
+   "items_published": 1,
+   "notes": "rss 200；收录 personal-agents-visibility-control；Zero Wire（漏洞调查资源站）评估后排除。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
-   "method": "atom",
+   "method": "rss",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 15,
+   "items_in_window": 6,
    "items_published": 1,
-   "notes": "atom 200；窗口内 15 条：security review 博客（11-02T13:00Z）+ public beta changelog（11-03T20:00Z）发布（合并简报条目6）；其余为 changelog 小项与客户案例，评估后排除。"
+   "notes": "atom 200；Kimi K3.1 Pro 上架 AI Gateway 并入 K3.1 条目（secondary）；security-review-beta changelog 为 TECH-96 已发布事件；其余常规 changelog/客户案例排除。"
   },
   "cursor": {
    "tier": "T1",
@@ -155,34 +155,34 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；抽查 joining-spacex（08-14）、git-at-any-scale（08-18）均旧页，0 条。"
+   "notes": "html 200；窗口内无新博文（self-driving-codebases 为 2026-02 旧文）。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
-   "method": "algolia-api",
+   "method": "api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
-   "items_in_window": 200,
-   "items_published": 6,
-   "notes": "algolia 200；窗口内（11-02T00:00Z 起）points>100 共 200 条，其中未入账新增 89 条逐条评估，6 条 HN 讨论链接随事件发布（google-schools/astra/longcat/renault/wapo/tao）；其余排除（理由见 processed-urls）。front_page 30 条同步核查。"
+   "items_in_window": 69,
+   "items_published": 5,
+   "notes": "Algolia 200，窗口内 ≥100 分 69 条；5 条并入相应事件（Pierre/PHP2Shell/Binance/日经债务/AMD）。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "items_in_window": 27,
-   "items_published": 2,
-   "notes": "rss 200；窗口内 27 条；google-schools 与 flashprove 转述随事件发布；其余为融资/产品/市场类，评估后排除（理由见 processed-urls）。"
+   "items_in_window": 20,
+   "items_published": 1,
+   "notes": "rss 200；Meta×Conductor 转述并入条目；其余为已发布事件跟进、融资、政治、评测类，逐条排除。"
   },
   "theinformation": {
    "tier": "T2",
-   "status": "paywall",
-   "method": "html",
-   "entry_used": "https://www.theinformation.com",
-   "items_in_window": 0,
+   "status": "ok",
+   "method": "rss",
+   "entry_used": "https://www.theinformation.com/feed",
+   "items_in_window": 15,
    "items_published": 0,
-   "notes": "首页本轮 HTTP 403（连续 403 计 2 轮）；长期付费墙/反爬状态。单次/两轮失败不降级，连续 3 轮真实探测失败且替代入口验证失败才按规则降为待观察，下轮复验。"
+   "notes": "首页连续第 3 轮 HTTP 403；替代入口官方 Atom feed 200 验证成功（窗口内 15 条标题，正文付费墙），配置入口已更新并保留原地址——替代入口验证成功，不触发降级。独家标题（微软下调数据中心支出）仅标题级事实，未收录。"
   },
   "a16z": {
    "tier": "T2",
@@ -191,43 +191,43 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "页面 200；仍为 JS 渲染无机读日期，窗口内 0 条；连续第 19 轮 0 产出（19<30，继续观察）。"
+   "notes": "html 200，JS 渲染仅导航链接，连续 0 产出（未达 30 日降级线），继续观察。"
   },
   "arxiv_csai": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.AI",
-   "items_in_window": 15,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；上轮空频道异常恢复：本轮 297 条（11-02T05:00Z 周一批次），窗口内 15 条标题评估，无与 HN 高热交叉条目，0 条不凑数；连续空计数清零。"
+   "notes": "rss 200 但当日 feed 无条目（lastBuildDate 11-04），cs.CL 正常返回 381 条，判定为 feed 空窗非故障。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.CL",
-   "items_in_window": 0,
+   "items_in_window": 381,
    "items_published": 0,
-   "notes": "rss 200 但频道本轮构建为空（0 条）；上轮正常，本轮为空（连空计 1 轮），下轮复验；arXiv RSS 各频道构建批次交替出现空频道，单次不降级。"
+   "notes": "rss 200，全量列表 381 条；按规则不做全量论文收录，无高热度广泛讨论条目。"
   },
   "arxiv_cslg": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.LG",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "rss 200 但频道本轮构建为空（0 条）；同 cs.CL 处理，连空计 1 轮，下轮复验。"
+   "notes": "rss 200，窗口内 1 条为旧文重挂（2303.12212），不收录。"
   },
   "hf_papers": {
    "tier": "T3",
    "status": "ok",
    "method": "api",
    "entry_used": "https://huggingface.co/api/daily_papers",
-   "items_in_window": 8,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "api 200；窗口内（publishedAt≥11-02）8 条，最高 CUA-Master 91 赞 / CoworkOS 87 赞，HN 检索无外部讨论交叉，未达 T3 高热度线，0 条不凑数。"
+   "notes": "api 200；返回论文最新日期 ≤11-02，窗口内 0 条。当日热门模型权重动态（Kimi K3.1 Pro）经 HN/HF 直接核验收录。"
   }
  }
 }
