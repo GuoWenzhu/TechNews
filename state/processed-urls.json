@@ -14772,6 +14772,496 @@
    "status": "excluded",
    "reason": "上手评测",
    "evaluated_on": "2026-11-05"
+  },
+  {
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "title": "Introducing GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "OpenAI 发布 GPT-6 Cyber 网络安全模型（Preparedness Framework 定级 Critical）",
+   "source_pub_time": "2026-11-05T09:00Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+   "title": "OpenAI released a new cybersecurity model. Is that enough?",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "secondary",
+   "event": "OpenAI 发布 GPT-6 Cyber 网络安全模型（Preparedness Framework 定级 Critical）",
+   "source_pub_time": "2026-11-05T19:06Z"
+  },
+  {
+   "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+   "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "OpenSSH/musl 潜伏十年认证绕过（sshhole 披露，OpenSSH 10.6p2 修复）",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://sshhole.com",
+   "title": "sshole：musl libc crypt 返回 '*' 与 256 字节上限叠加 sshd 借盐逻辑导致的认证绕过披露",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "OpenSSH/musl 潜伏十年认证绕过（sshhole 披露，OpenSSH 10.6p2 修复）",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://www.openssh.com/releasenotes.html#10.6p2",
+   "title": "OpenSSH 10.6p2 release notes（修复 musl 无 PAM 密码认证绕过）",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "secondary",
+   "event": "OpenSSH/musl 潜伏十年认证绕过（sshhole 披露，OpenSSH 10.6p2 修复）",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50378228",
+   "title": "HN 2237分：sshole",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "secondary",
+   "event": "OpenSSH/musl 潜伏十年认证绕过（sshhole 披露，OpenSSH 10.6p2 修复）",
+   "source_pub_time": "2026-11-05T12:19Z"
+  },
+  {
+   "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+   "title": "GPT-6 Astra covertly underperforms on safety research tasks",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "OpenAI 披露 GPT-6 Astra 在安全研究任务上隐性消极怠工（错位报告）",
+   "source_pub_time": "2026-11-04（报告更新）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50376313",
+   "title": "HN 279分：GPT-6 Astra covertly underperforms on safety research",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "secondary",
+   "event": "OpenAI 披露 GPT-6 Astra 在安全研究任务上隐性消极怠工（错位报告）",
+   "source_pub_time": "2026-11-05T07:44Z"
+  },
+  {
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "Google DeepMind 发布 Gemini Omni 1.2 Flash（15 秒视频、降价 30%、首次 GA）",
+   "source_pub_time": "2026-11-05T17:05Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
+   "title": "Gemini Omni 1.2 Flash now available on AI Gateway",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "secondary",
+   "event": "Google DeepMind 发布 Gemini Omni 1.2 Flash（15 秒视频、降价 30%、首次 GA）",
+   "source_pub_time": "2026-11-05T00:00Z"
+  },
+  {
+   "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "title": "Inside GitHub's new Git storage architecture",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "GitHub 公开新一代 Git 存储架构 Rubicon（单仓 5000 并发智能体/7200 pushes每秒）",
+   "source_pub_time": "2026-11-05T20:23Z"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+   "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "微软研究院发布 PDD Kit：形式化验证智能体生成代码（Verus）",
+   "source_pub_time": "2026-11-05T16:00Z"
+  },
+  {
+   "url": "https://shopify.engineering/reflex",
+   "title": "Reflex: an architecture for building mobile apps with agents",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "Shopify 公开智能体优先的原生移动架构 Reflex",
+   "source_pub_time": "2026-11-05T15:41Z"
+  },
+  {
+   "url": "https://mistral.ai/news/build-with-studio/",
+   "title": "Le Chonk brings the brains. Studio puts it to work.",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "Mistral 扩展 Mistral Studio 企业智能体平台（托管智能体/工作流/应用+MCP server）",
+   "source_pub_time": "2026-11-05T12:00Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+   "title": "Agents aren't humans (but they kinda are)",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "Cloudflare 发起 Trusted Agent Delegation（TAD）联盟",
+   "source_pub_time": "2026-11-05T17:03Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+   "title": "Airbnb says it's launching an AI travel agent in the first half of 2027",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "Airbnb 定档 AI 旅行智能体 2027H1（生成式界面）",
+   "source_pub_time": "2026-11-05T22:40Z"
+  },
+  {
+   "url": "https://investors.airbnb.com/financials/default.aspx",
+   "title": "Airbnb Q3 2026 股东信（AI 旅行智能体细节）",
+   "issue": "TECH-102",
+   "status": "published",
+   "published_on": "2026-11-06",
+   "role": "primary",
+   "event": "Airbnb 定档 AI 旅行智能体 2027H1（生成式界面）",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "title": "OpenAI Images 2.6（提速50%/GIF 动画/Flare 与 Sunburst 双 API 变体）",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "T1 增量产品更新，信息密度低于入选条目（HN 376 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent",
+   "title": "Stripe：用智能体直接分析商户数据",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "产品功能更新，密度不足",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+   "title": "Baidu 发布 ERNIE 5.5 Flash Base",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "发布规格/权重开放度缺一手细节未及核验，热度与密度低于入选条目（HN 164 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+   "title": "Nasdaq plummets 4% into correction territory",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "市场行情类，无增量工程/AI落地信息",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+   "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "市场行情类，无增量工程/AI落地信息",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://finlaws.substack.com/p/25t-has-been-wiped-from-us-stocks",
+   "title": "$2.5T has been wiped from US stocks",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "市场行情类，无增量工程/AI落地信息",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+   "title": "Meta Muse AI avatar 视频通话上线",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "消费者功能更新",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+   "title": "Meta 警告数据中心遭遇选举反弹",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "行业政策评论；选民否决数据中心事件此前已评估排除",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+   "title": "Brockman：OpenAI 或于 2027 年具备 IPO 条件",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "资本市场/商业消息",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+   "title": "Claude Personal Finance 功能",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "功能发布，密度不足",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+   "title": "Axiom Math 防数学 AI 垃圾",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "初创动态，密度不足",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+   "title": "Dropbox 3.5 亿美元收购 Tigris Data",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "并购消息，工程密度有限",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+   "title": "Discord 弃 Electron 改原生",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "客户端工程调整，密度有限（HN 375 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+   "title": "Agility 成首家纯人形机器人上市公司",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "资本市场消息",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/palo-alto-networks-talks-pay-500-million-ai-security-startup",
+   "title": "Palo Alto Networks 洽购 AI 安全初创 5 亿美元",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "付费墙仅标题级事实，未获独立核验",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/china-blocks-softbanks-5-4-billion-abb-robotics-deal",
+   "title": "中国否决软银 54 亿美元 ABB 机器人交易",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "付费墙仅标题级事实，未获独立核验",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+   "title": "OpenAI 负责任 AI 基础设施表态",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "政策表态/PR，非增量技术信息",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://openai.com/index/merge-builds-with-openai",
+   "title": "Merge builds product and business tools with OpenAI technology",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "客户案例营销内容",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://openai.com/ads/customers/flipsnack",
+   "title": "Flipsnack grows product signups with conversion optimization",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "广告客户案例",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+   "title": "GitHub Accessibility statements 功能",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "平台功能更新",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://vercel.com/blog/introducing-vercel-schedules",
+   "title": "Introducing Vercel Schedules",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "产品功能更新（定时任务）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta",
+   "title": "Vercel Schedules public beta",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "产品功能更新（同事件 changelog）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.06918",
+   "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "T3 无高热度/广泛讨论证据（HF 56 upvotes，无 HN 热度），按规则不收录",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.06483",
+   "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "T3 无高热度/广泛讨论证据（HF 33 upvotes），按规则不收录",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.06768",
+   "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "T3 无高热度/广泛讨论证据（HF 10 upvotes），按规则不收录",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.05988",
+   "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "T3 无高热度/广泛讨论证据（HF 2 upvotes），按规则不收录",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.06042",
+   "title": "UniRestorer++: Scalable Universal Image Restoration",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "T3 无高热度/广泛讨论证据（HF 2 upvotes），按规则不收录",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "title": "Claude Code 将用户邮箱地址发送给被访问网站（issue 报告）",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "单一 issue 报告，成因与修复状态未核验（HN 279 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://kagi.com/changelog#11820",
+   "title": "Kagi: Search for everyone",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "产品更新；Kagi 学校争议事件此前已评估排除（HN 427 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+   "title": "Goodbye from Salon",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "媒体行业动态，非工程/AI落地主线",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.spacex.com/starfall",
+   "title": "SpaceX Starfall：常态化微重力服务",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "航天服务动态，偏离本期工程/Agent主线（HN 269 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://motorolanews.com/motorola-signature-27-2/",
+   "title": "Motorola Signature 27 支持 GrapheneOS",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "消费硬件动态",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50366117",
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "讨论帖非新闻事件（HN 501 分）",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+   "title": "Apple 据报削减内部 AI 使用预算",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "供应链/内部管理传闻，密度不足",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+   "title": "中期选举后数据中心之争将升级",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "政策前瞻评论",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+   "title": "Box 用 Nvidia Nemotron 构建 agent-first 检索",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "企业采用动态，密度不足",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+   "title": "YC 初创悬赏 100 万美元征解 5 个材料学问题",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "初创竞赛动态",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
+   "title": "Anthropic: The long-term benefit trust（页面 lastmod 变更）",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "sitemap lastmod≠发布时间；核验页面为历史治理公告（初始受托人名单），非新发布",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+   "title": "How researchers use Claude（页面 lastmod 变更）",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "sitemap lastmod≠发布时间，页面为既有研究报告更新，非新发布",
+   "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+   "title": "Investigating vault particles with Claude（页面 lastmod 变更）",
+   "issue": "TECH-102",
+   "status": "excluded",
+   "reason": "sitemap lastmod≠发布时间，页面为既有研究案例更新，非新发布",
+   "evaluated_on": "2026-11-06"
   }
  ]
 }

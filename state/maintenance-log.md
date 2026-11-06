@@ -322,3 +322,13 @@
 - **备份**：修改 config/sources.json 前，旧文件（sha256 9a7a8b19fa8bbe797d884882509dd7de5e8cfe00bda4aff9de6984ffc8cf4097，updated_at=2026-10-30）字节备份至 backup/sources-20261105.json（无同名备份，未覆盖任何历史版本），备份与旧文件字节/hash 一致后经同目录临时文件原子替换。
 - **验证**：修改后运行 `python3 scripts/validate.py --generate-md` 重新生成只读展示版（科技情报来源清单.md），`python3 scripts/validate.py` 全量校验通过（配置、来源标识唯一、字段、启用状态、URL 与持久数据契约一致）。
 - **维护决定汇总**：config/sources.json 仅 theinformation url/notes/updated_at 变更，其余 24 个启用来源与 10 个候选来源无改动；无来源触发连续失败降级（theinformation 替代入口验证成功）或 30 日无产出降级（a16z 连续 0 产出未达线）；无新增满足「已启用 T2 中 ≥3 条独立热点条目引用」标准的新来源（openai.com 收购页、hy.tencent.ai、huggingface.co 仓库、spectrum.ieee.org、theregister.com、asia.nikkei.com、tomshardware.com 等均为 T2 发现后核验的事件一手来源，按事件收录，不动清单）。
+
+## 2026-11-06（TECH-102）
+
+- 采集：24/24 启用来源全部成功（采集窗口 2026-11-04T00:06Z–11-06T00:06Z）。T1 RSS/sitemap 22 项 + T2 4 项 + T3 5 项均 200；无反爬/限流/超时异常。msresearch 沿用上轮迁移的博客 RSS `/blog/feed/`，主 feed `/en-us/research/feed/` 未复测（上轮 504）。
+- 健康异常：无。全部来源 ok。
+- Anthropic sitemap：窗口内 4 条 lastmod 变更经抽查核验为既有页面更新（LTBT 为历史治理公告，含初始受托人名单），非新发布，未收录；sitemap lastmod 继续不作为发布时间证据。
+- theinformation：feed 入口迁移后连续第 2 轮正常（20 条），正文付费墙维持标题级处理；首页未再探测，入口维持 feed。
+- a16z：连续第 2 轮 0 产出（页面可达 200，JS 渲染仅导航链接），远未达"连续 30 个成功采集日无产出"降级线，继续观察。
+- config/sources.json：无改动（无来源达降级/迁移/新增触发条件），不重写、不生成备份、不重新生成展示版。
+- 台账：processed-urls 新增 published 17 条（10 事件，primary+secondary）、excluded 40 条；source-health 全量覆盖为本轮结果；daily-runs 追加 TECH-102。
