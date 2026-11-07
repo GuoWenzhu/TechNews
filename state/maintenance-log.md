@@ -332,3 +332,12 @@
 - a16z：连续第 2 轮 0 产出（页面可达 200，JS 渲染仅导航链接），远未达"连续 30 个成功采集日无产出"降级线，继续观察。
 - config/sources.json：无改动（无来源达降级/迁移/新增触发条件），不重写、不生成备份、不重新生成展示版。
 - 台账：processed-urls 新增 published 17 条（10 事件，primary+secondary）、excluded 40 条；source-health 全量覆盖为本轮结果；daily-runs 追加 TECH-102。
+
+## 2026-11-07（TECH-105）维护记录
+
+- 采集：24 个启用来源全部可达、全部 ok（RSS/Atom/sitemap/API/HTML 各按 entry_used）。原始抓取数据 data/collected-2026-11-07.json（窗口 2026-11-05T00:05Z–2026-11-07T00:05Z，48h）。
+- 产出：简报 10 条（reports/digest-2026-11-07.md）；台账新增 101 条（published 18 条 / excluded 83 条）。勘误：Anthropic early-progress-drug-development 与 open-call-guest-investigators 经台账比对为既有页面 lastmod 更新（TECH-74 已于 2026-10-28 发布该事件），不作为新发布；Top10 第 2 条改用 GitHub 智能体工程指南（经页面核验后由 excluded 改判 published）。
+- config/sources.json：无需改动（无失效、无降级/恢复、无新入口验证触发），不重写、不生成备份。
+- 恢复观察：xai/perplexity/uber/doordash 维持候选待观察，本轮未探测（规则：候选不纳入常规采集，恢复需连续 2 次验证可达，待人工或专项触发）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 5 轮正常（feed 94 条、窗口内条目正常）。
+- linear/stratechery/benevans/jiqizhixin/qbitai：维持候选，未采集。

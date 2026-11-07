@@ -1,8 +1,8 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-11-06T00:50Z",
- "issue": "TECH-102",
+ "last_run": "2026-11-07T00:20Z",
+ "issue": "TECH-105",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
@@ -11,25 +11,25 @@
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 1,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内 /news 1 条（the-long-term-benefit-trust）经核验为历史治理公告页面更新（初始受托人名单），lastmod≠发布时间，不收录。"
+   "notes": "sitemap 200；窗口内 /news 1 条（open-call-guest-investigators-life-sciences，lastmod 11-06 10:22Z）经台账比对为既有页面 lastmod 更新：该招募公告已于 TECH-58 轮（2026-10-23）评估排除，非新发布，0 收录。"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 3,
-   "items_published": 0,
-   "notes": "sitemap 200；窗口内 3 条 research 页（ukaisi/how-researchers-use-claude/vault-particles）均为既有页面 lastmod 变更，无新发布证据，0 收录。"
+   "items_in_window": 6,
+   "items_published": 2,
+   "notes": "sitemap 200；窗口内 research 页：components-of-agent-memory（primary）与 project-eve-claude-plays-mmorpgs（primary）经抓取+台账比对核验为窗口内新发布并收录；accelerating-scientific-research、teaching-ai-to-build-scientific-models 为新发布但评估后排除；early-progress-drug-development（lastmod 11-06 00:33Z）经台账比对为 TECH-74 轮已发布页面的 lastmod 更新（该事件 2026-10-28 已发布，含 BMS 在内六家合作），不重复收录；ukaisi/how-researchers-use-claude/vault-particles 为 lastmod 噪声。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
-   "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 7,
+   "entry_used": "https://openai.com/index/../news/rss.xml",
+   "items_in_window": 8,
    "items_published": 1,
-   "notes": "rss 200；收录 GPT-6 Cyber（含 948 Linux 利用与 81 Firefox 漏洞实战引用）；responsible-AI-infra 与 2 条客户案例排除；Pierre/Daybreak/paths-to-root 为已发布事件不重复。Images 2.6 经 HN 发现并核验后按密度排除。"
+   "notes": "rss 200；收录 BioBasicsBench（wet-lab agent 基准）；Hacktron 合作、澳洲大学、Cult.fit 排除；GPT-6 Cyber 为 11-06 已发布事件不重复；merge/responsible-AI/flipsnack 已排除。"
   },
   "deepmind": {
    "tier": "T1",
@@ -37,8 +37,8 @@
    "method": "rss",
    "entry_used": "https://deepmind.google/blog/rss.xml",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "rss 200；收录 Gemini Omni 1.2 Flash（GA+降价30%），Vercel AI Gateway 上架为 secondary。"
+   "items_published": 0,
+   "notes": "rss 200；窗口内唯一条目 Gemini Omni 1.2 Flash 已于 11-06 轮发布，不重复。"
   },
   "meta_ai": {
    "tier": "T1",
@@ -55,8 +55,8 @@
    "method": "rss",
    "entry_used": "https://www.microsoft.com/en-us/research/blog/feed/",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "博客 RSS 200 正常（上轮 /en-us/research/feed/ 504，本轮未复测主 feed）；收录 PDD Kit。"
+   "items_published": 0,
+   "notes": "博客 RSS 200 正常；窗口内唯一条目 PDD Kit 已于 11-06 轮发布。"
   },
   "mistral": {
    "tier": "T1",
@@ -64,8 +64,8 @@
    "method": "rss",
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "rss 200；收录 Mistral Studio 扩展（Le Chonk/Mistral Large 4）。迁移入口连续第 4 轮正常。"
+   "items_published": 0,
+   "notes": "rss 200；窗口内唯一条目 Mistral Studio 已于 11-06 轮发布；迁移入口连续第 5 轮正常。"
   },
   "sierra": {
    "tier": "T1",
@@ -90,9 +90,9 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://github.blog/feed/",
-   "items_in_window": 2,
-   "items_published": 1,
-   "notes": "rss 200；收录 Git 存储架构 Rubicon；accessibility statements 功能更新排除。"
+   "items_in_window": 3,
+   "items_published": 0,
+   "notes": "rss 200；Rubicon 已于 11-06 发布、accessibility 已排除；本轮新增 beyond-code-generation 指南评估后排除。"
   },
   "shopify": {
    "tier": "T1",
@@ -100,8 +100,8 @@
    "method": "rss",
    "entry_used": "https://shopify.engineering/blog.atom",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "atom 200；收录 Reflex（智能体优先移动架构）。"
+   "items_published": 0,
+   "notes": "atom 200；窗口内唯一条目 Reflex 已于 11-06 轮发布。"
   },
   "netflix": {
    "tier": "T1",
@@ -110,7 +110,7 @@
    "entry_used": "https://netflixtechblog.com/feed",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200，窗口内 0 条。"
+   "notes": "rss 200，窗口内无条目。"
   },
   "airbnb": {
    "tier": "T1",
@@ -119,16 +119,16 @@
    "entry_used": "https://medium.com/feed/airbnb-engineering",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200，窗口内 0 条；Airbnb 智能体新闻经 T2 TechCrunch+股东信收录（非本源产出）。"
+   "notes": "rss 200，窗口内无条目。"
   },
   "stripe": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://stripe.com/blog/feed.rss",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内 agent 数据分析功能更新，按密度排除。"
+   "notes": "rss 200，窗口内无条目。"
   },
   "cloudflare": {
    "tier": "T1",
@@ -137,25 +137,34 @@
    "entry_used": "https://blog.cloudflare.com/rss/",
    "items_in_window": 2,
    "items_published": 1,
-   "notes": "rss 200；收录 TAD 联盟长文；personal-agents-visibility-control 为 TECH-99 已发布事件不重复。"
+   "notes": "rss 200；收录 vole-mole（后量子 MOLE/VOLEitH）；TAD 为 11-06 已发布事件不重复。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 5,
-   "items_published": 1,
-   "notes": "atom 200；Gemini Omni 1.2 Flash 上架 AI Gateway 并入 DeepMind 条目（secondary）；Schedules blog+changelog 排除；Kimi ZDR changelog 为已发布事件；Workflow SDK changelog 此前已排除。"
+   "items_in_window": 7,
+   "items_published": 0,
+   "notes": "atom 200；窗口内 7 条 changelog/博客，6 条新评估排除（小功能更新）、1 条（Schedules beta）11-06 轮已排除。"
+  },
+  "cursor": {
+   "tier": "T1",
+   "status": "ok",
+   "method": "html",
+   "entry_used": "https://cursor.com/blog",
+   "items_in_window": 0,
+   "items_published": 0,
+   "notes": "html 200；self-driving-codebases 链接在 11-06 轮抓取已可见且无日期证据，非本窗口新发布，排除。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
-   "method": "api",
+   "method": "algolia-api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
-   "items_in_window": 79,
-   "items_published": 3,
-   "notes": "Algolia 200，窗口内 ≥100 分 79 条；sshhole/Alpine 公告/OpenSSH 10.6p2 3 条并入安全条目；Astra 错位报告讨论并入条目3；Images 2.6/ERNIE/Nasdaq/Kagi/Claude Code issue 等评估后排除。"
+   "items_in_window": 63,
+   "items_published": 2,
+   "notes": "algolia 200；>100 分窗口内 63 条；新增收录 Inkling 2 Small（281 分）与 Firecracker 逃逸（144 分）讨论为 secondary；sshhole/openssh/Gemini Omni 等为已发布事件；其余按密度排除并入台账。"
   },
   "techcrunch_ai": {
    "tier": "T2",
@@ -163,8 +172,8 @@
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "items_in_window": 20,
-   "items_published": 1,
-   "notes": "rss 200；收录 Airbnb AI 旅行智能体；GPT-6 Cyber 评论文并入条目1（secondary）；其余为功能更新、并购、资本市场与政策类逐条排除。"
+   "items_published": 3,
+   "notes": "rss 200；收录 OpenAI $11B 融资（primary）、Ramp AI 支出数据（secondary）、ARTEX 暴露（secondary）；Meta Spaces/Alexa/Underdog/Physicl/播客/视频排除；Airbnb/GPT-6 Cyber/Muse 视频/Claude 金融/Axiom/Dropbox 为 11-06 轮已处理。"
   },
   "theinformation": {
    "tier": "T2",
@@ -173,7 +182,7 @@
    "entry_used": "https://www.theinformation.com/feed",
    "items_in_window": 20,
    "items_published": 0,
-   "notes": "feed 200（上轮迁移后连续第 2 轮正常）；正文付费墙，Palo Alto 收购传闻与软银 ABB 交易仅标题级事实未收录，其余为常规财报简报。"
+   "notes": "rss 200 可解析，内容为付费墙简报；19 条全部排除——不单独作为事实来源，相关事件经官方新闻稿/公开报道核验后收录（Huang 简报、OpenAI 融资、Anthropic 路演）。"
   },
   "a16z": {
    "tier": "T2",
@@ -182,43 +191,43 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200，JS 渲染仅导航链接，连续第 2 轮 0 产出（未达 30 成功日无产出降级线），继续观察。"
+   "notes": "html 200；仅导航与历史文章链接，无日期证据确认窗口内新发布。"
   },
   "arxiv_csai": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.AI",
-   "items_in_window": 359,
+   "items_in_window": 361,
    "items_published": 0,
-   "notes": "rss 200；11-05 公告日全量列表挂出（359 条同日 00:00Z），按规则不做全量收录，无高热度/广泛讨论条目证据。"
+   "notes": "rss 200；窗口内 361 条为常规列表；无 HN/HF 高热信号，按 T3 门槛 0 收录。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.CL",
-   "items_in_window": 159,
+   "items_in_window": 160,
    "items_published": 0,
-   "notes": "rss 200；11-05 公告日全量列表，按规则不做全量收录。"
+   "notes": "rss 200；常规列表，0 收录（T3 门槛）。"
   },
   "arxiv_cslg": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.LG",
-   "items_in_window": 402,
+   "items_in_window": 417,
    "items_published": 0,
-   "notes": "rss 200；11-05 公告日全量列表，按规则不做全量收录。"
+   "notes": "rss 200；常规列表，0 收录（T3 门槛）。"
   },
   "hf_papers": {
    "tier": "T3",
    "status": "ok",
    "method": "api",
    "entry_used": "https://huggingface.co/api/daily_papers",
-   "items_in_window": 5,
+   "items_in_window": 4,
    "items_published": 0,
-   "notes": "api 200；窗口内 5 条最高 56 upvotes，无 HN 热度等广泛讨论证据，按 T3 规则不收录。"
+   "notes": "api 200；窗口内 4 篇 upvotes 均低，热度不足 T3 门槛，排除并入台账；模型发布动态已由 Inkling 2 Small 一手条目覆盖。"
   }
  }
 }

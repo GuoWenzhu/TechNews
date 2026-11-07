@@ -15262,6 +15262,850 @@
    "status": "excluded",
    "reason": "sitemap lastmod≠发布时间，页面为既有研究案例更新，非新发布",
    "evaluated_on": "2026-11-06"
+  },
+  {
+   "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+   "title": "Introducing Inkling 2 Small",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "inkling-2-small",
+   "source_pub_time": "2026-11-05（官方博客 Nov 5；X 23:43 UTC）"
+  },
+  {
+   "url": "https://thinkingmachines.ai/model-card/inkling-2-small/",
+   "title": "Inkling 2 Small Model Card",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "inkling-2-small",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://siliconangle.com/2026/11/06/thinking-machines-debuts-inkling-2-small-amid-reported-5b-fundraising-push/",
+   "title": "Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "inkling-2-small",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50386338",
+   "title": "Inkling 2 Small (HN)",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "inkling-2-small",
+   "source_pub_time": "2026-11-06T00:00Z"
+  },
+  {
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "title": "Components of agent memory",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "anthropic-agent-memory",
+   "source_pub_time": "2026-11-06（sitemap 21:15Z）"
+  },
+  {
+   "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+   "title": "Project EVE: Claude plays MMORPGs",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "anthropic-project-eve",
+   "source_pub_time": "2026-11-06（sitemap 17:09Z）"
+  },
+  {
+   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "biobasicsbench",
+   "source_pub_time": "2026-11-06T00:00Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/vole-mole/",
+   "title": "The post-quantum future of web privacy",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "cloudflare-pq-mole",
+   "source_pub_time": "2026-11-06T14:00Z"
+  },
+  {
+   "url": "https://pwn.ai/blog/firecracker-escape",
+   "title": "Firecracker VM Escape: PwnEscape Part 2",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "firecracker-escape",
+   "source_pub_time": "2026-11-06（HN 19:33Z 讨论）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50397219",
+   "title": "Firecracker VM Escape: PwnEscape Part 2 (HN)",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "firecracker-escape",
+   "source_pub_time": "2026-11-06T19:33Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "openai-raise-ai-valuations",
+   "source_pub_time": "2026-11-06T22:53Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "openai-raise-ai-valuations",
+   "source_pub_time": "2026-11-06T15:54Z"
+  },
+  {
+   "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset",
+   "title": "Chairmen Mast, Moolenaar, and Crawford Request Jensen Huang Brief Congress",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "huang-congress-briefing",
+   "source_pub_time": "2026-11-05（信件 11-04）"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+   "title": "Nvidia's Huang asked to brief Congress on Chinese spy report",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "huang-congress-briefing",
+   "source_pub_time": "2026-11-05T21:09Z"
+  },
+  {
+   "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
+   "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "huang-congress-briefing",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://censys.com/blog/artex-agentic-asbestos/",
+   "title": "ARTEX: agentic asbestos",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "artex-exposed",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "secondary",
+   "event": "artex-exposed",
+   "source_pub_time": "2026-11-06T18:44Z"
+  },
+  {
+   "url": "https://openai.com/index/partnering-with-hacktron",
+   "title": "Partnering with Hacktron",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "安全合作公告，信息密度低于入选门槛（Daybreak 生态动态，已在 GPT-6 Cyber 条目语境中体现）",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "title": "Australian universities are creating AI-native graduates",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "客户案例软文，非新闻性技术发布",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://openai.com/index/cultfit-builds-with-codex",
+   "title": "Cult.fit builds operational muscle with Codex",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "客户案例软文",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+   "title": "Beyond code generation: A developer's guide to agentic engineering",
+   "issue": "TECH-105",
+   "status": "published",
+   "published_on": "2026-11-07",
+   "role": "primary",
+   "event": "github-agentic-engineering",
+   "source_pub_time": "2026-11-06T22:15Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+   "title": "Chat SDK agents can now stream generative UI with json-render",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "changelog 小功能更新",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
+   "title": "AI Gateway adds DeepSeek Search and Fetch tools",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "changelog 小功能更新",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire",
+   "title": "Vercel CLI can now set new projects to expire",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "changelog 小功能更新",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available",
+   "title": "Vercel Tracing is now generally available",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "GA 公告，密度低",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway",
+   "title": "Token Pass credit now applies automatically across AI Gateway",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "changelog 小功能更新",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+   "title": "Ampersand from Humans& now available on AI Gateway",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "模型上架通告",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+   "title": "Meta introduces Spaces",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "消费级智能体功能迭代，工程密度不足",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+   "title": "Amazon lets users text Alexa to shop",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "产品更新，密度低",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+   "title": "Underdog shows off a 32MB speech model",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "31M 参数端侧语音模型有跟踪价值，但官方一手材料未发布、密度低于入选条目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+   "title": "Physicl raises $10M",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "早期融资新闻，密度低",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+   "title": "How a Blue Wave midterm might reshape the AI industry",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "播客节目，非文字新闻",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+   "title": "After the midterms, is the AI industry in for a rough two years?",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "视频节目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+   "title": "Tesla to wind down Cybertruck production",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "消费汽车行业新闻（HN 796 分高热度已记录）；工程/Agent/AI 落地相关性低于入选条目，Top10 竞争落选",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
+   "title": "RIP Cybertruck",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "同事件评论文章",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/longtime-spacex-board-member-resigns",
+   "title": "Longtime SpaceX Board Member Resigns",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一简报，未能独立核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/openai-secured-11-billion-targets-9-billion-fundraising",
+   "title": "OpenAI Expected to Brief Investors Next Week After Raising $11 Billion",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙；事件已经由 Bloomberg/TechCrunch 公开报道核验并收录",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
+   "title": "Anthropic to Proceed With IPO Roadshow Next Week",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一简报；路演事实在正文以 The Information 简报转述形式标注来源与不确定性",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/google-buys-548-million-qualcomm-shares",
+   "title": "Google Acquires Qualcomm Stake Through Modular Purchase",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一来源，未核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/tesla-will-discontinue-cybertruck-next-year",
+   "title": "Tesla Will Discontinue Cybertruck Next Year",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙；同事件由 Reuters/NBC 公开报道，整体条目未入选",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/microsoft-ends-deal-rent-cloud-servers-oracle",
+   "title": "Microsoft Ends Deal to Rent Cloud Servers from Oracle",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一来源，未核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/gpu-futures-hopes-hit-another-roadblock-cme-delays-launch-second-time",
+   "title": "GPU Futures Hopes Hit Another Roadblock",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一来源，未核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/amazon-says-shoppers-can-now-text-ai-shopping-assistant-alexa-shopping",
+   "title": "Amazon Says Shoppers Can Now Text With Alexa",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙；TechCrunch 公开报道同事件，条目未入选",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending",
+   "title": "TSMC Weighs Making Advanced Memory Chips",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一来源，未核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/jensen-huang-asked-brief-congress-alleged-chinese-spy-plot",
+   "title": "Jensen Huang Asked to Brief Congress Over Alleged Chinese Spy Plot",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙；事件由委员会官方新闻稿/CNBC 核验收录",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/silver-lake-saudi-arabias-pif-made-takeover-approach-unity-software",
+   "title": "Silver Lake, Saudi Arabia's PIF Made Takeover Approach for Unity Software",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一来源，未核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/cheskys-side-quest",
+   "title": "Chesky's Side Quest",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙特稿",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/lyft-growth-slows-8-q3",
+   "title": "Lyft Growth Slows to 8% in Q3",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "财报简报，非工程/AI 主题",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-launches-personal-finance-feature-claude",
+   "title": "Anthropic Launches Personal Finance Feature for Claude",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "同事件 TECH-102 轮已评估排除（TechCrunch 版已入 excluded 台账）",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
+   "title": "Airbnb Founder Chesky Is Self-Funding His New AI Startup",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙特稿",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/amazon-strikes-uber-eats-partnership",
+   "title": "Amazon Strikes Uber Eats Partnership",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "非科技工程新闻",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidias-workaround-data-center-backlash-retrofitting-old-telephone-buildings",
+   "title": "Nvidia's Answer to Data Center Backlash",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙单一来源，未核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/can-cheaper-ai-outrun-data-center-backlash",
+   "title": "Can Cheaper AI Outrun the Data Center Backlash?",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙分析文章",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/unity-software-reports-strong-growth-ai-ad-business",
+   "title": "Unity Software Reports Strong Growth in AI Ad Business",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "财报简报",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/cyeras-800-million-haul-shows-cyber-fever-broken",
+   "title": "Cyera's $800 Million Haul Shows Cyber Fever Hasn't Broken",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "付费墙融资报道",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+   "title": "Teaching AI to build scientific models",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "方法论长文（AI 建模三步骤综述），信息密度低于入选条目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.anthropic.com/research/accelerating-scientific-research",
+   "title": "Accelerating scientific research",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "科研案例综述（Biomni/MozzareLLM/Lundberg），与入选的药物研发条目同主题重叠",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+   "title": "MS Paint CVE-2026-83844",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "原始披露 2026-10-13 在窗口外；窗口内仅为修复构建 11.2609.401.0 上架 Store 的分发进展（The Hacker News 11-06），事件增量小",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "同 CVE-2026-83844 分发进展，事件增量小",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://github.com/ppmpreetham/BUI",
+   "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "项目展示仓库，非新闻",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+   "title": "I wish tech companies knew more about me",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人随笔",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "单一来源评论性指控，所引内部文件未能核验",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://mcp-explained.com/",
+   "title": "MCP Explained",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "教程站点，非新闻",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
+   "title": "Britain to make salary disclosure in job ads mandatory",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "非科技工程新闻",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+   "title": "ASN blocks non-Google Android",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "银行应用兼容性 issue，属平台合规话题，密度不足",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+   "title": "Awesome repositories are no longer awesome",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人博客观点",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+   "title": "From Linux to Wikipedia",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "书讯",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "title": "LLM judges identity resolution",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "厂商博客案例",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "title": "AI is dramatically accelerating AI research",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "分析随笔，无一手数据",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+   "title": "I struggle to believe that AI R&D is ingenious",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "论坛短评",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+   "title": "We know 15,579 websites are infected. how do we tell them?",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "安全从业者博客，通知机制话题，密度低于入选条目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+   "title": "University libraries swarmed by AI bots",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "行业现象报道，密度中等未入 Top10",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "title": "Nvidia Kubernetes Engine (NVKE)",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "早期项目仓库，无官方发布证据",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://github.com/rivet-dev/rivet",
+   "title": "Launch HN: Rivet (YC W23)",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "Launch HN 项目发布",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+   "title": "Building a Multi-Agent System from Scratch",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人教程",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-06/",
+   "title": "FAA to phase out floppy disks by 2028",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "政府系统更新新闻，工程密度低",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/",
+   "title": "Kalshi court losses pile up",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "法律政策新闻，非工程主题",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.washingtonpost.com/technology/2026/11/06/after-courting-trump-corporate-america-faces-democratic-reckoning/",
+   "title": "Democrats launching congressional investigations",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "政治调查报道，非工程主题",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://kevinboone.me/efitest_index.html",
+   "title": "First steps in bare-metal programming using UEFI",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人教程",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://firenook.dev/",
+   "title": "Show HN: Firenook",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "Show HN 项目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://apps.metaebene.me/en/kugelblitz",
+   "title": "Kugelblitz – Mac-Native Google Earth Alternative",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "独立应用发布",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://worldstrike.fun/",
+   "title": "Multiplayer tanks on OpenStreetMap",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "娱乐项目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+   "title": "Obscure audio codec is a perfect fit for the N64",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "技术博客，趣闻密度",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+   "title": "Pangram Image 1.0",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "厂商产品发布，密度中等未入 Top10",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+   "title": "September in Servo",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "项目月报，密度低",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+   "title": "Hungary: Communist-era files released",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "非科技新闻",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+   "title": "My psychophysics as a bilateral cochlear implant user",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人 artifact",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://jhr.pensoft.net/articles.php?id=9096",
+   "title": "Wood ants trapped in a gigantic pitfall (2016)",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "2016 年旧论文重提",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://kottke.org/26/11/stunning-image-of-our-satellite-choked-night-skies",
+   "title": "Image of our satellite-choked night skies",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "图文分享",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://github.com/Unleash/unleash",
+   "title": "We've built an open-source feature flag server for 11 years",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "项目帖",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://nullprogram.com/blog/2026/11/05/",
+   "title": "We can do better than line-buffered output",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人技术博客",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://jaythelen.net/teengamedev/",
+   "title": "Being a kid making games in the early 2000s",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人随笔",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://pwn.college/",
+   "title": "Pwn.college",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "教育平台链接",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://markblah.github.io/lemmings/",
+   "title": "Lemmings CSS Animation",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "趣味项目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+   "title": "Download your favourite YouTube videos",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人博客",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+   "title": "The Hackintosh Reborn",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "个人博客项目",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.08089",
+   "title": "SAE Interprets MoE",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "HF daily paper，窗口内热度不足（T3 门槛）",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.08237",
+   "title": "Terminal-style Mathematical Modeling Bench",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "HF daily paper，热度不足",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.08376",
+   "title": "Muir: Linear Attention",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "HF daily paper，热度不足",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.07613",
+   "title": "Real-Time Full-Waveform LiDAR Transformers",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "HF daily paper，热度不足",
+   "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://cursor.com/blog/self-driving-codebases",
+   "title": "Self-driving codebases (Cursor)",
+   "issue": "TECH-105",
+   "status": "excluded",
+   "reason": "HTML 导航链接无日期证据，且在 TECH-102 轮抓取中已可见，非本窗口新发布",
+   "evaluated_on": "2026-11-07"
   }
  ]
 }
