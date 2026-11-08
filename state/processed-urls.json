@@ -15862,10 +15862,14 @@
   {
    "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
    "title": "We know 15,579 websites are infected. how do we tell them?",
-   "issue": "TECH-105",
-   "status": "excluded",
+   "issue": "TECH-109",
+   "status": "published",
    "reason": "安全从业者博客，通知机制话题，密度低于入选条目",
-   "evaluated_on": "2026-11-07"
+   "evaluated_on": "2026-11-07",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "report-uri-infected-sites",
+   "source_pub_time": "2026-11-06"
   },
   {
    "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
@@ -16106,6 +16110,522 @@
    "status": "excluded",
    "reason": "HTML 导航链接无日期证据，且在 TECH-102 轮抓取中已可见，非本窗口新发布",
    "evaluated_on": "2026-11-07"
+  },
+  {
+   "url": "https://mitchellh.com/writing/libghostty-1-0",
+   "title": "Mitchell Hashimoto：Libghostty 1.0",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "libghostty-1.0",
+   "source_pub_time": "2026-11-06/07"
+  },
+  {
+   "url": "https://lib.ghostty.org/",
+   "title": "libghostty 官方站点（文档与下载）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "libghostty-1.0",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50399933",
+   "title": "HN：Libghostty 1.0（1020 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "libghostty-1.0",
+   "source_pub_time": "2026-11-06T23:30Z"
+  },
+  {
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "title": "Apiiro：Coding agents leaking secrets via 'Don't Ask Again'",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "claude-code-secrets-leak",
+   "source_pub_time": "2026-11-06/07"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50407882",
+   "title": "HN：Claude Code 'Don't Ask Again' exposes passwords in 1,122 public GitHub files（107 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "claude-code-secrets-leak",
+   "source_pub_time": "2026-11-07T20:45Z"
+  },
+  {
+   "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+   "title": "MaxxBench：Benchmarking Task Adaptation and Generalization in Frontier LLMs",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "maxxbench-deepswe-mutation",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50406222",
+   "title": "HN：MaxxBench – 'Nice DeepSWE score. But is it true?'（174 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "maxxbench-deepswe-mutation",
+   "source_pub_time": "2026-11-07T17:19Z"
+  },
+  {
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "title": "8rank：Every Mac comes with an (undocumented) family member classifier",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "apple-personal-knowledge-graph",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://github.com/8rank/iKnow",
+   "title": "8rank/iKnow：本地读取 macOS 个人知识图谱的开源仪表盘",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "apple-personal-knowledge-graph",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50403097",
+   "title": "HN：Every Mac comes with an (undocumented) family member classifier（572 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "apple-personal-knowledge-graph",
+   "source_pub_time": "2026-11-07T09:46Z"
+  },
+  {
+   "url": "https://hunch.net/?p=13764006",
+   "title": "John Langford（hunch.net）：The end of Microsoft Research's AI Frontiers group",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "msr-ai-frontiers-dissolved",
+   "source_pub_time": "2026-11-06/07"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50406563",
+   "title": "HN：The end of Microsoft Research's AI Frontiers group（327 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "msr-ai-frontiers-dissolved",
+   "source_pub_time": "2026-11-07T18:02Z"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity",
+   "title": "Bloomberg：Microsoft Ends Oracle AI Cloud Deal as Part of Broader Partnership Review",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "ai-infra-rebalance",
+   "source_pub_time": "2026-11-06T16:36Z"
+  },
+  {
+   "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+   "title": "Crusoe 官方确认：怀俄明数据中心园区出售给 Google",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "ai-infra-rebalance",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+   "title": "Google 官方博客：怀俄明数据中心园区 170 亿美元投资",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "ai-infra-rebalance",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "title": "TechCrunch：Crusoe sells troubled Wyoming data center project to Google",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "ai-infra-rebalance",
+   "source_pub_time": "2026-11-07T01:40Z"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/business/microsoft-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-reports-6532071",
+   "title": "CNA/Reuters：Microsoft winding down Oracle deal to rent AI cloud capacity",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "ai-infra-rebalance",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+   "title": "TechCrunch：Palo Alto Networks in talks to buy Clutch for $500M",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "panw-clutch-acquisition-talks",
+   "source_pub_time": "2026-11-06T06:28Z"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html",
+   "title": "NYT：Chinese Spy Agency Memo on Jensen Huang（首报）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "nvidia-mss-memo",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+   "title": "NYT：New Matrix 授权买家空壳疑云（跟进）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "nvidia-mss-memo",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+   "title": "TechCrunch：Megaspeed exec was recruited to spy on Nvidia CEO",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "nvidia-mss-memo",
+   "source_pub_time": "2026-11-07T21:17Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50396064",
+   "title": "HN：We know 15k websites are infected. how do we tell them?（185 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "report-uri-infected-sites",
+   "source_pub_time": "2026-11-06T18:13Z"
+  },
+  {
+   "url": "https://www.woodmac.com/press-releases/sodium-ion-batteries-establish-a-foothold-as-a-lithium-alternative/",
+   "title": "Wood Mackenzie：Sodium-ion batteries establish a foothold as a lithium alternative",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "primary",
+   "event": "sodium-ion-cost-parity",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+   "title": "pv-magazine：Sodium-ion batteries approach cost parity with LFP, 70 GWh supply agreements",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "sodium-ion-cost-parity",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50399657",
+   "title": "HN：Sodium-ion batteries approach cost parity with LFP（213 分）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "sodium-ion-cost-parity",
+   "source_pub_time": "2026-11-06T23:00Z"
+  },
+  {
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+   "title": "METR：Anthropic AI R&D acceleration assessment",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "窗口外原发（2026-11-05）；其窗口内评论随笔 TECH-105 已按『分析随笔，无一手数据』排除，不重开",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/will-democrats-crush-data-centers",
+   "title": "The Information：Will Democrats Really Crush Data Centers?",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "付费墙简报：政策推测评论，不单独作为事实来源",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
+   "title": "The Information：The Blue Wave May Not Stop Musk's Texas Data Center Ambitions",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "付费墙简报：政策推测评论，不单独作为事实来源",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/exclusive-meta-strategy-chief-dave-wehner-become-fireworks-cfo",
+   "title": "The Information：Meta Strategy Chief Dave Wehner to Become Fireworks CFO",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "付费墙简报：高管人事变动，位次不足",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+   "title": "TechCrunch：After the midterms, things are looking rocky for Elon Musk and data centers",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "政策展望评论，位次不足",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+   "title": "Vercel Changelog：DeepSeek V4.1 Flash 1017 Ultrafast on AI Gateway",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（网关上架 changelog，非新模型发布）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://blog.bosscher.ch/posts/openstick/",
+   "title": "What I run on my $10 OpenStick homelab",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "非新闻（个人家庭实验室配置随笔）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://github.com/hedgerow-dev/coldframe",
+   "title": "Show HN: Coldframe honeypot",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（Show HN 蜜罐项目）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+   "title": "Apple's grey list（Guardian）",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（端侧词典内容策略报道）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+   "title": "How Long Can Life Wait?",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "非新闻（个人随笔）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://kevinboone.me/tpwin.html",
+   "title": "Borland Turbo Pascal 7",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "非新闻（怀旧技术史）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+   "title": "The $8 Linux Computer (2022)",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "窗口外旧文回热（2022 年原发）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+   "title": "Every Windows 11 app should kill Electron",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "观点评论，非新闻",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://uploadyourram.org",
+   "title": "Upload Your RAM",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "非新闻（趣味项目页）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+   "title": "Running a law firm on Free software",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（行业实践随笔）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://nfsu2.xyz/",
+   "title": "NFSU2 online in the browser",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "非新闻（网页游戏复刻项目）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+   "title": "Asahi Linux Progress Report 7.3",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（社区发行版常规进展报告）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+   "title": "A barbarian tribe's mythic origin story",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "领域不符（考古遗传学）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://josef.cn/blog/unitree",
+   "title": "I toured Unitree's factory",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "低信息密度（个人参观随笔）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+   "title": "RealPage rent-pricing case",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "领域不符（租金定价诉讼）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+   "title": "Restaurant Delivery Payment-Skimming Campaign",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（区域支付欺诈事件通报）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+   "title": "HN：Microsoft winding down Oracle deal 讨论",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "已收录事件（本轮第 6 条）的 HN 讨论跟进；Reuters 原文抓取受阻不入账，经 Bloomberg/CNA 收录",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.21375",
+   "title": "Memorilla: Latent Semantic Memory for LLMs",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "T3 门槛不足（论文无广泛讨论信号）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://devvm.dev/",
+   "title": "Devvm.dev: One VM for every project",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（开发者工具产品发布页）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://mattlakeman.org/2026/11/05/notes-on-san-marino/",
+   "title": "Notes on San Marino",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "领域不符（旅行随笔）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+   "title": "HN：Anthropic IPO buyers see valuation as low as $1.1T 讨论",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-105 融资条目）的 HN 讨论跟进",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://github.com/anomalyco/rune",
+   "title": "Rune: GPU-rendered Rust UI framework",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（Show HN UI 框架项目）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.filfre.net/2026/11/deus-ex/",
+   "title": "Deus Ex（filfre.net）",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "非新闻（游戏史长文）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50393105",
+   "title": "Ask HN: What is taking Ubuntu so long?",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "观点讨论帖，非新闻",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "title": "HN：Gemini Omni 1.2 Flash 讨论（blog.google 入口）",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "已发布事件（TECH-102 已收录）的另一官方入口，不重复收录",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.norvig.com/chomsky.html",
+   "title": "Chomsky and the two cultures of statistical learning (2011)",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "窗口外旧文回热（2011 年原发）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+   "title": "US FAA to phase out floppy disks",
+   "issue": "TECH-109",
+   "status": "excluded",
+   "reason": "位次不足（老旧基础设施更新计划）",
+   "evaluated_on": "2026-11-08"
+  },
+  {
+   "url": "https://www.iea.org/commentaries/sodium-ion-battery-momentum-grows-but-challenges-remain",
+   "title": "IEA：Sodium-ion battery momentum grows, but challenges remain（能量密度对比旁证）",
+   "issue": "TECH-109",
+   "status": "published",
+   "published_on": "2026-11-08",
+   "role": "secondary",
+   "event": "sodium-ion-cost-parity",
+   "source_pub_time": "2026-02-17"
   }
  ]
 }

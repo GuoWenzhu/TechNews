@@ -341,3 +341,15 @@
 - 恢复观察：xai/perplexity/uber/doordash 维持候选待观察，本轮未探测（规则：候选不纳入常规采集，恢复需连续 2 次验证可达，待人工或专项触发）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 5 轮正常（feed 94 条、窗口内条目正常）。
 - linear/stratechery/benevans/jiqizhixin/qbitai：维持候选，未采集。
+
+## 2026-11-08（TECH-109）维护记录
+
+- 采集：24 个启用来源全部可达、全部 ok（RSS/Atom/API/sitemap/HTML 各按 entry_used，HTTP 200）。采集窗口 2026-11-06T00:01Z–2026-11-08T00:40Z（48h）。原始抓取数据 data/collected-2026-11-08.json。
+- 异常记录：arXiv 三个分类 feed（cs.AI/cs.CL/cs.LG）本轮同时空窗（HTTP 200、仅频道头、0 条目）；与 2026-11-05 轮 cs.AI 空窗先例一致，判定 arXiv 侧发布周期窗口期，非故障，下轮复验；a16z 页面 JS 渲染仅导航链接（连续多轮 0 产出，未达降级线）。
+- 产出：简报 10 条（reports/digest-2026-11-08.md）；台账新增 published 25 条（10 事件，primary+secondary）、excluded 32 条（其余窗口内条目多为历轮已入账 URL，去重跳过）。T1 来源本窗口无新发布，本轮 Top10 全部由 T2 发现（HN/TechCrunch）后核验一手来源构成。
+- 勘误/改判：scotthelme.co.uk『15,579 个受感染网站』一文 TECH-105 曾按『密度低于入选条目』排除（相对位次判断，非类别排除）；本轮候选池收窄、该条目经验证（原始测量、HN 185 分）后进入 Top10，按 TECH-105 轮 GitHub 指南改判先例改判为 published（TECH-109），TECH-105 排除记录保留于 git 历史；Hightouch 维持排除系『厂商博客案例』类别判断，两者标准不同，特此记录。
+- 复核改判：theinformation 两条付费墙线索（Palo Alto 洽购 Clutch、微软关停 Oracle 租赁）此前分别于 TECH-102/TECH-105 因"付费墙未核验"排除，本轮分别经 TechCrunch（引熟悉谈判人士）与 Bloomberg 原文（Reuters/CNA 转述核验）确认后，以外部一手/独立转述来源收录为正式条目；付费墙 URL 自身维持 excluded 状态不变。
+- 维持排除：METR 评估报告（metr.org，2026-11-05）窗口外原发，其窗口内评论随笔 TECH-105 已按『分析随笔』排除，本轮维持不重开；Hightouch LLM judges 维持 TECH-105『厂商博客案例』排除；两者本轮均经全文抓取复核，判断不变。
+- config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 6 轮正常；theinformation feed 入口连续第 3 轮正常。
