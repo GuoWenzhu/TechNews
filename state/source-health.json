@@ -1,26 +1,26 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-11-08T00:40Z",
- "issue": "TECH-109",
+ "last_run": "2026-11-09T00:40Z",
+ "issue": "TECH-112",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内 1 条 lastmod（open-call-guest-investigators 11-06 10:22Z）经台账比对为既有排除页面的 lastmod 更新（TECH-58 轮排除），非新发布，0 收录。"
+   "notes": "sitemap 200；窗口内 lastmod 变更（open-call-guest-investigators 等）均为既有已处理页面更新，无新发布，0 收录。"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 7,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "sitemap 200；窗口内 7 条 lastmod 变更全部为 TECH-105 轮已收录/排除的既有页面（early-progress-drug-development、components-of-agent-memory 等），无新发布，0 收录。"
+   "notes": "sitemap 200；窗口内唯一新增 lastmod 为 teaching-ai-to-build-scientific-models（11-07T23:12Z），经台账比对为 TECH-105 轮已排除页面的 lastmod 更新，非新发布，0 收录。"
   },
   "openai": {
    "tier": "T1",
@@ -29,7 +29,7 @@
    "entry_used": "https://openai.com/news/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；最新条目 partnering-with-hacktron 11-06T00:00Z 在窗口起点（00:01Z）之前且 TECH-105 轮已排除，窗口内 0 条。"
+   "notes": "rss 200；最新条目 partnering-with-hacktron（11-06T08:00Z）窗口外且已处理，窗口内 0 条。"
   },
   "deepmind": {
    "tier": "T1",
@@ -38,7 +38,7 @@
    "entry_used": "https://deepmind.google/blog/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；最新条目 Gemini Omni 1.2 Flash（11-05 17:05Z）窗口外且 11-06 轮已发布。"
+   "notes": "rss 200；最新条目 Gemini Omni 1.2 Flash（11-05）窗口外且已发布，窗口内 0 条。"
   },
   "meta_ai": {
    "tier": "T1",
@@ -47,7 +47,7 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200；仅 Muse 系列历史导航链接，无窗口内新博文。"
+   "notes": "html 200；页面标题清单与台账比对全部为已处理 Muse 系列页面，无窗口内新博文。"
   },
   "msresearch": {
    "tier": "T1",
@@ -56,7 +56,7 @@
    "entry_used": "https://www.microsoft.com/en-us/research/blog/feed/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "博客 RSS 200 正常（连续第 2 轮）；最新条目 PDD Kit（11-05 16:00Z）窗口外且 11-06 轮已发布。"
+   "notes": "rss 200 正常（连续第 3 轮）；窗口内 0 条。"
   },
   "mistral": {
    "tier": "T1",
@@ -65,7 +65,7 @@
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；最新条目 Le Chonk/Studio（11-05）窗口外且 11-06 轮已发布；迁移入口连续第 6 轮正常。"
+   "notes": "rss 200；窗口内 0 条；迁移入口连续第 7 轮正常。"
   },
   "sierra": {
    "tier": "T1",
@@ -74,7 +74,7 @@
    "entry_used": "https://sierra.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200，仅导航链接，窗口内无新博文。"
+   "notes": "html 200，仅导航/历史链接，窗口内无新博文。"
   },
   "scale": {
    "tier": "T1",
@@ -83,16 +83,16 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200，仅导航/分类链接，窗口内无新博文。"
+   "notes": "html 200；新条目 the-anatomy-of-ai-deployment 页面 datePublished 2026-11-04T21:04Z 窗口外（已入台账 excluded），其余为已处理条目。"
   },
   "github": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://github.blog/feed/",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内唯一条目 beyond-code-generation 已于 TECH-105 轮发布，不重复。"
+   "notes": "rss 200；最新条目 beyond-code-generation（11-06T22:15Z）窗口外且已发布，窗口内 0 条。"
   },
   "shopify": {
    "tier": "T1",
@@ -135,18 +135,18 @@
    "status": "ok",
    "method": "rss",
    "entry_used": "https://blog.cloudflare.com/rss/",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；窗口内唯一条目 vole-mole 已于 TECH-105 轮发布；trusted-agent-delegation（11-05 09:03Z）窗口外。"
+   "notes": "rss 200；最新条目 post-quantum-future（11-06T14:00Z）窗口外且已处理，窗口内 0 条。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 6,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "atom 200；窗口内 6 条 changelog，5 条 TECH-105 轮已排除，新增 DeepSeek 1017 Ultrafast 上架公告评估后排除。"
+   "notes": "atom 200；最新条目均为窗口外 changelog（已处理），窗口内 0 条。"
   },
   "cursor": {
    "tier": "T1",
@@ -155,34 +155,34 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200；仅导航/历史链接（joining-spacex、git-at-any-scale 等），无日期证据确认窗口内新发布。"
+   "notes": "html 200；链接清单与台账比对全部为已处理条目，无窗口内新博文。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "algolia-api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date",
-   "items_in_window": 57,
+   "items_in_window": 43,
    "items_published": 7,
-   "notes": "algolia 200；>100 分窗口内 57 条；收录 libghostty（1020 分）、Apple 个人知识图谱（572 分）、MSR AI Frontiers（327 分）、Report URI（185 分）、MaxxBench（174 分）、钠离子电池（213 分）、Claude Code 密钥泄露（107 分）7 条讨论为 secondary；METR 评论随笔维持上轮排除、Hightouch 厂商博客维持上轮排除，其余按密度/领域排除并入台账。"
+   "notes": "algolia 200；>100 分窗口内 43 条。收录 7 事件：Nvidia 董事会调查（334+243）、llama-modchip CPU 推理（343）、Outlook DMARC 静默拒信（201）、智能体记忆 OpenTelemetry 提案（164）、Science 脑数据调查（115）、Penlink 广告定位追踪（102）、GitHub 周日故障（119）。Goodbye Claude hello Pi（675 分）指向 2026-09-21 旧文排除；Goldman 限制 Claude Code（545 分）底层报道 2026-11-02 窗口外排除；OpenAI $11B 融资（179 分）同事件 TECH-105 已发布去重；其余按密度/类别排除并入台账。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "items_in_window": 13,
-   "items_published": 3,
-   "notes": "rss 200；收录 Palo Alto 洽购 Clutch（primary）、Crusoe 售园 Google（secondary）、MSS 备忘录/Nvidia（secondary）；midterms/Musk 评论排除；其余为 TECH-105 轮已处理条目。"
+   "items_in_window": 4,
+   "items_published": 1,
+   "notes": "rss 200；窗口内 4 条：Nvidia 董事会调查（11-08T21:00Z）经 NVIDIA 官方声明核验后作为 secondary 收录；MSS 备忘录、Crusoe、midterms/Musk 3 条均为历轮已处理条目。"
   },
   "theinformation": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://www.theinformation.com/feed",
-   "items_in_window": 15,
+   "items_in_window": 6,
    "items_published": 0,
-   "notes": "rss 200（feed 迁移后连续第 3 轮正常）；付费墙维持标题级处理；15 条中 12 条已处理，新增 3 条（数据中心政策评论×2、Wehner 转 Fireworks CFO）排除；微软-Oracle 与 Clutch 两条付费墙线索本轮分别经 Bloomberg 原文、TechCrunch 独立信源核验后以外部一手/转述来源收录。"
+   "notes": "rss 200（feed 迁移后连续第 4 轮正常）；付费墙维持标题级处理。窗口内 6 条中 3 条历轮已处理；Nvidia 董事会调查线索经 NVIDIA 官方声明+TechCrunch/AP/CNBC 独立核验后收录（TI 自身 URL 维持 excluded）；AI 股评论与大周预览排除。"
   },
   "a16z": {
    "tier": "T2",
@@ -200,7 +200,7 @@
    "entry_used": "http://export.arxiv.org/rss/cs.AI",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200 但为空窗（仅频道头，0 条目，约 0.9KB）；与 2026-11-05 轮 cs.AI 空窗同类，判定非故障；下轮复验。"
+   "notes": "rss 200 空窗（约 0.9KB 0 条目），连续第 2 轮；2026-11-07/08 为周六日无公告，判定周末效应非故障；周一（11-09）恢复后再复验。"
   },
   "arxiv_cscl": {
    "tier": "T3",
@@ -209,7 +209,7 @@
    "entry_used": "http://export.arxiv.org/rss/cs.CL",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200 但为空窗（0 条目）；上轮正常（TECH-102 381 条/TECH-105 160 条），本轮与 cs.AI/cs.LG 同时空窗，判定 arXiv 侧发布窗口期非故障；下轮复验。"
+   "notes": "rss 200 空窗，同上判定周末效应非故障；下轮复验。"
   },
   "arxiv_cslg": {
    "tier": "T3",
@@ -218,7 +218,7 @@
    "entry_used": "http://export.arxiv.org/rss/cs.LG",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200 但为空窗（0 条目）；判定非故障，下轮复验。"
+   "notes": "rss 200 空窗，同上判定周末效应非故障；下轮复验。"
   },
   "hf_papers": {
    "tier": "T3",
@@ -227,7 +227,7 @@
    "entry_used": "https://huggingface.co/api/daily_papers",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "api 200；50 篇均为 11-05 及更早（窗口外），窗口内 0 篇，0 收录。"
+   "notes": "api 200；50 篇均为 11-05 及更早（窗口外），窗口内 0 篇。"
   }
  }
 }

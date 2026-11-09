@@ -353,3 +353,14 @@
 - config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求），不重写、不生成备份、不重新生成展示版。
 - 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 6 轮正常；theinformation feed 入口连续第 3 轮正常。
+
+## 2026-11-09（TECH-112）维护记录
+
+- 采集：25 个启用来源全部可达、全部 ok（RSS/Atom/sitemap/API/HTML 各按 entry_used，HTTP 200）。采集窗口 2026-11-07T00:03Z–2026-11-09T00:03Z（48h）。原始抓取数据 data/collected-2026-11-09.json。
+- 产出：简报 7 条（reports/digest-2026-11-09.md，fill_if_insufficient=false 未凑数）；台账新增 published 19 条（7 事件，primary+secondary）、excluded 44 条。T1 来源本窗口无新发布（Anthropic sitemap 窗口内 lastmod 均为既有页面更新），本轮 Top 条目由 T2（HN/TechCrunch/The Information）发现后核验一手来源构成。
+- 窗口判定：严格 48 小时内的实ntp事件为 4 条（Nvidia 董事会调查、llama-modchip v2.4 持续推送+HN 首发、lorekit 智能体记忆提案、GitHub 周日故障）；另有 3 条原发略超 48 小时（11-05/11-06，Science 脑数据调查、Bloomberg Penlink 调查、Outlook DMARC 静默拒收）因 HN 首次大规模讨论发生在窗口内（11-08，115/102/201 分）、未入过台账，按诚实标注原始时间戳收录；两条明显窗口外高分内容（Goldman 限制 Claude Code，底层报道 11-02，HN 545 分；Goodbye Claude hello Pi，原文 09-21，HN 675 分）按窗口纪律排除，特此记录判定口径。
+- 异常记录：arXiv 三个分类 feed 连续第 2 轮空窗（HTTP 200、0 条目）；本轮与 2026-11-07/08 为周六日（arXiv 周末无公告）吻合，判定周末效应非故障；周一轮复验。a16z 连续多轮 JS 渲染 0 产出（未达降级线）。
+- dedup 口径修正：NVIDIA HN 334 分帖直链官方声明（nvidianews.nvidia.com）为 primary；The Information 两条 Nvidia 线索（briefings/articles）维持付费墙 excluded 状态，事件经官方声明+TechCrunch/AP/CNBC/Axios 独立核验后以外部来源收录。
+- config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 7 轮正常；theinformation feed 入口连续第 4 轮正常。

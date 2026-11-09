@@ -16626,6 +16626,548 @@
    "role": "secondary",
    "event": "sodium-ion-cost-parity",
    "source_pub_time": "2026-02-17"
+  },
+  {
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "title": "NVIDIA Board statement on independent investigation",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "nvidia-board-investigation-huang",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy",
+   "title": "TechCrunch: Nvidia will investigate CEO Jensen Huang's relationship with possible Chinese spy",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "nvidia-board-investigation-huang",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+   "title": "Axios: Nvidia CEO Jensen Huang's letter to staff about affair",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "nvidia-board-investigation-huang",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6",
+   "title": "AP: Nvidia investigating reports CEO targeted by Chinese intelligence",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "nvidia-board-investigation-huang",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://github.com/synchopate/llama-modchip",
+   "title": "llama-modchip v2.4: CPU-first inference for 284B MoE on 16-64GB RAM",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "llama-modchip-284b-cpu",
+   "source_pub_time": "2026-11-04"
+  },
+  {
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "title": "MailRoute: Outlook.com quietly rejecting email from domains without DMARC",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "outlook-dmarc-silent-rejection",
+   "source_pub_time": "2026-11-06"
+  },
+  {
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "title": "LoreKit: Agent memory needs its OpenTelemetry moment",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "agent-memory-otel-proposal",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users",
+   "title": "Science: Wearable makers harvesting brain data to train AI without telling users",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "consumer-eeg-brain-data-ai",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://insidebci.com/policy/2026-11-07-science-investigation-consumer-eeg-brain-data-ai-foundation-models-privacy-policies",
+   "title": "Inside BCI: brain-wearable makers left AI training out of privacy policies",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "consumer-eeg-brain-data-ai",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
+   "title": "Bloomberg: Ads in popular apps give police a powerful tool to spy on users",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "penlink-webloc-adtech-police",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://www.githubstatus.com/",
+   "title": "GitHub Status: Increase in timeouts for some unauthenticated users (10:36-12:32 UTC, resolved)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "primary",
+   "event": "github-api-timeout-nov8",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://github.com/orgs/community/discussions/212407",
+   "title": "GitHub community: release download failures during incident",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "github-api-timeout-nov8",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "title": "Goodbye Claude, hello Pi",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原文 2026-09-21 窗口外（HN 11-08 675 分为旧文重浮）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "title": "State of AI: Goldman Sachs pulling Claude Code",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "底层 Bloomberg 报道 2026-11-02 窗口外；站点为聚合非一手",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.bloomberglaw.com/capital-markets/goldman-restricts-traders-and-bankers-from-using-some-ai-tools",
+   "title": "Bloomberg: Goldman restricts traders and bankers from AI tools",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-02 窗口外",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://krthr.co/person-of-interest/",
+   "title": "Person of Interest",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "非新闻（电视剧评论）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://aworkinglibrary.com/writing/petered",
+   "title": "Petered",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+   "title": "Writing as a thinking tool",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
+   "title": "CleanTechnica: Tesla product launches since Straubel",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论分析",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://duxlabs.dev/",
+   "title": "Dux: Wayland desktop shell",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "小众开源桌面工具，相关性不足",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+   "title": "Why I will not be using LLMs in my coding",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://github.com/crmne/zapfast",
+   "title": "ZapFast: WhatsApp client in Rust and egui",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "小众开源工具",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://ketchup3d.github.io/app/",
+   "title": "KetchUp: open-source SketchUp alternative",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "小众开源工具",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://github.com/AGGIB/Stroq",
+   "title": "Stroq: local audit of coding agent actions",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（2026-11-05 提交）且密度不足",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://sheets.works/data-viz/cpu-dies",
+   "title": "CPU die photo visualization",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "资源页非新闻",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+   "title": "hyperflow-h3-flash: 31B video+audio diffusion compressed to 14B INT8",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "T3 热度不足（HN 75 分，未达收录线）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+   "title": "247wallst: OpenAI raises $11B at $1.25T",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "同事件已于 TECH-105（2026-11-07）发布，去重",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/ai-stock-can-market-absorb",
+   "title": "The Information: How much more AI stock can the market absorb",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "付费墙评论",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidia-inquiry-anthropic-coreweave-unity-news-promise-big-week",
+   "title": "The Information: Nvidia/Anthropic/CoreWeave/Unity big week preview",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "付费墙每周预览聚合，事件已另行核验收录",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+   "title": "Kadoa: AI sell-off vs historic crashes",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "数据可视化评论",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://goldstein.lol/posts/deno-security/",
+   "title": "I am not a fan of Deno security model",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "旧文（2024）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+   "title": "OpenAI community: follow-up tool call silently routed to different connector",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-05 窗口外且线索密度不足（3 帖）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+   "title": "Perplexity: Teammates agents for work",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-06 窗口外；发布方为候选未启用来源",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+   "title": "epyhia: Anthropic IPO valuation talks drop to $1.3T",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "同事件（IPO 估值承压）2026-11-08 轮已按 Bloomberg 版排除",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+   "title": "WSJ: investors skeptical of Anthropic $1.5T IPO valuation",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-06 窗口外；同事件已排除",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+   "title": "GitHub changelog: new PR overview page public preview",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-05 窗口外",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://scale.com/blog/the-anatomy-of-ai-deployment",
+   "title": "Scale: The Anatomy of AI Deployment",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-04T21:04Z 窗口外",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+   "title": "WSJ: drugmaker CEOs skeptical of AI drug promises",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "付费墙行业评论，密度不足",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/paraguay-bank-collapses-with-half-of-populations-savings",
+   "title": "Al Jazeera: Paraguay bank collapse",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-05）且非科技",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+   "title": "404 Media: voters reject AI data centers",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-05）；midterm 同事件 2026-11-08 轮已排除",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+   "title": "Tom's Hardware: AI data centers defeated at midterms",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-04）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+   "title": "CNBC: AI stocks slide on Texas governor result",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-04）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
+   "title": "RTX 5090 street prices top $9k",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-04）",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+   "title": "Closed AI models dominate price-performance frontier",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "原发 2026-11-06 窗口外，分析随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
+   "title": "Nerves of steel to work with AI agents",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-05）随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://nordstjernen.org/",
+   "title": "Nordstjernen minimalist browsers",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "窗口外（11-05）小众工具",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50416801",
+   "title": "HN: Nvidia Board of Directors Is Investigating Jensen Huang (334)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "nvidia-board-investigation-huang",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50411961",
+   "title": "HN: Llama-modchip 284B DeepSeek on 64GB RAM, no GPU (343)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "llama-modchip-284b-cpu",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50416158",
+   "title": "HN: Outlook.com quietly rejecting email without DMARC (201)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "outlook-dmarc-silent-rejection",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50411467",
+   "title": "HN: Agent memory needs its OpenTelemetry moment (164)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "agent-memory-otel-proposal",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50409856",
+   "title": "HN: Consumer brain wave headsets threaten privacy (115)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "consumer-eeg-brain-data-ai",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50415281",
+   "title": "HN: Ads in popular apps give police a tracking tool (102)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "penlink-webloc-adtech-police",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50411818",
+   "title": "HN: GitHub Down Again? (119)",
+   "issue": "TECH-112",
+   "status": "published",
+   "published_on": "2026-11-09",
+   "role": "secondary",
+   "event": "github-api-timeout-nov8",
+   "source_pub_time": "2026-11-08"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50410107",
+   "title": "HN: Goodbye Claude, hello Pi (675)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "指向内容 2026-09-21 窗口外",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50415628",
+   "title": "HN: Goldman Sachs pulling Claude Code (545)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "底层报道 2026-11-02 窗口外",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50412318",
+   "title": "HN: Person of Interest (285)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "非新闻",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50412152",
+   "title": "HN: Petered (157)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50413512",
+   "title": "HN: Writing as a thinking tool (259)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50414427",
+   "title": "HN: Tesla has not had a successful launch since Straubel (192)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论分析",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50416053",
+   "title": "HN: Dux Wayland shell (163)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "相关性不足",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50412591",
+   "title": "HN: Why I will not be using LLMs in my coding (105)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "评论随笔",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://nfsu2.xyz",
+   "title": "NFS Underground 2 online in browser",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "与 2026-11-08 轮已排除站点/事件相同",
+   "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50413822",
+   "title": "HN: OpenAI raises $11B at $1.25T valuation (179)",
+   "issue": "TECH-112",
+   "status": "excluded",
+   "reason": "同事件已发布，去重",
+   "evaluated_on": "2026-11-09"
   }
  ]
 }
