@@ -17168,6 +17168,648 @@
    "status": "excluded",
    "reason": "同事件已发布，去重",
    "evaluated_on": "2026-11-09"
+  },
+  {
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "title": "Anthropic: Claude Fable 5.2 and Mythos 5.2",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "claude-fable-mythos-5-2",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+   "title": "TechCrunch: Anthropic releases new Mythos and Fable models amid RSI concerns",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "claude-fable-mythos-5-2",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "title": "Artificial Analysis: Claude Fable 5.2 (Index 65)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "claude-fable-mythos-5-2",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50429906",
+   "title": "HN: Claude Fable 5.2 and Mythos 5.2 (855)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "claude-fable-mythos-5-2",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50431144",
+   "title": "HN: Claude Fable 5.2 Scores 65 on Artificial Analysis (254)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "claude-fable-mythos-5-2",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "title": "Meta AI: Our Smallest, Most Efficient Model: Muse Ember",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "meta-muse-ember",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+   "title": "TechCrunch: Meta releases Muse Ember",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "meta-muse-ember",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50429024",
+   "title": "HN: Our Smallest, Most Efficient Model: Muse Ember (225)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "meta-muse-ember",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+   "title": "Google blog: Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "google-tpu-8tx-8imax",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50432831",
+   "title": "HN: TPUs (149)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "google-tpu-8tx-8imax",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://www.apnews.com/article/china-denies-spy-jensen-huang-nvidia-3345b9f05c54d58909e88f6dcb9c1cd8",
+   "title": "AP: Trump says FBI is looking at Nvidia CEO Jensen Huang's affair with alleged Chinese agent",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "nvidia-huang-fbi-commerce-probe",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
+   "title": "NYT: Commerce Dept inquiry into Megaspeed halted after Nvidia intervention",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "nvidia-huang-fbi-commerce-probe",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
+   "title": "NBC News: Trump says FBI to probe Nvidia's Jensen Huang and Chinese spy",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "nvidia-huang-fbi-commerce-probe",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+   "title": "TechCrunch: Jensen Huang pulls out of ElevenLabs Summit",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "nvidia-huang-fbi-commerce-probe",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+   "title": "TechCrunch: Anthropic buys $3.4B worth of turbines (FT 首报)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "anthropic-3p4b-gas-turbines",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://openai.com/index/control-room",
+   "title": "OpenAI: Control Room (研究基础设施中央工作负载追踪/停止系统)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "openai-control-room",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+   "title": "shubs.io: Unlocking any car from X brand in most of the world",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "connected-car-remote-unlock-plate",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://samcurry.net/forgerock",
+   "title": "samcurry.net: ForgeRock 车企身份系统攻击链（美加欧）",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "connected-car-remote-unlock-plate",
+   "source_pub_time": "2026-11-07"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50419215",
+   "title": "HN: Unlocking any car from X brand in most of the world (597)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "connected-car-remote-unlock-plate",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://github.com/openai/codex/pull/28131",
+   "title": "openai/codex PR #28131: Refresh SSH agent for app-server proxy",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "codex-ssh-agent-forwarding",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50422628",
+   "title": "HN: ChatGPT Desktop forwards your SSH agent to remote machines (205)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "codex-ssh-agent-forwarding",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
+   "title": "Netflix Tech Blog: Fact-Checking at Scale (级联事实性核查)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "netflix-cascade-factuality",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://support.google.com/gemini/answer/16836988",
+   "title": "Google Help Answer 16836988: Connected Apps 数据被人工审阅（政策原文）",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "primary",
+   "event": "gemini-connected-apps-human-review",
+   "source_pub_time": "2026-10-16"
+  },
+  {
+   "url": "https://github.com/thisisme6598/gemini_files",
+   "title": "GitHub: Gemini routes personal Drive files and emails to human annotators (独立复现)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "gemini-connected-apps-human-review",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50429426",
+   "title": "HN: Google Gemini routes personal Drive files and emails to human annotators (314)",
+   "issue": "TECH-115",
+   "status": "published",
+   "published_on": "2026-11-10",
+   "role": "secondary",
+   "event": "gemini-connected-apps-human-review",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://www.foldableflight.com",
+   "title": "HN: Fold Epic Paper Airplanes (813)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "趣味内容，非科技新闻主线",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+   "title": "HN: Is Opus 5.5 nerfed? Thinking patterns changed on November 3 (719)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "社区模型行为对比推测，一手证据不足（Twitter 单源）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "title": "HN: I'm not convinced the AI bubble exists (541)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "观点随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+   "title": "HN: Humans will never again create a project quite like Wikipedia (467)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "文化评论，原文 2026-10-29 窗口外",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+   "title": "HN: Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system (444)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "支付基础设施，与工程/Agent/AI 主线相关性低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://postalpro.usps.com/zcb",
+   "title": "HN: USPS now offers official ZIP Code boundary polygons (391)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "开放数据发布，信息密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+   "title": "HN: When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385 (275)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "原文 2026-11-03 窗口外（cnx-software）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "title": "HN: How I'm fighting the AI brain fry (302)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://news.ycombinator.com/front?day=2024-11-08",
+   "title": "HN: Going back two years on HN (290)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "元话题讨论，非新闻",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50417407",
+   "title": "HN: Ask HN: What are you working on? (278)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "社区讨论帖",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+   "title": "HN: Magenta solar panels (261)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "原发 2026-10 窗口外",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+   "title": "HN: RAM Altman (248)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "趣味脚本内容",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://e-means.github.io/",
+   "title": "HN: E-means: 10x faster k-means (242)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "工具/算法项目，密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+   "title": "HN: What is malloc doing, anyway? (210)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "技术随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.watched.earth",
+   "title": "HN: Every satellite that passed over any place this week (208)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "数据可视化工具",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as",
+   "title": "HN: Tesla hasn't had a successful launch since Straubel (205)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "商业分析/汽车业，主线相关性低",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/",
+   "title": "HN: Ethereum Foundation 'suicide pledge' lawsuit (189)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "法律/行业事件，主线相关性低",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.14162",
+   "title": "arXiv 2610.14162: Next-Concept Modeling (HN 175)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "论文原发 2026-10-09 窗口外（T3 窗口纪律）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+   "title": "HN: The Web Is More Than Enough (175)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+   "title": "HN: The same H100 costs $2.69 or $12.29/hour (164)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "价格数据整理，密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/",
+   "title": "HN: Children of Men review (159)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "影评",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "title": "HN: Starship Flight 15 on 11/13 (151)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "航天任务预告，主线相关性低",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+   "title": "HN: When a language's creator and owners disagree (147)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "标准委员会文件，细分领域",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://github.com/dmunozv04/isponsorblocktv",
+   "title": "HN: ISponsorBlockTV (145)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "开源工具",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://yappologistic.github.io/CUI/",
+   "title": "HN: CUI – Native UI components for C (139)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "开源工具",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+   "title": "HN: DeepX claims inference up to 100B at <5W (135)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "厂商宣称（预测值）未经独立核验",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+   "title": "HN: A Critique of GPUI (133)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "框架评析随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://packethound.app/",
+   "title": "HN: A Little Snitch for Windows (121)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "工具发布",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://linebender.org/blog/jit-bitmap-text/",
+   "title": "HN: JIT bitmap text rendering (114)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "技术随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://nchagnet.eu/blog/you-should-try-gleam",
+   "title": "HN: Try Gleam (113)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "随笔",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+   "title": "HN: Apple capped engineers at a $200 daily AI budget (110)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "单源 newsletter，未经一手/独立核验",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://chimera-vocal-synth.vercel.app/",
+   "title": "HN: Chimera Vocal Synth (336)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "趣味项目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.westcentralonline.com/articles/too-many-men-suffering-in-silence-national-health-report-finds",
+   "title": "HN: Canada men's health report (315)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "非科技新闻",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+   "title": "NVIDIA: A message to our company (黄仁勋全员信官方副本)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件（TECH-112 第1条）已发布，去重",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-intervened-in-us-probe-of-megaspeed-chip-smuggling",
+   "title": "Bloomberg: Nvidia intervened in US probe of Megaspeed chip smuggling",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "付费墙；同事件经 NYT/AP 核验后收录",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "title": "OpenAI: ChatGPT Enterprise now available in AWS Marketplace",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "渠道扩展公告，信息密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://openai.com/index/coderabbit-codex-daybreak",
+   "title": "OpenAI: CodeRabbit scales agentic software development",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "厂商客户案例",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://openai.com/index/kuken",
+   "title": "OpenAI: Kuken Industries searches 70 years of drawings in minutes",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "厂商客户案例",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+   "title": "Cloudflare: Launching the Vite Ecosystem Fund",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "生态基金公告，信息密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+   "title": "TechCrunch: Is Jensen Huang's job on the line? (Sonnenfeld 50-50)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件衍生（TECH-115 第4条）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+   "title": "TechCrunch: A short seller flagged Nvidia CEO's ties six months before",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件背景延伸（TECH-115 第4条）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+   "title": "TechCrunch: Automattic debuts a platform to deploy vibe-coding apps",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "产品发布，信息密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+   "title": "TechCrunch: Huang engaged a PR firm (报道)",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件衍生（TECH-115 第4条）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+   "title": "TechCrunch: Huang's affair puts Nvidia's China ambitions under scrutiny",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件衍生（TECH-115 第4条）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+   "title": "TechCrunch: Medium's new TK app",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "产品发布，信息密度低于入选条目",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+   "title": "TechCrunch: The race is on to sue Nvidia",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件衍生（TECH-115 第4条）",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+   "title": "notesbylex: Fable 5.2 one-shotted my nephew's dream game",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件体验文，并入 TECH-115 第1条背景",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+   "title": "One Useful Thing: Fable 5.2 and Jagged AGI",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件评论，并入 TECH-115 第1条背景",
+   "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://claude-castaway.zachy.dev/",
+   "title": "HN: Fable 5.2 made a fun Claude castaway clone",
+   "issue": "TECH-115",
+   "status": "excluded",
+   "reason": "同事件体验文，并入 TECH-115 第1条背景",
+   "evaluated_on": "2026-11-10"
   }
  ]
 }

@@ -364,3 +364,15 @@
 - config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求），不重写、不生成备份、不重新生成展示版。
 - 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 7 轮正常；theinformation feed 入口连续第 4 轮正常。
+
+## 2026-11-10（TECH-115）维护记录
+
+- 采集：25 个启用来源全部可达、全部 ok（RSS/Atom/sitemap/API/HTML 各按 entry_used，HTTP 200）。采集窗口 2026-11-08T00:05Z–2026-11-10T00:55Z（48h）。原始抓取数据 data/collected-2026-11-10.json。
+- 产出：简报 10 条（reports/digest-2026-11-10.md）；台账新增 published 25 条（10 事件，primary+secondary）、excluded 54 条。T1 本窗口集中放量：Anthropic（Fable 5.2/Mythos 5.2，官方页面）、OpenAI（Control Room RSS，直抓 403 经 RSS+转述核验）、Meta（Muse Ember，html 入口页面核验）、Netflix（级联事实性核查）各 1 条；Google TPU（blog.google）与 HN 发现事件按既有模式以官方页为一手收录。
+- 窗口判定：两条原发略早/有背景窗口的条目按诚实标注收录——car unlock 攻击链（shubs.io 原发 11-07，略超窗口，HN 首次大规模讨论 11-09 597 分、未入过台账）；Gemini 人工审核条目（独立验证 repo 原发 11-09 窗口内，底层 Google 政策文本修订 10-16 已如实标注）。窗口外高分内容按纪律排除：Next-Concept Modeling（arXiv 原发 10-09，HN 175 分）、Raspberry Pi $385（原文 11-03）、Wikipedia（原文 10-29）、Magenta solar（10 月）；Opus 5.5 nerfed（HN 719 分，Twitter 单源推测、一手证据不足）与 Apple $200 AI budget（stork.ai 单源）按核验门槛排除。
+- 异常记录：arXiv cs.CL feed 恢复（146 条，周一公告批次）；cs.AI/cs.LG 本轮仍 0 条目（连空第 2 轮，与 cs.CL 同轮恢复形成差异，判定频道侧构建/推送差异非故障，下轮复验）；a16z 连续多轮 JS 渲染 0 产出（未达降级线）；vercel atom 窗口内 8 条均为 changelog 产品条目（无独立 URL，按密度排除未入账）。
+- 工具口径修正：HN Algolia 数值过滤必须用 numericFilters=points%3E100；查询串直接写 points>100（未编码或作为独立参数）会被静默忽略、返回全量最新故事。本轮已修正并复核（63 条 >100 分入窗口）。
+- dedup 口径：NVIDIA 黄仁勋全员信官方副本链接（nvidianews a-message-to-our-company）为 TECH-112 第 1 条同事件补充链接，维持 excluded；tomshardware 脑数据转述为 TECH-112 第 5 条同事件转述，不另立项。
+- config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求；新增 T2 引用站点 shubs.io/samcurry.net/support.google.com/artificialanalysis.ai/blog.google 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 8 轮正常；theinformation feed 入口连续第 5 轮正常。
