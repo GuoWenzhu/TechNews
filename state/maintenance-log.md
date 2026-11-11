@@ -376,3 +376,15 @@
 - config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求；新增 T2 引用站点 shubs.io/samcurry.net/support.google.com/artificialanalysis.ai/blog.google 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
 - 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 8 轮正常；theinformation feed 入口连续第 5 轮正常。
+
+## 2026-11-11（TECH-118）维护记录
+
+- 采集：25 个启用来源全部可达、全部 ok（RSS/Atom/sitemap/API/HTML 各按 entry_used，HTTP 200）。采集窗口 2026-11-09T00:03Z–2026-11-11T00:06Z（48h）。原始抓取数据 data/collected-2026-11-11.json。
+- 产出：简报 10 条（reports/digest-2026-11-11.md）；台账新增 published 21 条（10 事件，primary+secondary）、excluded 93 条（OpenAI 4、TechCrunch 17、The Information 20、Anthropic sitemap 3、Vercel changelog 3、Shopify 1、Airbnb 1、HN 44；3 条 HN 抓取 link 与已发布事件 URL 同址，归并至 published 不重复入账）。T1 本窗口集中放量：DeepMind 一日三条（Gemini 4 Carbon GA、AlphaProof Code、Gemini Robotics 2.5，官方 RSS+页面核验）、Anthropic（roadshow-launch 官方公告，sitemap 发现）、Microsoft Research（Lazarus 后门研究）、GitHub（Git 六漏洞公告）各 1 条；OpenAI RSS 窗口内 4 条均为产品/报告类排除。
+- 事件合并口径：Strands Decider（Amazon 官方博客，HN 682 分发现）与 Vercel AI Gateway Production Index 月报（vercel atom 发现）合并为"决策模型分层"同一事件（两条一手数据源）；Claude Meetings 工作台套件以 TechCrunch 为 primary、claude.com 官方资源页为 secondary（HN 148 分同帖）；OpenAI Q3 营收以 The Information 付费墙首报为线索，经 Bloomberg 与 CNBC/Yahoo（CFO Friar 访谈）独立核验后收录，TI URL 维持 excluded；Fireworks/Notion 事件确认 TECH-115 轮付费墙线索（fireworks 二次被黑）为真，以 Notion 官方公告+Fireworks 官方公告页收录；Nvidia 事件本轮多条（Wachtell 律所、时间线、做空报告、出口管制）均为 TECH-115 主线延续，判定为同事件延续不另立项。
+- 窗口判定：全部入选条目原发均在 48 小时窗口内（最早 Gemini Robotics 2.5 11-09T19:51Z，最晚 The Information 23:44Z），无窗口外例外收录。窗口外高分内容按纪律排除：CoreWeave 债券收益率（CNBC 原文 11-06）、Magenta solar（10 月）、TV 穿墙（2025 旧文回热）、Raspberry Pi $385（原文 11-03，TECH-115 已排除同内容）。
+- 异常记录：arXiv cs.AI/cs.LG 两个 RSS 频道连续第 3 轮空窗（HTTP 200、0 条目），本轮对替代入口（list/recent 页）复验：两分类各 50 篇新论文（2611.118xx–2611.128xx）确认产出正常，判定 RSS 频道侧构建/推送持续异常；清单入口本就登记为 list/recent 页，不改清单，下轮继续观察 RSS 通道。cs.CL 正常（146 条，周二公告批次）。a16z 连续多轮 JS 渲染 0 产出（未达降级线）。vercel atom 窗口内 3 条 changelog 产品条目按密度排除入账。
+- 评估排除记录：NY RAISE Act 注册门户开放（TechCrunch）经评估按"监管里程碑、与工程/AI落地相关性密度不及同批入选"排除；OpenAI Businesses in ChatGPT（官方一手）按"产品 beta、密度不及同批"排除；Airbnb Skipper 开源（官方博客）与 Shopify app 重建（官方博客）按位次不足排除；Oura/Odessia/Ring/Adobe/Spotify/Otter 等产品与收购公告按位次排除；TI 付费墙未独立核验线索（Booz Allen、SoftBank、S-1 新合同等）维持排除。
+- config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求；HN 发现的 strandsagents.com/vercel Production Index/vulncheck/fireworks.ai 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 9 轮正常；theinformation feed 入口连续第 6 轮正常。

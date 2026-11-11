@@ -17810,6 +17810,960 @@
    "status": "excluded",
    "reason": "同事件体验文，并入 TECH-115 第1条背景",
    "evaluated_on": "2026-11-10"
+  },
+  {
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "title": "Gemini 4 Carbon is now available",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "gemini-4-carbon-ga",
+   "source_pub_time": "2026-11-10T16:03Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50442303",
+   "title": "Gemini 4 Carbon is now available (HN 269)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "gemini-4-carbon-ga",
+   "source_pub_time": "2026-11-10T16:07Z"
+  },
+  {
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "title": "Introducing AlphaProof Code",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "alphaproof-code-signal",
+   "source_pub_time": "2026-11-10T12:02Z"
+  },
+  {
+   "url": "https://google-deepmind.github.io/code-verification",
+   "title": "AlphaProof Code formal verification artifacts",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "alphaproof-code-signal",
+   "source_pub_time": "2026-11-10"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50439193",
+   "title": "AlphaProof Code (HN 560)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "alphaproof-code-signal",
+   "source_pub_time": "2026-11-10T12:11Z"
+  },
+  {
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "gemini-robotics-2-5",
+   "source_pub_time": "2026-11-09T19:51Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/roadshow-launch",
+   "title": "Anthropic launches roadshow for proposed IPO",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "anthropic-ipo-roadshow",
+   "source_pub_time": "2026-11-10T11:32Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+   "title": "Anthropic sets IPO price range $70-78, implied valuation $1.404T",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "anthropic-ipo-roadshow",
+   "source_pub_time": "2026-11-10T14:01Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+   "title": "All 7 Anthropic founders each cash out ~$250M in IPO (S-1)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "anthropic-ipo-roadshow",
+   "source_pub_time": "2026-11-10T19:57Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+   "title": "Anthropic launches Claude Meetings/Whiteboards/Sheets",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "claude-workplace-suite",
+   "source_pub_time": "2026-11-10T17:30Z"
+  },
+  {
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "title": "Claude Whiteboards, Claude Sheets, and Claude Data (官方)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "claude-workplace-suite",
+   "source_pub_time": "2026-11-10T17:55Z"
+  },
+  {
+   "url": "https://news.bloomberglaw.com/private-equity/openai-third-quarter-revenue-soars-nearly-50-to-10-billion",
+   "title": "OpenAI third-quarter revenue soars nearly 50% to $10 billion (Bloomberg)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "openai-q3-revenue-10b",
+   "source_pub_time": "2026-11-10T22:33Z"
+  },
+  {
+   "url": "https://finance.yahoo.com/technology/article/openai-q3-revenue-jumped-50-to-10-billion-215223357.html",
+   "title": "OpenAI Q3 revenue jumped 50% to $10 billion (CNBC/Yahoo, CFO Friar)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "openai-q3-revenue-10b",
+   "source_pub_time": "2026-11-10T21:52Z"
+  },
+  {
+   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider",
+   "title": "Amazon saves millions replacing Sonnet 4.6 with Strands Decider (98% cost cut)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "decision-model-shift",
+   "source_pub_time": "2026-11-10"
+  },
+  {
+   "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
+   "title": "Vercel AI Gateway Production Index Nov: decision models 26% of requests",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "decision-model-shift",
+   "source_pub_time": "2026-11-09T05:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50436640",
+   "title": "Amazon replaces Sonnet 4.6 with Strands Decider (HN 682)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "decision-model-shift",
+   "source_pub_time": "2026-11-10T06:01Z"
+  },
+  {
+   "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+   "title": "Notion: Fireworks AI incident may impact some workspaces (<1%)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "fireworks-notion-breach",
+   "source_pub_time": "2026-11-10"
+  },
+  {
+   "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+   "title": "Fireworks AI official security bulletins",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "fireworks-notion-breach",
+   "source_pub_time": "2026-11"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50437106",
+   "title": "Fireworks AI security breach impacts Notion (HN 159)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "secondary",
+   "event": "fireworks-notion-breach",
+   "source_pub_time": "2026-11-10T07:19Z"
+  },
+  {
+   "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+   "title": "Git security vulnerabilities announced (6 CVEs, 2.56.1)",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "git-security-2026-11",
+   "source_pub_time": "2026-11-10T18:00Z"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+   "title": "MSR Lazarus: reprogramming dormant neurons to backdoor AI agents",
+   "issue": "TECH-118",
+   "status": "published",
+   "published_on": "2026-11-11",
+   "role": "primary",
+   "event": "msr-lazarus-backdoor",
+   "source_pub_time": "2026-11-10T20:52Z"
+  },
+  {
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "title": "Helping caregivers use AI in everyday life",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "软性倡议/报告类，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://openai.com/index/introducing-businesses-chatgpt",
+   "title": "Introducing Businesses in ChatGPT",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "产品 beta 发布（Business Hub/商业档案），战略信号强但信息密度不及同批入选条目，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "title": "Closing the AI guidance gap in education",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "报告类，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://openai.com/index/ai-effect-on-freelance-work",
+   "title": "Work at the Frontier: AI's effect on freelance work",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "报告类，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+   "title": "OpenAI acquires Odessia",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "人才收购（acqui-hire），规模小，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "title": "NY RAISE Act takes effect, registration portal opens",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "监管里程碑（RAISE Act 门户开放），与工程/AI落地相关性密度不及同批入选，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+   "title": "OpenAI business profiles",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Businesses in ChatGPT 转述，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+   "title": "Meta Muse on Apple Watch/Wear OS",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "产品衍生发布，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-agents/",
+   "title": "Adobe AI agents in Photoshop/Premiere/Firefly",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "产品营销发布，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health/",
+   "title": "Oura acquires Counsel Health $625M",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "收购公告，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+   "title": "PSI AI-driven scientific discovery",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "创业公司报道，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-pcs/",
+   "title": "Cyanogen co-founder targets Windows AI PCs",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "人物/创业报道，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+   "title": "Spotify AI DJ update",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "产品更新，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-drone/",
+   "title": "Ring home security drone",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "消费硬件发布，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+   "title": "HF exec warns cyberattacks threaten open-source AI",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "评论/访谈，无一手数据",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+   "title": "Otter AI 30+ languages",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "产品更新，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+   "title": "Anthropic reportedly moves forward with IPO",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Anthropic IPO 前奏报道（路演公告为最终事实）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handing-high-profile-sex-scandals/",
+   "title": "Huang engaged PR firm",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 调查延续，TECH-115 已收录主线",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "title": "Nvidia affair timeline",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 调查延续（时间线汇总）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+   "title": "Google two new specialized chips",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 TPU 8tx/8i Max（TECH-115 已发布）转述",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/coreweave-reports-revenue-surge-huge-increase-in-cash-burn",
+   "title": "CoreWeave Q3 earnings briefing",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "财报简报，付费墙未独立核验",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/booz-allen-switches-nvidias-nemotron",
+   "title": "Booz Allen switches to Nemotron",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙未独立核验",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/openai-revenue-jumps-10-billion-third-quarter",
+   "title": "OpenAI revenue jumps to $10B in Q3",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "首报付费墙；事件经 Bloomberg/CNBC（CFO 访谈）独立核验后收录，本 URL 维持 excluded",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/nvidia-board-hires-wachtell-independent-investigation-of-ceo-relationship",
+   "title": "Nvidia board hires Wachtell",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 独立调查（官方声明已核验，TECH-115 主线延续），付费墙线索并入",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/hubspot-snowflake-others-avoiding-ai-spending-caps",
+   "title": "HubSpot/Snowflake avoid AI spending caps",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙未独立核验",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/use-google-gemini-assist-rfp-response",
+   "title": "Gemini for RFP response",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙（应用指南类）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/openai-acquires-ai-travel-agent-odessia",
+   "title": "OpenAI acquires Odessia (briefing)",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Odessia（未收录），付费墙",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-launches-new-workplace-software-sending-microsoft-shares-tanking",
+   "title": "Anthropic workplace software, Microsoft shares tank",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Claude 工作台套件（TechCrunch/官方已核验收录），股价表述未经独立核验，付费墙线索并入",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-with-microsoft-google",
+   "title": "Anthropic discloses $10B+ new deals with Microsoft, Google",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙未独立核验（S-1 披露线索）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/softbank-writes-3-7-billion-advance-payments-data-center-projects",
+   "title": "SoftBank writes off $3.7B",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙未独立核验",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/mosaic-raises-funds-for-robotic-surgery",
+   "title": "Mosaic raises for robotic surgery",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙，融资新闻位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/google-grapples-ais-hit-ads-juggernaut",
+   "title": "Google grapples with AI hit to ads",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙（分析类）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/stablecoin-card-startup-rain-launches-vaults-for-ai-agents",
+   "title": "Rain launches vaults for AI agents",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙未独立核验",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-sets-lower-expected-valuation-seeks-to-raise-90-billion-in-ipo",
+   "title": "Anthropic IPO valuation briefing",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Anthropic IPO（官方公告已核验收录），付费墙线索并入",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-7-billion-plus-nvidia-chip-sales",
+   "title": "Huang's yearslong ties enabled $7B+ chip sales",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 调查（付费墙细节未独立核验）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/likely-spies-ai-companies-says-security-executive-lisa-thiergart",
+   "title": "More spies at AI companies, says security exec",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙（评论观点）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/meet-nvidia-board-members-will-decide-jensen-huangs-fate",
+   "title": "Meet Nvidia board members",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 调查（背景介绍，付费墙）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropics-outside-counsel-sent-banks-wrong-documents-before-launching-ipo",
+   "title": "Anthropic counsel sent banks wrong documents",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "付费墙未独立核验",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/succeed-jensen-huang-nvidia",
+   "title": "Who could succeed Jensen Huang",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 调查（推测类，付费墙）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidias-next-headache-new-push-for-export-controls-in-wake-of-spy-scandal",
+   "title": "New push for export controls",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件 Nvidia 调查延续（付费墙未独立核验）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+   "title": "claude-fable-and-mythos-5-1",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "既有发布页 lastmod 更新（TECH-115 已记录的指向 5.2 的更新），非新发布",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.anthropic.com/",
+   "title": "anthropic.com 首页",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "首页 lastmod 变化，非内容页",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-electronics-design",
+   "title": "Claude electronics design research page",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "同事件：TECH-115 第 1 条 Fable 5.2 发布中电子设计演示的配套研究页",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway",
+   "title": "Gemini 4 Carbon on AI Gateway",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "changelog 产品条目（模型上架），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments",
+   "title": "Speed Insights custom environments",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "changelog 产品条目，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster",
+   "title": "Sandbox snapshot 10x faster",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "changelog 产品条目，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://shopify.engineering/shopify-app-rebuild",
+   "title": "How we rebuilt the Shopify app in 12 weeks",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "T1 工程复盘，位次不足（同批入选密度更高）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-i",
+   "title": "Skipper, Airbnb's embedded workflow engine, open source",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "T1 开源发布，位次不足（JVM 嵌入式工作流引擎，密度不及同批入选）",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "title": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "安全工具成效评测（Glasswing），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+   "title": "Toyota brand Scion is back and it's going to sell a kei truck in America",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://starlink.com/mini-2",
+   "title": "Starlink Mini 2",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "产品页，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+   "title": "Synaptics patent claims stop work on DisplayLink drivers",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "专利纠纷（DisplayLink 驱动），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN 指南仓库，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://blog.val.town/winding-down",
+   "title": "Val Town is winding down",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "创业公司关停公告，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+   "title": "AMD's Zen 6 Family: Feeding the Beast",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "芯片架构评测，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "title": ".name Grandfathered",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
+   "title": "Tailscale's DNS IPv6 spells out \"Tailscale\"",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.blender.org/download/releases/5-3/",
+   "title": "Blender 5.3 released with Gaussian Splat support",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "title": "Gemini 4 Carbon is now available",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://text.npr.org/nx-s1-6029641",
+   "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "政治/公司公关动态，域外",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "title": "Smart home devices should work without the internet",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://tinyvalencia.com/",
+   "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
+   "title": "The Hardest Tarball?",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "技术随笔，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://blog.yaros.ae/dont-buy-ar-glasses/",
+   "title": "Don't buy AR glasses",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.ableton.com/en/live/",
+   "title": "Ableton Live 13",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+   "title": "What's new in the .NET 11 runtime",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "例行版本更新（.NET 11），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/HolyArrs/HolyArrs",
+   "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN 项目，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+   "title": "What constant surveillance is doing to children and parents",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "title": "AI usage generates a fragile codebase",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://connect.queenslibrary.org/",
+   "title": "Queens Public Library under ransomware attack",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/fossil-co2-emissions-decrease-in-2026/",
+   "title": "Fossil CO2 emissions decrease in 2026",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "科学报告，域外",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
+   "title": "M John Harrison becomes first science fiction author to win the Booker",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://maurycyz.com/projects/fading/",
+   "title": "Your TV can see through walls (2025)",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.ultorg.com/",
+   "title": "Ultorg: The User Interface for Relational Databases",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+   "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://broyojo.com/python-formalization/",
+   "title": "Formalizing CPython",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+   "title": "Locating the source of a mysterious beep",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://maurycyz.com/projects/badcert/",
+   "title": "Horible public key tricks",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/expo/exact",
+   "title": "Exact – a new cross platform UI framework",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN UI 框架，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/microsoft/Procexp-Mac",
+   "title": "Process Explorer for macOS",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "工具发布，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+   "title": "A year after the 100% AI mandate nobody understands our code",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://someonewashere.app/",
+   "title": "Show HN: Someone Was Here – Find out who used your Mac while you were away",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://meowdisplay.app/",
+   "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.infineon.com/press-release/2026/infpr202611-028",
+   "title": "The first 300-millimeter power silicon carbide (SiC) wafer",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "工业材料进展（300mm SiC 晶圆），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN 项目，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50427934",
+   "title": "Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN 讨论（DBDelve），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://shahar.blog/2026/11/08/on-being-an-engineer-in-2026/",
+   "title": "On Being an Engineer in 2026",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
+   "title": "I saw your HN comment",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://ericswpark.com/blog/2026/2026-11-09-ip-camera-pt2/",
+   "title": "Taking another shot at the cheap IP camera, part 2",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/ikey4u/zebkit",
+   "title": "Zebkit – Chromium as an embeddable library",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN 项目，位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+   "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "位次不足：信息密度/相关性不及同批入选条目",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/OmniJev/Flide",
+   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "Show HN 项目（决策模型工具，相关但密度低），位次不足",
+   "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://aphyr.com/posts/427-rip-harvest",
+   "title": "RIP, Harvest",
+   "issue": "TECH-118",
+   "status": "excluded",
+   "reason": "哀悼随笔，位次不足",
+   "evaluated_on": "2026-11-11"
   }
  ]
 }

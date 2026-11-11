@@ -1,17 +1,17 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-11-10T00:03:41.228766+00:00",
- "issue": "TECH-115",
+ "last_run": "2026-11-11T00:18:18.647464+00:00",
+ "issue": "TECH-118",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "sitemap 200（urlset 586 条）；窗口内 lastmod 2 条：claude-fable-and-mythos-5-1（11-09T22:56Z，为指向新版 5.2 的既有页面更新）与 provable-inference（已处理页面 lastmod 更新）。新增发布页 claude-fable-and-mythos-5-2 本轮未入 sitemap，经页面直接抓取核验存在（HN 18:56Z 首帖、TechCrunch 19:24Z 报道），事件经 HN 发现后以官方页面为一手收录，本源计 0。"
+   "items_in_window": 6,
+   "items_published": 1,
+   "notes": "sitemap 200（urlset 570 条）；窗口内 lastmod 6 条：roadshow-launch（11-10T11:32Z，IPO 路演官方公告，收录为一手）、claude-electronics-design（11-09T18:51Z，判定为 Fable 5.2 发布同事件配套研究页，排除）、claude-fable-and-mythos-5-1（既有页 lastmod 更新）与首页 lastmod（均排除）、claude-fable-and-mythos-5-2 与 provable-inference（历轮已入账去重）。本源计 1。"
   },
   "anthropic_research": {
    "tier": "T1",
@@ -20,43 +20,43 @@
    "entry_used": "https://www.anthropic.com/sitemap.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "同 anthropic_news sitemap；provable-inference（11-09T09:39Z lastmod）经台账比对为 TECH-96 轮已发布页面的 lastmod 更新，非新发布，0 收录。"
+   "notes": "同 anthropic_news sitemap；窗口内无 research 独立新发布（claude-electronics-design 判定为 TECH-115 已发布事件的配套研究页）。"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 4,
-   "items_published": 1,
-   "notes": "rss 200；窗口内 4 条：control-room（11-09T13:00Z，收录，页面经 RSS+两家独立转述核验，openai.com 直抓 403）；chatgpt-enterprise-aws-marketplace、coderabbit、kuken 3 条评估后排除（渠道公告/客户案例）入账。"
+   "items_in_window": 8,
+   "items_published": 0,
+   "notes": "rss 200；窗口内 8 条（4 条历轮已入账去重）：11-10 新增 4 条（Businesses in ChatGPT、caregivers、education、freelance）评估后排除（产品 beta/报告类）入账。Q3 营收事件非来自本源（The Information 首报、Bloomberg/CNBC 核验）。"
   },
   "deepmind": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://deepmind.google/blog/rss.xml",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "rss 200；窗口内 0 条。"
+   "items_in_window": 3,
+   "items_published": 3,
+   "notes": "rss 200；窗口内 3 条全部收录（Gemini 4 Carbon GA、AlphaProof Code、Gemini Robotics 2.5），均经官方页面抓取核验。"
   },
   "meta_ai": {
    "tier": "T1",
    "status": "ok",
    "method": "html",
    "entry_used": "https://research.meta.ai/blog",
-   "items_in_window": 1,
-   "items_published": 1,
-   "notes": "html 200；页面链接清单含新博文 muse-ember，经页面抓取核验 2026-11-09 发布（HN 17:58Z、TechCrunch 18:00Z 佐证），收录。"
+   "items_in_window": 0,
+   "items_published": 0,
+   "notes": "html 200；链接清单与台账比对无窗口内新博文（Muse Ember 为 TECH-115 已发布条目）。"
   },
   "msresearch": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://www.microsoft.com/en-us/research/blog/feed/",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "rss 200；窗口内 0 条。"
+   "items_in_window": 1,
+   "items_published": 1,
+   "notes": "rss 200；窗口内 1 条 Lazarus 休眠神经元后门研究（11-10T20:52Z），经页面抓取核验后收录。"
   },
   "mistral": {
    "tier": "T1",
@@ -65,7 +65,7 @@
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200（94 条）；窗口内 0 条；迁移入口连续第 8 轮正常。"
+   "notes": "rss 200（94 条）；窗口内 0 条；迁移入口连续第 9 轮正常。"
   },
   "sierra": {
    "tier": "T1",
@@ -83,25 +83,25 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200；最新条目 the-anatomy-of-ai-deployment（11-04）已入台账 excluded，窗口内无新博文。"
+   "notes": "html 200；最新条目仍为已入账 excluded 条目，窗口内无新博文。"
   },
   "github": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://github.blog/feed/",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "rss 200；窗口内 0 条。"
+   "items_in_window": 1,
+   "items_published": 1,
+   "notes": "rss 200；窗口内 1 条 Git 六漏洞安全公告（11-10T18:00Z），收录。"
   },
   "shopify": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://shopify.engineering/blog.atom",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "atom 200（437 条）；窗口内 0 条。"
+   "notes": "atom 200（438 条）；窗口内 1 条 app-rebuild 工程复盘，评估后排除（位次不足）入账。"
   },
   "netflix": {
    "tier": "T1",
@@ -109,17 +109,17 @@
    "method": "rss",
    "entry_used": "https://netflixtechblog.com/feed",
    "items_in_window": 1,
-   "items_published": 1,
-   "notes": "rss 200；窗口内 1 条 fact-checking-at-scale（11-09T17:01Z），经页面抓取核验后收录（注意 RSS 首条 slug 与实际页面 slug 不同，以 RSS link 为准）。"
+   "items_published": 0,
+   "notes": "rss 200；窗口内 1 条 fact-checking-at-scale 为 TECH-115 已发布条目（URL 带跟踪参数，规范化后命中台账），去重跳过。"
   },
   "airbnb": {
    "tier": "T1",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://medium.com/feed/airbnb-engineering",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "rss 200；窗口内 0 条。"
+   "notes": "rss 200；窗口内 1 条 Skipper 工作流引擎开源（medium 正文抓取 403，经官方 airbnb.tech 站点核验），评估后排除（位次不足）入账。"
   },
   "stripe": {
    "tier": "T1",
@@ -137,16 +137,16 @@
    "entry_used": "https://blog.cloudflare.com/rss/",
    "items_in_window": 1,
    "items_published": 0,
-   "notes": "rss 200；窗口内 1 条 launching-vite-ecosystem-fund（11-09T13:00Z），评估后排除（生态基金公告）入账。"
+   "notes": "rss 200；窗口内 1 条 launching-vite-ecosystem-fund 为 TECH-115 已排除入账条目，去重跳过。"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 8,
-   "items_published": 0,
-   "notes": "atom 200；窗口内 8 条均为 11-09 changelog 产品条目（Sandbox snapshot、GLM 5.3 Flash、Claude Fable 5.2/Muse Ember 上架 Gateway 等），atom 条目无独立 URL、按 changelog 密度排除，未入账。"
+   "items_in_window": 4,
+   "items_published": 1,
+   "notes": "atom 200；窗口内 4 条：Production Index 月报（11-09T05:00Z）作为决策模型趋势数据收录（与 Strands Decider 合并为同事件）；3 条 changelog 产品条目按密度排除入账。"
   },
   "cursor": {
    "tier": "T1",
@@ -155,34 +155,34 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "html 200；链接清单与台账比对全部为已处理条目。"
+   "notes": "html 200；链接清单与台账比对无窗口内新博文。"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "algolia-api",
    "entry_used": "https://hn.algolia.com/api/v1/search_by_date (numericFilters=points>100)",
-   "items_in_window": 63,
-   "items_published": 7,
-   "notes": "algolia 200；points>100 窗口内 63 条（注意：numericFilters 必须用 %3E 编码，直接写 points>100 参数会被忽略）。收录 7 条 HN URL（Fable 5.2×2、Muse Ember、TPU、car unlock、SSH agent、Gemini annotators）；其余 45 条评估后排除入账；11 条为历轮已入账条目去重跳过。"
+   "items_in_window": 79,
+   "items_published": 4,
+   "notes": "algolia 200；points>100 窗口内 79 条。新条目 49 条：收录 4 条 HN URL（Strands Decider 682 分、AlphaProof Code 560 分、Gemini 4 Carbon 269 分、Fireworks/Notion 159 分）作为对应事件 secondary；其余评估后排除入账（高分随笔/Show HN/窗口外旧文为主）；历轮已入账条目去重跳过。"
   },
   "techcrunch_ai": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "items_in_window": 12,
-   "items_published": 4,
-   "notes": "rss 200；窗口内 12 条：收录 4（Mythos/Fable、Muse Ember、turbines、pulls-out，作为对应事件 secondary/primary）；5 条同事件衍生排除；2 条产品发布排除；1 条 TECH-112 已发布去重。"
+   "items_in_window": 20,
+   "items_published": 2,
+   "notes": "rss 200；窗口内 20 条：收录 2 条（Anthropic IPO 定价区间、七创始人套现，作为 IPO 事件 secondary）+ Claude Meetings（事件 primary）；其余为 Nvidia 延续/产品发布/同事件转述，评估后排除入账。"
   },
   "theinformation": {
    "tier": "T2",
    "status": "ok",
    "method": "rss",
    "entry_used": "https://www.theinformation.com/feed",
-   "items_in_window": 11,
+   "items_in_window": 20,
    "items_published": 0,
-   "notes": "rss 200（feed 迁移后连续第 5 轮正常）；正文付费墙维持标题级处理，feed 条目无 URL 未入账。窗口内 11 条线索：trump FBI、anthropic releases、TPUs 3 条经外部一手来源（AP/NBC/官方博客）核验后并入对应事件；fireworks 二次被黑线索 HN 热度低（9 分）且付费墙未独立核验，未收录；其余为股价/周报评论类排除。"
+   "notes": "rss 200（feed 迁移后连续第 6 轮正常）；正文付费墙维持标题级处理。窗口内 20 条线索：OpenAI Q3 $10B 首报经 Bloomberg/CNBC 独立核验后并入第 6 条事件（TI URL 维持 excluded）；Claude 工作台、Nvidia/Wachtell、IPO 估值 3 条经外部一手来源并入对应事件；其余（Booz Allen/Nemotron、SoftBank 减记、S-1 新合同披露等）付费墙未独立核验，排除入账。"
   },
   "a16z": {
    "tier": "T2",
@@ -200,16 +200,16 @@
    "entry_used": "http://export.arxiv.org/rss/cs.AI",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200 但 0 条目（连空第 2 轮：11-09 周末轮 + 本轮）；同轮 cs.CL 正常 146 条，判定 cs.AI 频道侧构建/推送差异，非故障；下轮复验。"
+   "notes": "rss 200 但 0 条目（连空第 3 轮）；替代入口复验 http://arxiv.org/list/cs.AI/recent 200 且含 50 篇新论文（2611.11825–2611.12865），判定 RSS 频道侧构建/推送持续异常而非分类无产出；入口按清单维持 list 页配置不变，RSS 通道下轮继续观察。"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss",
    "entry_used": "http://export.arxiv.org/rss/cs.CL",
-   "items_in_window": 146,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200；周一公告批次恢复（146 条，11-09T05:00Z）；经 HN >100 热度交叉比对，窗口内无高热度/广泛讨论论文入选（Next-Concept Modeling 原发 10-09 窗口外，按 T3 窗口纪律排除）。"
+   "notes": "rss 200；0 条（周二公告批次）；经 HN points>100 交叉比对，窗口内无高热度/广泛讨论论文入选（Next-Concept Modeling 原发 10-09 窗口外且历轮已排除）。"
   },
   "arxiv_cslg": {
    "tier": "T3",
@@ -218,7 +218,7 @@
    "entry_used": "http://export.arxiv.org/rss/cs.LG",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "rss 200 但 0 条目，同 arxiv_csai 判定；下轮复验。"
+   "notes": "rss 200 但 0 条目（连空第 3 轮）；替代入口复验 http://arxiv.org/list/cs.LG/recent 200 且含 50 篇新论文，同 arxiv_csai 判定；下轮继续观察。"
   },
   "hf_papers": {
    "tier": "T3",
