@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-04",
+ "updated_at": "2026-11-12",
  "note": "URL已规范化（去跟踪参数、保留语义参数）。status: published=已发布简报；excluded=已评估并明确排除。仅这两种状态入账；临时抓取失败不入账。",
  "initialized": "2026-10-11 (TECH-4)，仅包含本契约生效后处理的内容",
  "entries": [
@@ -18764,6 +18764,714 @@
    "status": "excluded",
    "reason": "哀悼随笔，位次不足",
    "evaluated_on": "2026-11-11"
+  },
+  {
+   "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+   "title": "Nvidia is preparing to oust CEO Jensen Huang (WSJ)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "Nvidia董事会拟罢免黄仁勋",
+   "source_pub_time": "2026-11-11T23:00Z±"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "Nvidia董事会拟罢免黄仁勋",
+   "source_pub_time": "2026-11-11T23:28:45Z"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+   "title": "Jensen Huang said to have had relationship with executive who reports to him",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "Nvidia董事会拟罢免黄仁勋",
+   "source_pub_time": "2026-11-11T23:00Z±"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50459703",
+   "title": "HN: Nvidia is preparing to oust Jensen Huang (311分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "Nvidia董事会拟罢免黄仁勋",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/aws/aws-emulator",
+   "title": "aws/aws-emulator",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "AWS开源本地仿真器AWS Emulator",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+   "title": "AWS Emulator and the engineer's job when agents write the code",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "AWS开源本地仿真器AWS Emulator",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50456631",
+   "title": "HN: AWS emulator (598分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "AWS开源本地仿真器AWS Emulator",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "DeepMind发布AlphaGenome 2",
+   "source_pub_time": "2026-11-11T15:00:15Z"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "Google发布Gemini Decisions API",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway",
+   "title": "Gemini Decision 1 now available on AI Gateway",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "Google发布Gemini Decisions API",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50456791",
+   "title": "HN: Gemini Decisions API (220分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "Google发布Gemini Decisions API",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "美联航禁止第三方AI代理订票",
+   "source_pub_time": "2026-11-11T19:37Z±"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50458900",
+   "title": "HN: United Airlines bans AI agents (281分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "美联航禁止第三方AI代理订票",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/united-airlines-blocks-ai-agents-like-muse-instinct-booking-flights",
+   "title": "United Airlines Blocks AI Agents Like Muse and Instinct From Booking Flights",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙线索；事件经CBS News一手报道核验收录，TI URL维持excluded",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "title": "My AI Agents (Re)discovered a Maya Site in 72 Hours",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "AI代理72小时重新发现玛雅遗址",
+   "source_pub_time": "2026-11-10（11-11更新）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50452455",
+   "title": "HN: My AI agents found an unmapped Maya site (911分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "AI代理72小时重新发现玛雅遗址",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "title": "In Memoriam: Tim Peters 1952–2026",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "Python先驱Tim Peters逝世",
+   "source_pub_time": "2026-11-11T05:36:48Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50450488",
+   "title": "HN: Tim Peters has died (790分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "Python先驱Tim Peters逝世",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "苹果Harbor本地AI推理应用曝光",
+   "source_pub_time": "2026-11-10"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50446520",
+   "title": "HN: Apple has new Mac app coming (513分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "苹果Harbor本地AI推理应用曝光",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+   "title": "Announcing .NET 11",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "微软发布.NET 11",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50442225",
+   "title": "HN: Announcing .NET 11 (236分)",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "secondary",
+   "event": "微软发布.NET 11",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+   "title": "Meta is losing its longtime head of infrastructure",
+   "issue": "TECH-121",
+   "status": "published",
+   "published_on": "2026-11-12",
+   "role": "primary",
+   "event": "Meta基础设施负责人Janardhan将卸任",
+   "source_pub_time": "2026-11-11T20:12:01Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/metas-infrastructure-chief-leaving-amid-massive-ai-buildout",
+   "title": "Meta’s Infrastructure Chief Is Leaving Amid Massive AI Buildout",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙线索；事件经TechCrunch（引Meta确认+Bloomberg备忘录）核验收录，TI URL维持excluded",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "客户案例/公益产品类一手发布，信息密度不及同批入选",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "客户案例/公益产品类一手发布，信息密度不及同批入选",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "客户案例/公益产品类一手发布，信息密度不及同批入选",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "客户案例/公益产品类一手发布，信息密度不及同批入选",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件转述（NYT一手已收录）",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件延续盘点，不另立项",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+   "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件延续（国会传唤动态），合并至主事件",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+   "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件评论，密度不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+   "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件评论，密度不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+   "title": "Why the data center you dread might never even be built",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "视频观点类，密度不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+   "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "播客讨论，密度不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+   "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "财报延续类，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+   "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "融资公告，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+   "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "产品报道，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+   "title": "Plurai wants to help AI agents work better using the same approach",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "初创产品报道，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+   "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件延续：TECH-118 已发布 OpenAI Q3 营收事件",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+   "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "收购公告，位次不足（TECH-118 已评估排除，URL未入账补记）",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/sequoia-capital-invest-ai-holding-co-sequence",
+   "title": "Sequoia Capital to Invest in AI Holding Co. Sequence",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙未独立核验线索",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/ai-inference-startups-quietly-buying-chips",
+   "title": "AI Inference Startups Are Quietly Buying Their Own Chips",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙未独立核验线索",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropics-pe-backed-venture-ode-pushes-get-paid-ai-results",
+   "title": "Anthropic’s PE-Backed Venture, Ode, Pushes to Get Paid for AI Results",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙未独立核验线索",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropic-others-warn-ai-acceleration",
+   "title": "Anthropic, Others Warn of AI Acceleration",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙未独立核验线索",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/introducing-informations-50-promising-startups-2026",
+   "title": "Introducing The Information’s 50 Most Promising Startups of 2026",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙名单类，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/amazon-google-win-big-anthropic-ipo",
+   "title": "Amazon and Google Win Big From Anthropic IPO",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙；同事件延续：Anthropic IPO TECH-118 已发布",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropic-openai-valuation-gap",
+   "title": "The Anthropic-OpenAI Valuation Gap",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙分析类",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/coreweave-reports-revenue-surge-huge-increase-cash-burn",
+   "title": "CoreWeave Reports Revenue Surge But Huge Increase in Cash Burn",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙；财报类位次不足，CoreWeave经营动态并入TechCrunch排除口径",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/nvidia-board-hires-wachtell-independent-investigation-ceo-relationship",
+   "title": "Nvidia Board Hires Wachtell for Independent Investigation of CEO Relationsh",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件延续：Wachtell 调查 TECH-118 已入账排除",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-microsoft-google-says-lambda-deal-may-cancelled",
+   "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; S",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "付费墙；同事件延续：Anthropic IPO TECH-118 已发布",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://shopify.engineering/generative-discovery",
+   "title": "Shopify’s generative discovery model",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "T1工程复盘，位次不足（生成式发现模型，密度不及同批）",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+   "title": "Choosing QuePaxa, an unusual consensus algorithm",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "T1工程内容，位次不足（共识算法选型，密度不及同批）",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://commandlinesystems.com/magic.txt",
+   "title": "Emacs in the Age of Magic",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "技术随笔，密度不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard/",
+   "title": "Why are we still working this hard?",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "随笔，非新闻",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://termsheetplease.com/",
+   "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "Show HN 项目",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+   "title": "Retirement Savings Are Fueling the AI Bubble",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "观点评论",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://machinelearning.apple.com/research/faster-retrieval",
+   "title": "Faster Retrieval for Better, More Efficient RAG",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "T1研究发布，位次不足（RAG检索优化）",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "单源故障复盘博文，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://cabird.com/talks/shipping-faster/",
+   "title": "AI, activity, and outcomes in software engineering",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "演讲随笔",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "Show HN 项目",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
+   "title": "Pharo in the Browser with WebAssembly",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "技术随笔",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "title": "Atuin Threads: All your agent sessions on every machine",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "工具发布，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+   "title": "Apple is killing its Support Community forum next week",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "消费服务变动，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+   "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "调查报道，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://av.github.io/safe-sand/",
+   "title": "Hyper-Realistic Sand with WebGL2",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "技术演示",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/",
+   "title": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "隐私工程发布，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://nathan.rs/posts/weight-space-lp/",
+   "title": "Can a Linear Program Do Weight-Space Programming?",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "技术博文",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.experimental-history.com/p/we-need-more-goat-sacrifices",
+   "title": "We need more goat sacrifices",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "趣文",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.possibilityspace.org/blog/posts/in-defence-of-giving-a-shit/",
+   "title": "In defense of giving a shit",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "随笔",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+   "title": "Using voltage glitching to unleash the A100 in my mining card",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "硬件破解博文，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://github.com/gmkurtzer/ginux",
+   "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "个人项目",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://github.com/adrbn/bo2-mac",
+   "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "Show HN 项目",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+   "title": "Protecting SSH Keys with macOS Secure Enclave",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "技术博文，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://discussions.apple.com/welcome",
+   "title": "The Apple Support Community will permanently close on November 20, 2026",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "同事件（Apple支持社区关停）官方页",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+   "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "政策类，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+   "title": "A great old-timey game-programming hack (2013)",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "2013年旧文回热",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://tendrils.co/blog/2026-11-10/30m-raised",
+   "title": "$30M Raised to Redo the CPU",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "融资公告，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+   "title": "Six Math Essentials",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "资源页非新闻",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+   "title": "What objective is reasoning solving?",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "技术博文",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://fingerprinting.study/",
+   "title": "A comprehensive study of how fingerprintable users are",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "研究展示，位次不足",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+   "title": "Life on Claude Nine",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "随笔",
+   "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://twitter.com/watcherguru/status/2120645607866188008",
+   "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+   "issue": "TECH-121",
+   "status": "excluded",
+   "reason": "单源Twitter转述；WSJ一手已收录",
+   "evaluated_on": "2026-11-12"
   }
  ]
 }

@@ -388,3 +388,15 @@
 - config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求；HN 发现的 strandsagents.com/vercel Production Index/vulncheck/fireworks.ai 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
 - 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 9 轮正常；theinformation feed 入口连续第 6 轮正常。
+
+## 2026-11-12（TECH-121）维护记录
+
+- 采集：25 个启用来源全部可达、全部 ok（RSS/Atom/sitemap/API/HTML 各按 entry_used，HTTP 200）。采集窗口 2026-11-10T00:03Z–2026-11-12T00:03Z（48h）。原始抓取数据 data/collected-2026-11-12.json。deepmind RSS 首轮 gzip 解析失败，同轮重试 200 正常（69697 字节），非来源故障。
+- 产出：简报 10 条（reports/digest-2026-11-12.md）；台账新增 published 22 条（10 事件，primary+secondary）、excluded 61 条（OpenAI 4、TechCrunch 13、The Information 12、HN 30、Shopify 1、Cloudflare 1）。T1 本窗口放量：DeepMind（AlphaGenome 2，官方 RSS+页面核验）1 条；事件一手另有 Google 官方博客（HN 发现）、AWS 官方仓库+Vogels 博客（HN 发现）、CBS（United 事件）、python.org 官方论坛、TechCrunch（Meta infra，Meta 确认）、9to5Mac（单一泄露源，简报内已标注不确定性）。
+- 事件合并口径：Nvidia 罢免事件以 WSJ 首报为 primary、TechCrunch/NYT 为 secondary，TechCrunch 时间线/国会传唤/治理评论 4 条按同事件延续排除；OpenAI Q3 $10B（TechCrunch 11-11）为 TECH-118 已发布同事件延续排除；Anthropic IPO 相关 TI 线索（Amazon/Google win big、$10B deals、valuation gap）按同事件延续/分析排除；Gemini Decisions API（blog.google）与 Vercel AI Gateway 上线（vercel changelog）合并为同一事件。
+- 窗口判定：全部入选条目原发均在 48 小时窗口内。窗口外/边界处理：hf_papers 最新批次 publishedAt 2026-11-10T00:00Z 在窗口起点（00:03Z）边界外，计 0；HN 高分窗口外旧文（old-timey game hack 2013、六数学 essentials 资源页）按纪律排除。
+- 异常记录：arXiv 三个分类 RSS 本轮全部恢复（cs.AI 381、cs.CL 178、cs.LG 383 条，周三公告批次），前 3 轮 cs.AI/cs.LG 空窗判定为频道侧构建/推送差异，本轮自愈，无需清单改动；经 HN points>100 交叉比对无高热度/广泛讨论论文，T3 按纪律 0 入选。a16z 连续多轮 JS 渲染 0 产出（未达降级线）。airbnb Skipper 条目台账旧记录 URL 截断（80 字符）致规范化去重未命中，本轮未重复入账；该截断为历史轮次遗留，仅 15 条旧条目受影响。
+- dedup 口径：HN 抓取 link 与已发布事件 URL 同址者（WSJ/NYT/CBS/blog.google/github repo/maya/pietromiotti/9to5mac/dotnet 10 条）作为对应事件 primary/secondary 入账，另收 8 条 HN 讨论帖作 secondary；twitter watcherguru 推文（Nvidia 罢免 126 分）为单源转述排除，事件以 WSJ 一手收录。
+- config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求；HN 发现的 blog.google/github/aws/allthingsdistributed/pietromiotti.com/9to5mac.com/discuss.python.org/devblogs.microsoft.com 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 10 轮正常；theinformation feed 入口连续第 7 轮正常。
