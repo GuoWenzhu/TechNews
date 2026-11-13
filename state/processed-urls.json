@@ -19472,6 +19472,842 @@
    "status": "excluded",
    "reason": "单源Twitter转述；WSJ一手已收录",
    "evaluated_on": "2026-11-12"
+  },
+  {
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "title": "NVIDIA Announces CEO Transition",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+   "title": "NVIDIA 8-K: departure of Jensen Huang, appointment of interim CEO",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://apnews.com/article/jensen-huang-resigns-nvidia-017d4af2ad194ec2981d661663da9f9b",
+   "title": "The Latest: Nvidia CEO Jensen Huang resigns",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+   "title": "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12T14:10:00+00:00"
+  },
+  {
+   "url": "https://www.politico.com/news/2026/11/12/nvidia-ousts-jensen-huang-amid-reports-of-affairs-with-two-women-01161630",
+   "title": "Jensen Huang resigns from Nvidia following affair reports",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12T14:12:00+00:00"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+   "title": "Jensen Huang agrees to testify before Congress",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12T16:36:37+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50467087",
+   "title": "Jensen Huang resigns (HN 2774)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12T13:52:29+00:00"
+  },
+  {
+   "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+   "title": "Reuters live: Nvidia board meets on fate of CEO",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nvidia-ceo-transition（黄仁勋辞任，Kress 临时 CEO）",
+   "source_pub_time": "2026-11-12T13:56:11+00:00"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "title": "Introducing Gemini 4 Hydrogen",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "gemini-4-hydrogen（Gemini 4 Hydrogen + Antigravity Orchestrator）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "title": "Introducing Gemini 4 Hydrogen (DeepMind)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "gemini-4-hydrogen（Gemini 4 Hydrogen + Antigravity Orchestrator）",
+   "source_pub_time": "2026-11-12T18:00:50+00:00"
+  },
+  {
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "gemini-4-hydrogen（Gemini 4 Hydrogen + Antigravity Orchestrator）",
+   "source_pub_time": "2026-11-12T18:52:01+00:00"
+  },
+  {
+   "url": "https://vercel.com/changelog/gemini-4-hydrogen-now-available-on-ai-gateway",
+   "title": "Gemini 4 Hydrogen now available on AI Gateway",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "gemini-4-hydrogen（Gemini 4 Hydrogen + Antigravity Orchestrator）",
+   "source_pub_time": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50471431",
+   "title": "Gemini 4 Hydrogen (HN 438)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "gemini-4-hydrogen（Gemini 4 Hydrogen + Antigravity Orchestrator）",
+   "source_pub_time": "2026-11-12T18:01:48+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50472260",
+   "title": "Gemini 4 Hydrogen and Orchestrator (HN 252)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "gemini-4-hydrogen（Gemini 4 Hydrogen + Antigravity Orchestrator）",
+   "source_pub_time": "2026-11-12T18:52:01+00:00"
+  },
+  {
+   "url": "https://www.theverge.com/science/1032350/spacex-tesla-mega-merger-could-come-as-soon-as-december",
+   "title": "SpaceX-Tesla mega-merger could come as soon as December",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "spacex-tesla-merger（据报道最早 12 月宣布合并）",
+   "source_pub_time": "2026-11-12T20:49:00+00:00"
+  },
+  {
+   "url": "https://electrek.co/2026/11/12/spacex-tesla-merger-announcement-december-report/",
+   "title": "SpaceX could announce Tesla merger in December: report",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "spacex-tesla-merger（据报道最早 12 月宣布合并）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/spacex-tesla-announce-merger-soon-december",
+   "title": "SpaceX and Tesla Could Announce Merger as Soon as December",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "spacex-tesla-merger（据报道最早 12 月宣布合并）",
+   "source_pub_time": "2026-11-12T21:20:31+00:00"
+  },
+  {
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-climbs-amid-reports-220701075.html",
+   "title": "TSLA stock climbs amid reports of SpaceX tie-up",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "spacex-tesla-merger（据报道最早 12 月宣布合并）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-tesla-merger-terms",
+   "title": "Bloomberg: SpaceX-Tesla merger talks advance (首报，付费墙)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "spacex-tesla-merger（据报道最早 12 月宣布合并）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://status.cloud.microsoft/",
+   "title": "Service degradation on Microsoft 365 (official status)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "microsoft-365-outage（M365 全球宕机 EX1550543）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users",
+   "title": "Microsoft outage hits tens of thousands of users",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "microsoft-365-outage（M365 全球宕机 EX1550543）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.windowscentral.com/microsoft/azure/microsoft-365-outlook-teams-onedrive-and-copilot-are-all-down-right-now",
+   "title": "Microsoft 365, Outlook, Teams, OneDrive, and Copilot are ALL down",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "microsoft-365-outage（M365 全球宕机 EX1550543）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50471731",
+   "title": "Service degradation on Microsoft 365 (HN 424)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "microsoft-365-outage（M365 全球宕机 EX1550543）",
+   "source_pub_time": "2026-11-12T18:20:48+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50471668",
+   "title": "Ask HN: Microsoft/Azure Outage? (HN 401)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "microsoft-365-outage（M365 全球宕机 EX1550543）",
+   "source_pub_time": "2026-11-12T18:17:13+00:00"
+  },
+  {
+   "url": "https://kotaku.com/humble-bundle-vibe-coded-ai-redesign-account-security-password-email-2000756085",
+   "title": "Humble Bundle undergoes vibecoded-looking redesign, forgets account security",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "humble-bundle-2fa-regression（改版后 2FA 消失与安全回退）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/",
+   "title": "Humble Bundle redesign removes 2FA",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "humble-bundle-2fa-regression（改版后 2FA 消失与安全回退）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+   "title": "Humble Bundle redesign removes two-factor verification from settings",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "humble-bundle-2fa-regression（改版后 2FA 消失与安全回退）",
+   "source_pub_time": "2026-11-12T23:30:00+00:00"
+  },
+  {
+   "url": "https://www.privacyaffairs.com/humble-bundle-2fa-removed/",
+   "title": "Humble Bundle dropped 2FA: technical analysis",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "humble-bundle-2fa-regression（改版后 2FA 消失与安全回退）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50463899",
+   "title": "Humble Bundle security discussion (HN 363)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "humble-bundle-2fa-regression（改版后 2FA 消失与安全回退）",
+   "source_pub_time": "2026-11-12T06:52:48+00:00"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nebius-2027-capex（400–450 亿美元 2027 资本开支与交付延期）",
+   "source_pub_time": "2026-11-12T21:27:10+00:00"
+  },
+  {
+   "url": "https://assets.nebius.com/assets/e2ac679c-fc62-4799-ba0e-6611e59c6863/Nebius-2026-Q3.pdf",
+   "title": "Nebius 2026 Q3 财报",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "nebius-2027-capex（400–450 亿美元 2027 资本开支与交付延期）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-05/microsoft-sours-on-neoclouds-iren-nebius-nscale-on-delays-costs",
+   "title": "Bloomberg: Microsoft sours on neoclouds",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "nebius-2027-capex（400–450 亿美元 2027 资本开支与交付延期）",
+   "source_pub_time": "2026-11-05"
+  },
+  {
+   "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+   "title": "Announcing Rust 1.100.0",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "rust-1-100（Rust 1.100 发布）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+   "title": "Rust 1.100.0 release",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "rust-1-100（Rust 1.100 发布）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50472038",
+   "title": "Rust 1.100 (HN 335)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "rust-1-100（Rust 1.100 发布）",
+   "source_pub_time": "2026-11-12T18:39:05+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50471793",
+   "title": "Rust 1.100 release (HN 308)",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "rust-1-100（Rust 1.100 发布）",
+   "source_pub_time": "2026-11-12T18:24:06+00:00"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+   "title": "Muse can now place calls to US businesses — if you pay",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "muse-paid-calling（Muse 代打电话付费全量）",
+   "source_pub_time": "2026-11-12T22:22:28+00:00"
+  },
+  {
+   "url": "https://x.com/alexandr_wang/status/2120930586827391350",
+   "title": "Alexandr Wang 官宣 Muse 代打电话",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "muse-paid-calling（Muse 代打电话付费全量）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://www.meta.com/help/subscriptions/1021145227643680/",
+   "title": "Meta 订阅方案页（Muse tokens）",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "secondary",
+   "event": "muse-paid-calling（Muse 代打电话付费全量）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+   "title": "Build once, run on any agent: a practical guide to agent skills",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "agent-skills-guide（GitHub 智能体 skills 实战指南）",
+   "source_pub_time": "2026-11-12T22:54:52+00:00"
+  },
+  {
+   "url": "https://github.com/githubevents/build-once-run-on-any-agent",
+   "title": "示例仓库 build-once-run-on-any-agent",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "agent-skills-guide（GitHub 智能体 skills 实战指南）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://shopify.engineering/cyber-chaos-monkey",
+   "title": "Cyber Chaos Monkey: Staying ahead of security threats with AI agents",
+   "issue": "TECH-124",
+   "status": "published",
+   "published_on": "2026-11-13",
+   "role": "primary",
+   "event": "shopify-cyber-chaos-monkey（生产环境攻击型安全智能体）",
+   "source_pub_time": "2026-11-12T14:57:16+00:00"
+  },
+  {
+   "url": "https://www.anthropic.com/news/claude-4",
+   "title": "Claude Opus 4 / Sonnet 4 announcement page",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "站点地图 lastmod 更新为旧公告页编辑（页面内容仍为 Claude 4 原始发布），非新发布",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://ipo.anthropic.com/us/",
+   "title": "Anthropic IPO 官方页面",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（IPO 路演）TECH-118 已以 anthropic.com/news/roadshow-launch 为 primary 发布；本次为同事件官方 IPO 页面与讨论热度（HN 793），不重复发布",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50465829",
+   "title": "Anthropic IPO (HN 793)",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（IPO 路演）TECH-118 已发布，讨论热度不单独成条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（Fireworks 供应商安全事件波及 Notion）TECH-118 已发布；本次为增量确认（Insights 聊天记录、两月内二次入侵），并入既有事件不另立新条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+   "title": "United Airlines blocks AI agents from booking flights",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（美联航禁止第三方 AI 代理订票）TECH-121 已发布",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+   "title": "Google's latest Search upgrade",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（Gemini 4 Hydrogen 的 Search 升级）并入简报第 2 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+   "title": "Democrats launch Nvidia investigation",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（Nvidia CEO 交接）背景进展，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+   "title": "Trump floats Tim Cook as successor",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件背景进展，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+   "title": "Jensen Huang was having a third affair",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件背景进展，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件时间线整理，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+   "title": "Five ways Huang's ouster could damage the AI industry",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件影响分析，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+   "title": "Huang's exit puts Nvidia's open source support in question",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件影响分析，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+   "title": "Hugging Face CEO vows to keep fighting for open source AI",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件反应，并入第 1 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+   "title": "Who is Colette Kress?",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件人物背景（AP 一手人物介绍已入第 1 条）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+   "title": "Who could replace Jensen Huang?",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件继任人选推测，非事实报道",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropic-worth",
+   "title": "How Much Is Anthropic Really Worth?",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（Anthropic IPO）估值讨论，付费墙单一视角，TECH-118 已发布主事件",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidias-dealmaking-binge-faces-reckoning-jensen-huangs-exit",
+   "title": "Nvidia's Dealmaking Binge Faces a Reckoning",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（CEO 交接）影响分析，付费墙",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/jensen-huang-out-inference-providers-screwed",
+   "title": "Jensen Huang Is Out; Are Inference Providers Screwed?",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件分析评论，付费墙",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/interim-nvidia-ceo-colette-kress-tried-tame-nvidias-riskiest-bets",
+   "title": "Interim Nvidia CEO Colette Kress profile",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件人物背景，付费墙（AP 介绍已入第 1 条）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidia-ceo-jensen-huang-resigns-creating-uncertainty-ai-sector",
+   "title": "Nvidia CEO Jensen Huang Resigns",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件转述，付费墙（NVIDIA 官方公告与 SEC 8-K 已入）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/nvidia-will-continue-investigation-former-ceo-alleged-chinese-spy",
+   "title": "Nvidia Will Continue Investigation Into Former CEO",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件后续简讯，付费墙",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/ex-nvidia-ceo-huang-affair-second-employee",
+   "title": "Ex-Nvidia CEO Huang Had Affair With Second Employee",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件简讯，付费墙",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/ex-nvidia-ceo-huang-hires-lawyers",
+   "title": "Ex-Nvidia CEO Huang Hires Lawyers",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件简讯，付费墙",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/report-nvidia-board-reportedly-preparing-oust-nvidia-ceo",
+   "title": "Nvidia Board Reportedly Preparing To Oust CEO",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（TECH-121 已发布董事会准备罢免报道）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/alice-huangs-companies-invested-deepseek-promising-nvidia-chips",
+   "title": "Alice Huang's Companies Invested in DeepSeek",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "事件外围人员报道，付费墙，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/alice-huang-barred-re-entering-singapore-lying-authorities",
+   "title": "Alice Huang Barred from Re-Entering Singapore",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "事件外围人员报道，付费墙，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/hubspot-co-founder-halligan-returning-ceo-rangan-steps",
+   "title": "HubSpot co-founder Halligan returning as CEO",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "人事变动，位次不足，付费墙",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/commerce-department-finalizing-long-awaited-ai-remote-access-rule",
+   "title": "Commerce Department Finalizing AI Remote Access Rule",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "政策规则报道，付费墙单一源，未能核验细节",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/run-process-improvement-analysis-google-gemini",
+   "title": "Run a Process Improvement Analysis with Google Gemini",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "付费实操内容，非新闻",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://openai.com/index/children-first-declaration",
+   "title": "Supporting research on AI and children's safety",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "政策表态类公告，信息密度低于入选条目",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "title": "How Amplitude ships product improvements with OpenAI",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "客户案例营销内容",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "title": "Gondola doubles revenue with Codex",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "客户案例营销内容",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "title": "Holiday Extras rethinking what it can build with Codex",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "客户案例营销内容",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
+   "title": "Data centers need power — rural residents pay the price",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "地区影响研究报道，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026",
+   "title": "22-Year-Old PostgreSQL Bug Turned into RCE",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "个人技术复盘文章，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+   "title": "Our software engineering interviews are changing a little",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "公司招聘流程调整，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "title": "I'm making LLMs work on small and old devices",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "开源项目发布，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://libreagi.com/",
+   "title": "LibreAGI – Save OSS Models",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "倡导站点，信息密度不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+   "title": "Nintendo DMCA sweep on GitHub",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "游戏行业法务事件，领域相关性不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-",
+   "title": "Dwarf planet candidate",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "领域外（天文）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.curtin.edu.au/news/media-release/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes/",
+   "title": "Rare star system emits radio signals every 8 minutes",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "领域外（天文）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://pron.github.io/posts/correctness-and-complexity",
+   "title": "Why writing correct software is hard (2016)",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "2016 年旧文回热，非新内容",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://github.com/simpsoka/zigzag",
+   "title": "Show HN: embroidery machine app",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "Show HN 项目，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://github.com/chocoford/ExcalidrawZ",
+   "title": "ExcalidrawZ: local native Excalidraw",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "Show HN 项目，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+   "title": "Abandoned Quake 4 expansion finished",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "领域外（游戏 mod）",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+   "title": "Talking Zen 6 with Mike Clark",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "硬件深度访谈，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1",
+   "title": "Humble Bundle vibecoding forum thread",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "同事件（Humble Bundle 安全回退）社区讨论串，媒体实测报道已入第 5 条",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+   "title": "SoftBank's loss may cap AI's natural gas ambitions",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "行业投资动态，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+   "title": "Norwest pushes deeper into AI with new $4B fund",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "风投动态，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+   "title": "Nectar launches AI agent for creator discovery",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "初创产品发布，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+   "title": "Phota Labs AI photo enhancement",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "消费级应用，位次不足",
+   "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+   "title": "Korean startups vie for Disrupt 2027",
+   "issue": "TECH-124",
+   "status": "excluded",
+   "reason": "活动资讯，领域外",
+   "evaluated_on": "2026-11-13"
   }
  ]
 }

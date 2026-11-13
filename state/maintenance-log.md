@@ -400,3 +400,11 @@
 - config/sources.json：无需改动（无来源失效、无降级/恢复触发、无新入口验证需求；HN 发现的 blog.google/github/aws/allthingsdistributed/pietromiotti.com/9to5mac.com/discuss.python.org/devblogs.microsoft.com 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
 - 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 10 轮正常；theinformation feed 入口连续第 7 轮正常。
+
+## 2026-11-13（TECH-124）采集与维护
+
+- 采集：25 个启用来源全部可达（HTTP 200），窗口 48h（起点 2026-11-13T00Z-48h）。入选 Top10：Nvidia CEO 交接（官方新闻室+SEC 8-K）、Gemini 4 Hydrogen（Google/DeepMind 官方）、SpaceX/Tesla 合并报道（Bloomberg 系）、Microsoft 365 宕机（官方状态）、Humble Bundle 2FA 回退（Kotaku/PC Gamer/Verge 实测）、Nebius 2027 资本开支（财报+TC）、Rust 1.100（官方）、Muse 代打电话（X 官宣+TC）、GitHub agent skills 指南（官方）、Shopify Cyber Chaos Monkey（官方）。
+- 去重：Anthropic IPO 路演（TECH-118 已发布）、Fireworks/Notion 事件（TECH-118）、美联航禁令（TECH-121）、quepaxa、AlphaGenome 2 等均为已发布事件，跳过或并入；anthropic.com/news/claude-4 站点地图 lastmod 更新经核验为旧页编辑，评估排除。
+- 异常记录：arXiv RSS（export.arxiv.org/rss/{cs.AI,cs.CL,cs.LG}）返回 200 但内容为 0 条空壳（892 字节，前一日 381 条）；http 列表页 400、https 列表页 200。按规则单次空窗不降级、不计失败，已记录复验计划。Hugging Face Daily Papers API 最新批次仍为 2026-11-10，窗口内 0 条。
+- 清单维护：sierra 入口更新——原入口 https://sierra.ai/blog 为 JS 渲染页无机读日期；本轮验证官方 RSS https://sierra.ai/rss.xml 可达（200，146 条，含 pubDate，最新 2026-11-09），按 rules/collection.md 迁移入口至 feed，保留原地址记录。旧清单最后更新 2026-11-05（文件内 updated_at），字节备份 backup/sources-20261113.json（sha256 027d60bf22c0cdd5e2cf96af1ba54ba3f66e1e2b6949f791812337f988431984，与旧文件一致），同目录临时文件原子替换，新 sha256 fcf84fc9c5354d9ce097f2e9ce43d2e671a59ad1f6930d75bc911ccf6f801a98；已运行 validate.py --generate-md 重新生成只读展示版并全量校验通过。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-13T00:18:29.510551+00:00）。
