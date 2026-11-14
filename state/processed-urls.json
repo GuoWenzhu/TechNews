@@ -20308,6 +20308,1022 @@
    "status": "excluded",
    "reason": "活动资讯，领域外",
    "evaluated_on": "2026-11-13"
+  },
+  {
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "title": "Introducing ChatGPT Wallet",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "chatgpt-wallet（智能体钱包：令牌化支付+逐笔核验）",
+   "source_pub_time": "2026-11-13T15:00:00+00:00"
+  },
+  {
+   "url": "https://developers.openai.com/commerce",
+   "title": "Commerce Partner Playbook（商家适配指南）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "chatgpt-wallet（智能体钱包：令牌化支付+逐笔核验）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "chatgpt-wallet（智能体钱包：令牌化支付+逐笔核验）",
+   "source_pub_time": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/openai-launches-chatgpt-wallet",
+   "title": "OpenAI Launches ChatGPT Wallet",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "chatgpt-wallet（智能体钱包：令牌化支付+逐笔核验）",
+   "source_pub_time": "2026-11-13T20:20:00+00:00"
+  },
+  {
+   "url": "https://sierra.ai/blog/releasing-poppy",
+   "title": "Releasing Personal Agent Protocol 1.0",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "sierra-poppy-1.0（智能体接入协议 v1.0：Shopify 全量/Muse 默认）",
+   "source_pub_time": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "url": "https://personalagentprotocol.org/docs/1.0/spec",
+   "title": "Personal Agent Protocol 1.0 规范",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "sierra-poppy-1.0（智能体接入协议 v1.0：Shopify 全量/Muse 默认）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://personalagentprotocol.org/kit/company",
+   "title": "Poppy 企业实施套件",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "sierra-poppy-1.0（智能体接入协议 v1.0：Shopify 全量/Muse 默认）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+   "title": "US government grounds all flights across the United States",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "faa-nationwide-ground-stop（FAA 全国停飞：电信中断波及 22 个 ARTCC）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://apnews.com/live/ground-stop-aviation-flights-news-updates-11-13-2026",
+   "title": "Live updates: FAA grounds all flights due to communications problems",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "faa-nationwide-ground-stop（FAA 全国停飞：电信中断波及 22 个 ARTCC）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports",
+   "title": "FAA issues nationwide ground stop for all U.S. airports",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "faa-nationwide-ground-stop（FAA 全国停飞：电信中断波及 22 个 ARTCC）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+   "title": "FAA ground stop shuts down flights nationwide",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "faa-nationwide-ground-stop（FAA 全国停飞：电信中断波及 22 个 ARTCC）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50489641",
+   "title": "HN 讨论：FAA issues national ground stop（1099 分）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "faa-nationwide-ground-stop（FAA 全国停飞：电信中断波及 22 个 ARTCC）",
+   "source_pub_time": "2026-11-13T21:05:00+00:00"
+  },
+  {
+   "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
+   "title": "Apache HTTP Server 2.4 vulnerabilities（CVE-2026-119618 官方公告，2.4.71）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "apache-http2-rce（mod_http2 竞态 RCE，Anthropic OSS Scanner 与 Google Cloud VR 发现）",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://github.com/apache/httpd/commit/824beab9b9424d6cfb29595248fdbf6c3dddeab1",
+   "title": "httpd 修复提交 824beab",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "apache-http2-rce（mod_http2 竞态 RCE，Anthropic OSS Scanner 与 Google Cloud VR 发现）",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+   "title": "Critical RCE Vulnerability in Apache HTTP Server（Wiz 分析）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "apache-http2-rce（mod_http2 竞态 RCE，Anthropic OSS Scanner 与 Google Cloud VR 发现）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50462177",
+   "title": "HN 讨论：Critical RCE Vulnerability in Apache HTTP Server（367 分）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "apache-http2-rce（mod_http2 竞态 RCE，Anthropic OSS Scanner 与 Google Cloud VR 发现）",
+   "source_pub_time": "2026-11-12T02:11:00+00:00"
+  },
+  {
+   "url": "https://developer.apple.com/foundation-models-framework/",
+   "title": "Foundation Models framework（开放 Claude/Gemini 等服务端模型）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "apple-foundation-models（Swift API 多模型接入 + Dynamic Profiles/Evaluations）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.lavx.hu/article/apple-opens-its-foundation-models-framework-to-third-party-llms-and-agent-tools",
+   "title": "Apple opens its Foundation Models framework to third-party LLMs",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "apple-foundation-models（Swift API 多模型接入 + Dynamic Profiles/Evaluations）",
+   "source_pub_time": "2026-11-13T04:31:00+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50474361",
+   "title": "HN 讨论：Foundation Models framework（264 分）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "apple-foundation-models（Swift API 多模型接入 + Dynamic Profiles/Evaluations）",
+   "source_pub_time": "2026-11-12T21:13:00+00:00"
+  },
+  {
+   "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+   "title": "Kitesurf is now open source",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "cloudflare-kitesurf-open-source（面向智能体的无状态浏览器引擎开源）",
+   "source_pub_time": "2026-11-13T20:20:00+00:00"
+  },
+  {
+   "url": "https://github.com/cloudflare/kitesurf",
+   "title": "GitHub 仓库 cloudflare/kitesurf",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "cloudflare-kitesurf-open-source（面向智能体的无状态浏览器引擎开源）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://kitesurf.dev/",
+   "title": "Kitesurf 官方站点",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "cloudflare-kitesurf-open-source（面向智能体的无状态浏览器引擎开源）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "edge0-145b-open-weights（145B 端侧开源模型：29GB/80toks 本地推理）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+   "title": "Edge0-145B-NVFP4 权重",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "edge0-145b-open-weights（145B 端侧开源模型：29GB/80toks 本地推理）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://huggingface.co/Edge0/Edge0-120B-NVFP4",
+   "title": "Edge0-120B-NVFP4 权重",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "edge0-145b-open-weights（145B 端侧开源模型：29GB/80toks 本地推理）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://github.com/Edge0-AI/Edge0",
+   "title": "Edge0 统一推理框架与部署工具",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "edge0-145b-open-weights（145B 端侧开源模型：29GB/80toks 本地推理）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50475713",
+   "title": "HN 讨论：Edge0-145B（338 分）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "edge0-145b-open-weights（145B 端侧开源模型：29GB/80toks 本地推理）",
+   "source_pub_time": "2026-11-12T23:06:00+00:00"
+  },
+  {
+   "url": "https://brave.com/blog/search-api-agentic-payments/",
+   "title": "The Brave Search API now accepts agentic payments via the x402 protocol",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "brave-x402-agentic-payments（搜索 API 智能体按次支付）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://api-dashboard.search.brave.com/documentation/guides/agent-payments",
+   "title": "Brave Search x402 代理文档",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "brave-x402-agentic-payments（搜索 API 智能体按次支付）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://github.com/stripe/purl",
+   "title": "Purl：Stripe 开发的智能体 CLI 钱包",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "brave-x402-agentic-payments（搜索 API 智能体按次支付）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50477649",
+   "title": "HN 讨论：Brave Search API x402 agentic payments（256 分）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "brave-x402-agentic-payments（搜索 API 智能体按次支付）",
+   "source_pub_time": "2026-11-13T03:08:00+00:00"
+  },
+  {
+   "url": "https://www.langchain.com/blog/series-c",
+   "title": "LangChain Raises $300M Series C at $3B Valuation",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "langchain-series-c（30 亿美元估值 C 轮）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "title": "AI agent startup LangChain hits $3B valuation",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "langchain-series-c（30 亿美元估值 C 轮）",
+   "source_pub_time": "2026-11-13T19:37:00+00:00"
+  },
+  {
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "primary",
+   "event": "blackwell-checkpoint-forensics（权重取证：四家六模型检出 Blackwell 指纹）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "title": "Export-banned Nvidia chips are behind China's most powerful AI models",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "blackwell-checkpoint-forensics（权重取证：四家六模型检出 Blackwell 指纹）",
+   "source_pub_time": "2026-11-13T18:40:00+00:00"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50474883",
+   "title": "HN 讨论：Chinese frontier AI models carry the fingerprint of export-controlled GPUs（355 分）",
+   "issue": "TECH-127",
+   "status": "published",
+   "published_on": "2026-11-14",
+   "role": "secondary",
+   "event": "blackwell-checkpoint-forensics（权重取证：四家六模型检出 Blackwell 指纹）",
+   "source_pub_time": "2026-11-12T21:56:00+00:00"
+  },
+  {
+   "url": "https://www.anthropic.com/news/claude-text-watermark",
+   "title": "How Claude's text watermark works",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "旧页 lastmod 编辑（原发 2026-08-14，EU AI Act 合规说明），sitemap lastmod 噪声",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
+   "title": "A new initiative for developing third-party model evaluations",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "sitemap 22:37 批量 lastmod 再生（同秒数十旧页），既有页面非新发布",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Anthropic 认证故障约 2 小时已恢复（HN 482 分），影响面与密度不及同批入选，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://status.claude.com/history",
+   "title": "Claude Is Down（状态页历史）",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "同上事件，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+   "title": "Nvidia employees petition to bring back Jensen Huang",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续（TECH-124 已发布）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+   "title": "Former Nvidia CEO Huang had a relationship with a second employee",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续（TECH-124 已发布）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+   "title": "Microsoft Outlook/365 still down after 12 hours",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "M365 宕机同事件延续（TECH-124 已发布）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/microsoft-labors-fix-long-outage-office-outlook-copilot",
+   "title": "Microsoft Labors to Fix Long Outage of Office, Outlook, Copilot",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "M365 宕机同事件延续 + 付费墙",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+   "title": "Global Microsoft Outage（CNN 直播页）",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "M365 宕机同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
+   "title": "Microsoft outage gives customers a crash course in dependence on Redmond",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "M365 宕机同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/inside-anthropics-lavish-roadshow-event-j-p-morgans-headquarters",
+   "title": "Inside Anthropic's Lavish Roadshow Event at J.P. Morgan's Headquarters",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Anthropic IPO 同事件延续（TECH-118 已发布）+ 付费墙",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/jensen-create-ai-boom-created-him",
+   "title": "Jensen Didn't Create the AI Boom. It Created Him.",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 同事件分析评论，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/white-house-ai-task-force-discussed-cyber-threats-critical-infrastructure-second-meeting",
+   "title": "White House AI Task Force Discussed Cyber Threats, Critical Infrastructure",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "付费墙线索未独立核验",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/companies-place-ai-bets",
+   "title": "Where companies should place their AI bets",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "分析文章，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/elon-musks-ai-group-guts-grok-video-generation-team",
+   "title": "Elon Musk's AI Group Guts Grok Video Generation Team",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "付费墙单源线索未独立核验",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/companies-linked-alice-huang-invested-deepseek",
+   "title": "Companies Linked to Alice Huang Invested in DeepSeek",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 同事件延续 + 付费墙",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/sex-lies-ai-chips-jensen-huangs-last-days-nvidia-ceo",
+   "title": "Sex, Lies and AI Chips: Jensen Huang's Last Days as Nvidia CEO",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/abrupt-end-nvidias-jensen-drama-leaves-unanswered-questions",
+   "title": "Abrupt End to Nvidia's Jensen Drama Leaves Unanswered Questions",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/bytedance-buy-back-shares-400-billion-valuation",
+   "title": "ByteDance to Buy Back Shares at $400 Billion Valuation",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "付费墙线索未独立核验",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/free-chinese-ai-can-hack-companies-frontier-developers-face-diminishing-returns",
+   "title": "Free Chinese AI Can Hack Companies While Frontier Developers Face Diminishing Returns",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "付费墙线索未独立核验",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "title": "Jensen Huang's departure blasts big hole in AI startup funding",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续（TECH-124 已发布）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "title": "Israel's VCs see opportunity for challengers in Nvidia's turmoil",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+   "title": "Jensen Huang didn't show confidence in his successor, report says",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+   "title": "ElevenLabs' new app combines meeting note-taking and dictation",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品公告，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+   "title": "GitHub availability report: October 2026",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "例行运维报告，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+   "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "安全工程文章，位次不足（主题与 TECH-124 Cyber Chaos Monkey 相近）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://blog.cloudflare.com/spend-management/",
+   "title": "Introducing Spend Management",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品公告，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing",
+   "title": "Daemons can now send traces to Vercel Tracing",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens",
+   "title": "Token Pass now includes $150 in tokens for $30/month",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-security-review-no-longer-requires-a-linked-vercel-project",
+   "title": "Vercel Security Review no longer requires a linked Vercel project",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster",
+   "title": "Vercel Sandbox starts up to 4x faster",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb",
+   "title": "Build cache size limit on Vercel increased to 5 GB",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free",
+   "title": "Parallel Decisions now available on AI Gateway for free",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/kimi-k3-1-pro-is-now-available-in-token-pass",
+   "title": "Kimi K3.1 Pro is now available in Token Pass",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/blog/workflow-sdk-5",
+   "title": "Workflow SDK 5: built for production",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "工程博客，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-managed-npm-credentials",
+   "title": "Vercel Sandbox now supports managed npm credentials",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/python-3-15-now-available-as-a-vercel-managed-image",
+   "title": "Python 3.15 now available as a Vercel Managed Image",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://vercel.com/changelog/inkling-2-small-now-available-on-ai-gateway",
+   "title": "Inkling 2 Small now available on AI Gateway",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "产品 changelog，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+   "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "1960 旧文回热，领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://ice-wm.org/",
+   "title": "IceWM",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "项目主页回热，领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "爱好者逆向工程随笔，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+   "title": "LibreOffice actually works 365 days a year",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "推广帖，信息密度不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://haddyalchaer.com/jepa",
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "个人实验随笔，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
+   "title": "Why Zig over C for Systems Programming",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "观点文，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+   "title": "A technical vision for the Haskell ecosystem",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "社区讨论帖，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+   "title": "Weight Space Misfolding",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "T3 论文：仅单平台热度（HN 128 分）未达高热度/广泛讨论标准，不凑数",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+   "title": "Why You Should Expect an AI Crash",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "付费墙评论，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy",
+   "title": "Africa's solar revolution is vast and speedy",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外（能源）+ 付费墙",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+   "title": "$11.4M in Nvidia hardware vanishes during shipment",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "延伸花边，信息密度不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest",
+   "title": "Eli Lilly CEO pushes back on Dario Amodei's medical claims",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "评论转述链，信息密度不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "title": "AI unlocks Gödel's notebooks",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+   "title": "AI is destroying the trust between writers and readers",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "文化领域，领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+   "title": "Brazil's Caixa insurer breach exposes data of 7.6M customers（公告 PDF 直链）",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "安全事件，位次不足（PDF 直链无报道上下文）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://text.npr.org/nx-s1-6029408",
+   "title": "Why is Google cutting off Search from AI-free schools?",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.slopmanifesto.com/",
+   "title": "No AI Slop: A Manifesto",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "宣言页，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://open.m-vave.com/fm1-workbench",
+   "title": "FM-1 Workbench",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外（硬件）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://folklore.org/Switcher.html",
+   "title": "Switcher (2004)",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "2004 旧文回热",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+   "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外（教育吐槽）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50484421",
+   "title": "U.S. October PPI Rises 6.5% YoY",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "宏观经济，领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://myid.ie/business/eu-digital-wallet-tracker/",
+   "title": "EU Digital Identity Wallet rollout tracker",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://orcasairband.com/",
+   "title": "Live airband from KORS, Victoria CA also ground stopped",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "FAA 停飞同事件衍生",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://twitter.com/flightradar24/status/2121347654714077605",
+   "title": "All US airports are currently ground stopped",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "FAA 停飞同事件衍生",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
+   "title": "FAA issues nationwide ground stop due to extraordinary circumstances",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "FAA 停飞同事件并入（正文未引用）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Show HN 项目，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.getlazarus.org/forums/topic/17/",
+   "title": "FOSS Linux Pinball Simulation Engine",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
+   "title": "Lonewolf 0.3 – standalone XMPP server in Rust",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "开源小项目发布，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://isometricsf.com/",
+   "title": "Isometric SF – A pixel-art map of the SF Bay Area",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+   "title": "The Dawn of the Data Intelligence Engineer",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "厂商博客，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://blog.jsweeting.me/big-tech-is-here-to-let-us-down",
+   "title": "Big tech is here to let us down",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "个人随笔，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://roll.bybacon.com/2026/10/14/vibes-dont-maintain.html",
+   "title": "Vibes Don't Maintain",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "旧文（2026-10-14）回热",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://lowkey.party/running-web-sites-makes-me-not-want-to",
+   "title": "Running web sites makes me not want to",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "个人随笔，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released/",
+   "title": "PostgreSQL 18.7…19 RC 2 Released",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "例行安全点版本，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
+   "title": "Minnesota guitarist's palmfrets invention",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/13/universities-drop-flock-camera-contracts",
+   "title": "US university students tell surveillance cameras to Flock off",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://geekspin.co/scientists-claim-the-universe-is-twice-as-old-as-believed/",
+   "title": "Scientists claim the universe is twice as old as believed",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外（科学）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://rightsforum.org/en/diplomatic-sources-the-netherlands-is-negotiating-the-dismantling-of-the-international-criminal-court/",
+   "title": "The Netherlands is negotiating dismantling the ICC",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "领域外",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same?",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "观点视频，位次不足",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+   "title": "Nvidia CEO Jensen Huang resigns（BBC 直播页）",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 辞任同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
+   "title": "Singapore Says U.S. Not Helpful on Investigation into Suspected Spy's Company",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "Nvidia 同事件延续",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+   "title": "OpenAI disbands its stand-alone robotics team（OpenAI 已确认）",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "OpenAI 机器人团队重组，位次不足（同批 Edge0-145B 更贴近工程落地主线，二者择一）",
+   "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50487184",
+   "title": "HN 讨论：OpenAI disbands its robotics team（137 分）",
+   "issue": "TECH-127",
+   "status": "excluded",
+   "reason": "OpenAI 机器人团队重组，位次不足（同上）",
+   "evaluated_on": "2026-11-14"
   }
  ]
 }

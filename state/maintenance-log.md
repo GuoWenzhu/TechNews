@@ -408,3 +408,15 @@
 - 异常记录：arXiv RSS（export.arxiv.org/rss/{cs.AI,cs.CL,cs.LG}）返回 200 但内容为 0 条空壳（892 字节，前一日 381 条）；http 列表页 400、https 列表页 200。按规则单次空窗不降级、不计失败，已记录复验计划。Hugging Face Daily Papers API 最新批次仍为 2026-11-10，窗口内 0 条。
 - 清单维护：sierra 入口更新——原入口 https://sierra.ai/blog 为 JS 渲染页无机读日期；本轮验证官方 RSS https://sierra.ai/rss.xml 可达（200，146 条，含 pubDate，最新 2026-11-09），按 rules/collection.md 迁移入口至 feed，保留原地址记录。旧清单最后更新 2026-11-05（文件内 updated_at），字节备份 backup/sources-20261113.json（sha256 027d60bf22c0cdd5e2cf96af1ba54ba3f66e1e2b6949f791812337f988431984，与旧文件一致），同目录临时文件原子替换，新 sha256 fcf84fc9c5354d9ce097f2e9ce43d2e671a59ad1f6930d75bc911ccf6f801a98；已运行 validate.py --generate-md 重新生成只读展示版并全量校验通过。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-13T00:18:29.510551+00:00）。
+
+## 2026-11-14（TECH-127）采集与维护
+
+- 采集：25 个启用来源全部可达（HTTP 200），窗口 48h（2026-11-12T00:00Z–2026-11-14T00:00Z）。入选 Top10：ChatGPT Wallet（OpenAI 官方）、Sierra Personal Agent Protocol 1.0（官方+规范站）、FAA 全国停飞（ATCSCC 通告+AP/NPR/Verge/TechCrunch）、Apache HTTP Server CVE-2026-119618（官方公告+Wiz，Anthropic OSS Scanner/Google Cloud VR 发现）、Apple Foundation Models 开放第三方服务端模型（开发者文档+11-13 报道）、Cloudflare Kitesurf 开源（官方+GitHub）、Edge0-145B 开源端侧模型（官方+HF 权重）、Brave Search API x402 智能体支付（官方）、LangChain $3B C 轮（官方博客+TC）、Blackwell 权重取证报告（报告+TC）。
+- 去重：Nvidia 辞任（4007 分 HN 帖、petition、timeline、三段恋情后续）、M365 宕机后续（TECH-124 已发布）、Anthropic IPO 路演（TECH-118）、Gemini 4 Hydrogen（TECH-124）均判定已发布同事件跳过/并入；anthropic sitemap lastmod 变更（claude-text-watermark 原发 2026-08-14 等）核验为旧页编辑与批量再生，评估排除。
+- 窗口判定：全部入选条目原发均在窗口内。Apple FM 条目页面本身不带日期（链接 WWDC26 章节），按诚实标注口径以 HN 首次大规模讨论（11-12T21:13Z，264 分）与 11-13 独立报道收录；Edge0-145B 官方博客无可见日期，以 HN 讨论（11-12T23:06Z，338 分）锚定。窗口外高分内容按纪律排除：Weight Space Misfolding（T3 单平台 128 分不达标）、Doomsday 1960、IceWM、Switcher 2004、vibes-dont-maintain（10-14）等旧文回热。
+- 异常记录：arXiv 前三轮 export.arxiv.org/rss 空壳现象本轮复验——改用 https://rss.arxiv.org/rss/{cs.AI,cs.CL,cs.LG} 通道全部恢复（537/237/611 条），清单登记入口（list/recent 页）本就有效，不改清单，RSS 通道判定为镜像频道侧问题已自愈；hf_papers 默认接口仍停在上批（11-11），date 参数可查得 11-12（21 篇）/11-13（32 篇）批次，两批最高 upvotes（73/46/44）均未形成跨平台高热度，T3 按纪律 0 入选。a16z 连续多轮 JS 渲染无机读日期 0 产出（未达降级线）。vercel 窗口内 12 条均为 changelog/平台更新，按密度排除入账。
+- 位次取舍记录：OpenAI 解散独立机器人团队（Fortune，OpenAI 确认，HN 137 分）与 Edge0-145B（338 分）同批竞争末位，按工程/落地相关性取 Edge0，robotics 判定位次不足入账；Claude 认证故障（约 2h，HN 482 分）与 TSMC 供应商侧员工数据泄露（SEC 6-K，HN 115 分）评估后位次不足排除；TI 付费墙线索（Grok 视频团队、ByteDance $400B 回购、白宫 AI 工作组）未独立核验维持排除。
+- config/sources.json：无需改动（25 源全部可达，无来源失效、无降级/恢复触发、无新入口验证需求；HN 发现的 edge0.ai/huggingface.co/Edge0-AI/unemploymentlabs.com/npr.org/apnews.com/theverge.com/fortune.com/developer.apple.com/wiz.io/httpd.apache.org/github.com/apache/langchain.com/brave.com/status.claude.com 均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- mistral：迁移入口 https://mistral.ai/rss.xml 连续第 11 轮正常；theinformation feed 入口连续第 8 轮正常；sierra feed 入口迁移后连续第 2 轮正常。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-14T00:16:19.234190+00:00）。
