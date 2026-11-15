@@ -420,3 +420,16 @@
 - 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
 - mistral：迁移入口 https://mistral.ai/rss.xml 连续第 11 轮正常；theinformation feed 入口连续第 8 轮正常；sierra feed 入口迁移后连续第 2 轮正常。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-14T00:16:19.234190+00:00）。
+
+## 2026-11-15（TECH-131）采集与维护
+
+- 采集：25 个启用来源全部可达（HTTP 200），窗口 48h（2026-11-13T00:00Z–2026-11-15T00:00Z）。入选 Top10：Google Project Zero 披露政策改 Full 90→60→30（官方博客）、Lovable 应用大规模数据暴露审计（研究一手+Handelsblatt）、ggml v1.0.0 首个稳定版（GitHub 官方）、WSJ Nvidia 循环融资报道+复职请愿/投资人信（同事件合并条目）、Claude Meetings beta（官方）、NVIDIA 双 DGX Station 本地服务 GLM-5.3 教程（官方）、Tesla Cybercab 个人预订（X 官宣+多源报道）、Perplexity Decider v1.3 开源（官方）、台积电员工数据外泄 6-K（SEC EDGAR）、意大利 €805M 罚款 Meta（监管公告+多源报道）。
+- 去重：FAA 停飞解除（HN 1636 分）判定 TECH-127 主事件同事件收尾排除；ChatGPT Wallet、Poppy 1.0、Kitesurf、GitHub 可用性报告等窗口内复现条目均去重跳过；Musk 请愿、投资人信并入 WSJ 循环融资条目作次级；Jensen 系回顾（TI 付费墙 2 条）排除。
+- 窗口判定：入选条目原发均在窗口内（ggml release 11-13T08:34Z；台积电 6-K 签署 11-12、11-13 窗口内经 HN/媒体放大，按首次广泛传播口径收录并在简报内标注）。窗口外排除：PyPI 安全页面（原发 11-06）、Citizen Lab Webloc（原报告 11-12）、Weight Space Misfolding 等旧文回热。
+- 位次取舍记录：T3 SO-Arena（HF 135 分）未达跨平台高热度门槛 0 入选；Citizen Lab/Bloomberg 广告 surveill（HN 143）、LinkedIn 假招聘（163）、bhyve 迁移 RFC（136）、Unsloth 量化（239）评估后位次不足；LLM Context 等窗口内无 T1 新公告。
+- 异常记录：arXiv rss.arxiv.org 三分类再现空壳（892B/0 条）；cs.AI export 回退解析 537 条但 feed 无日期不可窗口过滤，cs.CL/cs.LG export 解析失败——两通道 HTTP 均可达判 ok 不降级，本轮不记 0 产出，下轮复验；hf_papers date=2026-11-15 请求 400（批次未出），非来源故障。
+- config/sources.json：无需改动（25 源全部可达，无来源失效、无降级/恢复触发、无新入口验证需求；本轮新引用的 projectzero.google/crissyfield.de/ggml-org/claude.com/developer.nvidia.com/perplexity.ai/sec.gov EDGAR/cnbc 等均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。候选转正评估：无（未出现已启用 T2 中 ≥3 条独立热点引用同一新来源）。
+- mistral：迁移入口连续第 12 轮正常；theinformation feed 入口连续第 9 轮正常；sierra feed 入口迁移后连续第 3 轮正常。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-15T00:13:16.648527+00:00）。
+- 发布台账：state/daily-runs.json 新增 2026-11-15 条目（10 条，reports/digest-2026-11-15.md）；state/processed-urls.json 新增 published 31 条（10 事件，primary+secondary）、excluded 28 条。

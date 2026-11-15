@@ -21324,6 +21324,540 @@
    "status": "excluded",
    "reason": "OpenAI 机器人团队重组，位次不足（同上）",
    "evaluated_on": "2026-11-14"
+  },
+  {
+   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+   "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "project-zero-disclosure-policy（P0 披露政策改为 Full 90→60→30，取消宽限期等特例）",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50496051",
+   "title": "Project Zero will disclose vulnerabilities 90 days after reporting (HN 130)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "project-zero-disclosure-policy",
+   "source_pub_time": "2026-11-14T11:13Z"
+  },
+  {
+   "url": "https://www.crissyfield.de/research/lovable-en/",
+   "title": "Lovable: Many Apps Built on the Platform Expose Sensitive Data",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "lovable-apps-data-exposure（15.9 万 Lovable 应用审计：30% 深检站点数据库未登录可读）",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://www.handelsblatt.com/technik/ki/lovable-experten-finden-datenluecke-bei-beliebter-ki-coding-plattform/100264923.html",
+   "title": "Lovable: Experten finden Datenlücke bei beliebter KI-Coding-Plattform (Handelsblatt 首报)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "lovable-apps-data-exposure",
+   "source_pub_time": "2026-11-02"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50499017",
+   "title": "Lovable apps expose passport details and more than 200K private messages (HN 586)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "lovable-apps-data-exposure",
+   "source_pub_time": "2026-11-14T17:43Z"
+  },
+  {
+   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+   "title": "ggml v1.0.0",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "ggml-1.0.0（llama.cpp 底座张量库首个稳定版，API 冻结 + FP8/全后端性能更新）",
+   "source_pub_time": "2026-11-13T08:34Z"
+  },
+  {
+   "url": "https://github.com/ggml-org/ggml/discussions/1579",
+   "title": "Releases and versioning of ggml-org projects",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "ggml-1.0.0",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50493062",
+   "title": "Ggml v1.0.0 (HN 398)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "ggml-1.0.0",
+   "source_pub_time": "2026-11-14T02:28Z"
+  },
+  {
+   "url": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097",
+   "title": "WSJ: Jensen Huang, Colette Kress and the fight over Nvidia's circular financing（付费墙首报）",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "nvidia-circular-financing-wsj（WSJ 循环融资报道；Musk 签名请愿破 10 万、Altimeter/Atreides 致信董事会）",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "nvidia-circular-financing-wsj",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "nvidia-circular-financing-wsj",
+   "source_pub_time": "2026-11-14T21:41Z"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "nvidia-circular-financing-wsj",
+   "source_pub_time": "2026-11-14T12:35Z"
+  },
+  {
+   "url": "https://www.washingtonpost.com/business/2026/11/13/musk-joins-calls-jensen-huang-be-reinstated-ceo-nvidia/",
+   "title": "Musk joins calls for Jensen Huang to be reinstated as CEO of Nvidia",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "nvidia-circular-financing-wsj",
+   "source_pub_time": "2026-11-13T17:21Z"
+  },
+  {
+   "url": "https://claude.com/resources/articles/claude-meetings",
+   "title": "Claude Meetings",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "claude-meetings-beta（Claude 以参会者身份加入视频会议，Team/Enterprise beta，Google Meet 首发）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50491097",
+   "title": "Claude Meetings (HN 109)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "claude-meetings-beta",
+   "source_pub_time": "2026-11-13T22:39Z"
+  },
+  {
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "title": "When One GPU Isn't Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "glm-5.3-dual-dgx-vllm（双 DGX Station RDMA 跨机 TP=2 服务 753B GLM-5.3 NVFP4，C16 总吞吐 607.8 tok/s）",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://huggingface.co/nvidia/GLM-5.3-NVFP4",
+   "title": "GLM-5.3-NVFP4 权重页",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "glm-5.3-dual-dgx-vllm",
+   "source_pub_time": "2026-11"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50497155",
+   "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM (HN 126)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "glm-5.3-dual-dgx-vllm",
+   "source_pub_time": "2026-11-14T14:09Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+   "title": "Tesla opens Cybercab pre-orders 'for personal use,' with geo restrictions and a $299 monthly fee",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "tesla-cybercab-personal-orders（官方为 Robotaxi X 账号宣布，无稳定 URL，以报道为 primary）",
+   "source_pub_time": "2026-11-13/14"
+  },
+  {
+   "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+   "title": "Tesla is inviting some people to buy a Cybercab 'for personal use' — but read the fine print",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "tesla-cybercab-personal-orders",
+   "source_pub_time": "2026-11-14T14:18Z"
+  },
+  {
+   "url": "https://www.engadget.com/2316848/tesla-starts-taking-cybercab-orders-for-personal-use/",
+   "title": "Tesla starts taking Cybercab orders for personal use",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "tesla-cybercab-personal-orders",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/tesla-announces-cybercab-personal-use",
+   "title": "Tesla Announces Cybercab for Personal Use（付费墙简讯）",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "tesla-cybercab-personal-orders",
+   "source_pub_time": "2026-11-14T00:47Z"
+  },
+  {
+   "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+   "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "perplexity-decider-v1.3（决策模型开源，Apache 2.0，63 生产分类任务 91.6%）",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://huggingface.co/collections/perplexity-ai/decider-v13",
+   "title": "Decider v1.3 模型集合（Apache 2.0）",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "perplexity-decider-v1.3",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50488464",
+   "title": "Perplexity Decider v1.3: Training, eval, and use cases (HN 144)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "perplexity-decider-v1.3",
+   "source_pub_time": "2026-11-13T19:24Z"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+   "title": "TSMC Form 6-K: Statement Regarding the Unauthorized Access of Employee Personal Data",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "tsmc-employee-data-leak-6k（员工数据经云服务商外泄，声明系统未被入侵；6-K 签署 11-12，11-13 广泛报道）",
+   "source_pub_time": "2026-11-12"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50479721",
+   "title": "TSMC Hacked (HN 115)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "tsmc-employee-data-leak-6k",
+   "source_pub_time": "2026-11-13T07:39Z"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/14/italy-fines-meta-887-million-over-android-users-data-access.html",
+   "title": "Italy fines Meta $887 million over Android users' data access（Reuters/CNBC）",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "primary",
+   "event": "italy-meta-805m-fine（Facebook 安卓默认开启相册访问，未获具体同意；Meta 上诉）",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+   "title": "Italy fines Meta $887 million over Android users' data access",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "italy-meta-805m-fine",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://www.dw.com/en/italy-slaps-meta-with-805mn-fine-over-access-to-android-photos/a-79949032",
+   "title": "Italy slaps Meta with €805mn fine over Android photo access",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "italy-meta-805m-fine",
+   "source_pub_time": "2026-11-14"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50497009",
+   "title": "Italy fines Meta $887M over Android users' data access (HN 306)",
+   "issue": "TECH-131",
+   "status": "published",
+   "published_on": "2026-11-15",
+   "role": "secondary",
+   "event": "italy-meta-805m-fine",
+   "source_pub_time": "2026-11-14T13:48Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "title": "Asian governments react to Nvidia CEO Jensen Huang's exit",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "Nvidia 危机同事件延续评论，信息密度不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "title": "The AI graveyard: a running list of projects and startups that didn't make it",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "常青滚动清单，非独立新闻事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/fallout-jensens-downfall",
+   "title": "The Fallout from Jensen's Downfall（付费墙）",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "Jensen 危机同事件回顾，付费墙未独立核验",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/everything-led-nvidia-ceo-jensen-huangs-fall",
+   "title": "Everything That Led to Nvidia CEO Jensen Huang's Fall（付费墙）",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "同事件回顾，付费墙未独立核验",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/shield",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "客户案例营销内容，非新闻事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://monkeyisland.pages.dev/",
+   "title": "Monkey Island: all 13 versions side by side",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "粉丝复刻怀旧项目，非科技新闻",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+   "title": "KDE: The documentary",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "社区纪录片，非新闻事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+   "title": "Ukraine knocks out 36% of Russia's oil refining capacity",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "地缘军事事件，超出清单工程/Agent/AI 范围",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+   "title": "Tech companies are trying to shift the concept of privacy again",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "观点评论，非独立事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.joshka.net/cell-borders/",
+   "title": "Terminal borders that don't cost a cell",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "开发技巧文，密度不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.nature.com/articles/d41586-026-03638-3",
+   "title": "Found: A protein that drives ageing without unleashing inflammation",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "生物医学研究，超出清单范围",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+   "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "Jensen 危机同事件财务侧面，密度不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://grounds.top/",
+   "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "FAA 停飞同事件衍生工具（主事件 TECH-127 已发布）",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+   "title": "FAA lifted National Ground Stop at 0119Z",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "FAA 停飞同事件收尾通告，主事件 TECH-127 已发布，去重跳过",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+   "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "FAA 停飞同事件衍生报道",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+   "title": "What happened to 3Com?",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "企业史回顾，非新闻事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "教学性 Show HN 复现项目，位次不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.netmeister.org/blog/claude-delusion.html",
+   "title": "The Claude Delusion",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "个人随笔评论，非事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+   "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "Citizen Lab 原报告 2026-11-12 发布超出窗口，11-14 内容为 Bloomberg 跟进转述",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+   "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "平台治理事件，位次不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+   "title": "PyPI's redesigned project pages with clearer security signals are now live",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "原文发布于 2026-11-06，超出 48 小时窗口（HN 讨论 11-14 属旧文回热）",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://github.com/IRS-Public/direct-file",
+   "title": "US IRS free online tax filing open source repo (2025)",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "政务仓库归档，非新事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
+   "title": "Formalizing US Tax Code (Using Lean)",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "技术项目文，位次不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://unsloth.ai/docs/models/qwen3.8",
+   "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "量化版本更新文档，非独立事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+   "title": "Live-migration support in FreeBSD and bhyve coming",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "RFC 提案阶段，位次不足",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://aatishb.com/myriad/how-brains-learn/",
+   "title": "A visual explanation of reinforcement learning",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "科普可视化，非事件",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+   "title": "Elephants found to be increasingly isolated",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "非科技工程范围",
+   "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.15777",
+   "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+   "issue": "TECH-131",
+   "status": "excluded",
+   "reason": "T3 单平台 135 分未达跨平台高热度/广泛讨论门槛，按纪律不凑数",
+   "evaluated_on": "2026-11-15"
   }
  ]
 }
