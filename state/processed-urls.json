@@ -17589,11 +17589,15 @@
   },
   {
    "url": "https://www.spacex.com/launches/starship-flight-15",
-   "title": "HN: Starship Flight 15 on 11/13 (151)",
-   "issue": "TECH-115",
-   "status": "excluded",
+   "title": "Starship Flight 15",
+   "issue": "TECH-134",
+   "status": "published",
    "reason": "航天任务预告，主线相关性低",
-   "evaluated_on": "2026-11-10"
+   "evaluated_on": "2026-11-10",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "starship-flight15-tower-catch（星舰第15飞：首次塔架机械臂回收飞船，26颗Starlink V3部署，22.5h在轨）",
+   "source_pub_time": "2026-11-14（发射11-13，回收11-14）"
   },
   {
    "url": "https://isocpp.org/files/papers/P4454R0.pdf",
@@ -21858,6 +21862,536 @@
    "status": "excluded",
    "reason": "T3 单平台 135 分未达跨平台高热度/广泛讨论门槛，按纪律不凑数",
    "evaluated_on": "2026-11-15"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/spacex-catches-starships-upper-stage-first-time",
+   "title": "SpaceX Catches Starship’s Upper Stage for the First Time",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "starship-flight15-tower-catch（星舰第15飞：首次塔架机械臂回收飞船，26颗Starlink V3部署，22.5h在轨）",
+   "source_pub_time": "2026-11-15T06:51Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50500963",
+   "title": "SpaceX catches the Starship to end Flight 15",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "starship-flight15-tower-catch（星舰第15飞：首次塔架机械臂回收飞船，26颗Starlink V3部署，22.5h在轨）",
+   "source_pub_time": "2026-11-14T21:22Z"
+  },
+  {
+   "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+   "title": "ULA suffers first outright failure with loss of Vulcan rocket carrying 40 Amazon Leo satellites",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "ula-vulcan-leo1-launch-failure（Vulcan复飞10分钟异常，40颗Amazon Leo卫星损失，ULA约二十年首次整任务失败）",
+   "source_pub_time": "2026-11-15T19:16-05:00"
+  },
+  {
+   "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+   "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "ula-vulcan-leo1-launch-failure（Vulcan复飞10分钟异常，40颗Amazon Leo卫星损失，ULA约二十年首次整任务失败）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/",
+   "title": "United Launch Alliance loses Vulcan rocket and 40 Amazon Leo internet satellites in launch mishap",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "ula-vulcan-leo1-launch-failure（Vulcan复飞10分钟异常，40颗Amazon Leo卫星损失，ULA约二十年首次整任务失败）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/amazon-loses-40-leo-satellites-ula-rocket-failure",
+   "title": "Amazon Loses 40 Leo Satellites After ULA Rocket Failure",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "ula-vulcan-leo1-launch-failure（Vulcan复飞10分钟异常，40颗Amazon Leo卫星损失，ULA约二十年首次整任务失败）",
+   "source_pub_time": "2026-11-15T23:45Z"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+   "title": "Anthropic IPO is make or break for the technology industry",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "anthropic-ipo-ant-listing-nov19（IPO定档：11-18定价、11-19以ANTH挂牌，$70–78，估值上限约$1.4T；TECH-118已发布路演公告为背景）",
+   "source_pub_time": "2026-11-15T12:00-05:00"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidias-earnings-deck-anthropics-public-debut",
+   "title": "Nvidia’s Earnings on Deck; Anthropic’s Public Debut",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "anthropic-ipo-ant-listing-nov19（IPO定档：11-18定价、11-19以ANTH挂牌，$70–78，估值上限约$1.4T；TECH-118已发布路演公告为背景）",
+   "source_pub_time": "2026-11-15T23:00Z"
+  },
+  {
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031894/anthropic-confirms-its-planning-for-its-shares-to-start-publicly-trading-on-november-19th",
+   "title": "Anthropic confirms it’s planning for its shares to start publicly trading on November 19th（窗口外背景确认）",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "anthropic-ipo-ant-listing-nov19（IPO定档：11-18定价、11-19以ANTH挂牌，$70–78，估值上限约$1.4T；TECH-118已发布路演公告为背景）",
+   "source_pub_time": "2026-11-12T13:37Z"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+   "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "bessent-nvidia-outside-ceo-10day-compliance（财长要求外聘CEO、质疑对华销售、要求10天内证明出口合规）",
+   "source_pub_time": "2026-11-15T16:49-05:00"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/15/bessent-nvidia-earnings-china-chip-sales-ceo",
+   "title": "Bessent questions Nvidia's sales and calls for external CEO",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "bessent-nvidia-outside-ceo-10day-compliance（财长要求外聘CEO、质疑对华销售、要求10天内证明出口合规）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://news.bloomberglaw.com/bloomberg-government-news/bessent-says-nvidia-needs-dramatic-shakeup-after-huang-ouster",
+   "title": "Bessent Says Nvidia Needs Shakeup as FT Says Huang Eyes Comeback",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "bessent-nvidia-outside-ceo-10day-compliance（财长要求外聘CEO、质疑对华销售、要求10天内证明出口合规）",
+   "source_pub_time": "2026-11-15T19:27Z"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia",
+   "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "bessent-nvidia-outside-ceo-10day-compliance（财长要求外聘CEO、质疑对华销售、要求10天内证明出口合规）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/huang-weighs-nvidia-comeback-bessent-pushes-board",
+   "title": "Huang Allies Encourage Nvidia Comeback as Bessent Pushes Board to Look Outside",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "bessent-nvidia-outside-ceo-10day-compliance（财长要求外聘CEO、质疑对华销售、要求10天内证明出口合规）",
+   "source_pub_time": "2026-11-15T20:19Z"
+  },
+  {
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "title": "Our new blog for science",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "openai-science-blog-launch（独立科学博客上线；首篇Craig×GPT-6 Astra标准模型格点非微扰定义候选构造，arXiv:2610.09093）",
+   "source_pub_time": "2026-11-15T22:00Z"
+  },
+  {
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "openai-science-blog-launch（独立科学博客上线；首篇Craig×GPT-6 Astra标准模型格点非微扰定义候选构造，arXiv:2610.09093）",
+   "source_pub_time": "2026-11-15T22:00Z"
+  },
+  {
+   "url": "https://arxiv.org/abs/2610.09093",
+   "title": "A candidate nonperturbative definition of the Standard Model on a lattice（预印本，窗口外背景）",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "openai-science-blog-launch（独立科学博客上线；首篇Craig×GPT-6 Astra标准模型格点非微扰定义候选构造，arXiv:2610.09093）",
+   "source_pub_time": "2026-10"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+   "title": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "dram-antitrust-mtd-denied（加州北区法院驳回三星/SK海力士/美光联合动议，集体诉讼推进，91%营收/500%涨价背景）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
+   "title": "Samsung, SK hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "dram-antitrust-mtd-denied（加州北区法院驳回三星/SK海力士/美光联合动议，集体诉讼推进，91%营收/500%涨价背景）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50502988",
+   "title": "Court denies motion to dismiss DRAM price fixing case",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "dram-antitrust-mtd-denied（加州北区法院驳回三星/SK海力士/美光联合动议，集体诉讼推进，91%营收/500%涨价背景）",
+   "source_pub_time": "2026-11-15T01:43Z"
+  },
+  {
+   "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+   "title": "Chlor: Phantasialand bekam wegen Outlook nichts mit",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "ms365-outage-chlorine-phantasialand（M365故障致泳池氯剂量告警邮件未送达，Phantasialand酒店15名游客氯气中毒）",
+   "source_pub_time": "2026-11-14T17:01Z"
+  },
+  {
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "ms365-outage-chlorine-phantasialand（M365故障致泳池氯剂量告警邮件未送达，Phantasialand酒店15名游客氯气中毒）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50509411",
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "ms365-outage-chlorine-phantasialand（M365故障致泳池氯剂量告警邮件未送达，Phantasialand酒店15名游客氯气中毒）",
+   "source_pub_time": "2026-11-15T18:36Z"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+   "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "lutnick-chip-rules-cantor-overlap（NYT调查：Lutnick推动放宽与Cantor家族客户利益重叠的芯片出口规则）",
+   "source_pub_time": "2026-11-15T18:29-05:00"
+  },
+  {
+   "url": "https://www.inquirer.com/news/nation-world/howard-lutnick-commerce-secretary-rules-data-centers-nvidia-chips-china-southeast-asia-cantor-fitzgerald-20261115.html",
+   "title": "Lutnick pushed to weaken chip rules that overlap with his family business（NYT联合发布全文）",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "lutnick-chip-rules-cantor-overlap（NYT调查：Lutnick推动放宽与Cantor家族客户利益重叠的芯片出口规则）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50506180",
+   "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "lutnick-chip-rules-cantor-overlap（NYT调查：Lutnick推动放宽与Cantor家族客户利益重叠的芯片出口规则）",
+   "source_pub_time": "2026-11-15T16:43Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "primary",
+   "event": "bharat-semi-seed-24m（AI图像传感器采集+推理一体，$24M种子轮，Info Edge等领投，2027量产目标）",
+   "source_pub_time": "2026-11-15T23:30Z"
+  },
+  {
+   "url": "https://www.bsemis.com/",
+   "title": "Bharat Semi 官网（公司自述：智能传感器与边缘AI）",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "bharat-semi-seed-24m（AI图像传感器采集+推理一体，$24M种子轮，Info Edge等领投，2027量产目标）",
+   "source_pub_time": "—"
+  },
+  {
+   "url": "https://www.unite.ai/bharat-semi-raises-24m-seed-to-bring-ai-image-sensors-to-market/",
+   "title": "Bharat Semi Raises $24M Seed to Bring AI Image Sensors to Market",
+   "issue": "TECH-134",
+   "status": "published",
+   "published_on": "2026-11-16",
+   "role": "secondary",
+   "event": "bharat-semi-seed-24m（AI图像传感器采集+推理一体，$24M种子轮，Info Edge等领投，2027量产目标）",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "分析评论，无独立事实增量（Nvidia危机同事件续报）",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/where-was-nvidias-security-team/",
+   "title": "Where was Nvidia's security team?",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "分析评论，Nvidia危机同事件续报，无独立事实",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+   "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "娱乐节目内容，非技术新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang",
+   "title": "Thousands of Nvidia Staff Sign Petition to Bring Back Huang",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "复职请愿为TECH-131已发布事件（nvidia-circular-financing-wsj）同事件续报，无独立新事件",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.theinformation.com/newsletters/ai-infrastructure/chinese-energy-company-outpacing-u-s-ai-power-technology",
+   "title": "How a Chinese Energy Company Is Outpacing the U.S. on AI Power Technology",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "Envision 800V DC数据中心事件首报于2026-11-03（Interesting Engineering）/11-09（TechRadar、Tom's Hardware），超出48小时窗口，本条为延迟报道",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "title": "All AI-generated code should be Open Source",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "观点文章（HN 1053分），非新闻事件",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+   "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "TECH-131已发布WSJ循环融资事件的转述（同事件合并）",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation",
+   "title": "'Duffy Lied': Controllers Refute Transportation Secretary's Ground Stop Story",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "FAA全国停飞为TECH-127已发布事件（faa-nationwide-ground-stop）同事件续报",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.scmp.com/tech/big-tech/article/3374494/could-jensen-huang-make-comeback-musk-other-tech-heavyweights-pressure-nvidia-board",
+   "title": "Could Jensen Huang make a comeback? Musk, other tech heavyweights pressure Nvidia board",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "请愿动态为已发布事件续报；Bessent事实以CNBC/Reuters等为主链收录",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://standwithjensen.com/",
+   "title": "An Open Letter to The NVIDIA Board of Directors | Stand with Jensen",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "请愿签名数增长（163k）属已发布事件续报，站点数据无独立核验链",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+   "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "倡导组织行动呼吁，新闻密度低",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+   "title": "Court denies motion to dismiss DRAM price fixing case",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "DRAM诉讼事件第三方转述，已以Tom's Hardware/TechPowerUp为主链收录",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+   "title": "A family tree of software job titles",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "科普/随笔，非新闻事件",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://retrocomputing.stackexchange.com/questions/17957",
+   "title": "How did Woz write the Apple 1 BASIC before building the computer? (2021)",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "历史问答重热（2021年内容），非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+   "title": "The MacBook Pro's OLED PWM problem",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "产品体验评测，非新闻事件",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://space.stackexchange.com/questions/37775",
+   "title": "Why did some Apollo missions carry a grenade launcher? (2019)",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "历史问答重热（2019年内容），非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+   "title": "My favourite modern NES games",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "个人博客清单，非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://lucypero.com/lucynes.html",
+   "title": "A NES emulator written in Odin",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "个人项目展示，非新闻事件",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://prog21.dadgum.com/116.html",
+   "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "2011年旧文重热，非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+   "title": "Emacs Is My Browser",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "个人工作流博客，非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+   "title": "A short explainer on how El Niño works",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "科普视频，非科技新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+   "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "动物行为科学研究报道，超出工程/Agent/AI相关性范围",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://arkanumdata.com/research/house-trades",
+   "title": "Do House members' stock trades beat the market?",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "数据分析项目，非科技行业新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
+   "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "高校招生动态，非科技行业新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://bruceroettgers.eu/blog/protomaps/",
+   "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "个人博客教程，非新闻事件",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+   "title": "Old Bitly Links Are Being Hijacked",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "单一案例安全趣闻，信息密度低",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://gitlab.com/snipedbywifi/terminactory",
+   "title": "Show HN: A terminal-native idle factory game",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "游戏项目展示，非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://github.com/paul-nameless/agweb",
+   "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "个人开源工具发布（107分），无独立报道与可追溯发布信息，新闻密度不足",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+   "title": "Book list for streetfighting computer scientists",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "书单维基页，非新闻",
+   "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "issue": "TECH-134",
+   "status": "excluded",
+   "reason": "技术教程文章，非新闻事件",
+   "evaluated_on": "2026-11-16"
   }
  ]
 }

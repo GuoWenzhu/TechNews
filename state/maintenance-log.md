@@ -433,3 +433,13 @@
 - mistral：迁移入口连续第 12 轮正常；theinformation feed 入口连续第 9 轮正常；sierra feed 入口迁移后连续第 3 轮正常。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-15T00:13:16.648527+00:00）。
 - 发布台账：state/daily-runs.json 新增 2026-11-15 条目（10 条，reports/digest-2026-11-15.md）；state/processed-urls.json 新增 published 31 条（10 事件，primary+secondary）、excluded 28 条。
+
+## 2026-11-16（TECH-134）
+
+- 采集：23 个启用来源全部可达（HTTP 200）。窗口 2026-11-14T00:00Z–2026-11-16T00:00Z（48h）；发布 9 个事件、简报 reports/digest-2026-11-16.md（items_published=9）。
+- 健康与证据：各源窗口内计数与证据见 state/source-health.json（本轮覆盖）。全部来源状态 ok，无来源触发降级阈值。arXiv 三通道为周末空壳（skipDays Sat/Sun、lastBuildDate 11-15，rss 与 export 回退均无条目），属正常公告周期非探测失败，判 ok 不降级，下轮复验周一批次。
+- 入口迁移跟踪：mistral（rss.xml）连续第 13 轮正常；sierra（rss.xml）连续第 4 轮正常；theinformation（/feed）连续第 10 轮正常；均无需再改动。
+- 台账特例：spacex.com/launches/starship-flight-15 曾于 TECH-115（2026-11-10）以“任务预告”排除；同 URL 现为完成任务报告（11-14 首次塔架回收飞船，窗口内事件），该条原位更新为 published（event: starship-flight15-tower-catch），未新增重复 URL。Anthropic 路演公告已于 TECH-118 发布（anthropic-ipo-roadshow），本轮 IPO 定档事件（anthropic-ipo-ant-listing-nov19）以窗口内 CNBC/The Information 报道为主链，官方公告仅作背景引用。
+- T3：arXiv 周末无批次；HF papers 11-14/11-15 批 0 篇（周末未出榜）、11-13 批最高 SO-Arena 137 分无跨平台高热度；按纪律 0 入选。
+- 新来源评估：无。启用 T2 热点条目对站外站点引用计数：tomshardware 2 次（DRAM、氯气）、spaceflightnow 1 次，均未达“至少 3 条独立热点条目引用”门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
+- config/sources.json：无需改动，未重写、未生成备份。
