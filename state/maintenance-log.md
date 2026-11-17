@@ -443,3 +443,18 @@
 - T3：arXiv 周末无批次；HF papers 11-14/11-15 批 0 篇（周末未出榜）、11-13 批最高 SO-Arena 137 分无跨平台高热度；按纪律 0 入选。
 - 新来源评估：无。启用 T2 热点条目对站外站点引用计数：tomshardware 2 次（DRAM、氯气）、spaceflightnow 1 次，均未达“至少 3 条独立热点条目引用”门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
 - config/sources.json：无需改动，未重写、未生成备份。
+
+## 2026-11-17（TECH-137）
+
+- 采集：25 个启用来源全部可达（HTTP 200）。窗口 2026-11-15T00:00Z–采集时刻（48h 锚定 11-15T00:00Z）；发布 10 个事件、简报 reports/digest-2026-11-17.md（items_published=10）。
+- 入选 Top10：Qwen4-Max 发布（官方+多源，HN 853 分）、加州总检察长诉 OpenAI（oag.ca.gov 新闻稿+诉状+TC/TI）、BIS 远程访问算力出口管制 IFR（规则文本+TC/TI）、JPMorgan 软件缺陷波及全美银行与 Zelle（AP/CNBC/POLITICO）、OpenAI 嵌入式评估四机构协议+曾探索 50 亿美元收购 Goodfire（官方+TI/CNBC）、OpenAI 医疗计算机使用智能体（官方+HLTH26 报道）、uBlock Origin 元素选择器 UXSS（研究者披露+GHSA-cmqw-9r2w-6wv2）、FBI Artex AI 攻击工具通告（ic3.gov 11-13+TC 11-16 首次广泛报道）、Windows 11 编码智能体使用遥测逆向发现（研究者+HN 196）、OPTIMJACK Optimizely 标签层投毒（研究者披露+HN 185/219 评论）。
+- 去重：Nvidia CEO 危机全部后续（Trump 表态、复职磋商、社论、财报前瞻）、Anthropic IPO 前瞻、M365 宕机根因披露（The Register，7 月缺陷）、Vulcan/SpaceX/Starship 转述、Bharat Semi 等 TECH-134 已发布事件判定同事件排除；Anthropic 站点地图 11-16 lastmod 批量再生 8 条经交叉核验为旧页（singapore/TECH-23、stubbs/TECH-58、public-benefit-fund/TECH-46 已处理；frontier-academy 原发 2026-10-02 经 CNBC/BI 报道核验），评估排除并入账。
+- 窗口判定：入选条目原发均在窗口内（ic3.gov 通告 11-13 早于窗口起点，按 TC 11-16 首次广泛传播口径收录并在简报内标注，沿用 TSMC 6-K 先例）；xenaproject（11-12）、archive.org Salon（11-12）为窗口外旧文回热排除。
+- 位次取舍记录：OpenAI 儿童安全工具（官方+HN 228 评论）与学术计划扩容（官方）评估后位次不足排除；TokenEconomizer（T1）、CMU YouTube（667）、Amazon deals 调查（835）等未入 Top10；"AI 生成代码应开源"观点文（HN 1261，窗口内最高分）判定为观点文章非新闻事件排除。
+- T3：arXiv rss 三通道 200 且有条目（cs.AI 276/cs.CL 117/cs.LG 291，按条目 pubDate 落窗口内），无跨平台高热度论文；hf_papers 11-16 批 39 篇最高 107 upvotes 无跨平台讨论、11-14/15 批未出榜、11-17 批 400（未发布非故障）；T3 按纪律 0 入选。
+- 新来源评估：无。启用 T2 热点条目对站外站点引用计数：iter.ca 1 次、xusheng.dev 1 次、amirulcyber 1 次、oag.ca.gov 1 次、ic3.gov 1 次，均未达"至少 3 条独立热点条目引用"门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
+- config/sources.json：无需改动（25 源全部可达，无来源失效、无降级/恢复触发、无新入口验证需求；本轮引用的 oag.ca.gov/bis.gov/ic3.gov/qwen.ai/iter.ca/xusheng.dev/amirulcyber.com/goodfire.com/transluce.org/fiercehealthcare.com/alibabacloud.com 等均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- 入口迁移跟踪：mistral（rss.xml）连续第 14 轮正常；sierra（rss.xml）连续第 5 轮正常；theinformation（/feed）连续第 11 轮正常；均无需再改动。
+- 发布台账：state/daily-runs.json 新增 2026-11-17 条目（10 条，reports/digest-2026-11-17.md）；state/processed-urls.json 新增 published 35 条（10 事件，primary+secondary）、excluded 69 条。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-17T01:45:39.320286+00:00）。

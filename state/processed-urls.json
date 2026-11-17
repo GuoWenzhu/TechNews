@@ -22392,6 +22392,908 @@
    "status": "excluded",
    "reason": "技术教程文章，非新闻事件",
    "evaluated_on": "2026-11-16"
+  },
+  {
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "title": "Qwen4-Max: Your New Teammate Has Arrived",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "qwen4-max-release",
+   "source_pub_time": "2026-11-16（官方博客；11-11 预览）"
+  },
+  {
+   "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max",
+   "title": "Alibaba Unveils Qwen4-Max: New AI Teammate for Work, Creativity, and Discovery",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "qwen4-max-release",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://thenewstack.io/qwen4-max-alibaba-open-weights/",
+   "title": "With Qwen4-Max, Alibaba puts the open source jacket back on the hanger",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "qwen4-max-release",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50513215",
+   "title": "Qwen4-Max (Hacker News, 850+ points)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "qwen4-max-release",
+   "source_pub_time": "2026-11-16T02:14Z"
+  },
+  {
+   "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+   "title": "It's Golden State, Not Wild West: AG Bonta Sues OpenAI",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "california-ag-sues-openai",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf",
+   "title": "California AG complaint against OpenAI (PDF)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "california-ag-sues-openai",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+   "title": "California state AG sues OpenAI over rogue agent incidents",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "california-ag-sues-openai",
+   "source_pub_time": "2026-11-16T20:07Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/california-sues-openai-hugging-face-attack-cybersecurity-incidents",
+   "title": "California Sues OpenAI Over Hugging Face Attack, Other Cybersecurity Incidents",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "california-ag-sues-openai",
+   "source_pub_time": "2026-11-16T19:25Z"
+  },
+  {
+   "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+   "title": "BIS Interim Final Rule: remote-access AI compute export controls (RIN 0694-AK50)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "bis-remote-access-export-rule",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+   "title": "US tightens AI chip export controls to deter remote compute access",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "bis-remote-access-export-rule",
+   "source_pub_time": "2026-11-16T15:02Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/commerce-department-releases-remote-access-rule",
+   "title": "Commerce Department Releases Remote Access Rule",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "bis-remote-access-export-rule",
+   "source_pub_time": "2026-11-16T18:13Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/chinese-ai-stocks-plunge-fears-tougher-u-s-export-controls",
+   "title": "Chinese AI Stocks Plunge on Fears of Tougher U.S. Export Controls",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "bis-remote-access-export-rule",
+   "source_pub_time": "2026-11-16T09:57Z"
+  },
+  {
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "title": "A technical issue at JPMorgan Chase triggers online banking delays for major US banks",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "jpmorgan-banking-outage",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+   "title": "JPMorgan Chase experiencing 'technical issue'",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "jpmorgan-banking-outage",
+   "source_pub_time": "2026-11-16T21:41Z"
+  },
+  {
+   "url": "https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592",
+   "title": "'Software bug' in JPMorgan Chase systems halts online banking",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "jpmorgan-banking-outage",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50521045",
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays (Hacker News, 708 points)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "jpmorgan-banking-outage",
+   "source_pub_time": "2026-11-16T18:31Z"
+  },
+  {
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "title": "Our first phase of embedded assessments",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "openai-embedded-assessments",
+   "source_pub_time": "2026-11-16T08:00Z"
+  },
+  {
+   "url": "https://www.goodfire.com/blog/announcing-our-collaboration-with-openai",
+   "title": "Announcing our collaboration with OpenAI (Goodfire)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-embedded-assessments",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://transluce.org/embedded-assessment-pilot-with-openai",
+   "title": "Announcing an Embedded Assessment Pilot with OpenAI (Transluce)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-embedded-assessments",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/openai-explored-5-billion-plus-acquisition-startup-decodes-ai-thinks",
+   "title": "OpenAI Explored $5 Billion–Plus Acquisition of Startup That Decodes How AI 'Thinks'",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-embedded-assessments",
+   "source_pub_time": "2026-11-16T14:00Z"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
+   "title": "OpenAI inks deals with Apollo Research, METR, Transluce and Goodfire",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-embedded-assessments",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+   "title": "OpenAI will embed safety researchers to investigate AI subversion",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-embedded-assessments",
+   "source_pub_time": "2026-11-16T17:02Z"
+  },
+  {
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "openai-healthcare-computer-use-agents",
+   "source_pub_time": "2026-11-16T06:00Z"
+  },
+  {
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-healthcare-computer-use-agents",
+   "source_pub_time": "2026-11-16T06:00Z"
+  },
+  {
+   "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/hlth26-cvs-health-cigna-and-ambience-collaborating-openai-test-computer-use",
+   "title": "HLTH26: CVS Health, Cigna and Abridge collaborating with OpenAI to test computer-use agents",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "openai-healthcare-computer-use-agents",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://iter.ca/post/ubo-uxss/",
+   "title": "Universal XSS in uBlock Origin from website-driven element picker",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "ubo-uxss-element-picker",
+   "source_pub_time": "2026-11-15"
+  },
+  {
+   "url": "https://github.com/gorhill/uBlock/security/advisories/GHSA-cmqw-9r2w-6wv2",
+   "title": "uBlock Origin security advisory GHSA-cmqw-9r2w-6wv2",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "ubo-uxss-element-picker",
+   "source_pub_time": "2026-11-15（修复通告）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50513160",
+   "title": "Universal XSS in uBlock Origin (Hacker News, 597 points)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "ubo-uxss-element-picker",
+   "source_pub_time": "2026-11-16T02:04Z"
+  },
+  {
+   "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+   "title": "FBI IC3 Flash CSA: Artex AI-enabled autonomous attacks",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "fbi-artex-advisory",
+   "source_pub_time": "2026-11-13"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+   "title": "FBI says Artex AI open source hacking tool used to breach networks in 'under three hours'",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "fbi-artex-advisory",
+   "source_pub_time": "2026-11-16T17:36Z"
+  },
+  {
+   "url": "https://blog.barracuda.com/2026/11/11/anatomy-of-a-machine-speed-intrusion",
+   "title": "Anatomy of a machine-speed intrusion (Barracuda disclosure)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "fbi-artex-advisory",
+   "source_pub_time": "2026-11-11"
+  },
+  {
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "windows11-coding-agent-telemetry",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50524736",
+   "title": "Windows 11 coding agent telemetry (Hacker News, 196 points)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "windows11-coding-agent-telemetry",
+   "source_pub_time": "2026-11-16T22:58Z"
+  },
+  {
+   "url": "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/",
+   "title": "CNN, Zoom, Fox News Served Visitors a Crypto-Stealing Skimmer – OPTIMJACK",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "primary",
+   "event": "optimjack-optimizely-skimmer",
+   "source_pub_time": "2026-11-16"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50523300",
+   "title": "OPTIMJACK Optimizely skimmer (Hacker News, 185 points)",
+   "issue": "TECH-137",
+   "status": "published",
+   "published_on": "2026-11-17",
+   "role": "secondary",
+   "event": "optimjack-optimizely-skimmer",
+   "source_pub_time": "2026-11-16T21:08Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/claude-frontier-academy",
+   "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "sitemap lastmod 11-16 批量再生；经外部报道核验原发 2026-10-02，窗口外",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.anthropic.com/news/barclays-scales-claude",
+   "title": "Barclays scales Claude",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "sitemap lastmod 11-16 批量再生（同批含已核验旧页），无窗口内发布时间证据，评估为既有客户案例页",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.anthropic.com/news/canadian-ai-research",
+   "title": "Canadian AI research",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "sitemap lastmod 11-16 批量再生（同批含已核验旧页），无窗口内发布时间证据",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+   "title": "Wellbeing research grants",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "sitemap lastmod 11-16 批量再生（同批含已核验旧页），无窗口内发布时间证据",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+   "title": "Coordinated vulnerability disclosure timelines",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "sitemap lastmod 11-16 批量再生（同批含已核验旧页），无窗口内发布时间证据",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "title": "Strengthening the fight against online child sexual abuse",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "官方安全工具发布（HN 228 评论），位次不足未入 Top10",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+   "title": "OpenAI releases image classifier and ChatGPT warnings to combat CSAM",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "同事件（儿童安全工具）转述，事件评估位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "title": "Broadening access to AI for scientists (200k researchers)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "学术计划扩容公告，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "科学家使用调研，与 TECH-134 已发布科学博客同主题延续，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "title": "LVMH's Media Division announces strategic partnership with OpenAI",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "合作公告简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "title": "The King's Trust and OpenAI launch £1m partnership",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "公益合作简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "title": "At Holiday Extras, dots get to work before anyone asks",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "客户案例，非新闻事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+   "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "T1 工程博客（Agent token 效率研究），评估位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off",
+   "title": "Hy4 Flash now available on AI Gateway",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "平台模型上架 changelog，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+   "title": "AI Gateway now supports Private Inference",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "平台 changelog，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://vercel.com/blog/agent-evals",
+   "title": "Agents are users, so your software needs evals",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "工程方法论博文，非新闻事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway",
+   "title": "Seedance 2.5 Flash now available on AI Gateway",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "平台模型上架 changelog，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://vercel.com/changelog/set-budgets-for-projects-and-products-in-spend-management",
+   "title": "Set budgets for projects and products in Spend Management",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "平台功能 changelog，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "融资简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "title": "All the questions Nvidia should answer on Tuesday",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "财报前瞻分析，非独立事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+   "title": "Trump says Huang affair did not threaten national security",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "Nvidia CEO 治理事件后续演绎（TECH-134 已发布主事件），无独立新事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+   "title": "Sam Altman on Nvidia without Jensen Huang: industry will be 'fine'",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "评论表态，同事件延续",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+   "title": "Jordan Belfort's AI voice startup Tone",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "产品发布营销向，信息密度低",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+   "title": "Audible turns to AI to help users discover audiobooks",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "产品更新，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+   "title": "Google Maps AI trip itineraries",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "产品更新，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+   "title": "Freshworks alums raise $53M for AI-native CRM",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "融资简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+   "title": "Apple launches new app to study how people use AI for health",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "产品/研究 app 公告，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "title": "Where was Nvidia's security team?",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "分析评论（原发 11-14 边界），Nvidia 主事件 TECH-134 已发布",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidias-board-come-clean-huangs-resignation",
+   "title": "Nvidia's Board Should Come Clean on Huang's Resignation",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "社论观点，同事件（TECH-134 已发布）延续",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/google-deepmind-strategy-chief-jasjeet-sekhon-departs-anthropic",
+   "title": "Google DeepMind Strategy Chief Departs for Anthropic",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "人事简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/bill-gates-backs-push-advance-alzheimers-research-ai",
+   "title": "Bill Gates Backs Push to Advance Alzheimer's Research With AI",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "公益资助简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/pwc-ai-can-help-drive-revenue",
+   "title": "PwC on where AI can help drive revenue",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "咨询机构内容，信息密度低",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/microsoft-debut-products-aimed-reducing-customers-ai-costs",
+   "title": "Microsoft to Debut Products Aimed at Reducing Customers' AI Costs",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "付费墙预告，未独立核验",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/microsoft-data-shows-claude-stalling-copilot-office",
+   "title": "Microsoft Data Shows Claude Is Stalling Against Copilot in Office",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "付费墙单一来源竞争情报，未独立核验",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/controversial-ai-interpretability-research-caught-sam-altmans-eye",
+   "title": "The Controversial AI Interpretability Research that Caught Sam Altman's Eye",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "付费墙，与已发布 Goodfire 条目同背景",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/chinese-energy-company-outpacing-u-s-ai-power-technology",
+   "title": "How a Chinese Energy Company Is Outpacing the U.S. on AI Power Technology",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "付费墙特稿，未独立核验，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/huang-weighs-nvidia-comeback-bessent-pushes-board-look-outside",
+   "title": "Huang Allies Encourage Nvidia Comeback as Bessent Pushes Board",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "TECH-134 已发布事件后续演绎",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+   "title": "Software is breaking down at a systemic level",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "评论文章，非新闻事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-offered-no-savings/",
+   "title": "Amazon Black Friday deals offered no savings (HN 835)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "消费者政策调查，工程/Agent/AI 相关性低",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.cs.cmu.edu/learn/",
+   "title": "Carnegie Mellon puts CS courses on YouTube for free (HN 667)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "教育资源开放，工程相关性有限，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://pub.cba.mit.edu/863.26/site/",
+   "title": "How to make almost anything (HN 836)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "MIT 课程站点上线，非新闻事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://burntsushi.net/jiff/",
+   "title": "Jiff 1.0: A datetime library for Rust (HN 305)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "库发布页，未能核证窗口内首发，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+   "title": "Interpreting claims that a theorem is correct because it was checked in Lean (HN 285)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "学术博客方法论讨论，非新闻事件（原发 11-12 窗口外）",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+   "title": "What's Next for Nvidia? (HN 460)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "分析评论，非新闻事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "title": "Nvidia was in trouble before the Jensen Huang mess (HN 254)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "分析文章，主事件 TECH-134 已发布",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+   "title": "Jensen Huang might return to Nvidia as CEO (HN 175)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "TECH-134 已发布事件后续演绎",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+   "title": "Jensen Huang discusses comeback as Nvidia CEO with allies (HN 131)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "TECH-134 已发布事件后续演绎",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellites",
+   "title": "Vulcan rocket fails during return-to-flight launch (HN 169)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "TECH-134 已发布事件转述",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/",
+   "title": "Boeing-Lockheed rocket fails mid-flight (HN 103)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "TECH-134 已发布事件转述",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+   "title": "Preserving 30 years of Salon journalism (HN 212)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "档案项目（原发 11-12 窗口外），位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+   "title": "United Airlines widespread system outage (HN 160)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "航空系统故障简讯，信息密度低于入选项",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.bugmenot.com/",
+   "title": "BugMeNot has closed (HN 309)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "服务关闭简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+   "title": "Tor Project rapid-response DoS-defense fix 0.4.9.17 (HN 240)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "安全版本更新，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+   "title": "Debian unresponsive after 6.1.0-55 kernel update (HN 168)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "发行版 bug 报告，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.colesgroup.com.au/updates/",
+   "title": "Coles hit by a cybersecurity incident (HN 117)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "简讯缺细节，信息密度低",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://jack.cab/blog/siterate",
+   "title": "What is w2rt6byl5nf1opmc-a.com? (HN 314)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "个人博客调查记录，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "title": "Frame – 31.5\" color ePaper display (HN 290)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "硬件产品发布，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.harmonic.fun/news/aristotle-rust-verification/",
+   "title": "Aristotle Expands into Rust (HN 102)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "公司动态简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://ykiko.me/en/articles/2105384023094834022/",
+   "title": "Clice v1.0 Released: Modern C++ (HN 186)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "个人开源项目发布，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://linebender.org/wiki/curves/squircle/",
+   "title": "Squircles (HN 124)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "技术 wiki 页，非新闻",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://infisical.com/blog/active-directory-machine-identity",
+   "title": "The Active Directory Era Is Finally Over (HN 118)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "厂商博客，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://opencode.ai/product/browse",
+   "title": "OpenCode Browse (HN 109)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "产品发布简讯，位次不足",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://github.com/eclipse-mosquitto/mosquitto",
+   "title": "Eclipse Mosquitto MQTT broker (HN 109)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "既有开源项目页，非新闻",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "title": "Grazing sheep in fields with solar arrays (HN 213)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "农业研究报道（原发 10 月窗口外），非科技新闻优先项",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+   "title": "Coffeehouses and the Rise of Science (HN 178)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "经济学论文 PDF，非窗口内科技新闻事件",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "title": "Secret ThinkPad powerbutton code (HN 297)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "怀旧技术文（原发 2007），非新闻",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://baron.by.dai.studio/",
+   "title": "WebGL Flight Simulator with seed generated terrain (HN 226)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "个人演示项目，非新闻",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50513451",
+   "title": "Tell HN: HN is being scraped for emails to scam (HN 121)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "平台讨论帖，信息密度低",
+   "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50510042",
+   "title": "Ask HN: Stripe closed us after one $1,500 invoice (HN 178)",
+   "issue": "TECH-137",
+   "status": "excluded",
+   "reason": "个人经历讨论帖，无独立佐证，非新闻事件",
+   "evaluated_on": "2026-11-17"
   }
  ]
 }
