@@ -23294,6 +23294,638 @@
    "status": "excluded",
    "reason": "个人经历讨论帖，无独立佐证，非新闻事件",
    "evaluated_on": "2026-11-17"
+  },
+  {
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "title": "Introducing GPT-6.2 Astra and Sol (OpenAI)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "openai-gpt-6-2-release",
+   "source_pub_time": "2026-11-17T17:45Z"
+  },
+  {
+   "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+   "title": "GPT-6.2 System Card (OpenAI Deployment Safety Hub)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "openai-gpt-6-2-release",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol",
+   "title": "OpenAI has the #2 model in the Intelligence Index (Artificial Analysis)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "openai-gpt-6-2-release",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50535230",
+   "title": "GPT-6.2 Astra and Sol (Hacker News, 1031 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "openai-gpt-6-2-release",
+   "source_pub_time": "2026-11-17T17:46Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/gpt-6-2-astra-and-sol-now-available-on-ai-gateway",
+   "title": "GPT-6.2 Astra and Sol on AI Gateway (Vercel changelog)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "openai-gpt-6-2-release",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+   "title": "NVIDIA Announces Financial Results for Q3 Fiscal 2027 (Nvidia newsroom)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "nvidia-q3fy27-earnings-board-rebuff-sec-probe",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+   "title": "Read everything that Nvidia's board chair had to say (The Verge)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "nvidia-q3fy27-earnings-board-rebuff-sec-probe",
+   "source_pub_time": "2026-11-17T20:32Z"
+  },
+  {
+   "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a",
+   "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang (AP)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nvidia-q3fy27-earnings-board-rebuff-sec-probe",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://news.bloomberglaw.com/securities-law/sec-is-probing-nvidia-amid-jensen-huangs-exit-wsj-reports",
+   "title": "SEC Is Probing Nvidia Amid Jensen Huang's Exit, WSJ Reports (Bloomberg Law)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nvidia-q3fy27-earnings-board-rebuff-sec-probe",
+   "source_pub_time": "2026-11-17T22:01Z"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+   "title": "Nvidia (NVDA) Q3 2027 earnings report: Live updates (CNBC)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nvidia-q3fy27-earnings-board-rebuff-sec-probe",
+   "source_pub_time": "2026-11-17T22:59Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+   "title": "Nvidia says it doesn't plan to reappoint Jensen Huang as CEO (TechCrunch)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nvidia-q3fy27-earnings-board-rebuff-sec-probe",
+   "source_pub_time": "2026-11-17T22:42Z"
+  },
+  {
+   "url": "https://calif.io/java4shell/",
+   "title": "Java4Shell: Write once, RCE everywhere (Calif)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "java4shell-cve-2026-114938",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://openjdk.org/groups/vulnerability/advisories/2026-11-17",
+   "title": "OpenJDK security advisory 2026-11-17",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "java4shell-cve-2026-114938",
+   "source_pub_time": "2026-11-17T21:00Z"
+  },
+  {
+   "url": "https://www.oracle.com/security-alerts/cspunov2026.html",
+   "title": "Oracle Critical Patch Update November 2026",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "java4shell-cve-2026-114938",
+   "source_pub_time": "2026-11-17T21:00Z"
+  },
+  {
+   "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+   "title": "Java4Shell: pre-auth RCE flaw in Java 17 (Aikido)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "java4shell-cve-2026-114938",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50538240",
+   "title": "Java4Shell: RCE in OpenJDK when processing Base64 (HN, 394 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "java4shell-cve-2026-114938",
+   "source_pub_time": "2026-11-17T21:11Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532118",
+   "title": "Java4Shell CVE-2026-114938 (HN Aikido, 137 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "java4shell-cve-2026-114938",
+   "source_pub_time": "2026-11-17T14:48Z"
+  },
+  {
+   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+   "title": "Highly classified US national security communications network goes down (CNN)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "nsanet-outage-php-patch",
+   "source_pub_time": "2026-11-17T15:38Z"
+  },
+  {
+   "url": "https://www.nsa.gov/press-room/press-releases-statements/press-release-view/article/4630238/nsa-advisory-critical-patches-recommended-for-php-vulnerabilities/",
+   "title": "NSA advisory: critical patches recommended for PHP vulnerabilities",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nsanet-outage-php-patch",
+   "source_pub_time": "2026-10"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532849",
+   "title": "Highly classified US natsec network goes down (HN, 428 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nsanet-outage-php-patch",
+   "source_pub_time": "2026-11-17T15:38Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50533089",
+   "title": "NSA Internal Network Down (HN, 333 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "nsanet-outage-php-patch",
+   "source_pub_time": "2026-11-17T15:50Z"
+  },
+  {
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "title": "World's Largest Brands Infected With Malware Via Optimizely (Report URI)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "optimizely-projectjs-injection-escalation",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50524767",
+   "title": "Optimizely compromised, served malware on Zoom, GitLab (HN, 662 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "optimizely-projectjs-injection-escalation",
+   "source_pub_time": "2026-11-16T23:00Z"
+  },
+  {
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "title": "How the Claude Code team thinks about verification (Anthropic)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "claude-code-verification",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50529612",
+   "title": "How the Claude Code team thinks about verification (HN, 251 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "claude-code-verification",
+   "source_pub_time": "2026-11-17T10:20Z"
+  },
+  {
+   "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+   "title": "Building the Agent Host Protocol for sessions that continue across devices (GitHub Blog)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "github-agent-host-protocol",
+   "source_pub_time": "2026-11-17T18:20Z"
+  },
+  {
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "title": "Introducing MAI Code 2 and Code 2 Flash (Microsoft AI)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "mai-code-2-release",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "title": "Seven new world class models at scalable price-performance (Microsoft AI Ignite)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "mai-code-2-release",
+   "source_pub_time": "2026-11-17"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50535885",
+   "title": "MAI Code 2 and Code 2 Flash (HN, 261 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "mai-code-2-release",
+   "source_pub_time": "2026-11-17T18:25Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+   "title": "Quad9's withdrawal from France: A canary in the coal mine (Cloudflare)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "quad9-france-withdrawal",
+   "source_pub_time": "2026-11-17T20:24Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50538994",
+   "title": "Quad9's withdrawal from France (HN, 168 points)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "secondary",
+   "event": "quad9-france-withdrawal",
+   "source_pub_time": "2026-11-17T22:13Z"
+  },
+  {
+   "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
+   "title": "Engineering AI Discover (Netflix Tech Blog)",
+   "issue": "TECH-140",
+   "status": "published",
+   "published_on": "2026-11-18",
+   "role": "primary",
+   "event": "netflix-ai-discover",
+   "source_pub_time": "2026-11-17T17:01Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+   "title": "Apple services outage (TechCrunch)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "内部更新致故障数小时恢复，与 NSANet 条目主题重叠，信息密度不足位次",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50535238",
+   "title": "Apple Services Down (HN 608)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "同 Apple 故障事件，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/",
+   "title": "Microsoft blames monster email outage on July defect (The Register)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "M365 宕机（TECH-124 已发布）根因后续补充",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50517321",
+   "title": "Microsoft email outage root cause (HN 437)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "同上，已发布事件后续",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "title": "Amazon and Google to own ~30% of Anthropic (TechCrunch)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "Anthropic IPO 同事件已发布（TECH-118/134），持股披露为同一 IPO 事件后续",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+   "title": "Anthropic IPO guide (CNBC)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "Anthropic IPO 同事件已发布（TECH-134 定档条目）",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "title": "Introducing ChatGPT for Sales (OpenAI)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "产品发布，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "title": "Strengthening NATO cyber defenses with AI (OpenAI)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "合作公告位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://openai.com/index/astra-law-6-2",
+   "title": "Astra for Law leads in legal intelligence (OpenAI)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "GPT-6.2 垂直配置营销页，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "title": "Introducing OpenAI for Chile (OpenAI)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "区域合作公告位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "title": "Google to keep Gemini chats for 2 months (TechCrunch)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "隐私政策调整，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "title": "AI models tricked into identifying civilians as targets (TechCrunch)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "安全研究报道位次不足（当日安全类已满额）",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "title": "Isomorphic Labs raises $5B (TechCrunch)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "融资类，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50523601",
+   "title": "BugMeNot has closed (HN 708)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "互联网文化事件，工程/AI 落地相关性低",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50517602",
+   "title": "What is w2rt6byl5nf1opmc-a.com? (HN 401)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "个人研究博文，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50523459",
+   "title": "OpenCode Browse (HN 323)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "产品发布，位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532191",
+   "title": "What is the best harness for each model? (HN 323)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "评测博文，非新闻事件",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50529947",
+   "title": "jQuery 4.1.0 (HN 225)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "OSS 版本发布位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50530597",
+   "title": "Solid 2.0 (HN 200)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "OSS 版本发布位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532545",
+   "title": "Jiff 1.0 (HN 436)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "OSS 版本发布位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50526508",
+   "title": "Nimony: A New Compiler for Nim (HN 177)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "OSS 版本发布位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532530",
+   "title": "United Airlines widespread system outage (HN 255)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "基础设施故障位次不足（本窗口同类密集）",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532508",
+   "title": "Tor Project rapid-response DoS fix (HN 251)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50531679",
+   "title": "Baidu, Xiaomi CEOs warn of AI hype gap (HN 184)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "行业评论访谈位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532564",
+   "title": "Regulatory Capture by Anthropic Through METR (HN 137)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "观点文非新闻事件",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50529985",
+   "title": "Carnegie Mellon CS courses on YouTube (HN 2273)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "教育资源分享非行业新闻事件",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50529995",
+   "title": "How to make almost anything (HN 905)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "课程资源非新闻事件",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50532619",
+   "title": "Debian unresponsive after kernel update (HN 177)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "单一发行版回归位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50529401",
+   "title": "Amazon Black Friday deals offered no savings (HN 952)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "消费者调查非工程/AI 新闻",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "title": "Anthropic building strong safety evaluations",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "原发 2026-11-13 窗口外，11-17 lastmod 为页面更新",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.anthropic.com/responsible-scaling-policy",
+   "title": "Anthropic Responsible Scaling Policy page",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "页面仍为 v3.4（2026-07-08 生效），lastmod 变更无新版本；S-1 自我改进 tripwire 披露属已发布 Anthropic IPO 事件簇",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+   "title": "Advancing Claude for financial services (Anthropic)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "客户故事位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.anthropic.com/legal/linked-billing-terms",
+   "title": "Linked billing terms (Anthropic)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "法律条款页非新闻",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+   "title": "Maintainers don't need more AI bug reports (GitHub Blog)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "观点文非新闻事件",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0",
+   "title": "De-identifying text at scale (Airbnb Engineering)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "T1 工程博文位次不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.18359",
+   "title": "Envisioning Agentic Robotics (HF 124 upvotes)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "T3 单平台热度不足，无跨平台讨论",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.18397",
+   "title": "Gamer VLA foundation model (HF 118 upvotes)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "T3 单平台热度不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.21072",
+   "title": "Sage S2.1 Flash technical report (HF 85 upvotes)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "T3 单平台热度不足",
+   "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://huggingface.co/papers/2611.21003",
+   "title": "K2-Horizon open source fleet (HF 72 upvotes)",
+   "issue": "TECH-140",
+   "status": "excluded",
+   "reason": "T3 单平台热度不足",
+   "evaluated_on": "2026-11-18"
   }
  ]
 }

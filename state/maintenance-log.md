@@ -458,3 +458,18 @@
 - 入口迁移跟踪：mistral（rss.xml）连续第 14 轮正常；sierra（rss.xml）连续第 5 轮正常；theinformation（/feed）连续第 11 轮正常；均无需再改动。
 - 发布台账：state/daily-runs.json 新增 2026-11-17 条目（10 条，reports/digest-2026-11-17.md）；state/processed-urls.json 新增 published 35 条（10 事件，primary+secondary）、excluded 69 条。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-17T01:45:39.320286+00:00）。
+
+## 2026-11-18（TECH-140）
+
+- 采集：25 个启用来源中 24 个可达（HTTP 200），msresearch feed 本轮超时+重试 504（连续失败第 1 轮，未达降级线）。窗口 2026-11-16T00:00Z–采集时刻（48h）；发布 10 个事件、简报 reports/digest-2026-11-18.md（items_published=10）。
+- 入选 Top10：OpenAI GPT-6.2 Astra/Sol（官方+系统卡+AA，HN 1031 分）、Nvidia Q3 FY27 财报+董事会拒绝黄仁勋回归+WSJ 报道 SEC 调查（新闻室+Verge 电话会发言+8-K 背景）、Java4Shell CVE-2026-114938（Calif 披露+OpenJDK 公告+Oracle 补丁）、NSANet 中断（CNN+NSA 声明+DNI 归因 PHP 补丁）、Optimizely projectJS 注入后续（Report URI：178 组织、Coruna/DarkSword iOS 利用套件）、Claude Code 验证方法论（claude.dev）、GitHub Agent Host Protocol（官方）、微软 Ignite MAI Code 2 等七款模型（官方）、Quad9 撤出法国（Cloudflare 官方）、Netflix AI Discover 智能体编排层（官方）。
+- 去重：Nvidia 辞任（TECH-124 nvidia-ceo-transition）与循环融资（TECH-131）、Anthropic IPO 路演/定档（TECH-118/134）判定已发布事件——本轮仅收录窗口内新事实（财报+拒绝回归+SEC 调查+监督委员会），IPO 持股披露（Amazon 14.7%/Google 13.7%、$26B 私募配售、~$1.5T 预期估值）为同一 IPO 事件后续排除；M365 宕机根因（TECH-124 已发布）为后续排除；Anthropic sitemap 窗口内 13 条 lastmod 经核验：formal-verification 原发 10-22、safety-evaluations 原发 11-13（均窗口外），RSP 页无版本变更，其余客户故事/条款页排除。
+- 窗口判定：全部入选条目原发均在窗口内（ic3.gov 类首次广泛传播先例本轮无涉及；nsa.gov PHP 通告为 10 月背景引用非入选事实主链）。
+- 位次取舍记录：Apple 服务故障（HN 608，内部更新致故障数小时恢复）与 NSANet 条目主题重叠位次不足；BugMeNot 关闭（708）、CMU YouTube（2273）、Amazon deals（952）非工程/AI 行业新闻；Microsoft 邮件故障根因（437）、美联航故障（255）位次不足；OpenAI Sales/Law/Chile/NATO、Gemini 保留期 72h→2 月、军事目标识别越狱研究、Isomorphic $5B 等评估排除；"AI 生成代码应开源"类观点文与 harnesseval 评测博文按非新闻事件排除。
+- T3：arXiv rss 三通道 200 且有条目（cs.AI 717/cs.CL 353/cs.LG 774，按条目 pubDate 落窗口内），无跨平台高热度论文；hf_papers 11-16 批 40 篇最高 124 upvotes、11-17 批 40 篇最高 85（Sage S2.1 Flash）/72（K2-Horizon）无跨平台讨论，11-18 批 400（未发布非故障）；T3 按纪律 0 入选。
+- 新来源评估：无。启用 T2 热点条目对站外站点引用计数：calif.io 2 次、blog.report-uri.com 1 次、claude.dev 1 次、microsoft.ai 1 次、nvidianews 2 次、cnn.com 1 次，均未达"至少 3 条独立热点条目引用"门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
+- config/sources.json：无需改动（24/25 源可达，无来源失效、无降级/恢复触发、无新入口验证需求；本轮引用的 nvidianews.nvidia.com/theverge.com/bloomberglaw.com/calif.io/openjdk.org/oracle.com/aikido.dev/cnn.com/nsa.gov/blog.report-uri.com/claude.dev/microsoft.ai/netflixtechblog.com 等均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测（候选不纳入常规采集）。
+- 入口迁移跟踪：mistral（rss.xml）连续第 15 轮正常；sierra（rss.xml）连续第 6 轮正常；theinformation（/feed）连续第 12 轮正常；均无需再改动。msresearch 连续失败第 1 轮（超时+504），下轮复验。
+- 发布台账：state/daily-runs.json 新增 2026-11-18 条目（10 条，reports/digest-2026-11-18.md）；state/processed-urls.json 新增 published 32 条（10 事件，primary+secondary）、excluded 39 条。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-18T00:14:31.391035+00:00）。
