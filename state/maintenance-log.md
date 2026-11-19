@@ -473,3 +473,17 @@
 - 入口迁移跟踪：mistral（rss.xml）连续第 15 轮正常；sierra（rss.xml）连续第 6 轮正常；theinformation（/feed）连续第 12 轮正常；均无需再改动。msresearch 连续失败第 1 轮（超时+504），下轮复验。
 - 发布台账：state/daily-runs.json 新增 2026-11-18 条目（10 条，reports/digest-2026-11-18.md）；state/processed-urls.json 新增 published 32 条（10 事件，primary+secondary）、excluded 39 条。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-18T00:14:31.391035+00:00）。
+
+## 2026-11-19（TECH-143）
+
+- 采集：25 个启用来源全部尝试，24 个可达（HTTP 200），msresearch feed 两轮 HTTP 504（Azure Application Gateway 上游超时，连续失败第 2 轮，未达降级线）。窗口 2026-11-17T00:00Z 起约 48 小时；窗口内候选 1,056 条（arXiv 921、HN 73、TechCrunch 20、The Information 20、OpenAI 12 等）；发布 10 个事件、简报 reports/digest-2026-11-19.md（items_published=10）。
+- 入选 Top10：NGINX HTTP/2 未认证 RCE 双漏洞 CVE-2026-123633/CVE-2026-123007（Wiz+四机构独立发现、F5 协调披露，HN 1065 分）、Anthropic IPO 定价 $83 高于区间/估值 $1.5T/11-19 挂牌 ANT（官方+The Information+TechCrunch）、MisAnthropic Statement（CAIS/FLI 等 80–92 人联名）、Gemini 4 Neon（官方，AA 智能指数 61 第 3）、Genie 4 世界模型上线（官方）、OpenAI 芯片设计结果 Jalapeño 硅验证/AMD +14% PPA/GPT-Synopsys（官方+投资者公告）、微软 ONNX Runtime 等 4 仓库 GitHub 404（HN 450 分+onnx#8842+多方，官方无解释）、AI Overviews 冲击独立站（All About Berlin 流量 -70~75% + 随机实验 40% 背景）、微软-字节 $500M Azure/OpenAI 谈判（The Information）、Cloudflare Clairic/Clairic-flash 开放权重（官方）。
+- 去重与窗口判定：Nvidia 治理动荡全部后续（全员大会、SEC 未备案、Musk/Nadella 表态、China 退出、FT 停披新加坡）判定 TECH-140 已发布事件链排除；Quad9 评论文、Apple 故障（TECH-140 已排除）、Java4Shell WAF 防护（TECH-140 事件后续）同事件排除；Anthropic sitemap distinct lastmod 4 条经核验：IPO 为新事件，cyber-verification 原发 10-06、safety-evaluations 原发 11-13、formal-verification 原发 10-22 均窗口外，17:12 批量再生 lastmod 判定旧页；入选条目原发均在窗口内（death-by-ai 原文页无日期，以 HN 11-18 06:47Z 为准并在简报标注；revscope 原发 11-09 仅作背景 secondary 入账）。
+- 位次取舍记录：Palo Alto $4.5B 收购 Applied Compute、Sierra $30B 融资、Tencent 芯片规则表态、Meta 暂停股票计划、Phrack 73（459）、jQuery 4.1.0、Solid 2.0、Deutsche Bank 调查（524，领域不符）、OpenAI silent-consensus（观点文）等评估排除；Tencent Hy4 Flash 因页面 JS 空壳无法核验排除。
+- T3：arXiv 三通道 200 且有条目（cs.AI 401/cs.CL 162/cs.LG 358），无跨平台高热度论文；hf_papers 默认批次不含窗口内条目，供给充足未逐日补查；Energy-Based Reasoners/DaisyRose-27B 单平台热度不足排除；T3 按纪律 0 入选。
+- 新来源评估：无。启用 T2 热点条目对站外站点引用计数：wiz.io 1、nicolasbouliane.com 1、stackfutures 1、codingislove 1、kernel.dev 1、insidedb 1，均未达"至少 3 条独立热点条目引用"门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
+- config/sources.json：无需改动（24/25 源可达，无来源失效、无降级/恢复触发、无新入口验证需求；本轮引用的 businesswire.com/futureoflife.org/gizmodo.com/wiz.io/blog.google.com/investor.synopsys.com/github.com/onnx.github issues/nicolasbouliane.com/revscope.co/techcrunch.com/stackfutures.com/codingislove.com/theinformation.com 等均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测。msresearch 连续失败第 2 轮（两轮 504），下轮复验；若第 3 轮真实探测仍失败且替代入口验证失败，按规则降为待观察。
+- 入口迁移跟踪：mistral（rss.xml）连续第 16 轮正常；sierra（rss.xml）连续第 7 轮正常；theinformation（/feed，Atom）连续第 13 轮正常；均无需再改动。
+- 发布台账：state/daily-runs.json 新增 2026-11-19 条目（10 条，reports/digest-2026-11-19.md）；state/processed-urls.json 新增 published 29 条（10 事件，primary+secondary）+ excluded 36 条（3 条与既有台账重复跳过）。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-19T00:38+00:00 前后）。

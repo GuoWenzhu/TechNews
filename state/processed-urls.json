@@ -23926,6 +23926,582 @@
    "status": "excluded",
    "reason": "T3 单平台热度不足",
    "evaluated_on": "2026-11-18"
+  },
+  {
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "title": "Unauthenticated RCE in NGINX: CVE-2026-123633 / CVE-2026-123007（Wiz Research）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "nginx-http2-rce",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50547374",
+   "title": "HN：Unauthenticated remote code execution in Nginx（1065 分）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "nginx-http2-rce",
+   "source_pub_time": "2026-11-18T15:19Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "title": "Anthropic prices initial public offering（$83/股，官方）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "anthropic-ipo-pricing",
+   "source_pub_time": "2026-11-18T23:26Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-prices-ipo-83-share",
+   "title": "Anthropic Prices IPO at $83 a Share（The Information，估值 $1.5T）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "anthropic-ipo-pricing",
+   "source_pub_time": "2026-11-18T21:51Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+   "title": "Anthropic reportedly prices IPO at $83 a share, above projected range（TechCrunch）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "anthropic-ipo-pricing",
+   "source_pub_time": "2026-11-18T22:11Z"
+  },
+  {
+   "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+   "title": "MisAnthropic Statement（CAIS 新闻稿）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "misanthropic-statement",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://futureoflife.org/statement/leaders-condemn-anthropic-for-race-to-rsi/",
+   "title": "FLI：Leading figures condemn Anthropic for reckless race to RSI",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "misanthropic-statement",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://gizmodo.com/the-accelerationists-are-trying-to-stop-anthropic-2000841831",
+   "title": "Anthropic's Critics Unite Against It Ahead of IPO（Gizmodo）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "misanthropic-statement",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50548485",
+   "title": "HN：Anthropic Is Not a Safe AI Company（124 分）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "misanthropic-statement",
+   "source_pub_time": "2026-11-18T16:41Z"
+  },
+  {
+   "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "title": "Introducing Gemini 4 Neon（官方）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "gemini-4-neon",
+   "source_pub_time": "2026-11-18T21:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50552424",
+   "title": "HN：Gemini 4 Neon（336 分）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "gemini-4-neon",
+   "source_pub_time": "2026-11-18T21:34Z"
+  },
+  {
+   "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "title": "Genie 4 is now available（官方）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "genie-4-launch",
+   "source_pub_time": "2026-11-18T18:00Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50550415",
+   "title": "HN：Genie 4 is now available（169 分）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "genie-4-launch",
+   "source_pub_time": "2026-11-18T18:49Z"
+  },
+  {
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "title": "Advancing chip design with our models（OpenAI 官方）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "openai-chip-design",
+   "source_pub_time": "2026-11-18T00:00Z"
+  },
+  {
+   "url": "https://investor.synopsys.com/news/news-details/2026/OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design/default.aspx",
+   "title": "OpenAI and Synopsys announce GPT-Synopsys（投资者公告）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "openai-chip-design",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/openai-says-models-accelerated-chip-design-amd-jalapeno",
+   "title": "OpenAI Says Its Models Accelerated Chip Design For AMD, Jalapeño（The Information）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "openai-chip-design",
+   "source_pub_time": "2026-11-18T22:05Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50549493",
+   "title": "HN：Advancing chip design with OpenAI models（147 分）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "openai-chip-design",
+   "source_pub_time": "2026-11-18T17:45Z"
+  },
+  {
+   "url": "https://github.com/microsoft/onnxruntime",
+   "title": "microsoft/onnxruntime（GitHub 404 观测起点）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "onnxruntime-github-vanish",
+   "source_pub_time": "2026-11-17T23:18Z"
+  },
+  {
+   "url": "https://github.com/onnx/onnx/issues/8842",
+   "title": "onnx/onnx #8842：Onnxruntime has disappeared?（缺失清单）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "onnxruntime-github-vanish",
+   "source_pub_time": "2026-11-17T23:48Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50539610",
+   "title": "HN：Microsoft's ONNX Runtime has disappeared from GitHub（450 分）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "onnxruntime-github-vanish",
+   "source_pub_time": "2026-11-17T23:18Z"
+  },
+  {
+   "url": "https://stackfutures.com/blog/microsoft-onnx-runtime-github-404-agent-framework-pypi-credential-stealer-nov-2026/",
+   "title": "ONNX Runtime and Agent Framework Repos Vanish…（Stack Futures 汇总）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "onnxruntime-github-vanish",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://codingislove.com/onnx-runtime-github-removed/",
+   "title": "Microsoft's ONNX Runtime repository disappears from GitHub（codingislove）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "onnxruntime-github-vanish",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://nicolasbouliane.com/blog/death-by-ai",
+   "title": "AI is killing All About Berlin（站长自述，原文页未标注日期）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "ai-overviews-independent-sites",
+   "source_pub_time": "2026-11-18T06:47Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50542705",
+   "title": "HN：AI is killing All About Berlin（750 分/680 评论）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "ai-overviews-independent-sites",
+   "source_pub_time": "2026-11-18T06:47Z"
+  },
+  {
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "title": "Google's AI Overviews cut clicks to websites by 40%（背景，原发 2026-11-09）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "ai-overviews-independent-sites",
+   "source_pub_time": "2026-11-09"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+   "title": "Google's AI feature in Search gets its own incognito mode（TechCrunch）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "secondary",
+   "event": "ai-overviews-independent-sites",
+   "source_pub_time": "2026-11-18T18:04Z"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/microsoft-nears-500-million-deal-sell-ai-bytedance-irking-openai",
+   "title": "Microsoft Nears $500 Million Deal to Sell AI to ByteDance, Irking OpenAI",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "msft-bytedance-azure-openai",
+   "source_pub_time": "2026-11-18T14:00Z"
+  },
+  {
+   "url": "https://blog.cloudflare.com/open-clairic/",
+   "title": "An updated Clairic and Clairic-flash are now open-weight（Cloudflare 官方）",
+   "issue": "TECH-143",
+   "status": "published",
+   "published_on": "2026-11-19",
+   "role": "primary",
+   "event": "clairic-open-weights",
+   "source_pub_time": "2026-11-18T22:00Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/nvidia-holds-first-hands-jensen-huangs-departure",
+   "title": "Nvidia Holds Its First All Hands After Jensen Huang's Departure",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链：Nvidia 治理动荡（TECH-140 已发布财报/董事会事实），全员大会为后续",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/hands-nvidia-interim-ceo-tried-reassure-employees-prevent-talent-loss",
+   "title": "At All Hands, Nvidia Interim CEO Tried To Reassure Employees",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链：Nvidia 治理动荡后续",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidias-board-rebuffs-jensen",
+   "title": "Nvidia's Board Rebuffs Jensen",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链：董事会拒绝回归（TECH-140 电话会事实已发布）",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/jensen-huangs-right-hand-man-oversaw-chip-customers-including-alice-hu",
+   "title": "Jensen Huang's Right-Hand Man Oversaw Chip Customers",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链深挖报道，信息密度不足",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidia-introduced-alibaba-alice-huang-workaround-u-s-export-controls",
+   "title": "Nvidia Introduced Alibaba to Alice Huang for Workaround",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链深挖报道，单源背景",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "title": "Nvidia is abandoning China after Jensen Huang's ouster",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链：零中国收入指引 TECH-140 已发布",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+   "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链后续，信息密度不足",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+   "title": "Satya Nadella remains confident in Nvidia after Huang's exit",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链表态，位次不足",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+   "title": "Elon Musk says ousting Jensen Huang is like 'kicking Michael Jordan off your team'",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件链表态，位次不足",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B（FT）",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件：TECH-140 简报已引用停披新加坡销售事实",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+   "title": "DNS resolvers are the wrong place to fight piracy",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件：Quad9 撤出法国（TECH-140 已发布），评论性文章",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.inside-db.com/",
+   "title": "Inside Deutsche Bank（1500 万文件调查）",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "领域不符：金融合规调查，非工程/Agent/AI 行业新闻",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://phrack.org/issues/73/introduction_md",
+   "title": "Phrack 73",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：安全刊物复刊，热度让位于同窗口 NGINX/ONNX 事件",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+   "title": "jQuery 4.1.0",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：常规版本发布",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+   "title": "Solid 2.0: The Long Hold",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：框架版本发布，密度不及入选条目",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+   "title": "Why is Gemini 4 Carbon taking so long?",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "分析/猜测类文章，非新闻事件",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://hy.tencent.ai/research/hy4-flash",
+   "title": "Tencent Hy4 Flash",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "页面为 JS 空壳，内容与原发时间无法核验",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/palo-alto-networks-acquire-ai-firm-applied-compute-4-5-billion",
+   "title": "Palo Alto Networks to Acquire AI Firm Applied Compute for $4.5 Billion",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：M&A，Top10 已满",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/bret-taylors-sierra-talks-raise-30-billion-valuation",
+   "title": "Bret Taylor's Sierra in Talks to Raise at $30 Billion Valuation",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：融资谈判传闻",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/tencent-president-new-u-s-chip-rule-sets-everyone-back-china",
+   "title": "Tencent President: New U.S. Chip Rule Sets Everyone Back in China",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：政策表态",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/u-s-banks-seek-loan-protections-chip-smuggling-southeast-asian-data-c",
+   "title": "U.S. Banks Seek Loan Protections Against Chip Smuggling",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：贷款条款细节",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/meta-pauses-new-stock-plan-amid-legal-challenge",
+   "title": "Meta Pauses New Stock Plan Amid Legal Challenge",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：公司治理，非工程/AI 技术",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+   "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores（HN 1282 分）",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "领域不符：教育研究，非科技行业",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/11/261110042543.htm",
+   "title": "Energy drinks linked to 11 times more reports of cardiac arrest",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "领域不符：健康关联研究",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+   "title": "Cambridge Dictionary names 'human' Word of the Year 2026",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：文化类，AI 相关性弱",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://energy-based-reasoners.github.io/",
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "T3 单平台热度不足（无跨平台讨论核验）",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.radixark.com/blog/daisyrose-27b",
+   "title": "DaisyRose-27B: 1,200-task RL on Terminal-Bench 4.1",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "T3 单平台热度不足",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "来源权威性不足：单源媒体，KPMG 审计结论无法交叉核验",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "title": "Managing frontier AI risk（OpenAI 安全框架综述）",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：方法论综述，与已发布安全论文脉络重叠（简报第 3 条已作背景引用）",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://openai.com/index/the-silent-consensus",
+   "title": "The Silent Consensus（Harvard 讲座改编）",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "观点/演讲改编文章，非新闻事件",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://openai.com/index/inside-the-codex-sandbox",
+   "title": "Inside the Codex sandbox",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：工程幕后文",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "title": "Research acceleration: jagged frontier",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：研究综述",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.anthropic.com/news/anthropic-institute-agenda",
+   "title": "Anthropic Institute agenda",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：议程页，sitemap 批量再生 lastmod",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.anthropic.com/news/cyber-verification-program",
+   "title": "Expanding the Cyber Verification Program",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "窗口外：页面原发 2026-10-06（11-18 lastmod 为页面更新）",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "title": "Claude black hole physics",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "原发时间无法核验（sitemap lastmod 批量再生疑义），位次不足",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://www.sierra.ai/blog/ghostwriters-performance-review",
+   "title": "Sierra: Ghostwriters performance review",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "位次不足：工程文化文",
+   "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://developer.apple.com/system-status/",
+   "title": "Apple Services Down（HN 718 分）",
+   "issue": "TECH-143",
+   "status": "excluded",
+   "reason": "同事件：Apple 服务故障 TECH-140 已评估排除（消费级故障位次不足）",
+   "evaluated_on": "2026-11-19"
   }
  ]
 }
