@@ -1,35 +1,35 @@
 {
  "version": 1,
  "note": "来源健康台账：每次运行覆盖为最新一次采集结果；连续计数按 rules/collection.md 滚动。",
- "last_run": "2026-11-19T00:15:57.157253+00:00",
- "issue": "TECH-143",
+ "last_run": "2026-11-20T00:35:00+00:00",
+ "issue": "TECH-146",
  "sources": {
   "anthropic_news": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 4,
-   "items_published": 1,
-   "notes": "200；窗口内 lastmod 4 条：IPO 定价（11-18 23:26，入选）、advancing-claude-financial-services（11-17，位次不足）、institute-agenda/cyber-verification-program（lastmod 更新，原发 10-06 窗口外/议程页）"
+   "items_in_window": 3,
+   "items_published": 0,
+   "notes": "200；窗口内 lastmod 3 条：IPO 定价（TECH-143 已发布）、institute-agenda 与 cyber-verification-program（原发 10-06 窗口外，17:12 批量再生）均维持排除；本轮 IPO 首日事件主链为 AP/CNBC，官方页无新内容"
   },
   "anthropic_research": {
    "tier": "T1",
    "status": "ok",
    "method": "sitemap",
    "entry_used": "https://www.anthropic.com/sitemap.xml",
-   "items_in_window": 3,
-   "items_published": 0,
-   "notes": "200；窗口内 distinct lastmod 3 条（safety-evaluations 原发 11-13、formal-verification 原发 10-22、black-hole-physics 无法核验原发），17:12 批量再生 lastmod 7 条判定旧页，均未入选"
+   "items_in_window": 9,
+   "items_published": 1,
+   "notes": "200；claude-black-hole-physics（lastmod 11-18 21:42）经页面核验 + HN 347 分跨平台热度，原 excluded 台账条目原位更新为 published；formal-verification（11-19 lastmod）原发 10-22 窗口外，17:12 批量再生 7 条均旧页"
   },
   "openai": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://openai.com/news/rss.xml",
-   "items_in_window": 12,
+   "items_in_window": 11,
    "items_published": 1,
-   "notes": "200；窗口内 12 条（chip-design 入选；silent-consensus 观点文、frontier-risk 综述、codex-sandbox、jagged-frontier、figaro、chatgpt-for-sales、astra-law 等排除）；正文页 curl 403，经 fetch 管道成功核验 2 篇"
+   "notes": "200；Performance Factory（11-19 08:00Z）入选；codex-security-plugin/pr-scans/daybreak-blue 演示页排除（产品 11-10 已发布）、Sumitomo 客户案例排除；silent-consensus/jagged-frontier/codex-sandbox/frontier-risk/figaro/chip-design 均已处理过"
   },
   "deepmind": {
    "tier": "T1",
@@ -37,8 +37,8 @@
    "method": "rss/atom",
    "entry_used": "https://deepmind.google/blog/rss.xml",
    "items_in_window": 2,
-   "items_published": 2,
-   "notes": "200；Gemini 4 Neon（21:00Z）与 Genie 4（18:00Z）双双入选"
+   "items_published": 0,
+   "notes": "200；Gemini 4 Neon（11-18 21:35Z）与 Genie 4（18:13Z）均为 TECH-143 已发布事件，无新内容"
   },
   "meta_ai": {
    "tier": "T1",
@@ -47,16 +47,16 @@
    "entry_used": "https://research.meta.ai/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；JS 页无逐条日期可解析（muse 系列链接清单），窗口内 0 条可确认"
+   "notes": "200；JS 页无逐条日期可解析（最新 Muse Wonder/Muse Ember 清单），窗口内 0 条可确认；Muse Charm 事件经 The Information/TechCrunch 收录"
   },
   "msresearch": {
    "tier": "T1",
-   "status": "blocked",
+   "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://www.microsoft.com/en-us/research/blog/feed/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "连续失败第 2 轮：两次尝试均 HTTP 504（Azure Application Gateway 上游超时），判临时不可达非失效；未达降级线，下轮复验"
+   "notes": "恢复：连续 2 轮 504 后本轮真实探测成功（feed 200 可解析 10 条，窗口内 0 条），失败计数清零；未触发降级线"
   },
   "mistral": {
    "tier": "T1",
@@ -65,7 +65,7 @@
    "entry_used": "https://mistral.ai/rss.xml",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；窗口内 0 条，连续第 16 轮正常"
+   "notes": "200；窗口内 0 条，迁移入口连续第 17 轮正常"
   },
   "sierra": {
    "tier": "T1",
@@ -74,7 +74,7 @@
    "entry_used": "https://sierra.ai/rss.xml",
    "items_in_window": 1,
    "items_published": 0,
-   "notes": "200；ghostwriters-performance-review（11-18）位次不足，连续第 7 轮正常"
+   "notes": "200；ghostwriters-performance-review（11-18 16:02Z）连续第 2 轮位次不足，迁移入口连续第 8 轮正常"
   },
   "scale": {
    "tier": "T1",
@@ -83,52 +83,52 @@
    "entry_used": "https://scale.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；HTML 无逐条日期，最新时间戳 2026-11-17T03:25 未定位到对应条目，窗口内 0 条可确认"
+   "notes": "200；HTML 无逐条日期（最新 The Anatomy of AI Deployment 等），窗口内 0 条可确认"
   },
   "github": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://github.blog/feed/",
-   "items_in_window": 2,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "200；窗口内 2 条均为一般工程文，位次不足"
+   "notes": "200；窗口内 1 条（best-things-in-open-source 社论文）排除"
   },
   "shopify": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://shopify.engineering/blog.atom",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "200；窗口内 0 条"
+   "notes": "200；窗口内 1 条（secure-agentic-apps 工程实践文）位次不足排除"
   },
   "netflix": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://netflixtechblog.com/feed",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；窗口内 1 条（AI Discover 已于 TECH-140 发布）"
+   "notes": "200；窗口内 0 条"
   },
   "airbnb": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://medium.com/feed/airbnb-engineering",
-   "items_in_window": 1,
+   "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；窗口内 1 条位次不足"
+   "notes": "200；窗口内 0 条"
   },
   "stripe": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://stripe.com/blog/feed.rss",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "200；窗口内 0 条"
+   "items_in_window": 1,
+   "items_published": 1,
+   "notes": "200；Treasury agent 写入权限（11-19 00:00Z）入选；RSS 内 link 字段截断（...move-f），以页面实测完整 URL 入账"
   },
   "cloudflare": {
    "tier": "T1",
@@ -136,17 +136,17 @@
    "method": "rss/atom",
    "entry_used": "https://blog.cloudflare.com/rss/",
    "items_in_window": 3,
-   "items_published": 1,
-   "notes": "200；open-clairic（22:00Z）入选；java4shell-waf-protection 为 TECH-140 Java4Shell 事件后续（并入已发布事件，未重复收录）"
+   "items_published": 0,
+   "notes": "200；midterm elections 流量报告位次不足排除；Clairic（TECH-143）与 Java4Shell WAF（TECH-140）为已发布事件"
   },
   "vercel": {
    "tier": "T1",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://vercel.com/atom",
-   "items_in_window": 0,
-   "items_published": 0,
-   "notes": "200；窗口内 0 条"
+   "items_in_window": 10,
+   "items_published": 2,
+   "notes": "200；Vercel Board（博客+changelog）入选；Vercel X 加速器（项目招募非新闻事件）与 Billing CLI 等其余 changelog 排除"
   },
   "cursor": {
    "tier": "T1",
@@ -155,16 +155,16 @@
    "entry_used": "https://cursor.com/blog",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；最新条目 2026-11-13，窗口内 0 条"
+   "notes": "200；页面为导航壳，最新条目 2026-09 级别时间戳，窗口内 0 条"
   },
   "hn": {
    "tier": "T2",
    "status": "ok",
    "method": "algolia-api",
-   "entry_used": "https://hn.algolia.com/api/v1/search_by_date (numericFilters=created_at_i%3E{窗口起点}%2Cpoints%3E120)",
+   "entry_used": "https://hn.algolia.com/api/v1/search_by_date (numericFilters=created_at_i>1794960000,points>120) + front_page 并集",
    "items_in_window": 73,
-   "items_published": 7,
-   "notes": "200；points>120 共 61 条 + 首页 50 条并集去重 73 条；经 HN 发现并入选 7 事件链接（NGINX 1065、death-by-AI 750、ONNX 450、Genie 4 169、chip-design 147、MisAnthropic 124、Neon 336）；Apple 故障（718，TECH-140 已排除）、Deutsche Bank（524，领域不符）、Phrack 73（459）、ID.me（491）、Quad9 评论（569，同事件）等评估排除"
+   "items_published": 5,
+   "notes": "200；points>120 共 60 条 + 首页 40 条并集去重 73 条窗口内候选；经 HN 发现并入选 5 条讨论链接（IPO debut 836、EC Matrix 648、UK-Apple TCN 465、Ruby2Shell 378、Claude 黑洞 347）；Garage Door Spam 722 为窗口外旧文回热"
   },
   "techcrunch_ai": {
    "tier": "T2",
@@ -172,8 +172,8 @@
    "method": "rss/atom",
    "entry_used": "https://techcrunch.com/category/artificial-intelligence/feed/",
    "items_in_window": 20,
-   "items_published": 2,
-   "notes": "200；IPO 报道与 AI 搜索隐身模式作为 secondary 入账；Nvidia 同事件链 5 条排除"
+   "items_published": 3,
+   "notes": "200；IPO $156B 分析、Muse Charm、Gemini computer use 作为入账链接；Nvidia 事件链 6 条、Nadella 表态 3 条、Palmer Luckey 2 条、IPO 同事件 3 条等排除"
   },
   "theinformation": {
    "tier": "T2",
@@ -181,8 +181,8 @@
    "method": "rss/atom",
    "entry_used": "https://www.theinformation.com/feed",
    "items_in_window": 20,
-   "items_published": 3,
-   "notes": "200（Atom）；ByteDance $500M（primary 入选）、IPO、chip-design secondary 入账；Nvidia 同事件链 6 条与 M&A/政策表态类排除；连续第 13 轮正常"
+   "items_published": 1,
+   "notes": "200（Atom）；Muse Charm $300 作为 secondary 入账；Apple AI agent、Nvidia-Diffusion 收购、白宫网络沙长离职等单一付费源未经核验排除；Nvidia 事件链与出口管制链后续排除；连续第 14 轮正常"
   },
   "a16z": {
    "tier": "T2",
@@ -191,43 +191,43 @@
    "entry_used": "https://a16z.com/ai/",
    "items_in_window": 0,
    "items_published": 0,
-   "notes": "200；页面时间戳稀疏且最新为 2026-02，窗口内 0 条"
+   "notes": "200；页面时间戳最新为 2026-02，窗口内 0 条"
   },
   "arxiv_csai": {
    "tier": "T3",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://rss.arxiv.org/rss/cs.AI",
-   "items_in_window": 401,
+   "items_in_window": 362,
    "items_published": 0,
-   "notes": "200；T3 按纪律 0 入选（无跨平台高热度论文）"
+   "notes": "200；11-19 批 362 条，无跨平台高热度论文，T3 按纪律 0 入选"
   },
   "arxiv_cscl": {
    "tier": "T3",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://rss.arxiv.org/rss/cs.CL",
-   "items_in_window": 162,
+   "items_in_window": 134,
    "items_published": 0,
-   "notes": "200；T3 按纪律 0 入选"
+   "notes": "200；11-19 批 134 条，无跨平台高热度论文，T3 按纪律 0 入选"
   },
   "arxiv_cslg": {
    "tier": "T3",
    "status": "ok",
    "method": "rss/atom",
    "entry_used": "https://rss.arxiv.org/rss/cs.LG",
-   "items_in_window": 358,
+   "items_in_window": 370,
    "items_published": 0,
-   "notes": "200；T3 按纪律 0 入选"
+   "notes": "200；11-19 批 370 条，无跨平台高热度论文，T3 按纪律 0 入选"
   },
   "hf_papers": {
    "tier": "T3",
    "status": "ok",
    "method": "api",
    "entry_used": "https://huggingface.co/api/daily_papers",
-   "items_in_window": 0,
+   "items_in_window": 1,
    "items_published": 0,
-   "notes": "200；默认返回批次不含窗口内条目（publishedAt 均 < 2026-11-17），窗口内 0 篇；本轮 T3 0 入选，未再逐日补查（供给充足）"
+   "notes": "200；默认批次 50 条中仅 AVTR（11-18 05:05Z）落窗口，无跨平台讨论，供给充足未逐日补查；T3 按纪律 0 入选"
   }
  }
 }

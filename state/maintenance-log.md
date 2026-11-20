@@ -487,3 +487,18 @@
 - 入口迁移跟踪：mistral（rss.xml）连续第 16 轮正常；sierra（rss.xml）连续第 7 轮正常；theinformation（/feed，Atom）连续第 13 轮正常；均无需再改动。
 - 发布台账：state/daily-runs.json 新增 2026-11-19 条目（10 条，reports/digest-2026-11-19.md）；state/processed-urls.json 新增 published 29 条（10 事件，primary+secondary）+ excluded 36 条（3 条与既有台账重复跳过）。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-19T00:38+00:00 前后）。
+
+## 2026-11-20（TECH-146）
+
+- 采集：25 个启用来源全部可达（HTTP 200），msresearch feed 本轮真实探测成功（feed 200 可解析 10 条，窗口内 0 条），连续失败计数清零恢复。窗口 2026-11-18T00:00Z–采集时刻（48h）；窗口内候选约 1,545 条（arXiv 866、HN 73、TechCrunch 20、The Information 20、Vercel 10、OpenAI 11 等）；发布 10 个事件、简报 reports/digest-2026-11-20.md（items_published=10，published 台账 27 条）。
+- 入选 Top10：Anthropic IPO 首日（开盘 $111.50/盘中 $2.01T/收盘 $97.17 +17%，史上最大 IPO $81.3B，TC 估算 $156B 慈善流向）、Claude 解决两个黑洞物理开放问题（官方研究页+预印本+Lean 验证+HN 347）、Gemini macOS computer use（官方博客+TC/9to5Google）、OpenAI Performance Factory（官方，1,700+ 调查/600+ 根因）、英国 IPT 裁决政府必须承认 Apple TCN（裁定+Reuters+macanorak，HN 465）、欧盟委员会 Matrix 4 万员工（Element 官方 11-19，HN 648）、Ruby2Shell CVE-2026-132825（Veria Labs+ruby-lang 公告，HN 378）、Stripe Treasury agent 写入权限（官方）、Vercel Board 多 agent 协调原语（官方）、Meta Muse Charm $300（TI+TC）。
+- 去重与窗口判定：Anthropic IPO 定价（TECH-143 已发布）的首日交易为同事件链新事实，按 Nvidia 财报先例以"首日表现+慈善结构估算"新事件收录；Nvidia 治理动荡全部后续（Jensen 时间线、Musk/Nadella 表态、临时 CEO 全员会、SEC 未备案）判定已发布事件链排除；BIS 出口管制链（阿里 CEO 表态、Moonshot 弃约、商务部 H200）判定 TECH-137 事件链排除；Java4Shell 9 月报告（HN 346）为 TECH-140 事件后续；Quad9 评论文（678）为 TECH-140 事件评论；Anthropic research 17:12 批量再生 lastmod 7 条经核验均为旧页，formal-verification 原发 10-22 窗口外；claude-black-hole-physics 原发时间以页面 lastmod（11-18 21:42Z）+HN 同日讨论为口径，原 excluded 台账条目原位更新为 published（该事件首次具备跨平台热度）；Garage Door Spam（HN 722）为窗口外旧文回热排除。
+- 位次取舍记录：Nadella 6 万买断访谈解释（DealBook，买断主体为 10 月窗口外事件）与微软表态类 3 条、PHP 8.6（269）、"Fuck Your AI Safeguards"（457，观点文）、"We need smart people"（773，观点文）、15M web servers（375，技术博客）、SSD 价格预测（295）、Codeberg 中断（319，瞬时故障）、KPMG 审计（TECH-143 已排除）等评估后未入 Top10；Cloudflare 中期选举流量报告位次不足；Visa/MC/JPM 数据泄露（25 分）发展早期单源排除。
+- T3：arXiv 三通道 200 且有条目（cs.AI 362/cs.CL 134/cs.LG 370，11-19 批），无跨平台高热度论文；hf_papers 默认批次 50 条仅 AVTR 落窗口、无跨平台讨论；Energy-Based Reasoners/DaisyRose-27B 维持单平台热度不足排除；T3 按纪律 0 入选。
+- 新来源评估：无。启用 T2 热点条目对站外站点引用计数：verialabs.com 1、macanorak.com 1、hexagonmath.org 1、apnews/cnbc（事件一手核验）均未达"至少 3 条独立热点条目引用"门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
+- config/sources.json：无需改动（25 源全部可达，无来源失效、无降级/恢复触发、无新入口验证需求），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测。msresearch 恢复正常，下轮常规复验。
+- 入口迁移跟踪：mistral（rss.xml）连续第 17 轮正常；sierra（rss.xml）连续第 8 轮正常；theinformation（/feed，Atom）连续第 14 轮正常；均无需再改动。
+- 采集特例：Stripe RSS 的 <link> 字段以截断形态输出（.../move-f），已按页面实测完整 URL（.../move-funds）入账；OpenAI RSS 间歇性返回空解析结果，经落盘文件重解析稳定（1417 条），属解析层而非源故障。
+- 发布台账：state/daily-runs.json 新增 2026-11-20 条目（10 条，reports/digest-2026-11-20.md）；state/processed-urls.json 新增 published 26 条（10 事件 primary+secondary，另 1 条 claude-black-hole-physics 原位 excluded→published）+ excluded 84 条（5 条与既有台账重复跳过）。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-20T00:35Z 前后）。

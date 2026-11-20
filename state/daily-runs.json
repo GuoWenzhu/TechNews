@@ -401,6 +401,16 @@
    "items_published": 10,
    "git_branch": "main",
    "dedup_basis": "state/processed-urls.json v1"
+  },
+  {
+   "date": "2026-11-20",
+   "issue": "TECH-146",
+   "issue_id": "01a1f641-4fdf-70f5-8f3a-eccca05f2655",
+   "status": "published",
+   "briefing_file": "reports/digest-2026-11-20.md",
+   "items_published": 10,
+   "git_branch": "main",
+   "dedup_basis": "state/processed-urls.json v1"
   }
  ]
 }

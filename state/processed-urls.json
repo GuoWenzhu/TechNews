@@ -24481,11 +24481,15 @@
   },
   {
    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "title": "Claude black hole physics",
-   "issue": "TECH-143",
-   "status": "excluded",
+   "title": "Claude black hole physics（Anthropic Research）",
+   "issue": "TECH-146",
+   "status": "published",
    "reason": "原发时间无法核验（sitemap lastmod 批量再生疑义），位次不足",
-   "evaluated_on": "2026-11-19"
+   "evaluated_on": "2026-11-19",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "claude-black-hole-physics",
+   "source_pub_time": "2026-11-18T21:42Z（sitemap lastmod；页面未标注原发）"
   },
   {
    "url": "https://www.sierra.ai/blog/ghostwriters-performance-review",
@@ -24502,6 +24506,938 @@
    "status": "excluded",
    "reason": "同事件：Apple 服务故障 TECH-140 已评估排除（消费级故障位次不足）",
    "evaluated_on": "2026-11-19"
+  },
+  {
+   "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649",
+   "title": "Anthropic surges in market debut after biggest IPO on record（AP）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "anthropic-ipo-debut-day",
+   "source_pub_time": "2026-11-19（美东收盘前后）"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+   "title": "Anthropic IPO live updates: ANT debuts（CNBC 实时报道）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "anthropic-ipo-debut-day",
+   "source_pub_time": "2026-11-19（实时更新至美东 19:04）"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+   "title": "Anthropic's IPO could deliver $156B to charity（TechCrunch 分析）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "anthropic-ipo-debut-day",
+   "source_pub_time": "2026-11-19T19:10Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50562754",
+   "title": "Anthropic's Nasdaq debut（HN 836 分/1598 评论）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "anthropic-ipo-debut-day",
+   "source_pub_time": "2026-11-19T17:02Z"
+  },
+  {
+   "url": "https://hexagonmath.org/2611.00175v1",
+   "title": "Hawking-Page 相变预印本（2611.00175）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "claude-black-hole-physics",
+   "source_pub_time": "2026-11-18T21:42Z（页面 lastmod）"
+  },
+  {
+   "url": "https://hexagonmath.org/2611.00174v1",
+   "title": "模块化 bootstrap 精确上界预印本（2611.00174）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "claude-black-hole-physics",
+   "source_pub_time": "2026-11-18T21:42Z（页面 lastmod）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50563148",
+   "title": "Claude solves two open problems in the physics of black holes（HN 347 分）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "claude-black-hole-physics",
+   "source_pub_time": "2026-11-19T17:30Z"
+  },
+  {
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+   "title": "Automate Mac tasks with Gemini computer use（Google 官方）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "gemini-mac-computer-use",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "title": "Google gives Gemini the ability to use your Mac for you（TechCrunch）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "gemini-mac-computer-use",
+   "source_pub_time": "2026-11-19T18:09Z"
+  },
+  {
+   "url": "https://9to5google.com/2026/11/19/gemini-mac-computer-use/",
+   "title": "Gemini app for Mac adds computer use（9to5Google）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "gemini-mac-computer-use",
+   "source_pub_time": "2026-11-19T18:55Z"
+  },
+  {
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "title": "How OpenAI's Performance Factory keeps ChatGPT fast（OpenAI 官方）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "openai-performance-factory",
+   "source_pub_time": "2026-11-19T08:00Z"
+  },
+  {
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "title": "UK government forced to admit it issued Apple a secret encryption order（macanorak 法律分析）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "uk-apple-tcn-tribunal",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://www.reuters.com/business/retail-consumer/uk-tribunal-confirms-government-order-demanding-access-apple-data-2026-11-19/",
+   "title": "UK tribunal confirms government order demanding access to Apple data（Reuters）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "uk-apple-tcn-tribunal",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://fipr.org/20250721-AppleTCN.pdf",
+   "title": "Apple Technical Capability Notice 文本（FIPR 公开）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "uk-apple-tcn-tribunal",
+   "source_pub_time": "2025-07-21（文件公开日期，命令 2025-01 下达）"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50562113",
+   "title": "UK government forced to admit it issued Apple a secret encryption order（HN 465 分）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "uk-apple-tcn-tribunal",
+   "source_pub_time": "2026-11-19T16:21Z"
+  },
+  {
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "title": "How the European Commission rolled out Matrix to more than 40,000 staff（Element 官方博客）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "ec-matrix-40k-rollout",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50558533",
+   "title": "How the European Commission rolled out Matrix to more than 40k staff（HN 648 分）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "ec-matrix-40k-rollout",
+   "source_pub_time": "2026-11-19T10:58Z"
+  },
+  {
+   "url": "https://verialabs.com/ruby2shell/",
+   "title": "Ruby2Shell (CVE-2026-132825, GHSA-34m4-m9fh-gqp5)（Veria Labs 披露）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "ruby2shell",
+   "source_pub_time": "2026-11-19T23:59Z（披露页更新；官方公告 2026-11-18）"
+  },
+  {
+   "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+   "title": "Multiple vulnerabilities in Regexp and String case conversion（ruby-lang 官方）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "ruby2shell",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://github.com/ruby/ruby/commit/d582f8f13d700d8e39714d3a8f11eb4bd2bc69f0",
+   "title": "ruby/ruby@d582f8f 修复提交",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "ruby2shell",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50556287",
+   "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails（HN 378 分）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "ruby2shell",
+   "source_pub_time": "2026-11-19T05:09Z"
+  },
+  {
+   "url": "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds",
+   "title": "Give your agents controlled access to analyze your data and move funds（Stripe 官方）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "stripe-treasury-agent-write",
+   "source_pub_time": "2026-11-19T00:00Z"
+  },
+  {
+   "url": "https://vercel.com/blog/introducing-vercel-board",
+   "title": "Introducing Vercel Board（Vercel 官方）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "vercel-board",
+   "source_pub_time": "2026-11-18T08:00Z"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-board-is-now-available",
+   "title": "Vercel Board is now available（changelog）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "vercel-board",
+   "source_pub_time": "2026-11-18T05:00Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+   "title": "Meta's new Muse Charm device may cost $300（TechCrunch，Meta 回应）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "primary",
+   "event": "meta-muse-charm-price",
+   "source_pub_time": "2026-11-19T21:58Z"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/meta-bets-300-muse-charm-boost-ai-hardware-business",
+   "title": "Meta Bets on $300 Muse Charm to Boost AI Hardware Business（The Information）",
+   "issue": "TECH-146",
+   "status": "published",
+   "published_on": "2026-11-20",
+   "role": "secondary",
+   "event": "meta-muse-charm-price",
+   "source_pub_time": "2026-11-19T19:11Z"
+  },
+  {
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "title": "learn",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "非新事件：Codex Security/Daybreak 2026-11-10 已发布（npm 0.9.1），本轮为演示页",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "title": "learn",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "非新事件：Codex Security 演示页",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "title": "learn",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "产品引导/演示页，非新闻事件",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/sumitomo-life",
+   "title": "customer-stories",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "客户案例，非新闻事件",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "title": "nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：Nvidia 治理动荡 TECH-140 已发布事件链（时间线汇编无独立新事实）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "title": "anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：并入 anthropic-ipo-debut-day（开盘价多源已覆盖）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+   "title": "at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：并入 anthropic-ipo-debut-day",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-opens-trading-111-5-passes-2-trillion-market-cap",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：并入 anthropic-ipo-debut-day",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-closes-first-trading-day-97-share-17-ipo-price",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：并入 anthropic-ipo-debut-day",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+   "title": "anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件 IPO 链分析文",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropics-public-debut-looms",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件 IPO 前瞻",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropic-pushing-new-products-big-discounts-justify-huge-valuation",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件 IPO 链报道，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/will-anthropics-ipo-lead-exodus-anthropic-employees",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件 IPO 链报道，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+   "title": "microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "位次不足：10 月 6 万买断事件的访谈解释（DealBook Summit），事件主体在窗口外，与 Vercel Board（T1 产品发布）相比位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+   "title": "satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "表态类访谈，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+   "title": "amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructu",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "表态类，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+   "title": "palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-s",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "表态类，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+   "title": "palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "表态类/同事件链",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/chinas-moonshot-ai-scraps-150-million-deal-access-nvidia-chips-indonesia",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "单一付费源且为出口管制事件链后续",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/u-s-commerce-department-rushed-clear-nvidia-h200-exports-china",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "出口管制事件链后续，单一付费源",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/exclusive-tiktok-appear-house-meeting-national-security-concerns",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "政策动态，单一付费源，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/white-house-cyber-chief-sean-cairncross-step",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "政策人事变动，单一付费源，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/alphabet-energy-deals-delayed-amid-weak-muni-market",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/wall-street-short-seller-alleges-amd-business-ties-china",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "单一付费源指控，未经独立核验",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "单一付费源 M&A 传闻，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/apple-developing-ai-agent-rival-meta-openai",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "单一付费源传闻，未经独立核验",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/servicenow-builds-ai-weapon-target-salesforce-customers",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "厂商竞争策略报道，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/google-selects-bezos-blue-origin-data-center-satellite-test",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/bending-spoons-tap-convertible-bonds-next",
+   "title": "articles",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "金融领域外，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/alibaba-ceo-warns-impact-new-u-s-chip-rule",
+   "title": "briefings",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：BIS 出口管制 TECH-137 已发布事件链表态",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+   "title": "these-tech-outages-are-giving-y2k-ai-agent-style",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "行业观察汇编文，非单一新闻事件",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+   "title": "superhuman-pushes-its-go-assistant-everywhere",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "产品更新，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+   "title": "former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-fact",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "融资新闻，领域外位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "title": "metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "单一转述报道（引述第三方报告），待官方回应，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+   "title": "internet-traffic-2026-us-election",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "官方选举流量报告，时效性专项，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+   "title": "the-best-things-in-open-source-are-built-together",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "一般性社论文章，非新闻事件",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://shopify.engineering/secure-agentic-apps",
+   "title": "shopify.engineering",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "工程实践文章，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://sierra.ai/blog/ghostwriters-performance-review",
+   "title": "blog",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "位次不足（连续两轮评估）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://www.php.net/releases/8.6/en.php",
+   "title": "8.6",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "常规版本发布，位次不足",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50564159",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "观点文章非新闻事件（广告业分析，HN 176）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50563066",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "医学领域外（HN 482）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50562636",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "个人博客观察，位次不足（HN 122）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50562262",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "技术博客观点文非新闻事件（HN 457）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50558906",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：Java4Shell TECH-140 已发布事件后续（9 月已报缺陷）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50557870",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "常规版本发布，位次不足（HN 269）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50557716",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "市场预测分析文非新闻事件（HN 295）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50557661",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "技术博客非新闻事件（HN 240）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50557537",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "技术博客非新闻事件（HN 251）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50556533",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "技术博客非新闻事件（HN 375）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50554374",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "第三方评论文非新闻事件（HN 250）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50554045",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "观点文章非新闻事件（HN 773）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50554010",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "观点文章非新闻事件（HN 175）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50553225",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "技术博客非新闻事件（HN 296）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50551046",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同上轮评估：单平台热度不足（TECH-143 已排除，HN 249）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50550062",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "趣味内容领域外（HN 255）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50548991",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "领域外项目（HN 132）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50548660",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "Show HN 项目展示非新闻事件（HN 137）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50548161",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "Show HN 项目展示非新闻事件（HN 234）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50548004",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "内核安全补丁动态，位次不足（HN 192）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50547980",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "Show HN 项目展示非新闻事件（HN 248）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50547620",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同上轮评估：领域不符（TECH-143 已排除，HN 770）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50547583",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "领域外（HN 194）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50547344",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "领域外（HN 378）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50547048",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "领域外（HN 249）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50546967",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "科普内容非新闻事件（HN 178）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50546922",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "科普内容非新闻事件（HN 135）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50546914",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "文化领域外（HN 300）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50546465",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "医学领域外（HN 214）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50545958",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同事件：Quad9 撤出法国 TECH-140 已发布事件评论（HN 678）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50544821",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "Show HN 项目展示非新闻事件（HN 140）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50544261",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "瞬时基础设施故障（状态页显示恢复），位次不足（HN 319）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50543989",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "同上轮评估：单平台热度不足（TECH-143 已排除，HN 315）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50542135",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "职场话题领域外（HN 510）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50541790",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "分析/猜测文非新闻事件（HN 276）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50541619",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "第三方博客分析非新闻事件（HN 177）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50561515",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "Show HN 领域外（HN 178）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50561508",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "访谈内容非新闻事件（HN 206）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50560955",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "能源领域外（HN 148）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50560822",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "领域外资源站（HN 351）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50559719",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "领域外（HN 235）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50559179",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "科研领域外（HN 136）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50567209",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "厂商安全公告，位次不足（HN 72）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50567735",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "司法动态，热度不足（HN 30）",
+   "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50568082",
+   "title": "news.ycombinator.com",
+   "issue": "TECH-146",
+   "status": "excluded",
+   "reason": "发展早期、单一匿名源，热度与可核验性不足（HN 25）",
+   "evaluated_on": "2026-11-20"
   }
  ]
 }
