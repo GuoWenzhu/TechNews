@@ -24969,11 +24969,16 @@
   },
   {
    "url": "https://www.theinformation.com/briefings/apple-developing-ai-agent-rival-meta-openai",
-   "title": "briefings",
-   "issue": "TECH-146",
-   "status": "excluded",
+   "title": "Apple Developing AI Agent to Rival Meta and OpenAI（The Information）",
+   "issue": "TECH-149",
+   "status": "published",
    "reason": "单一付费源传闻，未经独立核验",
-   "evaluated_on": "2026-11-20"
+   "evaluated_on": "2026-11-20",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "apple-mac-ai-agent",
+   "source_pub_time": "2026-11-19T22:49Z",
+   "note": "原 TECH-146 excluded（单一付费源）原位转 published：Bloomberg 11-19 首报 + TC 跟进证实"
   },
   {
    "url": "https://www.theinformation.com/articles/servicenow-builds-ai-weapon-target-salesforce-customers",
@@ -25033,11 +25038,16 @@
   },
   {
    "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-   "title": "metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-",
-   "issue": "TECH-146",
-   "status": "excluded",
+   "title": "TechCrunch：Meta's AI agent Muse is mixing up conversations and could be exposing private data",
+   "issue": "TECH-149",
+   "status": "published",
    "reason": "单一转述报道（引述第三方报告），待官方回应，位次不足",
-   "evaluated_on": "2026-11-20"
+   "evaluated_on": "2026-11-20",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "muse-privacy-mixup",
+   "source_pub_time": "2026-11-19T17:38Z",
+   "note": "原 TECH-146 excluded（单一转述待核验）原位转 published：Reuters 11-18 调查首报证实（报告主体）"
   },
   {
    "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
@@ -25438,6 +25448,532 @@
    "status": "excluded",
    "reason": "发展早期、单一匿名源，热度与可核验性不足（HN 25）",
    "evaluated_on": "2026-11-20"
+  },
+  {
+   "url": "https://alpo.ge/remark.pdf",
+   "title": "Levent Alpöge：黎曼猜想可编译 Lean 证明声明（一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+   "title": "riemann-hypothesis-lean：17.4M 行 Lean 代码仓库（一手产物）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://scottaaronson.blog/?p=10344",
+   "title": "Scott Aaronson：The stochastic parrots have apparently proved the Riemann Hypothesis（专家评述）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "title": "Ravi Vakil 公布 Alessandro Masullo 全人工 GRH 证明草稿（一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://github.com/tristanbuckmaster/navier-stokes",
+   "title": "Buckmaster/Alpöge Navier-Stokes 相关证明仓库（一手产物）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://github.com/google-deepmind/math-horizon",
+   "title": "Google DeepMind math-horizon 仓库（一手产物）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "title": "TechCrunch：AI claimed a solution to the Riemann hypothesis — and a human did, too",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20T19:32Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-mathematician-says-proved-riemann-hypothesis",
+   "title": "Anthropic Mathematician Says He Proved Riemann Hypothesis（The Information）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20T23:24Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50574968",
+   "title": "HN：Levent Alpöge claims proof of the Generalized Riemann Hypothesis（2,284 分）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20T14:16Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50581084",
+   "title": "HN：The stochastic parrots have apparently proved the Riemann Hypothesis（185 分）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20T20:03Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50582629",
+   "title": "HN：Google DeepMind created a math horizon repo（43 分）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "riemann-grh-claims",
+   "source_pub_time": "2026-11-20T21:42Z"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50578358",
+   "title": "HN：Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "同 riemann-grh-claims 事件链讨论（Buckmaster 证明相关），已并入该事件收录",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://depthfirst.com/research/phpaftershell",
+   "title": "depthfirst：phpAfterShell（CVE-2026-126714）披露（一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "phpaftershell-php-2026-11",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://github.com/php/php-src/security/advisories/GHSA-fm2m-fjf5-v3cp",
+   "title": "PHP 官方安全公告 GHSA-fm2m-fjf5-v3cp + 8.2.36/8.3.37/8.4.28/8.5.13/8.6.0 修复（一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "phpaftershell-php-2026-11",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+   "title": "Cloudflare WAF phpAfterShell 防护分析（WAF 规则覆盖与 17 漏洞清单）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "phpaftershell-php-2026-11",
+   "source_pub_time": "2026-11-20T20:00Z"
+  },
+  {
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "title": "Thinking Machines：Inkling 2 Mini 发布（环形 transformer，开源权重，一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "inkling-2-mini",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research",
+   "title": "TML-d24-varloop-research 可变循环研究模型（HF 开源，一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "inkling-2-mini",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50581260",
+   "title": "HN：Inkling 2 Mini（559 分）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "inkling-2-mini",
+   "source_pub_time": "2026-11-20T20:12Z"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
+   "title": "Bloomberg：Apple is working on AI agent for device control, apps, browsing and coding（首报）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "apple-mac-ai-agent",
+   "source_pub_time": "2026-11-19"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+   "title": "TechCrunch：Apple may be developing its own AI agent that runs your Mac",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "apple-mac-ai-agent",
+   "source_pub_time": "2026-11-20T00:56Z"
+  },
+  {
+   "url": "https://developer.apple.com/news/?id=p6zjojqw",
+   "title": "Apple 开发者公告：第三方 app 完全访问将需用户明确主动操作（macOS 27.3 背景，一手，10 月发布）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "apple-mac-ai-agent",
+   "source_pub_time": "2026-10"
+  },
+  {
+   "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
+   "title": "Reuters 调查：Meta Muse 早期安全事故（串话/隐私暴露，首报早于窗口起点约 6 小时，按 TC 广泛传播口径收录）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "muse-privacy-mixup",
+   "source_pub_time": "2026-11-18"
+  },
+  {
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler",
+   "title": "Bloomberg：CrowdStrike is in talks to buy cybersecurity firm Zscaler（首报）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "crowdstrike-zscaler-talks",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+   "title": "CNBC：Zscaler stock jumps on report CrowdStrike in talks（盘后 +18%/CRWD -8%）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "crowdstrike-zscaler-talks",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/crowdstrike-talks-buy-zscaler",
+   "title": "CrowdStrike in Talks to Buy Zscaler（The Information）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "crowdstrike-zscaler-talks",
+   "source_pub_time": "2026-11-20T22:07Z"
+  },
+  {
+   "url": "https://www.investing.com/news/stock-market-news/crowdstrike-weighs-zscaler-buyout-in-potential-265-billion-cyber-deal--bloomberg-5042662",
+   "title": "Investing.com 转引 Bloomberg：potential $26.5B cyber deal",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "crowdstrike-zscaler-talks",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "title": "OpenAI：Combatting adversarial distillation（GPT-6.2 Astra 提取 ASR 54.0%→0.2%，一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "openai-adversarial-distillation",
+   "source_pub_time": "2026-11-20T10:00Z"
+  },
+  {
+   "url": "https://www.anthropic.com/news/ipo-close",
+   "title": "Anthropic 官方 ipo-close 页面（一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "anthropic-ipo-close",
+   "source_pub_time": "2026-11-20T12:41Z"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+   "title": "TechCrunch：7 founders cashed out nearly $2B（入账 $104.8B、Class N 结构、$1T+ 承诺全景）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "anthropic-ipo-close",
+   "source_pub_time": "2026-11-20T00:43Z"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/anthropic-shares-slide-banks-exercise-greenshoe",
+   "title": "Anthropic Shares Slide After Banks Exercise 'Greenshoe'（The Information）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "anthropic-ipo-close",
+   "source_pub_time": "2026-11-20T20:54Z"
+  },
+  {
+   "url": "https://openai.com/index/introducing-medchembench",
+   "title": "OpenAI：Introducing MedChemBench（99 题，GPT-6.2 Astra 84.5%，一手）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "primary",
+   "event": "openai-medchembench",
+   "source_pub_time": "2026-11-20T00:00Z"
+  },
+  {
+   "url": "https://www.unite.ai/openai-introduces-medchembench-for-medicinal-chemistry-reasoning/",
+   "title": "Unite.AI：OpenAI Introduces MedChemBench（第三方跟进）",
+   "issue": "TECH-149",
+   "status": "published",
+   "published_on": "2026-11-21",
+   "role": "secondary",
+   "event": "openai-medchembench",
+   "source_pub_time": "2026-11-20"
+  },
+  {
+   "url": "https://blog.cloudflare.com/nginx2root/",
+   "title": "Cloudflare：nginx2root 五漏洞与内核 SCTP 提权深度解析",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "同事件链：11-18 F5/nginx.org 十漏洞披露为 TECH-143 已发布事件（双 HTTP/2 CVE）；本文为该披露的深度分析与防护说明，披露时间早于上轮发布",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+   "title": "Cloudflare WAF ruby2shell 防护",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "TECH-146 已发布 ruby2shell（CVE-2026-132825）事件的 WAF 防护后续",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+   "title": "Yahoo Finance：Nvidia 股价延长 $2.5T 跌势，SEC 调查据报涉及会计问题（HN 199）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "同事件链：SEC 调查为 TECH-140 已发布事实；本条为该调查的后续报道与股价延续，非全新事件",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "title": "TechCrunch 播客：The fallout from Nvidia's Jensen Huang scandal continues",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "TECH-124/140 已发布 Nvidia 治理事件链后续",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/ais-can-now-outperform-humans-week-length-tasks-ai-nonprofit-finds",
+   "title": "AIs Can Now Outperform Humans at Week-Length Tasks, AI Nonprofit Finds（The Information）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "单一付费源无法核验：metr.org 博客索引无对应新发布（最新为 11-05），按单一付费源未经核验先例排除",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://www.theinformation.com/briefings/spacex-closes-32-billion-debt-deal-steep-yields",
+   "title": "SpaceX Closes $32 Billion Debt Deal（The Information）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "领域不符（航天金融），非工程/Agent/AI 焦点，单一付费源",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropic-upstaged-openai-road-blockbuster-ipo",
+   "title": "How Anthropic Upstaged OpenAI on Road to Blockbuster IPO（The Information）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "Anthropic IPO 同事件链转述（TECH-143/146 已发布，本轮以 anthropic-ipo-close 收官条目收录）",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropics-ipo-triumph",
+   "title": "Anthropic's IPO Triumph（The Information）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "IPO 同事件链评论",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://www.theinformation.com/articles/anthropics-vc-investors-letting-go",
+   "title": "Why Anthropic's VC Investors Aren't Letting Go（The Information）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "IPO 同事件链转述",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+   "title": "TechCrunch：Daniel Ek backs fusion power startup",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "领域边缘（聚变能源融资），位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "title": "TechCrunch：Chips can survive the space environment — can their financing?",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "特稿评论，非新闻事件",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+   "title": "TechCrunch：Six AI-powered gadgets",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "消费产品盘点，非新闻事件",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "title": "OpenAI：Hebbia customer story（GPT-6 Astra）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "客户案例，非新闻事件",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "title": "OpenAI：Deploying Daybreak Red（演示页）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "TECH-146 已排除，维持排除",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://sierra.ai/blog/shopping-agents",
+   "title": "Sierra：How retailers can turn interactions into lasting customer relationships",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "厂商内容营销博客，非新闻事件",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://sierra.ai/blog/personal-agents-insights",
+   "title": "Sierra：Insights from our whitepaper: Personal agents and the enterprise",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "厂商白皮书摘要，非新闻事件",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib",
+   "title": "Vercel Functions 20MiB request bodies",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "changelog 功能项，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification",
+   "title": "Vercel ISO/IEC 42001 认证",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "合规认证通告，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task",
+   "title": "Vercel：Agents can find CLI commands by describing task",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "changelog 功能项，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/priority-projects-now-in-public-beta",
+   "title": "Vercel Priority Projects public beta",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "changelog 功能项，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway",
+   "title": "Vercel：GPT-Live 1.1 on AI Gateway",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "changelog 上架项，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway",
+   "title": "Vercel：Liquid AI d1.2/d1.2-ultra on AI Gateway",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "changelog 上架项，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50581110",
+   "title": "HN：DreamCoder coding harness/IDE（Mastering Emacs 作者，70 分）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "单人工具发布，位次不足（非行业新闻事件）",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50581403",
+   "title": "HN Show：OpenComputer open source alternative to Devin（50 分）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "项目发布（Show HN），位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50583911",
+   "title": "HN：Help github just deleted me（37 分）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "个人账号事件单一博客来源，位次不足",
+   "evaluated_on": "2026-11-21"
+  },
+  {
+   "url": "https://news.ycombinator.com/item?id=50583117",
+   "title": "HN：The Hungry Butler Effect（LLM 商业激励论文，8 分）",
+   "issue": "TECH-149",
+   "status": "excluded",
+   "reason": "单平台低热度论文，T3 纪律不入选",
+   "evaluated_on": "2026-11-21"
   }
  ]
 }

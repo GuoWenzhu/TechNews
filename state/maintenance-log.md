@@ -502,3 +502,18 @@
 - 采集特例：Stripe RSS 的 <link> 字段以截断形态输出（.../move-f），已按页面实测完整 URL（.../move-funds）入账；OpenAI RSS 间歇性返回空解析结果，经落盘文件重解析稳定（1417 条），属解析层而非源故障。
 - 发布台账：state/daily-runs.json 新增 2026-11-20 条目（10 条，reports/digest-2026-11-20.md）；state/processed-urls.json 新增 published 26 条（10 事件 primary+secondary，另 1 条 claude-black-hole-physics 原位 excluded→published）+ excluded 84 条（5 条与既有台账重复跳过）。
 - 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-20T00:35Z 前后）。
+
+## 2026-11-21（TECH-149）
+
+- 采集：25 个启用来源全部可达（HTTP 200）。窗口 2026-11-19T00:00Z–采集时刻（48h）；窗口内候选约 1,480 条（arXiv 920、HN 80、TechCrunch 19、The Information 20、OpenAI 8、Vercel 7 等）；发布 9 个事件、简报 reports/digest-2026-11-21.md（items_published=9，不足不凑数）。openai/sierra/netflix/airbnb 四个 feed 内联解析间歇性空结果，落盘文件重解析全部正常（1,421/148/10/10 条），与 TECH-146 口径一致属解析层非源故障。
+- 入选 9 条：Anthropic 数学家 Alpöge 借模型宣布黎曼猜想可编译 Lean 证明（1740 万行，MIT Sutherland 等确认可编译；同日 Masullo 全人工 GRH 稿、Buckmaster Navier-Stokes 证明、DeepMind math-horizon 仓库；Aaronson 评述；HN 2284）、phpAfterShell CVE-2026-126714 + PHP 11-19 五版本修复 17 漏洞（depthfirst 披露 + PHP 官方 GHSA + CF WAF）、Thinking Machines Inkling 2 Mini 开源（环形 transformer 26.4B/3.4B、NVFP4、~20GB 本地可跑 + varloop 研究模型，HN 559）、Apple 自研电脑操作 agent 曝光 + macOS 27.3 收紧第三方 agent 权限（Bloomberg/TI/TC）、Meta Muse 串话与隐私暴露（Reuters 调查 11-18 原发早于窗口 6 小时，按 TC 11-19 广泛传播口径收录并标注）、CrowdStrike 谈判收购 Zscaler（Bloomberg 首报 + CNBC/Reuters 多源，或约 $26.5B）、OpenAI 对抗性蒸馏防御（GPT-6.2 Astra ASR 54.0%→0.2%）、Anthropic IPO 收官（绿鞋行使回落 + 实际入账 $104.8B + $1.05–1.08T 基础设施承诺）、OpenAI MedChemBench（99 题药物化学基准）。
+- 去重与窗口判定：nginx2root（CF 11-20 深度解析）判定 TECH-143 已发布 11-18 F5 披露事件链排除；ruby2shell WAF 防护与 midterm 流量报告判定 TECH-146 已发布/已排除；Nvidia SEC 会计调查（HN 199）判定 TECH-140 已发布 SEC 调查事件链后续排除（$2.5T 跌势为市场延续）；Nadella 买断访谈、Stripe Treasury、GitHub 社论文、Gemini Mac、Muse Charm、Performance Factory 等均判定已发布/已排除重复出现；Apple agent TI 简报与 Muse TC 报道原 TECH-146 excluded（单一付费源/单一转述待核验）本轮获 Bloomberg/Reuters 多源证实，按 claude-black-hole-physics 先例原位转 published。
+- 位次取舍记录：METR 周长任务报告（TI 11-20）单一付费源无法核验（metr.org 博客索引无对应新发布）排除；SpaceX $32B 债务/Alphabet 能力债务/Bending Spoons 领域不符；Daniel Ek 聚变、太空芯片融资、AI 家居六件套、Everful 融资等位次不足；DreamCoder（70）/OpenComputer（50）/github deleted me（37）非行业新闻事件；"Nasdaq erases all 2026 gains" 大盘行情领域不符。
+- T3：arXiv 三通道 200 且有条目（cs.AI 400/cs.CL 161/cs.LG 359，11-20 批），无跨平台高热度论文；hf_papers 默认批次 50 条无窗口内条目；Hungry Butler Effect（HN 8）单平台低热度；T3 按纪律 0 入选。
+- 新来源评估：无。启用 T2 热点条目对站外站点引用计数：alpo.ge 1、depthfirst.com 1、thinkingmachines.ai 1、scottaaronson.blog 1、math216.wordpress.com 1，均未达"至少 3 条独立热点条目引用"门槛，不启动纳入评估；候选来源本轮未探测，维持待观察。
+- config/sources.json：无需改动（25 源全部可达，无来源失效、无降级/恢复触发、无新入口验证需求；本轮引用的 alpo.ge/github.com/CocoSgt/math216.wordpress.com/depthfirst.com/php-src GHSA/thinkingmachines.ai/bloomberg.com/cnbc.com/reuters.com/metror 相关核验页等均为事件一手核验来源，按事件收录不动清单），不重写、不生成备份、不重新生成展示版。
+- 恢复观察：xai/perplexity/uber/doordash/linear/sequoia/stratechery/benevans/jiqizhixin/qbitai 维持候选待观察，本轮未探测。msresearch 恢复后连续第 2 轮正常。
+- 入口迁移跟踪：mistral（rss.xml）连续第 18 轮正常；sierra（rss.xml）连续第 9 轮正常；theinformation（/feed，Atom）连续第 15 轮正常；均无需再改动。
+- 采集特例：openai/sierra/netflix/airbnb 四 feed 内联解析空结果落盘复解析解决；Stripe/Anthropic 页面无新增特例。
+- 发布台账：state/daily-runs.json 新增 2026-11-21 条目（9 条，reports/digest-2026-11-21.md）；state/processed-urls.json 新增 published 31 条（9 事件 primary+secondary）+ excluded 1 条，另 2 条原 excluded（TECH-146 单源待核验）原位转 published（apple TI / muse TC）。
+- 健康台账：state/source-health.json 已更新为最新一轮 25 源证据（last_run 2026-11-21T00:52Z）。
